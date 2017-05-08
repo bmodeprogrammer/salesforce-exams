@@ -260,6 +260,7 @@
         },
 
         handleResponse: function (e) {
+          const _this = this;
           this._handleTimer.bind(this)();
 
           document.addEventListener('touchstart', this._handleTouchStart.bind(this), false);
@@ -268,21 +269,9 @@
           document.body.addEventListener('keyup', this.arrows.bind(this));
           this.currentQuestionIndex = 0;
           this.questions = e.detail.response;
-          /*.map(q => {
-                      if (q.answers) {
-                        for (let i = 0; i < q.answers.length; i++) {
-                          q.answers[i].ca = q.answers[i].answer.slice(0, 2);
-                          q.answers[i].answer = q.answers[i].answer.slice(3, q.answers[i].answer.length);
-                        }
-                      }
-                      return q;
-                    });
-                    console.log(this.questions);
-                    this._downloadJson(this.questions);
-                    return;*/
+
           this.questions = this.shuffle(this.questions);
           this.questions = this.questions.slice(0, NUMBER_OF_QUESTIONS);
-          const _this = this;
           this.questions = this.questions.map(q => {
             if (q.answers) {
               q.answers = q.answers ? _this.shuffle(q.answers) : q.answers;
@@ -339,11 +328,13 @@
             obj.ball = 'circle ' + _this._isRightQuestion.bind(_this)(obj);
             obj.isRight && counter++;
             if (obj.answers) {
+              let answer = obj.answer;
               for (let i = 0; i < obj.answers.length; i++) {
                 if (obj.answer.indexOf(obj.answers[i].ca) >= 0) {
-                  obj.answer = obj.answer.replace(obj.answers[i].ca, obj.answers[i].answer.slice(0, 2));
+                  answer = answer.replace(obj.answers[i].ca, obj.answers[i].answer.slice(0, 2));
                 }
               }
+              obj.answer = answer;
             }
             return obj;
           });
@@ -374,28 +365,27 @@
         },
 
         _isRightQuestion: function (question) {
-          let q = question;
-          if (!q.answer && !q.answers) return WRONG;
-          if (q.isRadioButton) {
-            q.isRight = (question.answer.startsWith('False') && q.answer.toLowerCase() === 'false') ||
-              (question.answer.startsWith('True') && q.answer.toLowerCase() === 'true');
+          if (!question.answers) return WRONG;
+          if (question.isRadioButton) {
+            question.isRight = (question.answer.startsWith('False') && question.answers.toLowerCase() === 'false') ||
+              (question.answer.startsWith('True') && question.answers.toLowerCase() === 'true');
 
-            return q.isRight ? RIGHT : WRONG;
+            return question.isRight ? RIGHT : WRONG;
           } else {
             let spplitedCorrectAnswer = this._splitAnswers(question.answer).map(a => a.slice(0, 2)),
-              userAnwers = q.answers.filter(a => a.checked).map(a => a.ca);
+              userAnwers = question.answers.filter(a => a.checked).map(a => a.ca);
 
             if (spplitedCorrectAnswer.length !== userAnwers.length) {
-              q.isRight = false;
+              question.isRight = false;
               return WRONG;
             }
 
             for (let i = 0; i < spplitedCorrectAnswer.length; i++)
               if (userAnwers.indexOf(spplitedCorrectAnswer[i]) === -1) {
-                q.isRight = false;
+                question.isRight = false;
                 return WRONG;
               }
-            q.isRight = true;
+            question.isRight = true;
             return RIGHT;
           }
         },
@@ -474,7 +464,6 @@
           dlAnchorElem.click();
         },
         _handleTouchStart: function (evt) {
-          console.log(evt);
           xDown = evt.touches[0].clientX;
           yDown = evt.touches[0].clientY;
         },
