@@ -5,11 +5,12 @@
 <link rel="import" href="../bower_components/paper-icon-button/paper-icon-button.html">
 <link rel="import" href="../bower_components/paper-input/paper-textarea.html">
 <link rel="import" href="../bower_components/paper-button/paper-button.html">
-<link rel="import" href="../bower_components/paper-dialog/paper-dialog.html">
 <link rel="import" href="../bower_components/paper-radio-button/paper-radio-button.html">
 <link rel="import" href="../bower_components/paper-radio-group/paper-radio-group.html">
 <link rel="import" href="../bower_components/app-layout/app-toolbar/app-toolbar.html">
 <link rel="import" href="../bower_components/app-layout/app-header/app-header.html">
+<link rel="import" href="../bower_components/paper-progress/paper-progress.html">
+
 
 
 <dom-module id="app-builder-exam">
@@ -90,6 +91,13 @@
         ;
       }
 
+      paper-progress {
+        display: block;
+        width: 100%;
+        --paper-progress-active-color: rgba(255, 255, 255, 0.5);
+        --paper-progress-container-color: transparent;
+      }
+
       app-toolbar {
         background-color: #4285f4;
         color: #fff;
@@ -106,6 +114,8 @@
       <app-header fixed>
         <app-toolbar>
           <div main-title>Time: [[timer]]</div>
+          <paper-icon-button icon="refresh" onclick="location.reload();"></paper-icon-button>
+          <paper-progress value="10" indeterminate bottom-item hidden$="[[!progress]]"></paper-progress>
         </app-toolbar>
       </app-header>
       <div class="circle">[[currentQuestion.id]]</div>
@@ -148,6 +158,8 @@
       <app-header fixed>
         <app-toolbar>
           <div main-title>Percentage: [[rightPercentage]] Time: [[timer]]</div>
+          <paper-icon-button icon="refresh" onclick="location.reload();"></paper-icon-button>
+          <paper-progress id="submited" value="10" indeterminate bottom-item hidden$="[[!progress]]"></paper-progress>
         </app-toolbar>
       </app-header>
       <div class="submitted">
@@ -183,16 +195,9 @@
               </p>
 
               <template is='dom-if' if="[[item.moreInformationLink]]">
-                <paper-dialog id="scrolling-[[item.id]]">
-                  <h2>Scrolling</h2>
-                  <paper-dialog-scrollable>
-                    <iframe src="[[item.moreInformationLink]]"></iframe>
-                  </paper-dialog-scrollable>
-                  <div class="buttons">
-                    <paper-button dialog-dismiss>Ok</paper-button>
-                  </div>
-                </paper-dialog>
-                <paper-button raised onclick="document.querySelector('scrolling-[[item.id]]').open()">More Information</paper-button>
+                <a href="[[item.moreInformationLink]]" target="_blank">
+                  <paper-button raised>More information</paper-button>
+                </a>
               </template>
 
             </div>
@@ -228,6 +233,7 @@
             type: Array,
             notify: true
           },
+          progress: Boolean,
           currentQuestion: Object,
           currentQuestionIndex: Number,
           totalQuestions: Number,
@@ -235,6 +241,11 @@
           canBack: Boolean,
           isSubmited: Boolean
         },
+
+        ready: function () {
+          this.progress = true;
+        },
+
         arrows: function (e) {
           switch (e.which) {
             case 37: // left
@@ -257,14 +268,47 @@
           document.body.addEventListener('keyup', this.arrows.bind(this));
           this.currentQuestionIndex = 0;
           this.questions = e.detail.response;
-
-          //this._downloadJson(this.questions);
+          /*.map(q => {
+                      if (q.answers) {
+                        for (let i = 0; i < q.answers.length; i++) {
+                          q.answers[i].ca = q.answers[i].answer.slice(0, 2);
+                          q.answers[i].answer = q.answers[i].answer.slice(3, q.answers[i].answer.length);
+                        }
+                      }
+                      return q;
+                    });
+                    console.log(this.questions);
+                    this._downloadJson(this.questions);
+                    return;*/
           this.questions = this.shuffle(this.questions);
           this.questions = this.questions.slice(0, NUMBER_OF_QUESTIONS);
+          const _this = this;
+          this.questions = this.questions.map(q => {
+            if (q.answers) {
+              q.answers = q.answers ? _this.shuffle(q.answers) : q.answers;
+              let indexOfAllAbove = -1;
+              for (let i = 0; i < q.answers.length; i++) {
+                if (q.answers[i].answer === 'All of the above') {
+                  indexOfAllAbove = i;
+                  break;
+                }
+              }
+              if (indexOfAllAbove >= 0 && indexOfAllAbove !== (q.answers.length - 1)) {
+                let lastA = q.answers[q.answers.length - 1];
+                q.answers[q.answers.length - 1] = q.answers[indexOfAllAbove];
+                q.answers[indexOfAllAbove] = lastA;
+              }
+              for (let i = 0; i < q.answers.length; i++) {
+                q.answers[i].answer = _this._getLetter(i) + " " + q.answers[i].answer;
+              }
+            }
+            return q;
+          });
           this.canBack = true;
           this.totalQuestions = this.questions.length;
           this.currentQuestion = this.questions[0];
           this.canNext = this.questions.length < 1;
+          this.progress = false;
         },
 
         next: function () {
@@ -286,6 +330,7 @@
         },
 
         submit: function () {
+          this.progress = true;
           clearInterval(this.timerInterval);
           let questionsAux = this.questions.slice(0);
           const _this = this;
@@ -293,11 +338,19 @@
           questionsAux = questionsAux.map(obj => {
             obj.ball = 'circle ' + _this._isRightQuestion.bind(_this)(obj);
             obj.isRight && counter++;
+            if (obj.answers) {
+              for (let i = 0; i < obj.answers.length; i++) {
+                if (obj.answer.indexOf(obj.answers[i].ca) >= 0) {
+                  obj.answer = obj.answer.replace(obj.answers[i].ca, obj.answers[i].answer.slice(0, 2));
+                }
+              }
+            }
             return obj;
           });
           this.rightPercentage = ((counter / questionsAux.length) * 100).toFixed(2) + "%";
           this.questionsSubmited = questionsAux;
           this.isSubmited = true;
+          this.progress = false;
         },
 
         shuffle: function (array) {
@@ -329,8 +382,8 @@
 
             return q.isRight ? RIGHT : WRONG;
           } else {
-            let spplitedCorrectAnswer = this._splitAnswers(question.answer),
-              userAnwers = q.answers.filter(a => a.checked).map(a => a.answer);
+            let spplitedCorrectAnswer = this._splitAnswers(question.answer).map(a => a.slice(0, 2)),
+              userAnwers = q.answers.filter(a => a.checked).map(a => a.ca);
 
             if (spplitedCorrectAnswer.length !== userAnwers.length) {
               q.isRight = false;
@@ -344,6 +397,23 @@
               }
             q.isRight = true;
             return RIGHT;
+          }
+        },
+
+        _getLetter: function (i) {
+          switch (i) {
+            case 0:
+              return 'A.';
+            case 1:
+              return 'B.';
+            case 2:
+              return 'C.';
+            case 3:
+              return 'D.';
+            case 4:
+              return 'E.';
+            case 5:
+              return 'F.';
           }
         },
 

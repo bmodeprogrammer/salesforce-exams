@@ -141,39 +141,12 @@
     "question": "What are the 4 Types of Publisher Actions?",
     "answer": "A. Update - update recordsB. Create - create a recordC. Log a Call - log a call and it is recorded as a taskD. Custom - requires visual force page",
     "id": 8,
-    "answers": [{
-        "answer": "A. Update - update records",
-        "checked": false
-    }, {
-        "answer": "B. Create - create a record",
-        "checked": false
-    }, {
-        "answer": "C. Log a Call - log a call and it is recorded as a task",
-        "checked": false
-    }, {
-        "answer": "D. Custom - requires visual force page",
-        "checked": false
-    }, {
-        "answer": "E. Post on chatter",
-        "checked": false
-    }]
+    "answers": ["A. Update - update records", "B. Create - create a record", "C. Log a Call - log a call and it is recorded as a task", "D. Custom - requires visual force page", "E. Post on chatter"]
 }, {
     "question": "What are the 3 types of access in an org?",
     "answer": "A. ObjectB. RecordC. Field",
     "id": 9,
-    "answers": [{
-        "answer": "A. Object",
-        "checked": false
-    }, {
-        "answer": "B. Record",
-        "checked": false
-    }, {
-        "answer": "C. Field",
-        "checked": false
-    }, {
-        "answer": "D. Record Types",
-        "checked": false
-    }]
+    "answers": ["A. Object", "B. Record", "C. Field", "D. Record Types"]
 }, {
     "question": "Where can a Standard Lightning Component be placed in the Lightning App Builder tool?\nChoose one answer.",
     "answer": "A. Canvas",
@@ -529,21 +502,49 @@
     "question": "T/F If data is lost, any list view based on the custom field will be deleted, and assignment and escalation rules may be affected.",
     "answer": "True If data is lost",
     "id": 31,
+    "answers": [{
+        "answer": "True",
+        "checked": false
+    }, {
+        "answer": "False",
+        "checked": false
+    }],
     "isRadioButton": "true"
 }, {
     "question": "T/F You can convert a Text Area(Long) to Email, Phone, Text, Text Area or URL without data loss.",
     "answer": "True Text Area can convert",
     "id": 32,
+    "answers": [{
+        "answer": "True",
+        "checked": false
+    }, {
+        "answer": "False",
+        "checked": false
+    }],
     "isRadioButton": "true"
 }, {
     "question": "T/F You cannot change auto number to text and vice versa and not loose your data.",
     "answer": "False You cannot change auto number",
     "id": 33,
+    "answers": [{
+        "answer": "True",
+        "checked": false
+    }, {
+        "answer": "False",
+        "checked": false
+    }],
     "isRadioButton": "true"
 }, {
     "question": "T/F You can have multiple records with the same external ID.",
     "answer": "True - It is not recommended, as it will defeat the purpose of the external id.",
     "id": 34,
+    "answers": [{
+        "answer": "True",
+        "checked": false
+    }, {
+        "answer": "False",
+        "checked": false
+    }],
     "isRadioButton": "true"
 }, {
     "question": "What is true about a master detail relationship?",
@@ -608,6 +609,13 @@
     "question": "T/F Indirect lookup relationship fields can be created on external objects only.",
     "answer": "True Indirect lookup fields",
     "id": 38,
+    "answers": [{
+        "answer": "True",
+        "checked": false
+    }, {
+        "answer": "False",
+        "checked": false
+    }],
     "isRadioButton": "true"
 }, {
     "question": "What is true about external lookup relationship fields?",
@@ -631,6 +639,13 @@
     "question": "T/F Each workflow rule applies to a single object.",
     "answer": "True Workflow rules",
     "id": 40,
+    "answers": [{
+        "answer": "True",
+        "checked": false
+    }, {
+        "answer": "False",
+        "checked": false
+    }],
     "isRadioButton": "true"
 }, {
     "question": "What is true for all custom and some standard objects?",
@@ -654,6 +669,13 @@
     "question": "T/F Workflow rules on custom objects are NOT automatically deleted if the custom object is deleted.",
     "answer": "False Work flow rules on custom objects",
     "id": 42,
+    "answers": [{
+        "answer": "True",
+        "checked": false
+    }, {
+        "answer": "False",
+        "checked": false
+    }],
     "isRadioButton": "true"
 }, {
     "question": "What order does SF process rules?",
@@ -841,6 +863,13 @@
     "question": "T/F The sandbox copy engine creates an organization as part of each creation and refresh request. So, the organization ID of your sandbox changes each time your sandbox is refreshed.",
     "answer": "True sandbox copy enginer",
     "id": 53,
+    "answers": [{
+        "answer": "True",
+        "checked": false
+    }, {
+        "answer": "False",
+        "checked": false
+    }],
     "isRadioButton": "true"
 }, {
     "question": "What happens to user information when a sandbox is created?",
@@ -954,16 +983,7 @@
     "question": "Why would you use an unmanaged package?",
     "answer": "C. To distribute open-source projects or application templates to provide developers with the basic building blocks for an application.",
     "id": 60,
-    "answers": [{
-        "answer": "A. To users get updates periodically",
-        "checked": false
-    }, {
-        "answer": "B. To users not change or see the code",
-        "checked": false
-    }, {
-        "answer": "C. To distribute open-source projects or application templates to provide developers with the basic building blocks for an application.",
-        "checked": false
-    }]
+    "answers": ["A. To users get updates periodically", "B. To users not change or see the code", "C. To distribute open-source projects or application templates to provide developers with the basic building blocks for an application."]
 }, {
     "question": "What is true about unmanaged packages?",
     "answer": "D. All of the above",
@@ -1110,6 +1130,13 @@
     "question": "T/F A Lightning component is a compact, configurable, and reusable element that you can drag and drop onto a Lightning Page in the Lightning App Builder.",
     "answer": "True Lightning component is compace",
     "id": 69,
+    "answers": [{
+        "answer": "True",
+        "checked": false
+    }, {
+        "answer": "False",
+        "checked": false
+    }],
     "isRadioButton": "true"
 }, {
     "question": "What are the standard Lightning components?",
@@ -1299,11 +1326,25 @@
     "question": "T/F If any of the triggered workflow rules result in another field update that's also enabled for workflow rule re-evaluation, a domino effect occurs, and more workflow rules can be re-evaluated as a result of the newly-triggered field update.",
     "answer": "True This cascade of workflow rule re-evaluation and triggering can happen up to five times after the initial field update that started it.",
     "id": 80,
+    "answers": [{
+        "answer": "True",
+        "checked": false
+    }, {
+        "answer": "False",
+        "checked": false
+    }],
     "isRadioButton": "true"
 }, {
     "question": "T/F Recursive triggers may cause your organization to exceed its limit for workflow time triggers per hour.",
     "answer": "True Recursive trigger",
     "id": 81,
+    "answers": [{
+        "answer": "True",
+        "checked": false
+    }, {
+        "answer": "False",
+        "checked": false
+    }],
     "isRadioButton": "true"
 }, {
     "question": "When do you need to refresh a sandbox?",
