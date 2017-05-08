@@ -1,0 +1,750 @@
+[{
+        "question": {
+            "question": "<!-- react-text: 175 -->Which tool would you use for the following use case?<!-- /react-text --><br><!-- react-text: 177 -->Launch a troubleshooting wizard from a button, at the end of which a knowledge article is created if it'd be helpful to other users.<!-- /react-text -->",
+            "answers": ["<!-- react-text: 180 -->A. Process Builder<!-- /react-text -->", "<!-- react-text: 182 -->B. Visual Workflow<!-- /react-text -->", "<!-- react-text: 184 -->C. Workflow<!-- /react-text -->", "<!-- react-text: 186 -->D. Approvals<!-- /react-text -->"]
+        },
+        "answer": "B. Visual Workflow"
+    }, {
+        "question": {
+            "question": "<!-- react-text: 207 -->Which tool would you use for the following use case?<!-- /react-text --><br><!-- react-text: 209 -->When an opportunity has a discount of more than 40%, notify the CEO via email and request sign-off. Provide a way for the CEO to leave comments.<!-- /react-text -->",
+            "answers": ["<!-- react-text: 212 -->A. Process Builder<!-- /react-text -->", "<!-- react-text: 214 -->B. Visual Workflow<!-- /react-text -->", "<!-- react-text: 216 -->C. Workflow<!-- /react-text -->", "<!-- react-text: 218 -->D. Approvals<!-- /react-text -->"]
+        },
+        "answer": "D. Approvals"
+    }, {
+        "question": {
+            "question": "<!-- react-text: 239 -->Which tool would you use for the following use case?<!-- /react-text --><br><!-- react-text: 241 -->When an opportunity closes, automatically close all activities related to that opportunity and create a renewal opportunity.<!-- /react-text -->",
+            "answers": ["<!-- react-text: 244 -->A. Process Builder<!-- /react-text -->", "<!-- react-text: 246 -->B. Visual Workflow<!-- /react-text -->", "<!-- react-text: 248 -->C. Workflow<!-- /react-text -->", "<!-- react-text: 250 -->D. Approvals<!-- /react-text -->"]
+        },
+        "answer": "A. Process Builder"
+    }, {
+        "question": {
+            "question": "<!-- react-text: 271 -->Which tool would you use for the following use case?<!-- /react-text --><br><!-- react-text: 273 -->As an account's expiration approaches, send recurring email notifications to the owner (2 weeks before, 1 week before, 3 days before, and 1 day before).<!-- /react-text -->",
+            "answers": ["<!-- react-text: 276 -->A. Process Builder<!-- /react-text -->", "<!-- react-text: 278 -->B. Visual Workflow<!-- /react-text -->", "<!-- react-text: 280 -->C. Workflow<!-- /react-text -->", "<!-- react-text: 282 -->D. Approvals<!-- /react-text -->"]
+        },
+        "answer": "C. Workflow"
+    }, {
+        "question": {
+            "question": "<!-- react-text: 303 -->You can configure access to data at all of the following levels, except:<!-- /react-text -->",
+            "answers": ["<!-- react-text: 306 -->A. Organization<!-- /react-text -->", "<!-- react-text: 308 -->B. Objects<!-- /react-text -->", "<!-- react-text: 310 -->C. Page Layouts<!-- /react-text -->", "<!-- react-text: 312 -->D. Records<!-- /react-text -->"]
+        },
+        "answer": "C. Page Layouts"
+    }, {
+        "question": {
+            "question": "<!-- react-text: 333 -->You can secure data at the organization level, using all of these methods, except:<!-- /react-text -->",
+            "answers": ["<!-- react-text: 336 -->A. Limit Login IP addresses<!-- /react-text -->", "<!-- react-text: 338 -->B. Limit Login Hours<!-- /react-text -->", "<!-- react-text: 340 -->C. Set password policies<!-- /react-text -->", "<!-- react-text: 342 -->D. Use hardware token<!-- /react-text -->"]
+        },
+        "answer": "D. Use hardware token"
+    }, {
+        "question": {
+            "question": "<!-- react-text: 363 -->Which of these is not a method for controlling record-level access?<!-- /react-text -->",
+            "answers": ["<!-- react-text: 366 -->A. Organization-Wide Defaults<!-- /react-text -->", "<!-- react-text: 368 -->B. Role Hierarchy<!-- /react-text -->", "<!-- react-text: 370 -->C. Profiles<!-- /react-text -->", "<!-- react-text: 372 -->D. Sharing Rules<!-- /react-text -->"]
+        },
+        "answer": "C. Profiles"
+    }, {
+        "question": {
+            "question": "<!-- react-text: 393 -->How can you control object level access? Pick 2.<!-- /react-text -->",
+            "answers": ["<!-- react-text: 396 -->A. Profiles<!-- /react-text -->", "<!-- react-text: 398 -->B. Permission Sets<!-- /react-text -->", "<!-- react-text: 400 -->C. Roles<!-- /react-text -->", "<!-- react-text: 402 -->D. Groups<!-- /react-text -->", "<!-- react-text: 404 -->E. OWD<!-- /react-text -->"]
+        },
+        "answer": "A. ProfilesB. Permission Sets"
+    }, {
+        "question": {
+            "question": "<!-- react-text: 427 -->What are the 4 Types of Publisher Actions?<!-- /react-text -->"
+        },
+        "answer": "1. Update - update records2. Create - create a record3. Log a Call - log a call and it is recorded as a task4. Custom - requires visual force page"
+    }, {
+        "question": {
+            "question": "<!-- react-text: 454 -->What are the 3 types of access in an org?<!-- /react-text -->"
+        },
+        "answer": "1. Object2. Record3. Field"
+    }, {
+        "question": {
+            "question": "<!-- react-text: 479 -->Where can a Standard Lightning Component be placed in the Lightning App Builder tool?<!-- /react-text --><br><!-- react-text: 481 -->Choose one answer.<!-- /react-text -->",
+            "answers": ["<!-- react-text: 484 -->A. Canvas<!-- /react-text -->", "<!-- react-text: 486 -->B. Console Layout<!-- /react-text -->", "<!-- react-text: 488 -->C. Mini Page Layout<!-- /react-text -->", "<!-- react-text: 490 -->D. Mobile Card<!-- /react-text -->"]
+        },
+        "answer": "A. Canvas"
+    }, {
+        "question": {
+            "question": "<!-- react-text: 511 -->Universal Container's app builder needs to display an account's rating on all contacts related to that<!-- /react-text --><br><!-- react-text: 513 -->account.Which formula is valid in a text formula field on the contact to display the appropriate value?<!-- /react-text --><br><!-- react-text: 515 -->Choose 2 answers.<!-- /react-text -->",
+            "answers": ["<!-- react-text: 518 -->A. CASE(Account.Rating, Hot, Hot, Warm, Warm, Cold, Cold, Not Rated)<!-- /react-text -->", "<!-- react-text: 520 -->B. CASE(Account.Rating, \"Hot\", \"Hot\", \"Warm\", \"Warm\", \"Cold\", \"Cold\", \"Not Rated\")<!-- /react-text -->", "<!-- react-text: 522 -->C. Account.Rating<!-- /react-text -->", "<!-- react-text: 524 -->D. Text(Account.Rating)<!-- /react-text -->"]
+        },
+        "answer": "B. CASE(Account.Rating, \"Hot\", \"Hot\", \"Warm\", \"Warm\", \"Cold\", \"Cold\", \"Not Rated\")D. Text(Account.Rating)"
+    }, {
+        "question": {
+            "question": "<!-- react-text: 547 -->Universal Containers has limited in-house development resources, but would like to support online<!-- /react-text --><br><!-- react-text: 549 -->payment processing for its products.<!-- /react-text --><br><!-- react-text: 551 -->What is the recommended solution to meet this requirement?<!-- /react-text --><br><!-- react-text: 553 -->Choose one answer.<!-- /react-text -->",
+            "answers": ["<!-- react-text: 556 -->A. Configure pricebooks, products, and payment schedules to enable this capability.<!-- /react-text -->", "<!-- react-text: 558 -->B. Work with developers to develop custom code for payment processing.<!-- /react-text -->", "<!-- react-text: 560 -->C. Configure Outbound Messaging to send a message to an external Payment Gateway.<!-- /react-text -->", "<!-- react-text: 562 -->D. Install an AppExchange product to provide Payment Gateway processing.<!-- /react-text -->"]
+        },
+        "answer": "D. Install an AppExchange product to provide Payment Gateway processing."
+    }, {
+        "question": {
+            "question": "<!-- react-text: 583 -->Universal Containers needs to create a roll-up summary field on a custom object that counts the number<!-- /react-text --><br><!-- react-text: 585 -->of related records on another custom object.<!-- /react-text --><br><!-- react-text: 587 -->What type of field must exist before the roll-up summary can be created, and where should it be<!-- /react-text --><br><!-- react-text: 589 -->located?<!-- /react-text --><br><!-- react-text: 591 -->Choose one answer.<!-- /react-text --><br><!-- react-text: 593 -->",
+            "answers": ["A. A lookup relationship field on the parent object.<!-- /react-text --><br><!-- react-text: 595 -->", "B. A lookup relationship field on the child object.<!-- /react-text --><br><!-- react-text: 597 -->", "C. A master-detail relationship field on the parent object.<!-- /react-text --><br><!-- react-text: 599 -->", "D. A master-detail relationship field on the child object.<!-- /react-text -->"]
+        },
+        "answer": "D. A master-detail relationship field on the child object."
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 620 -->Universal Containers needs to set the record type for a converted lead's Account, Contact, and<!-- /react-text --><br><!-- react-text: 622 -->Opportunity based on the user who is converting the lead. How can this be accomplished?<!-- /react-text --><br><!-- react-text: 624 -->Choose one answer.<!-- /react-text -->",
+            "answers": ["<!-- react-text: 627 -->A. Set the default record types for each Profile for Account, Contact, and Opportunity to the desired record type for converted records.<!-- /react-text -->", "<!-- react-text: 631 -->B. Set the default record types for each Role for Account, Contact, and Opportunity to the desired record type for converted records.<!-- /react-text -->", "<!-- react-text: 635 -->C. Set the master record types for each Profile for Account, Contact, and Opportunity to the desired record type for converted records.<!-- /react-text -->", "<!-- react-text: 639 -->D. Set the master record types for each Role for Account, Contact, and Opportunity to the desired record type for converted records.<!-- /react-text -->"]
+        },
+        "answer": "A. Set the default record types for each Profile for Account, Contact, and Opportunity to the desired record type for converted records."
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 664 -->Which of these statements is true for Lightning Connect?<!-- /react-text -->",
+            "answers": ["<!-- react-text: 667 -->A. No external data is imported into your Salesforce org.<!-- /react-text -->", "<!-- react-text: 669 -->B. External data is read in real time when you request it<!-- /react-text -->", "<!-- react-text: 671 -->C. It can be used with any data source that supports OData 2.0.<!-- /react-text -->", "<!-- react-text: 673 -->D. All of the above.<!-- /react-text -->"]
+        },
+        "answer": "D. All of the above"
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 694 -->Which of these is NOT an appropriate use case for Lightning Connect?<!-- /react-text -->",
+            "answers": ["<!-- react-text: 697 -->A. You want to integrate external data without writing custom code.<!-- /react-text -->", "<!-- react-text: 699 -->B. The external data is changing frequently.<!-- /react-text -->", "<!-- react-text: 701 -->C. You need to setup workflows and triggers for the external data.<!-- /react-text -->", "<!-- react-text: 703 -->D. You only need real-time access to a small fraction of the external data.<!-- /react-text -->"]
+        },
+        "answer": "C. You need to setup workflows and triggers for the external data."
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 724 -->In which of these scenarios is ETL a better choice than Lightning Connect?<!-- /react-text -->",
+            "answers": ["<!-- react-text: 727 -->A. You need to create or update the external data in addition to reading it.<!-- /react-text -->", "<!-- react-text: 729 -->B. You need the external data to follow the sharing rules defined for your organization.<!-- /react-text -->", "<!-- react-text: 731 -->C. You wan to generate reports and charts from the external data.<!-- /react-text -->", "<!-- react-text: 733 -->D. All of the above<!-- /react-text -->"]
+        },
+        "answer": "D. All of the above"
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 754 -->Which of these is NOT true about external objects?<!-- /react-text -->",
+            "answers": ["<!-- react-text: 757 -->A. They integrate with Salesforce APIs, Apex, Visualforce, and Chatter.<!-- /react-text -->", "<!-- react-text: 759 -->B. They can be related to other objects.<!-- /react-text -->", "<!-- react-text: 761 -->C. You can use them in formula fields.<!-- /react-text -->", "<!-- react-text: 763 -->D. They are automatically viewable in the Salesforce1 mobile app.<!-- /react-text -->"]
+        },
+        "answer": "C. You can use them in formula fields."
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 784 -->Users can get Salesforce1 in all of the following ways except:<!-- /react-text -->",
+            "answers": ["<!-- react-text: 787 -->A. As a mobile browser app that runs in supported browsers.<!-- /react-text -->", "<!-- react-text: 789 -->B. As a downloadable app from Google Play.<!-- /react-text -->", "<!-- react-text: 791 -->C. As a downloadable app from www.salesforce.com<!-- /react-text -->", "<!-- react-text: 793 -->D. As a downloadable app from the Apple App Store.<!-- /react-text -->"]
+        },
+        "answer": "C. As a downloadable app from www.salesforce.com"
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 814 -->The Salesforce1 user interface includes all of these key elements except:<!-- /react-text -->",
+            "answers": ["<!-- react-text: 817 -->A. Feed<!-- /react-text -->", "<!-- react-text: 819 -->B. Action bar<!-- /react-text -->", "<!-- react-text: 821 -->C. Navigation menu<!-- /react-text -->", "<!-- react-text: 823 -->D. Widgets page<!-- /react-text -->", "<!-- react-text: 825 -->E. Record view<!-- /react-text -->"]
+        },
+        "answer": "D. Widgets page"
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 846 -->When a user requests a report, what should you do?<!-- /react-text -->",
+            "answers": ["<!-- react-text: 849 -->A. Ask follow-up questions, to get all the requirements.<!-- /react-text -->", "<!-- react-text: 851 -->B. Document the user's requirements.<!-- /react-text -->", "<!-- react-text: 853 -->C. Map the users requirements to report criteria.<!-- /react-text -->", "<!-- react-text: 855 -->D. All of the above.<!-- /react-text -->"]
+        },
+        "answer": "D. All of the above."
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 876 -->You can control access to report folders based on:<!-- /react-text -->",
+            "answers": ["<!-- react-text: 879 -->A. Permissions, roles, and public groups.<!-- /react-text -->", "<!-- react-text: 881 -->B. Public groups, organization-wide defaults, and IP restrictions.<!-- /react-text -->", "<!-- react-text: 883 -->C. Password settings, permissions, and user settings.<!-- /react-text -->", "<!-- react-text: 885 -->D. All of the above<!-- /react-text -->"]
+        },
+        "answer": "A. Permissions, roles, and public groups."
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 906 -->When you specify a single running user of a dashboard, that user:<!-- /react-text -->",
+            "answers": ["<!-- react-text: 909 -->A. Is the only one who can post a snapshot of the dashboard to Chatter.<!-- /react-text -->", "<!-- react-text: 911 -->B. Determines which data is displayed on the dashboard, due to the user's security settings.<!-- /react-text -->", "<!-- react-text: 913 -->C. Must be the same person who created the report.<!-- /react-text -->", "<!-- react-text: 915 -->D. Must have the 'View All Data' permission.<!-- /react-text -->"]
+        },
+        "answer": "B. Determines which data is displayed on the dashboard, due to the user's security settings."
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 936 -->Salesforce processes rules in what order?<!-- /react-text -->",
+            "answers": [
+                "A. 1. Validation rules 2. Assignment rules 3. Auto-response rules 4. Workflow rules (with immediate actions) 5. Escalation rules",
+                "B. 1. Assignment rules 2. Validation rules  3. Auto-response rules 4. Workflow rules (with immediate actions) 5. Escalation rules",
+                "C. 1. Auto-response rules 2. Validation rules 3. Assignment rules  4. Workflow rules (with immediate actions) 5. Escalation rules"
+            ]
+        },
+        "answer": "A. 1. Validation rules 2. Assignment rules 3. Auto-response rules 4. Workflow rules (with immediate actions) 5. Escalation rules"
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 965 -->All of the following are advantages of the Schema Builder except:<!-- /react-text -->",
+            "answers": ["<!-- react-text: 968 -->A. All object and field relationship details are available from one screen.<!-- /react-text -->", "<!-- react-text: 970 -->B. You can view fields and relationships for custom, but not standard objects.<!-- /react-text -->", "<!-- react-text: 972 -->C. Schema Builder shows details like field values, required fields, and how objects are related.<!-- /react-text -->", "<!-- react-text: 974 -->D. It's easy to build objects and fields directly from the Schema Builder, allowing you to visualize and change relationships with ease.<!-- /react-text -->"]
+        },
+        "answer": "B. You can view fields and relationships for custom, but not standard objects."
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 995 -->To create a custom object from the Schema Builder:<!-- /react-text -->",
+            "answers": ["<!-- react-text: 998 -->A. From the Objects tab, select New&gt;Object.<!-- /react-text -->", "<!-- react-text: 1000 -->B. From the Elements tab, drag Object onto the canvas.<!-- /react-text -->", "<!-- react-text: 1002 -->C. Right-click in the canvas and select 'New Object'.<!-- /react-text -->"]
+        },
+        "answer": "B. From the Elements tab, drag Object onto the canvas."
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 1023 -->To create a custom field from the Schema Builder:<!-- /react-text -->",
+            "answers": ["<!-- react-text: 1026 -->A. From the Objects tab, select New &gt; Field.<!-- /react-text -->", "<!-- react-text: 1028 -->B. In the canvas, right-click an object and select New Field.<!-- /react-text -->", "<!-- react-text: 1030 -->C. From the Elements tab, drag a field type onto the canvas.<!-- /react-text -->"]
+        },
+        "answer": "C. From the Elements tab, drag a field type onto the canvas."
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 1051 -->To Leverage flows you need to:<!-- /react-text -->",
+            "answers": ["<!-- react-text: 1054 -->A. Have Run Flows permission enabled<!-- /react-text -->", "<!-- react-text: 1056 -->B. Have access to the Visualforce page the flow uses.<!-- /react-text -->", "<!-- react-text: 1058 -->C. The flow must be active.<!-- /react-text -->", "<!-- react-text: 1060 -->D. All of the above.<!-- /react-text -->"]
+        },
+        "answer": "D. All of the above."
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 1081 -->What is true about a master detail relationship? <!-- /react-text -->",
+            "answers": ["<!-- react-text: 1084 -->A. You can't convert it if there is a roll-up summary field.<!-- /react-text -->", "<!-- react-text: 1086 -->B. Converting a look-up to master detail changes the OWD to Controlled by Parent.<!-- /react-text -->", "<!-- react-text: 1088 -->C. A look-up can be converted to a master detail if there are existing records with null values.<!-- /react-text -->", "<!-- react-text: 1090 -->D. SF displays a waiting page after you request to change a master detail to a look-up or vice versa.<!-- /react-text -->"]
+        },
+        "answer": "A. You can't convert it if there is a roll-up summary field.B. Converting a look-up to master detail changes the OWD to Controlled by Parent.D. SF displays a waiting page after you request to change a master detail to a look-up or vice versa."
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 1115 -->What happens when you convert a picklist to a multi-select picklist?<!-- /react-text --><br>",
+            "answers": ["A. Values are retained.", "B. Values not in the picklist are deleted from existing records when the data type changes.",
+                "C. Data is lost.",
+                "D. You can't convert to a multi-select picklist."
+            ]
+        },
+        "answer": "A. Values are retained.B. Values not in the picklist are deleted from existing records when the data type changes."
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 1146 -->T/F If data is lost, any list view based on the custom field will be deleted, and assignment and escalation rules may be affected.<!-- /react-text -->",
+            "answers": ["True", "False"],
+            "isRadioButton": "true"
+        },
+        "answer": "True If data is lost"
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 1169 -->T/F You can convert a Text Area(Long) to Email, Phone, Text, Text Area or URL without data loss.<!-- /react-text -->",
+            "answers": ["True", "False"],
+            "isRadioButton": "true"
+        },
+        "answer": "True Text Area can convert"
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 1192 -->T/F You cannot change auto number to text and vice versa and not loose your data.<!-- /react-text -->",
+            "answers": ["True", "False"],
+            "isRadioButton": "true"
+        },
+        "answer": "False You cannot change auto number"
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 1215 -->T/F You can have multiple records with the same external ID.<!-- /react-text -->",
+            "answers": ["True", "False"],
+            "isRadioButton": "true"
+        },
+        "answer": "True - It is not recommended, as it will defeat the purpose of the external id."
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 1236 -->What is true about a master detail relationship?<!-- /react-text --><br><!-- react-text: 1238 -->",
+            "answers": ["A. To create multilevel master-detail relationships, you need the \"Customize Application\" user permission.<!-- /react-text --><br><!-- react-text: 1240 -->", "B. Standard objects can't be on the detail side of a custom object in a master-detail relationship.<!-- /react-text --><br><!-- react-text: 1242 -->", "C. You can create a master-detail relationship if the custom object already contains data.<!-- /react-text --><br><!-- react-text: 1244 -->", "D. You can create a relationship as a lookup and then convert it to master-detail if the lookup field in all records contains a value.<!-- /react-text --><br><!-- react-text: 1246 -->", "E. By default, records can be reparented in master-detail relationships.<!-- /react-text -->"]
+        },
+        "answer": "A. To create multilevel master-detail relationships, you need the \"Customize Application\" user permission.B. Standard objects can't be on the detail side of a custom object in a master-detail relationship.D. You can create a relationship as a lookup and then convert it to master-detail if the lookup field in all records contains a value."
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 1271 -->What is true about Junction objects?<!-- /react-text --><br><!-- react-text: 1273 -->A. Junction object records are deleted when either associated master record is deleted and placed in the Recycle Bin.<!-- /react-text --><br><!-- react-text: 1275 -->B. If both associated master records are deleted, the junction object record is deleted permanently and can't be restored.<!-- /react-text --><br><!-- react-text: 1277 -->C. The first master-detail relationship you create on your junction object becomes the primary relationship.<!-- /react-text --><br><!-- react-text: 1279 -->D. All of the above.<!-- /react-text -->"
+        },
+        "answer": "D. All of the above."
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 1300 -->What type of relationships can you create on External Objects?<!-- /react-text --><br><!-- react-text: 1302 -->A. Lookup<!-- /react-text --><br><!-- react-text: 1304 -->B. External lookup<!-- /react-text --><br><!-- react-text: 1306 -->C. Indirect lookup<!-- /react-text --><br><!-- react-text: 1308 -->D. Direct Lookup<!-- /react-text --><br><!-- react-text: 1310 -->E. All of the above<!-- /react-text -->"
+        },
+        "answer": "A. LookupB. External lookupC. Indirect lookup"
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 1335 -->T/F Indirect lookup relationship fields can be created on external objects only.<!-- /react-text -->",
+            "answers": ["True", "False"],
+            "isRadioButton": "true"
+        },
+        "answer": "True Indirect lookup fields"
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 1358 -->What is true about external lookup relationship fields?<!-- /react-text --><br><!-- react-text: 1360 -->A. Lookup filters are available for external lookup relationship fields.<!-- /react-text --><br><!-- react-text: 1362 -->B. Cascade-delete isn't available for external object relationships.<!-- /react-text --><br><!-- react-text: 1364 -->C. Only objects that have a custom field with the External ID and Unique attributes are available as parent objects in indirect lookup relationships.<!-- /react-text --><br><!-- react-text: 1366 -->D. All of the above<!-- /react-text -->"
+        },
+        "answer": "B. Cascade-delete isn't available for external object relationships.C. Only objects that have a custom field with the External ID and Unique attributes are available as parent objects in indirect lookup relationships."
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 1389 -->T/F Each workflow rule applies to a single object.<!-- /react-text -->",
+            "answers": ["True", "False"],
+            "isRadioButton": "true"
+        },
+        "answer": "True Workflow rules"
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 1412 -->What is true for all custom and some standard objects?<!-- /react-text --><br><!-- react-text: 1414 -->A. you can create workflow and approval actions where a change to a detail record updates a field on the related master record.<!-- /react-text --><br><!-- react-text: 1416 -->B. Cross-object field updates work for custom-to-custom master-detail relationships, custom-to-standard master-detail relationships.<!-- /react-text --><br><!-- react-text: 1418 -->C. Cross-object field updates work for a few standard-to-standard master-detail relationships.<!-- /react-text --><br><!-- react-text: 1420 -->D. All of the Above.<!-- /react-text -->"
+        },
+        "answer": "D. All of the Above."
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 1441 -->T/F Workflow rules on custom objects are NOT automatically deleted if the custom object is deleted.<!-- /react-text -->",
+            "answers": ["True", "False"],
+            "isRadioButton": "true"
+        },
+        "answer": "False Work flow rules on custom objects"
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 1464 -->What order does SF process rules?<!-- /react-text --><br><!-- react-text: 1466 -->A. Validation rules, assignment rules, workflow rules, auto-response rules, escalation rules.<!-- /react-text --><br><!-- react-text: 1468 -->B. Validation rules, assignment rules, auto-response rules, workflow rules, escalation rules.<!-- /react-text --><br><!-- react-text: 1470 -->C. Escalation rules, Validation rules, assignment rules, auto-response rules, workflow rules. <!-- /react-text --><br><!-- react-text: 1472 -->D. Auto-response rules, Validation rules, assignment rules, workflow rules, escalation rules.<!-- /react-text -->"
+        },
+        "answer": "B. Validation rules, assignment rules, auto-response rules, workflow rules, escalation rules."
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 1493 -->What is true about Workflow rules?<!-- /react-text --><br><!-- react-text: 1495 -->A. Saving or creating records can trigger more than one rule.<!-- /react-text --><br><!-- react-text: 1497 -->B. Workflow rules only trigger on converted leads if validation and triggers for lead convert are enabled in your organization.<!-- /react-text --><br><!-- react-text: 1499 -->C. Workflow rules trigger automatically and are visible to the user.<!-- /react-text --><br><!-- react-text: 1501 -->D. Workflow rules can't be triggered by campaign statistic fields, including individual campaign statistics and campaign hierarchy statistics.<!-- /react-text -->"
+        },
+        "answer": "A. Saving or creating records can trigger more than one rule.B. Workflow rules only trigger on converted leads if validation and triggers for lead convert are enabled in your organization.D. Workflow rules can't be triggered by campaign statistic fields, including individual campaign statistics and campaign hierarchy statistics."
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 1526 -->What are the limitations of workflow rules?<!-- /react-text --><br><!-- react-text: 1528 -->A. You can't create email alerts for workflow rules on activities.<!-- /react-text --><br><!-- react-text: 1530 -->B. You can't package workflow rules with time triggers.<!-- /react-text --><br><!-- react-text: 1532 -->C. You can't create outbound messages for workflow rules on junction objects.<!-- /react-text --><br><!-- react-text: 1534 -->D. All of the above.<!-- /react-text -->"
+        },
+        "answer": "D. All of the above."
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 1555 -->What is true about validation rules?<!-- /react-text --><br><!-- react-text: 1557 -->A. When one validation rule fails, Salesforce continues to check any additional validation rules on that field or any other field on the page and displays all appropriate error messages at once.<!-- /react-text --><br><!-- react-text: 1559 -->B. Campaign hierarchies follow validation rules.<!-- /react-text --><br><!-- react-text: 1561 -->C. Validation rules are only enforced during lead conversion if 'validation and triggers for lead conversion' are enabled in your organization.<!-- /react-text --><br><!-- react-text: 1563 -->D. Salesforce runs validation rules before creating records submitted via Web-to-Lead and Web-to-Case, and only creates records that have valid values.<!-- /react-text -->"
+        },
+        "answer": "A. When one validation rule fails, Salesforce continues to check any additional validation rules on that field or any other field on the page and displays all appropriate error messages at once.C. Validation rules are only enforced during lead conversion if 'validation and triggers for lead conversion' are enabled in your organization.D. Salesforce runs validation rules before creating records submitted via Web-to-Lead and Web-to-Case, and only creates records that have valid values."
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 1588 -->You should use a lookup filter if:<!-- /react-text --><br><!-- react-text: 1590 -->A. You want to improve user efficiency by limiting the number of available options in a lookup search dialog.<!-- /react-text --><br><!-- react-text: 1592 -->B. You're close to the maximum number of lookup filters allowed.<!-- /react-text --><br><!-- react-text: 1594 -->C. You want to improve user efficiency by automating filters on lookup search dialogs that your users manually set.<!-- /react-text --><br><!-- react-text: 1596 -->D. You must implement a complex business rule that requires you to use a formula. Formulas can reference fields that basic filter criteria can't reference, such as fields on the parent of the source object. Formulas can also use functions. For example, use ISNEW if the rule should only apply on record creation, or ISCHANGED if the rule should apply when a field changes.<!-- /react-text -->"
+        },
+        "answer": "A. You want to improve user efficiency by limiting the number of available options in a lookup search dialog.C. You want to improve user efficiency by automating filters on lookup search dialogs that your users manually set.",
+        "moreInformationLink": "https://help.salesforce.com/articleView?id=fields_lookup_filters_notes.htm&type=0&language=en_US"
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 1619 -->You should use a Validation rule if:<!-- /react-text --><br><!-- react-text: 1621 -->A. You want to improve user efficiency by limiting the number of available options in a lookup search dialog.<!-- /react-text --><br><!-- react-text: 1623 -->B. You're close to the maximum number of lookup filters allowed.<!-- /react-text --><br><!-- react-text: 1625 -->C. You want to improve user efficiency by automating filters on lookup search dialogs that your users manually set.<!-- /react-text --><br><!-- react-text: 1627 -->D. You must implement a complex business rule that requires you to use a formula. Formulas can reference fields that basic filter criteria can't reference, such as fields on the parent of the source object. Formulas can also use functions. For example, use ISNEW if the rule should only apply on record creation, or ISCHANGED if the rule should apply when a field changes.<!-- /react-text -->"
+        },
+        "answer": "B. You're close to the maximum number of lookup filters allowed.D. You must implement a complex business rule that requires you to use a formula. Formulas can reference fields that basic filter criteria can't reference, such as fields on the parent of the source object. Formulas can also use functions. For example, use ISNEW if the rule should only apply on record creation, or ISCHANGED if the rule should apply when a field changes."
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 1650 -->What are the 4 types of Sandboxes?<!-- /react-text -->",
+            "answers": [
+                "A. Developer",
+                "B. Developer Pro",
+                "C. Partial Copy",
+                "D. Full Sandbox",
+                "E. Administrator Sandbox"
+            ]
+        },
+        "answer": "A. DeveloperB. Developer ProC. Partial CopyD. Full Sandbox"
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 1677 -->What type of sandbox should you use for full performance and load testing?<!-- /react-text -->",
+            "answers": ["<!-- react-text: 1680 -->A. Developer<!-- /react-text -->", "<!-- react-text: 1682 -->B. Partial Copy<!-- /react-text -->", "<!-- react-text: 1684 -->C. Full Sandbox<!-- /react-text -->", "<!-- react-text: 1686 -->D. Developer Pro<!-- /react-text -->"]
+        },
+        "answer": "C. Full Sandbox"
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 1707 -->What sandbox should you use for data load and integration testing?<!-- /react-text --><br><!-- react-text: 1709 -->A. Developer<!-- /react-text --><br><!-- react-text: 1711 -->B. Partial Copy<!-- /react-text --><br><!-- react-text: 1713 -->C. Full Sandbox<!-- /react-text --><br><!-- react-text: 1715 -->D. Developer Pro<!-- /react-text -->"
+        },
+        "answer": "D. Developer Pro"
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 1736 -->What sandbox is used for virtually any development, testing, or training purpose? <!-- /react-text --><br><!-- react-text: 1738 -->A. Developer<!-- /react-text --><br><!-- react-text: 1740 -->B. Partial Copy<!-- /react-text --><br><!-- react-text: 1742 -->C. Full Sandbox<!-- /react-text --><br><!-- react-text: 1744 -->D. Developer Pro<!-- /react-text -->"
+        },
+        "answer": "B. Partial Copy"
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 1765 -->T/F The sandbox copy engine creates an organization as part of each creation and refresh request. So, the organization ID of your sandbox changes each time your sandbox is refreshed.<!-- /react-text -->",
+            "answers": ["True", "False"],
+            "isRadioButton": "true"
+        },
+        "answer": "True sandbox copy enginer"
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 1786 -->What happens to user information when a sandbox is created?<!-- /react-text --><br><!-- react-text: 1788 -->A. The sandbox name is appended to the username<!-- /react-text --><br><!-- react-text: 1790 -->B. If the resulting username is not unique, a second modification is performed in which some characters and digits are prepended to the modified username<!-- /react-text --><br><!-- react-text: 1792 -->C. User email addresses are NOT modified in your sandbox so that production users don't receive automatically generated email messages from the sandbox.<!-- /react-text --><br><!-- react-text: 1794 -->D. All of the above<!-- /react-text -->"
+        },
+        "answer": "A. The sandbox name is appended to the usernameB. If the resulting username is not unique, a second modification is performed in which some characters"
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 1817 -->New and refreshed sandboxes have the default email deliverability setting System email only. What are the other options?<!-- /react-text --><br><!-- react-text: 1819 -->A. No access<!-- /react-text --><br><!-- react-text: 1821 -->B. System email only<!-- /react-text --><br><!-- react-text: 1823 -->C. All access<!-- /react-text --><br><!-- react-text: 1825 -->D. All email<!-- /react-text -->"
+        },
+        "answer": "A. No accessB. System email onlyD. All email"
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 1850 -->When should you refresh a sandbox?<!-- /react-text --><br><!-- react-text: 1852 -->A. 3 Hours before you need it.<!-- /react-text --><br><!-- react-text: 1854 -->B. When you are finished with the current sandbox.<!-- /react-text --><br><!-- react-text: 1856 -->C. 10 Days after an implementation. <!-- /react-text --><br><!-- react-text: 1858 -->D. Anytime.<!-- /react-text -->"
+        },
+        "answer": "B. When you are finished with the current sandbox."
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 1879 -->What is true about dashboard filters?<!-- /react-text --><br><!-- react-text: 1881 -->A. Filters can be added to dashboards that contain Visualforce components.<!-- /react-text --><br><!-- react-text: 1883 -->B. It's not possible to filter on bucket fields.<!-- /react-text --><br><!-- react-text: 1885 -->C. Filters aren't applied when you schedule or email a dashboard.<!-- /react-text --><br><!-- react-text: 1887 -->D. You can't filter data on a joined report in dashboard view or add a filter to a dashboard that only has joined reports.<!-- /react-text -->"
+        },
+        "answer": "B. It's not possible to filter on bucket fields.C. Filters aren't applied when you schedule or email a dashboard.D. You can't filter data on a joined report in dashboard view or add a filter to a dashboard that only has joined reports."
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 1912 -->A manager want to embed charts into his accounts object in 1 page layout. How many charts can you embed for him?<!-- /react-text --><br><!-- react-text: 1914 -->A. 3<!-- /react-text --><br><!-- react-text: 1916 -->B. 2<!-- /react-text --><br><!-- react-text: 1918 -->C. 4<!-- /react-text --><br><!-- react-text: 1920 -->D. 1<!-- /react-text -->"
+        },
+        "answer": "B. 2"
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 1941 -->What are the 2 types of packages?<!-- /react-text --><br><!-- react-text: 1943 -->A. Unmanaged<!-- /react-text --><br><!-- react-text: 1945 -->B. Named<!-- /react-text --><br><!-- react-text: 1947 -->C. Managed<!-- /react-text --><br><!-- react-text: 1949 -->D. Upgraded<!-- /react-text -->"
+        },
+        "answer": "A. UnmanagedC. Managed"
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 1972 -->Why would you use an unmanaged package?<!-- /react-text -->"
+        },
+        "answer": "Unmanaged packages are typically used to distribute open-source projects or application templates to provide developers with the basic building blocks for an application."
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 1993 -->What is true about unmanaged packages?<!-- /react-text --><br><!-- react-text: 1995 -->A. Once the components are installed from an unmanaged package, the components can be edited in the organization they are installed in.<!-- /react-text --><br><!-- react-text: 1997 -->B. The developer who created and uploaded the unmanaged package has no control over the installed components, and can't change or upgrade them.<!-- /react-text --><br><!-- react-text: 1999 -->C. Unmanaged packages should not be used to migrate components from a sandbox to production organization. Instead, use Change Sets.<!-- /react-text --><br><!-- react-text: 2001 -->D. All of the above<!-- /react-text -->"
+        },
+        "answer": "D. All of the above"
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 2022 -->What is true about change sets?<!-- /react-text --><br><!-- react-text: 2024 -->A. Change sets can only contain modifications you can make through the Setup menu.<!-- /react-text --><br><!-- react-text: 2026 -->B. They contain data such as records.<!-- /react-text --><br><!-- react-text: 2028 -->C. Change sets can only be sent between organizations that are affiliated with a production organization.<!-- /react-text --><br><!-- react-text: 2030 -->D. All of the above<!-- /react-text -->"
+        },
+        "answer": "A. Change sets can only contain modifications you can make through the Setup menu.C. Change sets can only be sent between organizations that are affiliated with a production organization."
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 2053 -->What are use cases for Validation Rules?<!-- /react-text --><br><!-- react-text: 2055 -->A. Enforce conditionally required fields<!-- /react-text --><br><!-- react-text: 2057 -->B. Enforce proper data format<!-- /react-text --><br><!-- react-text: 2059 -->C. Enforce consistency<!-- /react-text --><br><!-- react-text: 2061 -->D. Prevent data loss<!-- /react-text --><br><!-- react-text: 2063 -->E. All of the above<!-- /react-text -->"
+        },
+        "answer": "E. All of the above"
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 2084 -->What are the steps for creating a dynamic approval process?<!-- /react-text -->",
+            "answers": ["<!-- react-text: 2087 -->A. Create (user) lookup fields on the object being approved, Create a custom object as an approval matrix, Populate the approval matrix record, Create Apex code to populate the user fields from the approval matrix record, Create or update an approval process to utilize the new lookup fields.<!-- /react-text -->", "<!-- react-text: 2089 -->B. Create standard object as an approval matrix.<!-- /react-text -->", "<!-- react-text: 2091 -->C. Create an approval process.<!-- /react-text -->", "<!-- react-text: 2093 -->D. All of the above.<!-- /react-text -->"]
+        },
+        "answer": "A. Create (user) lookup fields on the object being approved, Create a custom object as an approval matrix, Populate the approval matrix record, Create Apex code to populate the user fields from the approval matrix record, Create or update an approval process to utilize the new lookup fields."
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 2114 -->For an external object relationship you can create a lookup relationship. What type of object(s) can be the parent?<!-- /react-text -->",
+            "answers": ["<!-- react-text: 2117 -->A. External<!-- /react-text -->", "<!-- react-text: 2119 -->B. Standard or Custom<!-- /react-text -->", "<!-- react-text: 2121 -->C. Standard or External<!-- /react-text -->", "<!-- react-text: 2123 -->D. Custom<!-- /react-text -->"]
+        },
+        "answer": "B. For a lookup you can only have standard or custom objects as the parent, but can have all 3 as the child."
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 2144 -->What external relationship requires a salesforce ID in the external data?<!-- /react-text -->",
+            "answers": ["<!-- react-text: 2147 -->A. External Lookup<!-- /react-text -->", "<!-- react-text: 2149 -->B. Indirect Lookup<!-- /react-text -->", "<!-- react-text: 2151 -->C. Lookup<!-- /react-text -->", "<!-- react-text: 2153 -->D. Master Detail<!-- /react-text -->"]
+        },
+        "answer": "C. Lookup"
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 2174 -->For an external object relationship you can create an external lookup relationship. What type of object(s) can be the parent?<!-- /react-text -->",
+            "answers": ["<!-- react-text: 2177 -->A. External<!-- /react-text -->", "<!-- react-text: 2179 -->B. Standard or Custom<!-- /react-text -->", "<!-- react-text: 2181 -->C. Standard or External<!-- /react-text -->", "<!-- react-text: 2183 -->D. Custom<!-- /react-text -->"]
+        },
+        "answer": "A. For an external lookup you can only have an external object as the parent, but can have all 3 as the child. Does not require a salesforce ID."
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 2204 -->For an external object relationship you can create an indirect lookup relationship. What type of object(s) can be the parent?<!-- /react-text -->",
+            "answers": ["<!-- react-text: 2207 -->A. External<!-- /react-text -->", "<!-- react-text: 2209 -->B. Standard or Custom<!-- /react-text -->", "<!-- react-text: 2211 -->C. Standard or External<!-- /react-text -->", "<!-- react-text: 2213 -->D. Custom<!-- /react-text -->"]
+        },
+        "answer": "B. For an indirect lookup you can have standard or custom objects as the parent, but can only have an external object as the child. Does not require a salesforce ID."
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 2234 -->T/F A Lightning component is a compact, configurable, and reusable element that you can drag and drop onto a Lightning Page in the Lightning App Builder.<!-- /react-text -->",
+            "answers": ["True", "False"],
+            "isRadioButton": "true"
+        },
+        "answer": "True Lightning component is compace"
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 2257 -->What are the standard Lightning components? <!-- /react-text -->",
+            "answers": ["<!-- react-text: 2260 -->A. Filter List<!-- /react-text -->", "<!-- react-text: 2262 -->B. Recent Items<!-- /react-text -->", "<!-- react-text: 2264 -->C. Report Chart<!-- /react-text -->", "<!-- react-text: 2266 -->D. Rich Text<!-- /react-text -->", "<!-- react-text: 2268 -->E. Visualforce Page<!-- /react-text -->", "<!-- react-text: 2270 -->F. All of the above<!-- /react-text -->"]
+        },
+        "answer": "F. All of the above"
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 2291 -->A lightning Page is:<!-- /react-text -->",
+            "answers": ["<!-- react-text: 2294 -->A. A compact, configurable, and reusable element.<!-- /react-text -->", "<!-- react-text: 2296 -->B. A custom layout for creating pages in Salesforce1.<!-- /react-text -->", "<!-- react-text: 2298 -->C. The new name for a SF page layout.<!-- /react-text -->", "<!-- react-text: 2300 -->D. A page you can access via a customer community.<!-- /react-text -->"]
+        },
+        "answer": "B. A custom layout for creating pages in Salesforce1."
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 2321 -->What can you build with the Lightning App Builder<!-- /react-text -->",
+            "answers": ["<!-- react-text: 2324 -->A. At-aglance, dashboard-style apps.<!-- /react-text -->", "<!-- react-text: 2326 -->B. Apps optimized for a particular task.<!-- /react-text -->", "<!-- react-text: 2328 -->C. Simple, single-page apps with drill-down capability.<!-- /react-text -->", "<!-- react-text: 2330 -->D. All of the above.<!-- /react-text -->"]
+        },
+        "answer": "D. All of the above."
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 2351 -->Actions on a Lightning Page allow you to:<!-- /react-text -->",
+            "answers": ["<!-- react-text: 2354 -->A. Send email, create a task, and create or update records.<!-- /react-text -->", "<!-- react-text: 2356 -->B. Send email and delete or clone records.<!-- /react-text -->", "<!-- react-text: 2358 -->C. Clone records, add users, and assign permissions.<!-- /react-text -->", "<!-- react-text: 2360 -->D. Send email, send outbound messages, and launch a flow.<!-- /react-text -->"]
+        },
+        "answer": "A. Send email, create a task, and create or update records."
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 2381 -->Use the data import wizard when:<!-- /react-text -->",
+            "answers": ["<!-- react-text: 2384 -->A.You need to load less than 50,000 records.<!-- /react-text -->", "<!-- react-text: 2386 -->B.The objects you need to import are supported by the wizard.<!-- /react-text -->", "<!-- react-text: 2388 -->C. You want to schedule regular data loads, such as nightly imports.<!-- /react-text -->", "<!-- react-text: 2390 -->D. You don't need the import process to be automated.<!-- /react-text -->"]
+        },
+        "answer": "A.You need to load less than 50,000 records.B.The objects you need to import are supported by the wizard.D. You don't need the import process to be automated."
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 2415 -->Use Data Loader when:<!-- /react-text -->",
+            "answers": ["<!-- react-text: 2418 -->A. You need to load 50,000 to five million records. If you need to load more than 5 million records, we recommend you work with a Salesforce partner or visit the AppExchange for a suitable partner product.<!-- /react-text -->", "<!-- react-text: 2420 -->B. You don't need the import process to be automated.<!-- /react-text -->", "<!-- react-text: 2422 -->C. You need to load into an object that is not supported by the Data Import Wizard.<!-- /react-text -->", "<!-- react-text: 2424 -->D. You want to schedule regular data loads, such as nightly imports.<!-- /react-text -->"]
+        },
+        "answer": "A. You need to load 50,000 to five million records. If you need to load more than 5 million records, we recommend you work with a Salesforce partner or visit the AppExchange for a suitable partner product.C. You need to load into an object that is not supported by the Data Import Wizard.D. You want to schedule regular data loads, such as nightly imports.",
+        "moreInformationLink": "https://developer.salesforce.com/docs/atlas.en-us.dataLoader.meta/dataLoader/when_to_use_the_data_loader.htm"
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 2449 -->What objects are supported by the Import Wizard?<!-- /react-text -->",
+            "answers": ["<!-- react-text: 2452 -->A.Contacts<!-- /react-text -->", "<!-- react-text: 2454 -->B. Leads<!-- /react-text -->", "<!-- react-text: 2456 -->C. Accounts<!-- /react-text -->", "<!-- react-text: 2458 -->D. Custom objects<!-- /react-text -->", "<!-- react-text: 2460 -->E. Solutions<!-- /react-text -->", "<!-- react-text: 2462 -->F. All of the above<!-- /react-text -->"]
+        },
+        "answer": "F. All of the above"
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 2483 -->You can export data from Salesforce using any of the following methods except:<!-- /react-text -->",
+            "answers": ["<!-- react-text: 2486 -->A. Use the data Manager tool to manually request an export of all the data in your organization.<!-- /react-text -->", "<!-- react-text: 2488 -->B. Use the data Export wizard within SF to export data manually or automatically. <!-- /react-text -->", "<!-- react-text: 2490 -->C. Use the data loader client application.<!-- /react-text -->", "<!-- react-text: 2492 -->D. Log a case with SF<!-- /react-text -->"]
+        },
+        "answer": "A. Use the data Manager tool to manually request an export of all the data in your organization."
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 2513 -->When using the Data Export Wizard to manually export data, you can only export data if:<!-- /react-text -->",
+            "answers": ["<!-- react-text: 2516 -->A. Your data doesn't include attachments, images, or documents.<!-- /react-text -->", "<!-- react-text: 2518 -->B. You've installed a client application to export the data.<!-- /react-text -->", "<!-- react-text: 2520 -->C. Enough time has passed since your last export.<!-- /react-text -->", "<!-- react-text: 2522 -->D. You are an Admin.<!-- /react-text -->"]
+        },
+        "answer": "C. Enough time has passed since your last export."
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 2543 -->When scheduling automatic data exporting with the Data Export Wizard, you must specify all of the following except:<!-- /react-text --><br><!-- react-text: 2545 -->A. Start and end dates<!-- /react-text --><br><!-- react-text: 2547 -->B. Time of day<!-- /react-text --><br><!-- react-text: 2549 -->C. Number of attachments<!-- /react-text --><br><!-- react-text: 2551 -->D. Frequency, if your organization supports monthly exports<!-- /react-text -->"
+        },
+        "answer": "C. Number of attachments"
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 2572 -->T/F If any of the triggered workflow rules result in another field update that's also enabled for workflow rule re-evaluation, a domino effect occurs, and more workflow rules can be re-evaluated as a result of the newly-triggered field update.<!-- /react-text -->",
+            "answers": ["True", "False"],
+            "isRadioButton": "true"
+        },
+        "answer": "True This cascade of workflow rule re-evaluation and triggering can happen up to five times after the initial field update that started it."
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 2593 -->T/F Recursive triggers may cause your organization to exceed its limit for workflow time triggers per hour.<!-- /react-text -->",
+            "answers": ["True", "False"],
+            "isRadioButton": "true"
+        },
+        "answer": "True Recursive trigger"
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 2616 -->When do you need to refresh a sandbox? <!-- /react-text -->",
+            "answers": ["<!-- react-text: 2619 -->A. 3 Hours before you need it.<!-- /react-text -->", "<!-- react-text: 2621 -->B. When modification have been made to the production organization.<!-- /react-text -->", "<!-- react-text: 2623 -->C. Anytime<!-- /react-text -->", "<!-- react-text: 2625 -->D. When you are done making changes to it.<!-- /react-text -->"]
+        },
+        "answer": "B. When modification have been made to the production organization.D. When you are done making changes to it."
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 2648 -->Which of the following can you create safely in a production organization?<!-- /react-text -->",
+            "answers": ["<!-- react-text: 2651 -->A. Apex Classes<!-- /react-text -->", "<!-- react-text: 2653 -->B. Triggers<!-- /react-text -->", "<!-- react-text: 2655 -->C. Custom Apex Controllers for Visualforce Pages<!-- /react-text -->", "<!-- react-text: 2657 -->D. Reports and Dashboards<!-- /react-text -->"]
+        },
+        "answer": "D. Reports and Dashboards"
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 2678 -->Which of the following are good ways to track changes in production?<!-- /react-text --><br><!-- react-text: 2680 -->A. Diff the metadata<!-- /react-text --><br><!-- react-text: 2682 -->B. Use a change log request form<!-- /react-text --><br><!-- react-text: 2684 -->C. Check the setup audit trail every week<!-- /react-text --><br><!-- react-text: 2686 -->D. All of the above<!-- /react-text -->"
+        },
+        "answer": "D. All of the above"
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 2707 -->Ideally, who should be in charge of logging all changes in production?<!-- /react-text --><br><!-- react-text: 2709 -->A. Product manager<!-- /react-text --><br><!-- react-text: 2711 -->B. Administrator<!-- /react-text --><br><!-- react-text: 2713 -->C. QA Engineer<!-- /react-text --><br><!-- react-text: 2715 -->D. Developer<!-- /react-text -->"
+        },
+        "answer": "B. Administrator"
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 2736 -->You've developed some new functionality in production, but there are concurrent development projects in a developer sandbox. What's the best way to make sure the changes in production and projects in development are both merged?<!-- /react-text --><br><!-- react-text: 2738 -->A. Simply refresh the developer sandbox<!-- /react-text --><br><!-- react-text: 2740 -->B. Copy all of the sandbox metadata to a file system, then refresh the developer sandbox, and finally deploy all the metadata to the developer sandbox<!-- /react-text --><br><!-- react-text: 2742 -->C. Create a new sandbox, and then deploy from your developer sandbox to the new sandbox<!-- /react-text --><br><!-- react-text: 2744 -->D. None of the above<!-- /react-text -->"
+        },
+        "answer": "C. Create a new sandbox, and then deploy from your developer sandbox to the new sandbox"
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 2765 -->When is it advisable to use a full-copy sandbox?<!-- /react-text --><br><!-- react-text: 2767 -->A. For training users on new features<!-- /react-text --><br><!-- react-text: 2769 -->B. Staging before final deployment<!-- /react-text --><br><!-- react-text: 2771 -->C. Performance and load testing<!-- /react-text --><br><!-- react-text: 2773 -->D. All of the above<!-- /react-text -->"
+        },
+        "answer": "D. All of the above"
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 2794 -->You have a team of developers who need logins to sandbox. What's the best way to give them access?<!-- /react-text --><br><!-- react-text: 2796 -->A. Create them as inactive users in production<!-- /react-text --><br><!-- react-text: 2798 -->B. Have them login as one of the users in production<!-- /react-text --><br><!-- react-text: 2800 -->C. Create them as users in sandbox, then deactivate the same number of users in production<!-- /react-text --><br><!-- react-text: 2802 -->D. Use Developer Edition to log into sandbox<!-- /react-text -->"
+        },
+        "answer": "A. Create them as inactive users in production"
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 2823 -->Which of the following descriptions about the Lightning Components framework is true?<!-- /react-text -->",
+            "answers": ["<!-- react-text: 2826 -->A. It uses JavaScript on the client side and Apex on the server side.<!-- /react-text -->", "<!-- react-text: 2828 -->B. It uses events to communicate data between components.<!-- /react-text -->", "<!-- react-text: 2830 -->C. It uses a stateful client and stateless server architecture.<!-- /react-text -->", "<!-- react-text: 2832 -->D. All of the above.<!-- /react-text -->"]
+        },
+        "answer": "D. All of the above."
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 2853 -->How is the Lightning Component framework different from Visualforce?<!-- /react-text --><br><!-- react-text: 2855 -->A. The framework can be used to build mobile apps only.<!-- /react-text --><br><!-- react-text: 2857 -->B. The framework is client-side centric, while Visualforce relies on server calls.<!-- /react-text --><br><!-- react-text: 2859 -->C. They are both useful in building components, but Visualforce has a simpler markup.<!-- /react-text --><br><!-- react-text: 2861 -->D. None of the above.<!-- /react-text -->"
+        },
+        "answer": "B. The framework is client-side centric, while Visualforce relies on server calls."
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 2882 -->What can you build with the Lightning Components framework?<!-- /react-text --><br><!-- react-text: 2884 -->A. A standalone app.<!-- /react-text --><br><!-- react-text: 2886 -->B. Components for the Salesforce1 app.<!-- /react-text --><br><!-- react-text: 2888 -->C. Custom components that override and extend the Salesforce1 app.<!-- /react-text --><br><!-- react-text: 2890 -->D. All of the above.<!-- /react-text -->"
+        },
+        "answer": "D. All of the above."
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 2911 -->How is the Lightning Component framework different from Visualforce?<!-- /react-text --><br><!-- react-text: 2913 -->A. The framework can be used to build mobile apps only.<!-- /react-text --><br><!-- react-text: 2915 -->B. The framework is client-side centric, while Visualforce relies on server calls.<!-- /react-text --><br><!-- react-text: 2917 -->C. They are both useful in building components, but Visualforce has a simpler markup.<!-- /react-text --><br><!-- react-text: 2919 -->D. None of the above.<!-- /react-text -->"
+        },
+        "answer": "B. The framework is client-side centric, while Visualforce relies on server calls."
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 2940 -->Which of the following descriptions about the Lightning Components framework is true?<!-- /react-text -->",
+            "answers": ["<!-- react-text: 2943 -->A. It uses JavaScript on the client side and Apex on the server side.<!-- /react-text -->", "<!-- react-text: 2945 -->B. It uses events to communicate data between components.<!-- /react-text -->", "<!-- react-text: 2947 -->C. It uses a stateful client and stateless server architecture.<!-- /react-text -->", "<!-- react-text: 2949 -->D. All of the above.<!-- /react-text -->"]
+        },
+        "answer": "D. All of the above."
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 2970 -->What is true regarding person accounts in Salesforce?<!-- /react-text -->",
+            "answers": ["<!-- react-text: 2973 -->A. Person accounts do not have a 'Parent Account' field.<!-- /react-text -->", "<!-- react-text: 2975 -->B. Person accounts do not have the Account Hierarchy feature.<!-- /react-text -->", "<!-- react-text: 2977 -->C. Person Accounts can be enabled in setup.<!-- /react-text -->", "<!-- react-text: 2979 -->D. Person accounts can have contacts.<!-- /react-text -->", "<!-- react-text: 2981 -->E. Leads cannot be converted to Person Accounts.<!-- /react-text -->"]
+        },
+        "answer": "A. Person accounts do not have a 'Parent Account' field.B. Person accounts do not have the Account Hierarchy feature."
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 3004 -->A custom app can include one or more custom tabs. What kind of custom tabs can be included in an application?<!-- /react-text -->",
+            "answers": ["<!-- react-text: 3007 -->A. Lightning Page Tab<!-- /react-text -->", "<!-- react-text: 3009 -->B. Visualforce Tab<!-- /react-text -->", "<!-- react-text: 3011 -->C. Custom Object Tab<!-- /react-text -->", "<!-- react-text: 3013 -->D. All of the above<!-- /react-text -->"]
+        },
+        "answer": "D. All of the above"
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 3034 -->Universal Containers are doing a deep analysis on their monthly sales data, and would like the salws revenue split as products sold per country. What would be the ideal report to address this need?<!-- /react-text -->",
+            "answers": ["<!-- react-text: 3037 -->A. Tabular<!-- /react-text -->", "<!-- react-text: 3039 -->B. Summar<!-- /react-text -->", "<!-- react-text: 3041 -->C. Matric<!-- /react-text -->", "<!-- react-text: 3043 -->D. Joined<!-- /react-text -->"]
+        },
+        "answer": "C. Matric"
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 3064 -->You are building a project mgmt app. According to the design given to you, a project must store info regarding the various functional modules under it. Each functional module must store info regarding responsibility assigned to each developer. Info about the responsibility must have info about the due date and status. What could be the most optimal model to achieve this?<!-- /react-text -->",
+            "answers": ["<!-- react-text: 3067 -->A. Create a Project object then Modules as a child object. Add Tasks to Modules<!-- /react-text -->", "<!-- react-text: 3069 -->B. Create a Project then add Tasks to it. Define Modules as a field on Task.<!-- /react-text -->", "<!-- react-text: 3071 -->C. Create Project, Module, Responsibility as parent, child and grandchild objects<!-- /react-text -->", "<!-- react-text: 3073 -->D. Create Project and Module objects then Responsibility as a junction object.<!-- /react-text -->"]
+        },
+        "answer": "A. Create a Project object then Modules as a child object. Add Tasks to Modules"
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 3094 -->What is not a capability of the lead object?<!-- /react-text -->",
+            "answers": ["<!-- react-text: 3097 -->A. Standard or Custom fields can be mapped to fields in the Account, Contact and Opportunity objects as part of lead conversion.<!-- /react-text -->", "<!-- react-text: 3099 -->B. Leads can be grouped into queues<!-- /react-text -->", "<!-- react-text: 3101 -->C. Leads can be automatically assigned to users or queues<!-- /react-text -->", "<!-- react-text: 3103 -->D. Custom objects that have been related to a lead can be copied when a lead is converted to the account, contact or opporunity<!-- /react-text -->"]
+        },
+        "answer": "A. Standard or Custom fields can be mapped to fields in the Account, Contact and Opportunity objects as part of lead conversion.D. Custom objects that have been related to a lead can be copied when a lead is converted to the account, contact or opporunity"
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 3126 -->Universal Containers is using SF to manage travel requests. They would like to enable managers to approve travel requests via email. What is true regarding email approval responses?<!-- /react-text -->",
+            "answers": ["<!-- react-text: 3129 -->A. Approvers must the the 'API Enabled' system permission. <!-- /react-text -->", "<!-- react-text: 3131 -->B. Approval Comments cannot be added in the email response.<!-- /react-text -->", "<!-- react-text: 3133 -->C. Approvers must click a link in the approval email<!-- /react-text -->", "<!-- react-text: 3135 -->D. If the request is rejected, the approver must add the rejection comments directly in SF.<!-- /react-text -->"]
+        },
+        "answer": "A. Approvers must the the 'API Enabled' system permission."
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 3156 -->You need to ensure that the value in a custom field 'Source Country' is validated against the standard list of ISO countries that are valid for the particular type of order, when the order is saved. What is the best way to achieve this requirement?<!-- /react-text -->",
+            "answers": ["<!-- react-text: 3159 -->A. Create a validation rule using a CASE statement<!-- /react-text -->", "<!-- react-text: 3161 -->B. Create a validation rule using the VLOOKUP function<!-- /react-text -->", "<!-- react-text: 3163 -->C. Create a before trigger and validate the value using APEX code<!-- /react-text -->", "<!-- react-text: 3165 -->D. Create an after trigger and validate the value using APEX code.<!-- /react-text -->"]
+        },
+        "answer": "C. Create a before trigger and validate the value using APEX code"
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 3186 -->When activating a page in the Lightning app builder, what declarative options are available? <!-- /react-text -->",
+            "answers": ["<!-- react-text: 3189 -->A. Select a tab icon for the page<!-- /react-text -->", "<!-- react-text: 3191 -->B. Select the tab color<!-- /react-text -->", "<!-- react-text: 3193 -->C. Set the tab visibility<!-- /react-text -->", "<!-- react-text: 3195 -->D. Set the tab order in the navigation menu<!-- /react-text -->"]
+        },
+        "answer": "A. Select a tab icon for the pageC. Set the tab visibilityD. Set the tab order in the navigation menu"
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 3220 -->SF can connect social profiles to all of the following objects except?<!-- /react-text -->",
+            "answers": ["<!-- react-text: 3223 -->A. Leads<!-- /react-text -->", "<!-- react-text: 3225 -->B. Person Accounts<!-- /react-text -->", "<!-- react-text: 3227 -->C. Business Accounts<!-- /react-text -->", "<!-- react-text: 3229 -->D. Contacts<!-- /react-text -->", "<!-- react-text: 3231 -->E. Users<!-- /react-text -->"]
+        },
+        "answer": "E. Users"
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 3252 -->You need to provide a way to invoke a custom report from the account detail page. The report should render values that are specific to the account in context. What are the best options? <!-- /react-text -->",
+            "answers": ["<!-- react-text: 3255 -->A. Detail Page Button<!-- /react-text -->", "<!-- react-text: 3257 -->B. List Button<!-- /react-text -->", "<!-- react-text: 3259 -->C. Detail Page Links<!-- /react-text -->", "<!-- react-text: 3261 -->D. Visualforce<!-- /react-text -->"]
+        },
+        "answer": "A. Detail Page ButtonC. Detail Page Links"
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 3284 -->Which of the following sequences of milestones would represent a typical application lifecycle?<!-- /react-text --><br><!-- react-text: 3286 -->A. Development, Integration Testing, User Acceptance Testing, Staging, Product Migration<!-- /react-text --><br><!-- react-text: 3288 -->B. Development, User Acceptance Testing, Production Migration<!-- /react-text --><br><!-- react-text: 3290 -->C. Development, Training, User Acceptance Testing, Staging, Production Migration<!-- /react-text --><br><!-- react-text: 3292 -->D. Development, Integration Testing, User Acceptance Testing, Regression Testing, Production Migration<!-- /react-text -->"
+        },
+        "answer": "A. Development, Integration Testing, User Acceptance Testing, Staging, Product Migration"
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 3313 -->Which Social Account features can be accessed form SF1?<!-- /react-text -->",
+            "answers": ["<!-- react-text: 3316 -->A. LinkedIn<!-- /react-text -->", "<!-- react-text: 3318 -->B. YouTube<!-- /react-text -->", "<!-- react-text: 3320 -->C. Facebook<!-- /react-text -->", "<!-- react-text: 3322 -->D. Twitter<!-- /react-text -->", "<!-- react-text: 3324 -->E. All of the above<!-- /react-text -->"]
+        },
+        "answer": "D. Twitter"
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 3345 -->You have a requirement to ensure that if the discount field on an opp is greater than 30%, the record should be automatically submitted for Approval. Which of the following would help you meet this requirement?<!-- /react-text -->",
+            "answers": ["<!-- react-text: 3348 -->A. Approval Process<!-- /react-text -->", "<!-- react-text: 3350 -->B. Workflow<!-- /react-text -->", "<!-- react-text: 3352 -->C. Process Builder<!-- /react-text -->", "<!-- react-text: 3354 -->D. Visual Workflow<!-- /react-text -->"]
+        },
+        "answer": "C. Process BuilderD. Visual Workflow"
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 3377 -->What is not true regarding relating Tasks and Events to other objects?<!-- /react-text -->",
+            "answers": ["<!-- react-text: 3380 -->A. Accounts are associated via the WhatID or AccountID<!-- /react-text -->", "<!-- react-text: 3382 -->B. Leads are associated via the WhoID<!-- /react-text -->", "<!-- react-text: 3384 -->C. Custom Objects are associated via the What ID<!-- /react-text -->", "<!-- react-text: 3386 -->D. Assets are associated via the WhatID<!-- /react-text -->", "<!-- react-text: 3388 -->E. Contacts are associated via the WhatID<!-- /react-text -->"]
+        },
+        "answer": "E. Contacts are associated via the WhatID"
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 3409 -->Contracts must be approved before the status is set to Finalized. How can this requirement be met?<!-- /react-text -->",
+            "answers": ["<!-- react-text: 3412 -->A. Add a final approval action in the approval process to update a field on the contract and use a validation rule to check this field when the contract status is changed to Finalized.<!-- /react-text -->", "<!-- react-text: 3414 -->B. Use a trigger on the contract object to check the contract has been approved when the status is changed<!-- /react-text -->", "<!-- react-text: 3416 -->C. use Process Builder to check the contract is approved when the contract is edited and the status is set to Finalized. <!-- /react-text -->", "<!-- react-text: 3418 -->D. Add a validation action in the approval process to ensure the status is not set to 'Finalized' before the contract is approved.<!-- /react-text -->"]
+        },
+        "answer": "A. Add a final approval action in the approval process to update a field on the contract and use a validation rule to check this field when the contract status is changed to Finalized."
+    },
+    {
+        "question": {
+            "question": "<!-- react-text: 3439 -->What is true regarding changing the field type of a rich text area?<!-- /react-text -->",
+            "answers": ["<!-- react-text: 3442 -->A. It is not possible to change the field type of a rich text area<!-- /react-text -->", "<!-- react-text: 3444 -->B. Rich text area fields can be converted but only to a long text area field type<!-- /react-text -->", "<!-- react-text: 3446 -->C. Images in a rich text area are deleted when the field type is converted<!-- /react-text -->", "<!-- react-text: 3448 -->D. Rich text area fields can be converted to a text area field type but data may be truncated.<!-- /react-text -->"]
+        },
+        "answer": "B. Rich text area fields can be converted but only to a long text area field type"
+    }
+]

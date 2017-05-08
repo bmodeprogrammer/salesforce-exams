@@ -1,0 +1,436 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/iron-ajax/iron-ajax.html">
+<link rel="import" href="../bower_components/paper-checkbox/paper-checkbox.html">
+<link rel="import" href="../bower_components/iron-icons/iron-icons.html">
+<link rel="import" href="../bower_components/paper-icon-button/paper-icon-button.html">
+<link rel="import" href="../bower_components/paper-input/paper-textarea.html">
+<link rel="import" href="../bower_components/paper-button/paper-button.html">
+<link rel="import" href="../bower_components/paper-dialog/paper-dialog.html">
+<link rel="import" href="../bower_components/paper-radio-button/paper-radio-button.html">
+<link rel="import" href="../bower_components/paper-radio-group/paper-radio-group.html">
+<link rel="import" href="../bower_components/app-layout/app-toolbar/app-toolbar.html">
+<link rel="import" href="../bower_components/app-layout/app-header/app-header.html">
+
+
+<dom-module id="app-builder-exam">
+  <template>
+    <style>
+       :host {
+        display: block;
+        padding: 10px;
+      }
+
+      .card {
+        margin: 24px;
+        padding: 16px;
+        color: #757575;
+        border-radius: 5px;
+        background-color: #fff;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+      }
+
+      .circle {
+        display: inline-block;
+        width: 64px;
+        height: 64px;
+        text-align: center;
+        color: #555;
+        border-radius: 50%;
+        background: #ddd;
+        font-size: 30px;
+        line-height: 64px;
+      }
+
+      paper-checkbox {
+        display: block;
+        margin-top: 5px;
+      }
+
+      pre {
+        color: black;
+        font-size: 20px;
+        font-family: 'Roboto', 'Times New Roman', Times, serif;
+        margin: 0;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        text-align: justify;
+      }
+
+      p {
+        word-wrap: break-word;
+        color: black;
+      }
+
+      pre p {
+        margin: 0;
+      }
+
+      .pagination {
+        margin-top: 20px;
+      }
+
+      .wrong {
+        background-color: red;
+      }
+
+      .right {
+        background-color: green;
+      }
+
+      .ind {
+        background-color: gray;
+      }
+
+      app-header {
+        @apply --layout-fixed-top;
+        color: #fff;
+        --app-header-background-rear-layer: {
+          background-color: #ef6c00;
+        }
+        ;
+      }
+
+      app-toolbar {
+        background-color: #4285f4;
+        color: #fff;
+      }
+
+      .submitted {
+        padding-top: 64px;
+      }
+    </style>
+
+    <iron-ajax auto url="question.json" handle-as="json" on-response="handleResponse"></iron-ajax>
+
+    <div class="card submitted" hidden$="[[isSubmited]]">
+      <app-header fixed>
+        <app-toolbar>
+          <div main-title>Time: [[timer]]</div>
+        </app-toolbar>
+      </app-header>
+      <div class="circle">[[currentQuestion.id]]</div>
+      <h3>Question</h3>
+      <pre>
+          <p>[[currentQuestion.question]]</p>
+      </pre>
+
+      <div class="answer">
+
+        <template is="dom-if" if="[[currentQuestion.isRadioButton]]">
+          <paper-radio-group selected="{{currentQuestion.answers}}">
+            <paper-radio-button name="true">True</paper-radio-button>
+            <paper-radio-button name="false">False</paper-radio-button>
+          </paper-radio-group>
+        </template>
+
+        <template is="dom-if" if="[[!currentQuestion.isRadioButton]]">
+          <template is="dom-repeat" items="[[currentQuestion.answers]]">
+            <div style="text-align: justify; padding: 10px 10px 10px 0;">
+              <paper-checkbox name="[[item.answer]]" checked="{{item.checked}}">[[item.answer]]</paper-checkbox>
+            </div>
+          </template>
+        </template>
+
+
+      </div>
+      <div class="pagination">
+
+        <paper-icon-button icon="icons:arrow-back" disabled$="[[canBack]]" on-click="back"></paper-icon-button>
+        <paper-icon-button icon="icons:arrow-forward" disabled$="[[canNext]]" on-click="next"></paper-icon-button>
+        <span>[[_addOneValue(currentQuestionIndex)]] of [[totalQuestions]]</span>
+        <br>
+        <paper-button raised on-click="submit">Submit</paper-button>
+
+      </div>
+    </div>
+
+    <div hidden$="[[!isSubmited]]">
+      <app-header fixed>
+        <app-toolbar>
+          <div main-title>Percentage: [[rightPercentage]] Time: [[timer]]</div>
+        </app-toolbar>
+      </app-header>
+      <div class="submitted">
+
+        <template is='dom-repeat' items="{{questionsSubmited}}">
+          <div class="card">
+
+            <div class$="[[item.ball]]">[[item.id]]</div>
+            <h3>Question</h3>
+            <pre>
+          <p>[[item.question]]</p>
+        </pre>
+
+            <div class="answer">
+
+              <template is="dom-if" if="[[item.isRadioButton]]">
+                <paper-radio-group selected="{{item.answers}}">
+                  <paper-radio-button name="true" disabled>True</paper-radio-button>
+                  <paper-radio-button name="false" disabled>False</paper-radio-button>
+                </paper-radio-group>
+              </template>
+
+              <template is="dom-if" if="[[!item.isRadioButton]]">
+
+                <template is="dom-repeat" items="[[item.answers]]" as="a">
+                  <div style="text-align: justify; padding: 10px 10px 10px 0;">
+                    <paper-checkbox name="[[a.answer]]" checked$="[[a.checked]]" disabled="true">[[a.answer]]</paper-checkbox>
+                  </div>
+                </template>
+              </template>
+              <p>
+                Answer: [[item.answer]]
+              </p>
+
+              <template is='dom-if' if="[[item.moreInformationLink]]">
+                <paper-dialog id="scrolling-[[item.id]]">
+                  <h2>Scrolling</h2>
+                  <paper-dialog-scrollable>
+                    <iframe src="[[item.moreInformationLink]]"></iframe>
+                  </paper-dialog-scrollable>
+                  <div class="buttons">
+                    <paper-button dialog-dismiss>Ok</paper-button>
+                  </div>
+                </paper-dialog>
+                <paper-button raised onclick="document.querySelector('scrolling-[[item.id]]').open()">More Information</paper-button>
+              </template>
+
+            </div>
+          </div>
+        </template>
+      </div>
+
+    </div>
+
+  </template>
+
+  <script>
+    (function () {
+      "use strict";
+
+      const WRONG = 'wrong',
+        RIGHT = 'right',
+        NUMBER_OF_QUESTIONS = parseInt(prompt('Please, insert the number(10 - 110) of questions?', '40')) || 40;
+      let xDown = null,
+        yDown = null;
+      Polymer({
+        is: 'app-builder-exam',
+
+        properties: {
+          questions: {
+            type: Array,
+            notify: true
+          },
+          timer: String,
+          timerInterval: Number,
+          rightPercentage: String,
+          questionsSubmited: {
+            type: Array,
+            notify: true
+          },
+          currentQuestion: Object,
+          currentQuestionIndex: Number,
+          totalQuestions: Number,
+          canNext: Boolean,
+          canBack: Boolean,
+          isSubmited: Boolean
+        },
+        arrows: function (e) {
+          switch (e.which) {
+            case 37: // left
+              this.back();
+              break;
+            case 39: // right
+              this.next();
+              break;
+            default:
+              return; // exit this handler for other keys
+          }
+        },
+
+        handleResponse: function (e) {
+          this._handleTimer.bind(this)();
+
+          document.addEventListener('touchstart', this._handleTouchStart.bind(this), false);
+          document.addEventListener('touchmove', this._handleTouchMove.bind(this), false);
+          this.isSubmited = false;
+          document.body.addEventListener('keyup', this.arrows.bind(this));
+          this.currentQuestionIndex = 0;
+          this.questions = e.detail.response;
+
+          //this._downloadJson(this.questions);
+          this.questions = this.shuffle(this.questions);
+          this.questions = this.questions.slice(0, NUMBER_OF_QUESTIONS);
+          this.canBack = true;
+          this.totalQuestions = this.questions.length;
+          this.currentQuestion = this.questions[0];
+          this.canNext = this.questions.length < 1;
+        },
+
+        next: function () {
+          if ((this.currentQuestionIndex + 1) !== this.questions.length) {
+            this.currentQuestionIndex++;
+            this.currentQuestion = this.questions[this.currentQuestionIndex];
+            this.canNext = (this.currentQuestionIndex + 1) === this.questions.length;
+            this.canBack = this.currentQuestionIndex < 1;
+          }
+        },
+
+        back: function () {
+          if (this.currentQuestionIndex > 0) {
+            this.currentQuestionIndex--;
+            this.currentQuestion = this.questions[this.currentQuestionIndex];
+            this.canBack = this.currentQuestionIndex < 1;
+            this.canNext = (this.currentQuestionIndex + 1) === this.questions.length;
+          }
+        },
+
+        submit: function () {
+          clearInterval(this.timerInterval);
+          let questionsAux = this.questions.slice(0);
+          const _this = this;
+          let counter = 0;
+          questionsAux = questionsAux.map(obj => {
+            obj.ball = 'circle ' + _this._isRightQuestion.bind(_this)(obj);
+            obj.isRight && counter++;
+            return obj;
+          });
+          this.rightPercentage = ((counter / questionsAux.length) * 100).toFixed(2) + "%";
+          this.questionsSubmited = questionsAux;
+          this.isSubmited = true;
+        },
+
+        shuffle: function (array) {
+          var currentIndex = array.length,
+            temporaryValue, randomIndex;
+
+          // While there remain elements to shuffle...
+          while (0 !== currentIndex) {
+
+            // Pick a remaining element...
+            randomIndex = Math.floor(Math.random() * currentIndex);
+            currentIndex -= 1;
+
+            // And swap it with the current element.
+            temporaryValue = array[currentIndex];
+            array[currentIndex] = array[randomIndex];
+            array[randomIndex] = temporaryValue;
+          }
+
+          return array;
+        },
+
+        _isRightQuestion: function (question) {
+          let q = question;
+          if (!q.answer && !q.answers) return WRONG;
+          if (q.isRadioButton) {
+            q.isRight = (question.answer.startsWith('False') && q.answer.toLowerCase() === 'false') ||
+              (question.answer.startsWith('True') && q.answer.toLowerCase() === 'true');
+
+            return q.isRight ? RIGHT : WRONG;
+          } else {
+            let spplitedCorrectAnswer = this._splitAnswers(question.answer),
+              userAnwers = q.answers.filter(a => a.checked).map(a => a.answer);
+
+            if (spplitedCorrectAnswer.length !== userAnwers.length) {
+              q.isRight = false;
+              return WRONG;
+            }
+
+            for (let i = 0; i < spplitedCorrectAnswer.length; i++)
+              if (userAnwers.indexOf(spplitedCorrectAnswer[i]) === -1) {
+                q.isRight = false;
+                return WRONG;
+              }
+            q.isRight = true;
+            return RIGHT;
+          }
+        },
+
+        _handleTimer: function () {
+          this.timer = '00:00:00';
+          let _this = this;
+          this.timerInterval = setInterval(() => {
+            let splitted = _this.timer.split(':');
+            let sec = parseInt(splitted[2]),
+              min = parseInt(splitted[1]),
+              hour = parseInt(splitted[0]);
+            if (sec === 60) {
+              sec = 0;
+              if (min === 60) {
+                min = 0;
+                hour++;
+              } else {
+                min++;
+              }
+            } else {
+              sec++;
+            }
+            sec = sec < 10 ? '0' + sec : sec + "";
+            min = min < 10 ? '0' + min : min + "";
+            hour = hour < 10 ? '0' + hour : hour + "";
+            _this.timer = hour + ":" + min + ":" + sec;
+          }, 1000);
+
+        },
+
+        _addOneValue: function (value) {
+          return value + 1;
+        },
+
+        _splitAnswers: function (q) {
+          const answers = [];
+          const qf = q.split('F. '),
+            qe = qf[0].split('E. '),
+            qd = qe[0].split('D. '),
+            qc = qd[0].split('C. '),
+            qb = qc[0].split('B. '),
+            qa = qb[0].split('A. ');
+          qf.length > 1 && answers.push('F. ' + qf[1]);
+          qe.length > 1 && answers.push('E. ' + qe[1]);
+          qd.length > 1 && answers.push('D. ' + qd[1]);
+          qc.length > 1 && answers.push('C. ' + qc[1]);
+          qb.length > 1 && answers.push('B. ' + qb[1]);
+          qa.length > 1 && answers.push('A. ' + qa[1]);
+          answers.reverse();
+          return answers;
+        },
+
+        _downloadJson: function (jsonObj) {
+          var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(jsonObj));
+          var dlAnchorElem = document.createElement('a');
+          dlAnchorElem.setAttribute("href", dataStr);
+          dlAnchorElem.setAttribute("download", "question.json");
+          dlAnchorElem.click();
+        },
+        _handleTouchStart: function (evt) {
+          console.log(evt);
+          xDown = evt.touches[0].clientX;
+          yDown = evt.touches[0].clientY;
+        },
+
+        _handleTouchMove: function (evt) {
+          if (!xDown || !yDown) {
+            return;
+          }
+          var xUp = evt.touches[0].clientX;
+          var yUp = evt.touches[0].clientY;
+
+          var xDiff = xDown - xUp;
+          var yDiff = yDown - yUp;
+
+          if (Math.abs(xDiff) > Math.abs(yDiff)) { /*most significant*/
+            if (xDiff > 0) {
+              this.next();
+            } else {
+              this.back();
+            }
+          }
+          xDown = null;
+          yDown = null;
+        }
+
+      });
+    })();
+  </script>
+</dom-module>
