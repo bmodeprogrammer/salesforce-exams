@@ -404,6 +404,10 @@
         "answer": "They are automatically viewable in the Salesforce1 mobile app.",
         "checked": false,
         "ca": "D."
+    }],
+    "moreInformationLinks": [{
+        "label": "External Objects",
+        "link": "https://developer.salesforce.com/docs/atlas.en-us.206.0.api.meta/api/sforce_api_objects_external_objects.htm"
     }]
 }, {
     "question": "Users can get Salesforce1 in all of the following ways except:",
@@ -892,7 +896,10 @@
 }, {
     "question": "You should use a lookup filter if:",
     "answer": "A. You want to improve user efficiency by limiting the number of available options in a lookup search dialog.C. You want to improve user efficiency by automating filters on lookup search dialogs that your users manually set.",
-    "moreInformationLink": "https://help.salesforce.com/articleView?id=fields_lookup_filters_notes.htm&type=0&language=en_US",
+    "moreInformationLinks": [{
+        "label": "Considerations for Lookup Filters",
+        "link": "https://help.salesforce.com/articleView?id=fields_lookup_filters_notes.htm&type=0&language=en_US"
+    }],
     "id": 47,
     "isToHaveCheckBox": true,
     "answers": [{
@@ -1001,6 +1008,10 @@
         "answer": "Developer Pro",
         "checked": false,
         "ca": "D."
+    }],
+    "moreInformationLinks": [{
+        "label": "Sandbox Types and Templates",
+        "link": "https://help.salesforce.com/articleView?id=create_test_instance.htm&type=0"
     }]
 }, {
     "question": "What sandbox is used for virtually any development, testing, or training purpose?",
@@ -1116,6 +1127,10 @@
         "answer": "You can't filter data on a joined report in dashboard view or add a filter to a dashboard that only has joined reports.",
         "checked": false,
         "ca": "D."
+    }],
+    "moreInformationLinks": [{
+        "label": "Filter Your Dashboard",
+        "link": "https://help.salesforce.com/articleView?id=dashboard_filters_overview.htm&type=0"
     }]
 }, {
     "question": "A manager want to embed charts into his accounts object in 1 page layout. How many charts can you embed for him?",
@@ -1268,6 +1283,10 @@
         "answer": "All of the above",
         "checked": false,
         "ca": "D."
+    }],
+    "moreInformationLinks": [{
+        "label": "Difference between static and dynamic approval processes",
+        "link": "https://salesforce.stackexchange.com/questions/20908/difference-between-static-and-dynamic-approval-processes"
     }]
 }, {
     "question": "For an external object relationship you can create a lookup relationship. What type of object(s) can be the parent?",
@@ -1407,6 +1426,10 @@
         "answer": "A page you can access via a customer community.",
         "checked": false,
         "ca": "D."
+    }],
+    "moreInformationLinks": [{
+        "label": "Lightning Pages",
+        "link": "https://help.salesforce.com/articleView?id=lightning_page_overview.htm&language=en_US&type=0"
     }]
 }, {
     "question": "What can you build with the Lightning App Builder",
@@ -1474,7 +1497,10 @@
 }, {
     "question": "Use Data Loader when:",
     "answer": "A. You need to load 50,000 to five million records. If you need to load more than 5 million records, we recommend you work with a Salesforce partner or visit the AppExchange for a suitable partner product.C. You need to load into an object that is not supported by the Data Import Wizard.D. You want to schedule regular data loads, such as nightly imports.",
-    "moreInformationLink": "https://developer.salesforce.com/docs/atlas.en-us.dataLoader.meta/dataLoader/when_to_use_the_data_loader.htm",
+    "moreInformationLinks": [{
+        "label": "When to Use Data Loader",
+        "link": "https://developer.salesforce.com/docs/atlas.en-us.dataLoader.meta/dataLoader/when_to_use_the_data_loader.htm"
+    }],
     "id": 75,
     "answers": [{
         "answer": "You need to load 50,000 to five million records. If you need to load more than 5 million records, we recommend you work with a Salesforce partner or visit the AppExchange for a suitable partner product.",
@@ -1880,6 +1906,10 @@
         "answer": "Leads cannot be converted to Person Accounts.",
         "checked": false,
         "ca": "E."
+    }],
+    "moreInformationLinks": [{
+        "label": "Person Account Behaviors",
+        "link": "https://help.salesforce.com/articleView?id=account_person_behavior.htm&type=0&language=en_US"
     }]
 }, {
     "question": "A custom app can include one or more custom tabs. What kind of custom tabs can be included in an application?",
@@ -1985,7 +2015,16 @@
         "answer": "If the request is rejected, the approver must add the rejection comments directly in SF.",
         "checked": false,
         "ca": "D."
-    }]
+    }],
+    "moreInformationLinks": [{
+            "label": "Considerations for Email Approval Response",
+            "link": "https://help.salesforce.com/articleView?id=approvals_email_limitations.htm&type=0&language=en_US&release=206.20"
+        },
+        {
+            "label": "Enable Email Approval Response",
+            "link": "https://help.salesforce.com/articleView?id=approvals_email.htm&language=en_US&type=0"
+        }
+    ]
 }, {
     "question": "You need to ensure that the value in a custom field 'Source Country' is validated against the standard list of ISO countries that are valid for the particular type of order, when the order is saved. What is the best way to achieve this requirement?",
     "answer": "C. Create a before trigger and validate the value using APEX code",
@@ -2208,5 +2247,9 @@
         "answer": "Rich text area fields can be converted to a text area field type but data may be truncated.",
         "checked": false,
         "ca": "D."
+    }],
+    "moreInformationLinks": [{
+        "label": "Notes on Changing Custom Field Types",
+        "link": "https://help.salesforce.com/articleView?id=notes_on_changing_custom_field_types.htm&type=0"
     }]
 }]

@@ -194,10 +194,13 @@
                 Answer: [[item.answer]]
               </p>
 
-              <template is='dom-if' if="[[item.moreInformationLink]]">
-                <a href="[[item.moreInformationLink]]" target="_blank">
-                  <paper-button raised>More information</paper-button>
-                </a>
+              <template is='dom-if' if="[[item.moreInformationLinks]]">
+                <h2>More information At:</h2>
+                <template is="dom-repeat" items="[[item.moreInformationLinks]]" as="link">
+                  <a href="[[link.link]]" target="_blank">
+                    <paper-button raised>[[link.label]]</paper-button>
+                  </a>
+                </template>
               </template>
 
             </div>
