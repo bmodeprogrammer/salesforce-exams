@@ -18,9 +18,7 @@
         "answer": "Approvals",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "Which tool would you use for the following use case?\nWhen an opportunity has a discount of more than 40%, notify the CEO via email and request sign-off. Provide a way for the CEO to leave comments.",
     "answer": "D. Approvals",
@@ -41,9 +39,7 @@
         "answer": "Approvals",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "Which tool would you use for the following use case?\nWhen an opportunity closes, automatically close all activities related to that opportunity and create a renewal opportunity.",
     "answer": "A. Process Builder",
@@ -64,9 +60,7 @@
         "answer": "Approvals",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "Which tool would you use for the following use case?\nAs an account's expiration approaches, send recurring email notifications to the owner (2 weeks before, 1 week before, 3 days before, and 1 day before).",
     "answer": "C. Workflow",
@@ -87,9 +81,7 @@
         "answer": "Approvals",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "You can configure access to data at all of the following levels, except:",
     "answer": "C. Page Layouts",
@@ -110,9 +102,7 @@
         "answer": "Records",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "You can secure data at the organization level, using all of these methods, except:",
     "answer": "D. Use hardware token",
@@ -133,9 +123,7 @@
         "answer": "Use hardware token",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "Which of these is not a method for controlling record-level access?",
     "answer": "C. Profiles",
@@ -156,9 +144,7 @@
         "answer": "Sharing Rules",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "How can you control object level access?\nPick 2.",
     "answer": "A. ProfilesB. Permission Sets",
@@ -183,8 +169,7 @@
         "answer": "OWD",
         "checked": false,
         "ca": "E."
-    }],
-    "choose": "Choose two answers."
+    }]
 }, {
     "question": "What are the 4 Types of Publisher Actions?",
     "answer": "A. Update - update recordsB. Create - create a recordC. Log a Call - log a call and it is recorded as a taskD. Custom - requires visual force page",
@@ -230,8 +215,7 @@
         "answer": "Record Types",
         "checked": false,
         "ca": "D."
-    }],
-    "choose": "Choose three answers."
+    }]
 }, {
     "question": "Where can a Standard Lightning Component be placed in the Lightning App Builder tool?",
     "answer": "A. Canvas",
@@ -252,9 +236,7 @@
         "answer": "Mobile Card",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "Universal Container's app builder needs to display an account's rating on all contacts related to that account.Which formula is valid in a text formula field on the contact to display the appropriate value?",
     "answer": "B. CASE(Account.Rating, \"Hot\", \"Hot\", \"Warm\", \"Warm\", \"Cold\", \"Cold\", \"Not Rated\")D. Text(Account.Rating)",
@@ -275,8 +257,7 @@
         "answer": "Text(Account.Rating)",
         "checked": false,
         "ca": "D."
-    }],
-    "choose": "Choose two answers."
+    }]
 }, {
     "question": "Universal Containers has limited in-house development resources, but would like to support onlinepayment processing for its products.What is the recommended solution to meet this requirement?",
     "answer": "D. Install an AppExchange product to provide Payment Gateway processing.",
@@ -297,9 +278,7 @@
         "answer": "Install an AppExchange product to provide Payment Gateway processing.",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "Universal Containers needs to create a roll-up summary field on a custom object that counts the number of related records on another custom object. What type of field must exist before the roll-up summary can be created, and where should it be located?",
     "answer": "D. A master-detail relationship field on the child object.",
@@ -320,9 +299,7 @@
         "answer": "A master-detail relationship field on the child object.",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "Universal Containers needs to set the record type for a converted lead's Account, Contact, and Opportunity based on the user who is converting the lead. How can this be accomplished?.",
     "answer": "A. Set the default record types for each Profile for Account, Contact, and Opportunity to the desired record type for converted records.",
@@ -343,9 +320,7 @@
         "answer": "Set the master record types for each Role for Account, Contact, and Opportunity to the desired record type for converted records.",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "Which of these statements is true for Lightning Connect?",
     "answer": "D. All of the above",
@@ -366,9 +341,7 @@
         "answer": "All of the above",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "Which of these is NOT an appropriate use case for Lightning Connect?",
     "answer": "C. You need to setup workflows and triggers for the external data.",
@@ -389,9 +362,7 @@
         "answer": "You only need real-time access to a small fraction of the external data.",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "In which of these scenarios is ETL a better choice than Lightning Connect?",
     "answer": "D. All of the above",
@@ -412,9 +383,7 @@
         "answer": "All of the above",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "Which of these is NOT true about external objects?",
     "answer": "C. You can use them in formula fields.",
@@ -439,9 +408,7 @@
     "moreInformationLinks": [{
         "label": "External Objects",
         "link": "https://developer.salesforce.com/docs/atlas.en-us.206.0.api.meta/api/sforce_api_objects_external_objects.htm"
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "Users can get Salesforce1 in all of the following ways except:",
     "answer": "C. As a downloadable app from www.salesforce.com",
@@ -462,9 +429,7 @@
         "answer": "As a downloadable app from the Apple App Store.",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "The Salesforce1 user interface includes all of these key elements except:",
     "answer": "D. Widgets page",
@@ -489,9 +454,7 @@
         "answer": "Record view",
         "checked": false,
         "ca": "E."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "When a user requests a report, what should you do?",
     "answer": "D. All of the above",
@@ -512,9 +475,7 @@
         "answer": "All of the above",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "You can control access to report folders based on:",
     "answer": "A. Permissions, roles, and public groups.",
@@ -535,9 +496,7 @@
         "answer": "All of the above",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "When you specify a single running user of a dashboard, that user:",
     "answer": "B. Determines which data is displayed on the dashboard, due to the user's security settings.",
@@ -558,9 +517,7 @@
         "answer": "Must have the 'View All Data' permission.",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "Salesforce processes rules in what order?",
     "answer": "A. 1. Validation rules 2. Assignment rules 3. Auto-response rules 4. Workflow rules (with immediate actions) 5. Escalation rules",
@@ -577,9 +534,7 @@
         "answer": "1. Auto-response rules 2. Validation rules 3. Assignment rules  4. Workflow rules (with immediate actions) 5. Escalation rules",
         "checked": false,
         "ca": "C."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "All of the following are advantages of the Schema Builder except:",
     "answer": "B. You can view fields and relationships for custom, but not standard objects.",
@@ -600,9 +555,7 @@
         "answer": "It's easy to build objects and fields directly from the Schema Builder, allowing you to visualize and change relationships with ease.",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "To create a custom object from the Schema Builder:",
     "answer": "B. From the Elements tab, drag Object onto the canvas.",
@@ -619,9 +572,7 @@
         "answer": "Right-click in the canvas and select 'New Object'.",
         "checked": false,
         "ca": "C."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "To create a custom field from the Schema Builder:",
     "answer": "C. From the Elements tab, drag a field type onto the canvas.",
@@ -638,9 +589,7 @@
         "answer": "From the Elements tab, drag a field type onto the canvas.",
         "checked": false,
         "ca": "C."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "To Leverage flows you need to:",
     "answer": "D. All of the above",
@@ -661,9 +610,7 @@
         "answer": "All of the above",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "What is true about a master detail relationship?",
     "answer": "A. You can't convert it if there is a roll-up summary field.B. Converting a look-up to master detail changes the OWD to Controlled by Parent.D. SF displays a waiting page after you request to change a master detail to a look-up or vice versa.",
@@ -684,8 +631,7 @@
         "answer": "SF displays a waiting page after you request to change a master detail to a look-up or vice versa.",
         "checked": false,
         "ca": "D."
-    }],
-    "choose": "Choose three answers."
+    }]
 }, {
     "question": "What happens when you convert a picklist to a multi-select picklist?",
     "answer": "A. Values are retained.B. Values not in the picklist are deleted from existing records when the data type changes.",
@@ -706,64 +652,27 @@
         "answer": "You can't convert to a multi-select picklist.",
         "checked": false,
         "ca": "D."
-    }],
-    "choose": "Choose two answers."
+    }]
 }, {
     "question": "T/F If data is lost, any list view based on the custom field will be deleted, and assignment and escalation rules may be affected.",
     "answer": "True If data is lost",
     "id": 31,
-    "isRadioButton": "true",
-    "isTrueFalseQuestion": true,
-    "answers": [{
-        "answer": "True",
-        "ca": "True"
-    }, {
-        "answer": "False",
-        "ca": "False"
-    }],
-    "userAnswer": ""
+    "isRadioButton": "true"
 }, {
     "question": "T/F You can convert a Text Area(Long) to Email, Phone, Text, Text Area or URL without data loss.",
     "answer": "True Text Area can convert",
     "id": 32,
-    "isRadioButton": "true",
-    "isTrueFalseQuestion": true,
-    "answers": [{
-        "answer": "True",
-        "ca": "True"
-    }, {
-        "answer": "False",
-        "ca": "False"
-    }],
-    "userAnswer": ""
+    "isRadioButton": "true"
 }, {
     "question": "T/F You cannot change auto number to text and vice versa and not loose your data.",
     "answer": "False You cannot change auto number",
     "id": 33,
-    "isRadioButton": "true",
-    "isTrueFalseQuestion": true,
-    "answers": [{
-        "answer": "True",
-        "ca": "True"
-    }, {
-        "answer": "False",
-        "ca": "False"
-    }],
-    "userAnswer": ""
+    "isRadioButton": "true"
 }, {
     "question": "T/F You can have multiple records with the same external ID.",
     "answer": "True - It is not recommended, as it will defeat the purpose of the external id.",
     "id": 34,
-    "isRadioButton": "true",
-    "isTrueFalseQuestion": true,
-    "answers": [{
-        "answer": "True",
-        "ca": "True"
-    }, {
-        "answer": "False",
-        "ca": "False"
-    }],
-    "userAnswer": ""
+    "isRadioButton": "true"
 }, {
     "question": "What is true about a master detail relationship?",
     "answer": "A. To create multilevel master-detail relationships, you need the \"Customize Application\" user permission.B. Standard objects can't be on the detail side of a custom object in a master-detail relationship.D. You can create a relationship as a lookup and then convert it to master-detail if the lookup field in all records contains a value.",
@@ -788,12 +697,12 @@
         "answer": "By default, records can be reparented in master-detail relationships.",
         "checked": false,
         "ca": "E."
-    }],
-    "choose": "Choose three answers."
+    }]
 }, {
     "question": "What is true about Junction objects?",
     "answer": "D. All of the above",
     "id": 36,
+
     "answers": [{
         "answer": "Junction object records are deleted when either associated master record is deleted and placed in the Recycle Bin.",
         "checked": false,
@@ -810,13 +719,12 @@
         "answer": "All of the above",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "What type of relationships can you create on External Objects?",
     "answer": "A. LookupB. External lookupC. Indirect lookup",
     "id": 37,
+
     "answers": [{
         "answer": "Lookup",
         "checked": false,
@@ -837,26 +745,17 @@
     "moreInformationLinks": [{
         "label": "External Object Relationships",
         "link": "https://help.salesforce.com/articleView?id=external_object_relationships.htm&language=en_US&type=0"
-    }],
-    "choose": "Choose three answers."
+    }]
 }, {
     "question": "T/F Indirect lookup relationship fields can be created on external objects only.",
     "answer": "True Indirect lookup fields",
     "id": 38,
-    "isRadioButton": "true",
-    "isTrueFalseQuestion": true,
-    "answers": [{
-        "answer": "True",
-        "ca": "True"
-    }, {
-        "answer": "False",
-        "ca": "False"
-    }],
-    "userAnswer": ""
+    "isRadioButton": "true"
 }, {
     "question": "What is true about external lookup relationship fields?",
     "answer": "B. Cascade-delete isn't available for external object relationships.C. Only objects that have a custom field with the External ID and Unique attributes are available as parent objects in indirect lookup relationships.",
     "id": 39,
+
     "answers": [{
         "answer": "Lookup filters are available for external lookup relationship fields.",
         "checked": false,
@@ -873,26 +772,17 @@
     "moreInformationLinks": [{
         "label": "Considerations for Relationships",
         "link": "https://help.salesforce.com/articleView?id=relationships_considerations.htm&type=0"
-    }],
-    "choose": "Choose two answers."
+    }]
 }, {
     "question": "T/F Each workflow rule applies to a single object.",
     "answer": "True Workflow rules",
     "id": 40,
-    "isRadioButton": "true",
-    "isTrueFalseQuestion": true,
-    "answers": [{
-        "answer": "True",
-        "ca": "True"
-    }, {
-        "answer": "False",
-        "ca": "False"
-    }],
-    "userAnswer": ""
+    "isRadioButton": "true"
 }, {
     "question": "What is true for all custom and some standard objects?",
     "answer": "D. All of the above",
     "id": 41,
+
     "answers": [{
         "answer": "you can create workflow and approval actions where a change to a detail record updates a field on the related master record.",
         "checked": false,
@@ -909,27 +799,17 @@
         "answer": "All of the above",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "T/F Workflow rules on custom objects are NOT automatically deleted if the custom object is deleted.",
     "answer": "False Work flow rules on custom objects",
     "id": 42,
-    "isRadioButton": "true",
-    "isTrueFalseQuestion": true,
-    "answers": [{
-        "answer": "True",
-        "ca": "True"
-    }, {
-        "answer": "False",
-        "ca": "False"
-    }],
-    "userAnswer": ""
+    "isRadioButton": "true"
 }, {
     "question": "What order does SF process rules?",
     "answer": "B. Validation rules, assignment rules, auto-response rules, workflow rules, escalation rules.",
     "id": 43,
+
     "answers": [{
         "answer": "Validation rules, assignment rules, workflow rules, auto-response rules, escalation rules.",
         "checked": false,
@@ -946,13 +826,12 @@
         "answer": "Auto-response rules, Validation rules, assignment rules, workflow rules, escalation rules.",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "What is true about Workflow rules?",
     "answer": "A. Saving or creating records can trigger more than one rule.B. Workflow rules only trigger on converted leads if validation and triggers for lead convert are enabled in your organization.D. Workflow rules can't be triggered by campaign statistic fields, including individual campaign statistics and campaign hierarchy statistics.",
     "id": 44,
+
     "answers": [{
         "answer": "Saving or creating records can trigger more than one rule.",
         "checked": false,
@@ -969,12 +848,12 @@
         "answer": "Workflow rules can't be triggered by campaign statistic fields, including individual campaign statistics and campaign hierarchy statistics.",
         "checked": false,
         "ca": "D."
-    }],
-    "choose": "Choose three answers."
+    }]
 }, {
     "question": "What are the limitations of workflow rules?",
     "answer": "D. All of the above",
     "id": 45,
+
     "answers": [{
         "answer": "You can't create email alerts for workflow rules on activities.",
         "checked": false,
@@ -991,13 +870,12 @@
         "answer": "All of the above",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "What is true about validation rules?",
     "answer": "A. When one validation rule fails, Salesforce continues to check any additional validation rules on that field or any other field on the page and displays all appropriate error messages at once.C. Validation rules are only enforced during lead conversion if 'validation and triggers for lead conversion' are enabled in your organization.D. Salesforce runs validation rules before creating records submitted via Web-to-Lead and Web-to-Case, and only creates records that have valid values.",
     "id": 46,
+
     "answers": [{
         "answer": "When one validation rule fails, Salesforce continues to check any additional validation rules on that field or any other field on the page and displays all appropriate error messages at once.",
         "checked": false,
@@ -1014,8 +892,7 @@
         "answer": "Salesforce runs validation rules before creating records submitted via Web-to-Lead and Web-to-Case, and only creates records that have valid values.",
         "checked": false,
         "ca": "D."
-    }],
-    "choose": "Choose three answers."
+    }]
 }, {
     "question": "You should use a lookup filter if:",
     "answer": "A. You want to improve user efficiency by limiting the number of available options in a lookup search dialog.C. You want to improve user efficiency by automating filters on lookup search dialogs that your users manually set.",
@@ -1024,6 +901,7 @@
         "link": "https://help.salesforce.com/articleView?id=fields_lookup_filters_notes.htm&type=0&language=en_US"
     }],
     "id": 47,
+
     "answers": [{
         "answer": "You want to improve user efficiency by limiting the number of available options in a lookup search dialog.",
         "checked": false,
@@ -1040,12 +918,12 @@
         "answer": "You must implement a complex business rule that requires you to use a formula. Formulas can reference fields that basic filter criteria can't reference, such as fields on the parent of the source object. Formulas can also use functions. For example, use ISNEW if the rule should only apply on record creation, or ISCHANGED if the rule should apply when a field changes.",
         "checked": false,
         "ca": "D."
-    }],
-    "choose": "Choose two answers."
+    }]
 }, {
     "question": "You should use a Validation rule if:",
     "answer": "B. You're close to the maximum number of lookup filters allowed.D. You must implement a complex business rule that requires you to use a formula. Formulas can reference fields that basic filter criteria can't reference, such as fields on the parent of the source object. Formulas can also use functions. For example, use ISNEW if the rule should only apply on record creation, or ISCHANGED if the rule should apply when a field changes.",
     "id": 48,
+
     "answers": [{
         "answer": "You want to improve user efficiency by limiting the number of available options in a lookup search dialog.",
         "checked": false,
@@ -1062,8 +940,7 @@
         "answer": "You must implement a complex business rule that requires you to use a formula. Formulas can reference fields that basic filter criteria can't reference, such as fields on the parent of the source object. Formulas can also use functions. For example, use ISNEW if the rule should only apply on record creation, or ISCHANGED if the rule should apply when a field changes.",
         "checked": false,
         "ca": "D."
-    }],
-    "choose": "Choose two answers."
+    }]
 }, {
     "question": "What are the 4 types of Sandboxes?",
     "answer": "A. DeveloperB. Developer ProC. Partial CopyD. Full Sandbox",
@@ -1109,9 +986,7 @@
         "answer": "Developer Pro",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "What sandbox should you use for data load and integration testing?",
     "answer": "D. Developer Pro",
@@ -1136,9 +1011,7 @@
     "moreInformationLinks": [{
         "label": "Sandbox Types and Templates",
         "link": "https://help.salesforce.com/articleView?id=create_test_instance.htm&type=0"
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "What sandbox is used for virtually any development, testing, or training purpose?",
     "answer": "B. Partial Copy",
@@ -1159,23 +1032,12 @@
         "answer": "Developer Pro",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "T/F The sandbox copy engine creates an organization as part of each creation and refresh request. So, the organization ID of your sandbox changes each time your sandbox is refreshed.",
     "answer": "True sandbox copy enginer",
     "id": 53,
-    "isRadioButton": "true",
-    "isTrueFalseQuestion": true,
-    "answers": [{
-        "answer": "True",
-        "ca": "True"
-    }, {
-        "answer": "False",
-        "ca": "False"
-    }],
-    "userAnswer": ""
+    "isRadioButton": "true"
 }, {
     "question": "What happens to user information when a sandbox is created?",
     "answer": "A. The sandbox name is appended to the usernameB. If the resulting username is not unique, a second modification is performed in which some characters and digits are prepended to the modified username",
@@ -1196,12 +1058,12 @@
     "moreInformationLinks": [{
         "label": "Sandbox Setup Considerations",
         "link": "https://help.salesforce.com/articleView?id=data_sandbox_implementation_tips.htm&type=0"
-    }],
-    "choose": "Choose two answers."
+    }]
 }, {
     "question": "New and refreshed sandboxes have the default email deliverability setting System email only. What are the other options?",
     "answer": "A. No accessB. System email onlyD. All email",
     "id": 55,
+
     "answers": [{
         "answer": "No access",
         "checked": false,
@@ -1218,12 +1080,12 @@
         "answer": "All email",
         "checked": false,
         "ca": "D."
-    }],
-    "choose": "Choose three answers."
+    }]
 }, {
     "question": "When should you refresh a sandbox?",
     "answer": "B. When you are finished with the current sandbox.",
     "id": 56,
+
     "answers": [{
         "answer": "3 Hours before you need it.",
         "checked": false,
@@ -1240,13 +1102,12 @@
         "answer": "Anytime.",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "What is true about dashboard filters?",
     "answer": "B. It's not possible to filter on bucket fields.C. Filters aren't applied when you schedule or email a dashboard.D. You can't filter data on a joined report in dashboard view or add a filter to a dashboard that only has joined reports.",
     "id": 57,
+
     "answers": [{
         "answer": "Filters can be added to dashboards that contain Visualforce components.",
         "checked": false,
@@ -1267,12 +1128,12 @@
     "moreInformationLinks": [{
         "label": "Filter Your Dashboard",
         "link": "https://help.salesforce.com/articleView?id=dashboard_filters_overview.htm&type=0"
-    }],
-    "choose": "Choose three answers."
+    }]
 }, {
     "question": "A manager want to embed charts into his accounts object in 1 page layout. How many charts can you embed for him?",
     "answer": "B. 2",
     "id": 58,
+
     "answers": [{
         "answer": "3",
         "checked": false,
@@ -1289,13 +1150,12 @@
         "answer": "1",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "What are the 2 types of packages?",
     "answer": "A. UnmanagedC. Managed",
     "id": 59,
+
     "answers": [{
         "answer": "Unmanaged",
         "checked": false,
@@ -1312,8 +1172,7 @@
         "answer": "Upgraded",
         "checked": false,
         "ca": "D."
-    }],
-    "choose": "Choose two answers."
+    }]
 }, {
     "question": "Why would you use an unmanaged package?",
     "answer": "C. To distribute open-source projects or application templates to provide developers with the basic building blocks for an application.",
@@ -1330,13 +1189,12 @@
         "answer": "To distribute open-source projects or application templates to provide developers with the basic building blocks for an application.",
         "checked": false,
         "ca": "C."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "What is true about unmanaged packages?",
     "answer": "D. All of the above",
     "id": 61,
+
     "answers": [{
         "answer": "Once the components are installed from an unmanaged package, the components can be edited in the organization they are installed in.",
         "checked": false,
@@ -1353,13 +1211,12 @@
         "answer": "All of the above",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "What is true about change sets?",
     "answer": "A. Change sets can only contain modifications you can make through the Setup menu.C. Change sets can only be sent between organizations that are affiliated with a production organization.",
     "id": 62,
+
     "answers": [{
         "answer": "Change sets can only contain modifications you can make through the Setup menu.",
         "checked": false,
@@ -1376,12 +1233,12 @@
     "moreInformationLinks": [{
         "label": "Change Sets",
         "link": "https://help.salesforce.com/articleView?id=changesets.htm&type=0"
-    }],
-    "choose": "Choose two answers."
+    }]
 }, {
     "question": "What are use cases for Validation Rules?",
     "answer": "E. All of the above",
     "id": 63,
+
     "answers": [{
         "answer": "Enforce conditionally required fields",
         "checked": false,
@@ -1402,9 +1259,7 @@
         "answer": "All of the above",
         "checked": false,
         "ca": "E."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "What are the steps for creating a dynamic approval process?",
     "answer": "A. Create (user) lookup fields on the object being approved, Create a custom object as an approval matrix, Populate the approval matrix record, Create Apex code to populate the user fields from the approval matrix record, Create or update an approval process to utilize the new lookup fields.",
@@ -1429,9 +1284,7 @@
     "moreInformationLinks": [{
         "label": "Difference between static and dynamic approval processes",
         "link": "https://salesforce.stackexchange.com/questions/20908/difference-between-static-and-dynamic-approval-processes"
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "For an external object relationship you can create a lookup relationship. What type of object(s) can be the parent?",
     "answer": "B. For a lookup you can only have standard or custom objects as the parent, but can have all 3 as the child.",
@@ -1452,9 +1305,7 @@
         "answer": "Custom",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "What external relationship requires a salesforce ID in the external data?",
     "answer": "C. Lookup",
@@ -1479,9 +1330,7 @@
     "moreInformationLinks": [{
         "label": "Lookup Relationship Fields on External Objects",
         "link": "https://help.salesforce.com/articleView?id=external_object_lookup_relationships.htm&language=en_US&type=0"
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "For an external object relationship you can create an external lookup relationship. What type of object(s) can be the parent?",
     "answer": "A. For an external lookup you can only have an external object as the parent, but can have all 3 as the child. Does not require a salesforce ID.",
@@ -1502,9 +1351,7 @@
         "answer": "Custom",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "For an external object relationship you can create an indirect lookup relationship. What type of object(s) can be the parent?",
     "answer": "B. For an indirect lookup you can have standard or custom objects as the parent, but can only have an external object as the child. Does not require a salesforce ID.",
@@ -1525,23 +1372,12 @@
         "answer": "Custom",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "T/F A Lightning component is a compact, configurable, and reusable element that you can drag and drop onto a Lightning Page in the Lightning App Builder.",
     "answer": "True Lightning component is compace",
     "id": 69,
-    "isRadioButton": "true",
-    "isTrueFalseQuestion": true,
-    "answers": [{
-        "answer": "True",
-        "ca": "True"
-    }, {
-        "answer": "False",
-        "ca": "False"
-    }],
-    "userAnswer": ""
+    "isRadioButton": "true"
 }, {
     "question": "What are the standard Lightning components?",
     "answer": "F. All of the above",
@@ -1570,9 +1406,7 @@
         "answer": "All of the above",
         "checked": false,
         "ca": "F."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "A lightning Page is:",
     "answer": "B. A custom layout for creating pages in Salesforce1.",
@@ -1597,9 +1431,7 @@
     "moreInformationLinks": [{
         "label": "Lightning Pages",
         "link": "https://help.salesforce.com/articleView?id=lightning_page_overview.htm&language=en_US&type=0"
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "What can you build with the Lightning App Builder",
     "answer": "D. All of the above",
@@ -1620,9 +1452,7 @@
         "answer": "All of the above",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "Actions on a Lightning Page allow you to:",
     "answer": "A. Send email, create a task, and create or update records.",
@@ -1643,9 +1473,7 @@
         "answer": "Send email, send outbound messages, and launch a flow.",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "Use the data import wizard when:",
     "answer": "A.You need to load less than 50,000 records.B.The objects you need to import are supported by the wizard.D. You don't need the import process to be automated.",
@@ -1666,9 +1494,7 @@
         "answer": "You don't need the import process to be automated.",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "Use Data Loader when:",
     "answer": "A. You need to load 50,000 to five million records. If you need to load more than 5 million records, we recommend you work with a Salesforce partner or visit the AppExchange for a suitable partner product.C. You need to load into an object that is not supported by the Data Import Wizard.D. You want to schedule regular data loads, such as nightly imports.",
@@ -1693,8 +1519,7 @@
         "answer": "You want to schedule regular data loads, such as nightly imports.",
         "checked": false,
         "ca": "D."
-    }],
-    "choose": "Choose three answers."
+    }]
 }, {
     "question": "What objects are supported by the Import Wizard?",
     "answer": "F. All of the above",
@@ -1723,9 +1548,7 @@
         "answer": "All of the above",
         "checked": false,
         "ca": "F."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "You can export data from Salesforce using any of the following methods except:",
     "answer": "A. Use the data Manager tool to manually request an export of all the data in your organization.",
@@ -1746,9 +1569,7 @@
         "answer": "Log a case with SF",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "When using the Data Export Wizard to manually export data, you can only export data if:",
     "answer": "C. Enough time has passed since your last export.",
@@ -1769,13 +1590,12 @@
         "answer": "You are an Admin.",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "When scheduling automatic data exporting with the Data Export Wizard, you must specify all of the following except:",
     "answer": "C. Number of attachments",
     "id": 79,
+
     "answers": [{
         "answer": "Start and end dates",
         "checked": false,
@@ -1792,37 +1612,17 @@
         "answer": "Frequency, if your organization supports monthly exports",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "T/F If any of the triggered workflow rules result in another field update that's also enabled for workflow rule re-evaluation, a domino effect occurs, and more workflow rules can be re-evaluated as a result of the newly-triggered field update.",
     "answer": "True This cascade of workflow rule re-evaluation and triggering can happen up to five times after the initial field update that started it.",
     "id": 80,
-    "isRadioButton": "true",
-    "isTrueFalseQuestion": true,
-    "answers": [{
-        "answer": "True",
-        "ca": "True"
-    }, {
-        "answer": "False",
-        "ca": "False"
-    }],
-    "userAnswer": ""
+    "isRadioButton": "true"
 }, {
     "question": "T/F Recursive triggers may cause your organization to exceed its limit for workflow time triggers per hour.",
     "answer": "True Recursive trigger",
     "id": 81,
-    "isRadioButton": "true",
-    "isTrueFalseQuestion": true,
-    "answers": [{
-        "answer": "True",
-        "ca": "True"
-    }, {
-        "answer": "False",
-        "ca": "False"
-    }],
-    "userAnswer": ""
+    "isRadioButton": "true"
 }, {
     "question": "When do you need to refresh a sandbox?",
     "answer": "B. When modification have been made to the production organization.D. When you are done making changes to it.",
@@ -1843,8 +1643,7 @@
         "answer": "When you are done making changes to it.",
         "checked": false,
         "ca": "D."
-    }],
-    "choose": "Choose two answers."
+    }]
 }, {
     "question": "Which of the following can you create safely in a production organization?",
     "answer": "D. Reports and Dashboards",
@@ -1865,13 +1664,12 @@
         "answer": "Reports and Dashboards",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "Which of the following are good ways to track changes in production?",
     "answer": "D. All of the above",
     "id": 84,
+
     "answers": [{
         "answer": "Diff the metadata",
         "checked": false,
@@ -1888,13 +1686,12 @@
         "answer": "All of the above",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "Ideally, who should be in charge of logging all changes in production?",
     "answer": "B. Administrator",
     "id": 85,
+
     "answers": [{
         "answer": "Product manager",
         "checked": false,
@@ -1911,13 +1708,12 @@
         "answer": "Developer",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "You've developed some new functionality in production, but there are concurrent development projects in a developer sandbox. What's the best way to make sure the changes in production and projects in development are both merged?",
     "answer": "C. Create a new sandbox, and then deploy from your developer sandbox to the new sandbox",
     "id": 86,
+
     "answers": [{
         "answer": "Simply refresh the developer sandbox",
         "checked": false,
@@ -1934,13 +1730,12 @@
         "answer": "None of the answers.",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "When is it advisable to use a full-copy sandbox?",
     "answer": "D. All of the above",
     "id": 87,
+
     "answers": [{
         "answer": "For training users on new features",
         "checked": false,
@@ -1957,13 +1752,12 @@
         "answer": "All of the above",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "You have a team of developers who need logins to sandbox. What's the best way to give them access?",
     "answer": "A. Create them as inactive users in production",
     "id": 88,
+
     "answers": [{
         "answer": "Create them as inactive users in production",
         "checked": false,
@@ -1980,9 +1774,7 @@
         "answer": "Use Developer Edition to log into sandbox",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "Which of the following descriptions about the Lightning Components framework is true?",
     "answer": "D. All of the above",
@@ -2003,13 +1795,12 @@
         "answer": "All of the above",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "How is the Lightning Component framework different from Visualforce?",
     "answer": "B. The framework is client-side centric, while Visualforce relies on server calls.",
     "id": 90,
+
     "answers": [{
         "answer": "The framework can be used to build mobile apps only.",
         "checked": false,
@@ -2026,13 +1817,12 @@
         "answer": "None of the answers.",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "What can you build with the Lightning Components framework?",
     "answer": "D. All of the above",
     "id": 91,
+
     "answers": [{
         "answer": "A standalone app.",
         "checked": false,
@@ -2049,13 +1839,12 @@
         "answer": "All of the above",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "How is the Lightning Component framework different from Visualforce?",
     "answer": "B. The framework is client-side centric, while Visualforce relies on server calls.",
     "id": 92,
+
     "answers": [{
         "answer": "The framework can be used to build mobile apps only.",
         "checked": false,
@@ -2072,9 +1861,7 @@
         "answer": "None of the answers.",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "Which of the following descriptions about the Lightning Components framework is true?",
     "answer": "D. All of the above",
@@ -2095,9 +1882,7 @@
         "answer": "All of the above",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "What is true regarding person accounts in Salesforce?",
     "answer": "A. Person accounts do not have a 'Parent Account' field.B. Person accounts do not have the Account Hierarchy feature.",
@@ -2126,8 +1911,7 @@
     "moreInformationLinks": [{
         "label": "Person Account Behaviors",
         "link": "https://help.salesforce.com/articleView?id=account_person_behavior.htm&type=0&language=en_US"
-    }],
-    "choose": "Choose two answers."
+    }]
 }, {
     "question": "A custom app can include one or more custom tabs. What kind of custom tabs can be included in an application?",
     "answer": "D. All of the above",
@@ -2148,9 +1932,7 @@
         "answer": "All of the above",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "Universal Containers are doing a deep analysis on their monthly sales data, and would like the salws revenue split as products sold per country. What would be the ideal report to address this need?",
     "answer": "C. Matric",
@@ -2171,9 +1953,7 @@
         "answer": "Joined",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "You are building a project mgmt app. According to the design given to you, a project must store info regarding the various functional modules under it. Each functional module must store info regarding responsibility assigned to each developer. Info about the responsibility must have info about the due date and status. What could be the most optimal model to achieve this?",
     "answer": "A. Create a Project object then Modules as a child object. Add Tasks to Modules",
@@ -2194,9 +1974,7 @@
         "answer": "Create Project and Module objects then Responsibility as a junction object.",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "What is not a capability of the lead object?",
     "answer": "A. Standard or Custom fields can be mapped to fields in the Account, Contact and Opportunity objects as part of lead conversion.D. Custom objects that have been related to a lead can be copied when a lead is converted to the account, contact or opporunity",
@@ -2217,8 +1995,7 @@
         "answer": "Custom objects that have been related to a lead can be copied when a lead is converted to the account, contact or opporunity",
         "checked": false,
         "ca": "D."
-    }],
-    "choose": "Choose two answers."
+    }]
 }, {
     "question": "Universal Containers is using SF to manage travel requests. They would like to enable managers to approve travel requests via email. What is true regarding email approval responses?",
     "answer": "A. Approvers must the the 'API Enabled' system permission.",
@@ -2241,14 +2018,14 @@
         "ca": "D."
     }],
     "moreInformationLinks": [{
-        "label": "Considerations for Email Approval Response",
-        "link": "https://help.salesforce.com/articleView?id=approvals_email_limitations.htm&type=0&language=en_US&release=206.20"
-    }, {
-        "label": "Enable Email Approval Response",
-        "link": "https://help.salesforce.com/articleView?id=approvals_email.htm&language=en_US&type=0"
-    }],
-
-    "isRadioButton": true
+            "label": "Considerations for Email Approval Response",
+            "link": "https://help.salesforce.com/articleView?id=approvals_email_limitations.htm&type=0&language=en_US&release=206.20"
+        },
+        {
+            "label": "Enable Email Approval Response",
+            "link": "https://help.salesforce.com/articleView?id=approvals_email.htm&language=en_US&type=0"
+        }
+    ]
 }, {
     "question": "You need to ensure that the value in a custom field 'Source Country' is validated against the standard list of ISO countries that are valid for the particular type of order, when the order is saved. What is the best way to achieve this requirement?",
     "answer": "C. Create a before trigger and validate the value using APEX code",
@@ -2269,9 +2046,7 @@
         "answer": "Create an after trigger and validate the value using APEX code.",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "When activating a page in the Lightning app builder, what declarative options are available?",
     "answer": "A. Select a tab icon for the pageC. Set the tab visibilityD. Set the tab order in the navigation menu",
@@ -2292,8 +2067,7 @@
         "answer": "Set the tab order in the navigation menu",
         "checked": false,
         "ca": "D."
-    }],
-    "choose": "Choose three answers."
+    }]
 }, {
     "question": "SF can connect social profiles to all of the following objects except?",
     "answer": "E. Users",
@@ -2318,9 +2092,7 @@
         "answer": "Users",
         "checked": false,
         "ca": "E."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "You need to provide a way to invoke a custom report from the account detail page. The report should render values that are specific to the account in context. What are the best options?",
     "answer": "A. Detail Page ButtonC. Detail Page Links",
@@ -2341,12 +2113,12 @@
         "answer": "Visualforce",
         "checked": false,
         "ca": "D."
-    }],
-    "choose": "Choose two answers."
+    }]
 }, {
     "question": "Which of the following sequences of milestones would represent a typical application lifecycle?",
     "answer": "A. Development, Integration Testing, User Acceptance Testing, Staging, Product Migration",
     "id": 104,
+
     "answers": [{
         "answer": "Development, Integration Testing, User Acceptance Testing, Staging, Product Migration",
         "checked": false,
@@ -2363,9 +2135,7 @@
         "answer": "Development, Integration Testing, User Acceptance Testing, Regression Testing, Production Migration",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "Which Social Account features can be accessed form SF1?",
     "answer": "D. Twitter",
@@ -2390,9 +2160,7 @@
         "answer": "All of the above",
         "checked": false,
         "ca": "E."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "You have a requirement to ensure that if the discount field on an opp is greater than 30%, the record should be automatically submitted for Approval. Which of the following would help you meet this requirement?",
     "answer": "C. Process BuilderD. Visual Workflow",
@@ -2413,8 +2181,7 @@
         "answer": "Visual Workflow",
         "checked": false,
         "ca": "D."
-    }],
-    "choose": "Choose two answers."
+    }]
 }, {
     "question": "What is not true regarding relating Tasks and Events to other objects?",
     "answer": "E. Contacts are associated via the WhatID",
@@ -2439,9 +2206,7 @@
         "answer": "Contacts are associated via the WhatID",
         "checked": false,
         "ca": "E."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "Contracts must be approved before the status is set to Finalized. How can this requirement be met?",
     "answer": "A. Add a final approval action in the approval process to update a field on the contract and use a validation rule to check this field when the contract status is changed to Finalized.",
@@ -2462,9 +2227,7 @@
         "answer": "Add a validation action in the approval process to ensure the status is not set to 'Finalized' before the contract is approved.",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "What is true regarding changing the field type of a rich text area?",
     "answer": "B. Rich text area fields can be converted but only to a long text area field type",
@@ -2489,7 +2252,5 @@
     "moreInformationLinks": [{
         "label": "Notes on Changing Custom Field Types",
         "link": "https://help.salesforce.com/articleView?id=notes_on_changing_custom_field_types.htm&type=0"
-    }],
-
-    "isRadioButton": true
+    }]
 }]

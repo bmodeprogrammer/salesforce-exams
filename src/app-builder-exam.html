@@ -47,7 +47,7 @@
         margin-top: 5px;
       }
 
-      pre {
+      .question {
         color: black;
         font-size: 20px;
         font-family: 'Roboto', 'Times New Roman', Times, serif;
@@ -82,6 +82,10 @@
         background-color: gray;
       }
 
+      .answer {
+        margin-top: 10px;
+      }
+
       app-header {
         @apply --layout-fixed-top;
         color: #fff;
@@ -106,6 +110,19 @@
       .submitted {
         padding-top: 64px;
       }
+
+      a {
+        text-decoration: none;
+        color: black;
+      }
+
+      paper-radio-button {
+        display: block;
+      }
+
+      .choose {
+        font-size: 17px;
+      }
     </style>
 
     <iron-ajax auto url="question.json" handle-as="json" on-response="handleResponse"></iron-ajax>
@@ -120,16 +137,21 @@
       </app-header>
       <div class="circle">[[currentQuestion.id]]</div>
       <h3>Question</h3>
-      <pre>
-          <p>[[currentQuestion.question]]</p>
-      </pre>
+      <span class="question">[[currentQuestion.question]]</span>
+      <template is="dom-if" if="[[currentQuestion.choose]]">
+        <br>
+        <span class="question choose">[[currentQuestion.choose]]</span>
+      </template>
+
+
 
       <div class="answer">
 
         <template is="dom-if" if="[[currentQuestion.isRadioButton]]">
-          <paper-radio-group selected="{{currentQuestion.answers}}">
-            <paper-radio-button name="true">True</paper-radio-button>
-            <paper-radio-button name="false">False</paper-radio-button>
+          <paper-radio-group selected="{{currentQuestion.userAnswer}}" allow-empty-selection>
+            <template is="dom-repeat" items="[[currentQuestion.answers]]" as="a">
+              <paper-radio-button name="[[a.ca]]">[[a.answer]]</paper-radio-button>
+            </template>
           </paper-radio-group>
         </template>
 
@@ -164,39 +186,43 @@
       </app-header>
       <div class="submitted">
 
-        <template is='dom-repeat' items="{{questionsSubmited}}">
+        <template is='dom-repeat' items="{{questionsSubmited}}" as="questionObj">
           <div class="card">
 
-            <div class$="[[item.ball]]">[[item.id]]</div>
+            <div class$="[[questionObj.ball]]">[[questionObj.id]]</div>
             <h3>Question</h3>
-            <pre>
-          <p>[[item.question]]</p>
-        </pre>
+            <span class="question">[[questionObj.question]]</span>
+            <template is="dom-if" if="[[currentQuestion.choose]]">
+              <span class="question choose">[[questionObj.choose]]</span>
+            </template>
 
             <div class="answer">
 
-              <template is="dom-if" if="[[item.isRadioButton]]">
-                <paper-radio-group selected="{{item.answers}}">
-                  <paper-radio-button name="true" disabled>True</paper-radio-button>
-                  <paper-radio-button name="false" disabled>False</paper-radio-button>
+              <template is="dom-if" if="[[questionObj.isRadioButton]]">
+                <paper-radio-group selected="{{questionObj.userAnswer}}">
+
+                  <template is="dom-repeat" items="[[questionObj.answers]]" as="a">
+                    <paper-radio-button name="[[a.ca]]" disabled>[[a.answer]]</paper-radio-button>
+                  </template>
                 </paper-radio-group>
+
               </template>
 
-              <template is="dom-if" if="[[!item.isRadioButton]]">
+              <template is="dom-if" if="[[!questionObj.isRadioButton]]">
 
-                <template is="dom-repeat" items="[[item.answers]]" as="a">
+                <template is="dom-repeat" items="[[questionObj.answers]]" as="a">
                   <div style="text-align: justify; padding: 10px 10px 10px 0;">
                     <paper-checkbox name="[[a.answer]]" checked$="[[a.checked]]" disabled="true">[[a.answer]]</paper-checkbox>
                   </div>
                 </template>
               </template>
               <p>
-                Answer: [[item.answer]]
+                Answer: [[questionObj.answer]]
               </p>
 
-              <template is='dom-if' if="[[item.moreInformationLinks]]">
+              <template is='dom-if' if="[[questionObj.moreInformationLinks]]">
                 <h2>More information At:</h2>
-                <template is="dom-repeat" items="[[item.moreInformationLinks]]" as="link">
+                <template is="dom-repeat" items="[[questionObj.moreInformationLinks]]" as="link">
                   <a href="[[link.link]]" target="_blank">
                     <paper-button raised>[[link.label]]</paper-button>
                   </a>
@@ -272,7 +298,36 @@
           document.body.addEventListener('keyup', this.arrows.bind(this));
           this.currentQuestionIndex = 0;
           this.questions = e.detail.response;
+          /*.map(q => {
 
+                      if (q.isRadioButton) {
+                        q.isTrueFalseQuestion = true;
+                        q.answers = [{
+                          answer: 'True'
+                        }, {
+                          answer: 'False'
+                        }];
+                        q.userAnswer = "";
+                      } else {
+                        const sizeOfAnswer = _this._splitAnswers(q.answer).length;
+                        switch (sizeOfAnswer) {
+                          case 1:
+                            q.choose = "Choose one answer.";
+                            q.isRadioButton = true;
+                            break;
+                          case 2:
+                            q.choose = "Choose two answers.";
+                            break;
+                          case 3:
+                            q.choose = "Choose three answers.";
+                            break;
+                        }
+                      }
+
+                      return q;
+                    });
+                    this._downloadJson(this.questions);
+                    return;*/
           this.questions = this.shuffle(this.questions);
           this.questions = this.questions.slice(0, NUMBER_OF_QUESTIONS);
           this.questions = this.questions.map(q => {
@@ -290,7 +345,9 @@
                 q.answers[q.answers.length - 1] = q.answers[indexOfAllAbove];
                 q.answers[indexOfAllAbove] = lastA;
               }
+
               for (let i = 0; i < q.answers.length; i++) {
+                if (q.isTrueFalseQuestion) break;
                 q.answers[i].answer = _this._getLetter(i) + " " + q.answers[i].answer;
               }
             }
@@ -370,10 +427,16 @@
         _isRightQuestion: function (question) {
           if (!question.answers) return WRONG;
           if (question.isRadioButton) {
-            question.isRight = (question.answer.startsWith('False') && question.answers.toLowerCase() === 'false') ||
-              (question.answer.startsWith('True') && question.answers.toLowerCase() === 'true');
+            if (question.isTrueFalseQuestion) {
+              question.isRight = (question.answer.startsWith('False') && question.userAnswer.toLowerCase() === 'false') ||
+                (question.answer.startsWith('True') && question.userAnswer.toLowerCase() === 'true');
 
-            return question.isRight ? RIGHT : WRONG;
+              return question.isRight ? RIGHT : WRONG;
+            } else {
+              question.userAnswer && console.log(question.answer.slice(0, 2), question.userAnswer.slice(0, 2));
+              question.isRight = (question.userAnswer && question.answer.slice(0, 2) === question.userAnswer.slice(0, 2));
+              return question.isRight ? RIGHT : WRONG;
+            }
           } else {
             let spplitedCorrectAnswer = this._splitAnswers(question.answer).map(a => a.slice(0, 2)),
               userAnwers = question.answers.filter(a => a.checked).map(a => a.ca);
@@ -466,6 +529,7 @@
           dlAnchorElem.setAttribute("download", "question.json");
           dlAnchorElem.click();
         },
+
         _handleTouchStart: function (evt) {
           xDown = evt.touches[0].clientX;
           yDown = evt.touches[0].clientY;
