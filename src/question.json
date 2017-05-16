@@ -608,7 +608,7 @@
     "answer": "B. From the Elements tab, drag Object onto the canvas.",
     "id": 26,
     "answers": [{
-        "answer": "From the Objects tab, select New&gt;Object.",
+        "answer": "From the Objects tab, select New Object.",
         "checked": false,
         "ca": "A."
     }, {
@@ -627,7 +627,7 @@
     "answer": "C. From the Elements tab, drag a field type onto the canvas.",
     "id": 27,
     "answers": [{
-        "answer": "From the Objects tab, select New &gt; Field.",
+        "answer": "From the Objects tab, select New Field.",
         "checked": false,
         "ca": "A."
     }, {
@@ -666,7 +666,7 @@
     "isRadioButton": true
 }, {
     "question": "What is true about a master detail relationship?",
-    "answer": "A. You can't convert it if there is a roll-up summary field.B. Converting a look-up to master detail changes the OWD to Controlled by Parent.D. SF displays a waiting page after you request to change a master detail to a look-up or vice versa.",
+    "answer": "A. You can't convert it if there is a roll-up summary field.\nB. Converting a look-up to master detail changes the OWD to Controlled by Parent.\nD. SF displays a waiting page after you request to change a master detail to a look-up or vice versa.",
     "id": 29,
     "answers": [{
         "answer": "You can't convert it if there is a roll-up summary field.",
@@ -688,7 +688,7 @@
     "choose": "Choose three answers."
 }, {
     "question": "What happens when you convert a picklist to a multi-select picklist?",
-    "answer": "A. Values are retained.B. Values not in the picklist are deleted from existing records when the data type changes.",
+    "answer": "A. Values are retained.\nB. Values not in the picklist are deleted from existing records when the data type changes.",
     "id": 30,
     "answers": [{
         "answer": "Values are retained.",
@@ -766,7 +766,7 @@
     "userAnswer": ""
 }, {
     "question": "What is true about a master detail relationship?",
-    "answer": "A. To create multilevel master-detail relationships, you need the \"Customize Application\" user permission.B. Standard objects can't be on the detail side of a custom object in a master-detail relationship.D. You can create a relationship as a lookup and then convert it to master-detail if the lookup field in all records contains a value.",
+    "answer": "A. To create multilevel master-detail relationships, you need the \"Customize Application\" user permission.\nB. Standard objects can't be on the detail side of a custom object in a master-detail relationship.\nD. You can create a relationship as a lookup and then convert it to master-detail if the lookup field in all records contains a value.",
     "id": 35,
     "answers": [{
         "answer": "To create multilevel master-detail relationships, you need the \"Customize Application\" user permission.",
@@ -855,7 +855,7 @@
     "userAnswer": ""
 }, {
     "question": "What is true about external lookup relationship fields?",
-    "answer": "B. Cascade-delete isn't available for external object relationships.C. Only objects that have a custom field with the External ID and Unique attributes are available as parent objects in indirect lookup relationships.",
+    "answer": "B. Cascade-delete isn't available for external object relationships.\nC. Only objects that have a custom field with the External ID and Unique attributes are available as parent objects in indirect lookup relationships.",
     "id": 39,
     "answers": [{
         "answer": "Lookup filters are available for external lookup relationship fields.",
@@ -951,7 +951,7 @@
     "isRadioButton": true
 }, {
     "question": "What is true about Workflow rules?",
-    "answer": "A. Saving or creating records can trigger more than one rule.B. Workflow rules only trigger on converted leads if validation and triggers for lead convert are enabled in your organization.D. Workflow rules can't be triggered by campaign statistic fields, including individual campaign statistics and campaign hierarchy statistics.",
+    "answer": "A. Saving or creating records can trigger more than one rule.\nB. Workflow rules only trigger on converted leads if validation and triggers for lead convert are enabled in your organization.\nD. Workflow rules can't be triggered by campaign statistic fields, including individual campaign statistics and campaign hierarchy statistics.",
     "id": 44,
     "answers": [{
         "answer": "Saving or creating records can trigger more than one rule.",
@@ -996,7 +996,7 @@
     "isRadioButton": true
 }, {
     "question": "What is true about validation rules?",
-    "answer": "A. When one validation rule fails, Salesforce continues to check any additional validation rules on that field or any other field on the page and displays all appropriate error messages at once.C. Validation rules are only enforced during lead conversion if 'validation and triggers for lead conversion' are enabled in your organization.D. Salesforce runs validation rules before creating records submitted via Web-to-Lead and Web-to-Case, and only creates records that have valid values.",
+    "answer": "A. When one validation rule fails, Salesforce continues to check any additional validation rules on that field or any other field on the page and displays all appropriate error messages at once.\nC. Validation rules are only enforced during lead conversion if 'validation and triggers for lead conversion' are enabled in your organization.\nD. Salesforce runs validation rules before creating records submitted via Web-to-Lead and Web-to-Case, and only creates records that have valid values.",
     "id": 46,
     "answers": [{
         "answer": "When one validation rule fails, Salesforce continues to check any additional validation rules on that field or any other field on the page and displays all appropriate error messages at once.",
@@ -1018,7 +1018,7 @@
     "choose": "Choose three answers."
 }, {
     "question": "You should use a lookup filter if:",
-    "answer": "A. You want to improve user efficiency by limiting the number of available options in a lookup search dialog.C. You want to improve user efficiency by automating filters on lookup search dialogs that your users manually set.",
+    "answer": "A. You want to improve user efficiency by limiting the number of available options in a lookup search dialog.\nC. You want to improve user efficiency by automating filters on lookup search dialogs that your users manually set.",
     "moreInformationLinks": [{
         "label": "Considerations for Lookup Filters",
         "link": "https://help.salesforce.com/articleView?id=fields_lookup_filters_notes.htm&type=0&language=en_US"
@@ -1044,7 +1044,7 @@
     "choose": "Choose two answers."
 }, {
     "question": "You should use a Validation rule if:",
-    "answer": "B. You're close to the maximum number of lookup filters allowed.D. You must implement a complex business rule that requires you to use a formula. Formulas can reference fields that basic filter criteria can't reference, such as fields on the parent of the source object. Formulas can also use functions. For example, use ISNEW if the rule should only apply on record creation, or ISCHANGED if the rule should apply when a field changes.",
+    "answer": "B. You're close to the maximum number of lookup filters allowed.\nD. You must implement a complex business rule that requires you to use a formula. Formulas can reference fields that basic filter criteria can't reference, such as fields on the parent of the source object. Formulas can also use functions. For example, use ISNEW if the rule should only apply on record creation, or ISCHANGED if the rule should apply when a field changes.",
     "id": 48,
     "answers": [{
         "answer": "You want to improve user efficiency by limiting the number of available options in a lookup search dialog.",
@@ -1245,7 +1245,7 @@
     "isRadioButton": true
 }, {
     "question": "What is true about dashboard filters?",
-    "answer": "B. It's not possible to filter on bucket fields.C. Filters aren't applied when you schedule or email a dashboard.D. You can't filter data on a joined report in dashboard view or add a filter to a dashboard that only has joined reports.",
+    "answer": "B. It's not possible to filter on bucket fields.\nC. Filters aren't applied when you schedule or email a dashboard.\nD. You can't filter data on a joined report in dashboard view or add a filter to a dashboard that only has joined reports.",
     "id": 57,
     "answers": [{
         "answer": "Filters can be added to dashboards that contain Visualforce components.",
@@ -1358,7 +1358,7 @@
     "isRadioButton": true
 }, {
     "question": "What is true about change sets?",
-    "answer": "A. Change sets can only contain modifications you can make through the Setup menu.C. Change sets can only be sent between organizations that are affiliated with a production organization.",
+    "answer": "A. Change sets can only contain modifications you can make through the Setup menu.\nC. Change sets can only be sent between organizations that are affiliated with a production organization.",
     "id": 62,
     "answers": [{
         "answer": "Change sets can only contain modifications you can make through the Setup menu.",
@@ -1644,11 +1644,10 @@
         "checked": false,
         "ca": "D."
     }],
-
     "isRadioButton": true
 }, {
     "question": "Use the data import wizard when:",
-    "answer": "A.You need to load less than 50,000 records.B.The objects you need to import are supported by the wizard.D. You don't need the import process to be automated.",
+    "answer": "A.You need to load less than 50,000 records.\nB.The objects you need to import are supported by the wizard.\nD. You don't need the import process to be automated.",
     "id": 74,
     "answers": [{
         "answer": "ou need to load less than 50,000 records.",
@@ -1666,12 +1665,10 @@
         "answer": "You don't need the import process to be automated.",
         "checked": false,
         "ca": "D."
-    }],
-
-    "isRadioButton": true
+    }]
 }, {
     "question": "Use Data Loader when:",
-    "answer": "A. You need to load 50,000 to five million records. If you need to load more than 5 million records, we recommend you work with a Salesforce partner or visit the AppExchange for a suitable partner product.C. You need to load into an object that is not supported by the Data Import Wizard.D. You want to schedule regular data loads, such as nightly imports.",
+    "answer": "A. You need to load 50,000 to five million records. If you need to load more than 5 million records, we recommend you work with a Salesforce partner or visit the AppExchange for a suitable partner product.\nC. You need to load into an object that is not supported by the Data Import Wizard.\nD. You want to schedule regular data loads, such as nightly imports.",
     "moreInformationLinks": [{
         "label": "When to Use Data Loader",
         "link": "https://developer.salesforce.com/docs/atlas.en-us.dataLoader.meta/dataLoader/when_to_use_the_data_loader.htm"
@@ -1825,7 +1822,7 @@
     "userAnswer": ""
 }, {
     "question": "When do you need to refresh a sandbox?",
-    "answer": "B. When modification have been made to the production organization.D. When you are done making changes to it.",
+    "answer": "B. When modification have been made to the production organization.\nD. When you are done making changes to it.",
     "id": 82,
     "answers": [{
         "answer": "3 Hours before you need it.",
@@ -2100,7 +2097,7 @@
     "isRadioButton": true
 }, {
     "question": "What is true regarding person accounts in Salesforce?",
-    "answer": "A. Person accounts do not have a 'Parent Account' field.B. Person accounts do not have the Account Hierarchy feature.",
+    "answer": "A. Person accounts do not have a 'Parent Account' field.\nB. Person accounts do not have the Account Hierarchy feature.",
     "id": 94,
     "answers": [{
         "answer": "Person accounts do not have a 'Parent Account' field.",
@@ -2199,7 +2196,7 @@
     "isRadioButton": true
 }, {
     "question": "What is not a capability of the lead object?",
-    "answer": "A. Standard or Custom fields can be mapped to fields in the Account, Contact and Opportunity objects as part of lead conversion.D. Custom objects that have been related to a lead can be copied when a lead is converted to the account, contact or opporunity",
+    "answer": "A. Standard or Custom fields can be mapped to fields in the Account, Contact and Opportunity objects as part of lead conversion.\nD. Custom objects that have been related to a lead can be copied when a lead is converted to the account, contact or opporunity",
     "id": 98,
     "answers": [{
         "answer": "Standard or Custom fields can be mapped to fields in the Account, Contact and Opportunity objects as part of lead conversion.",

@@ -11,14 +11,13 @@
 <link rel="import" href="../bower_components/app-layout/app-header/app-header.html">
 <link rel="import" href="../bower_components/paper-progress/paper-progress.html">
 
-
-
 <dom-module id="app-builder-exam">
   <template>
     <style>
        :host {
         display: block;
         padding: 10px;
+        font-family: 'Roboto', 'Times New Roman', Times, serif;
       }
 
       .card {
@@ -50,7 +49,7 @@
       .question {
         color: black;
         font-size: 20px;
-        font-family: 'Roboto', 'Times New Roman', Times, serif;
+
         margin: 0;
         white-space: pre-wrap;
         word-wrap: break-word;
@@ -123,6 +122,16 @@
       .choose {
         font-size: 17px;
       }
+
+      .ca {
+        font-size: 17px;
+        display: block;
+        color: black;
+      }
+
+      .ca .title {
+        margin-top: 10px;
+      }
     </style>
 
     <iron-ajax auto url="question.json" handle-as="json" on-response="handleResponse"></iron-ajax>
@@ -148,9 +157,9 @@
       <div class="answer">
 
         <template is="dom-if" if="[[currentQuestion.isRadioButton]]">
-          <paper-radio-group selected="{{currentQuestion.userAnswer}}" allow-empty-selection>
+          <paper-radio-group allow-empty-selection>
             <template is="dom-repeat" items="[[currentQuestion.answers]]" as="a">
-              <paper-radio-button name="[[a.ca]]">[[a.answer]]</paper-radio-button>
+              <paper-radio-button name="[[a.ca]]" on-keydown="onRadioKeyDown" checked="{{a.checked}}">[[a.answer]]</paper-radio-button>
             </template>
           </paper-radio-group>
         </template>
@@ -199,10 +208,10 @@
             <div class="answer">
 
               <template is="dom-if" if="[[questionObj.isRadioButton]]">
-                <paper-radio-group selected="{{questionObj.userAnswer}}">
 
+                <paper-radio-group allow-empty-selection>
                   <template is="dom-repeat" items="[[questionObj.answers]]" as="a">
-                    <paper-radio-button name="[[a.ca]]" disabled>[[a.answer]]</paper-radio-button>
+                    <paper-radio-button name="[[a.ca]]" checked="[[a.checked]]" disabled>[[a.answer]]</paper-radio-button>
                   </template>
                 </paper-radio-group>
 
@@ -216,9 +225,14 @@
                   </div>
                 </template>
               </template>
-              <p>
-                Answer: [[questionObj.answer]]
-              </p>
+              <span class="ca title">
+                Correct Answer
+              </span>
+              <template is="dom-repeat" items="[[questionObj.answer]]" as="ca">
+                <span class="ca">[[ca]]<span>
+              </template>
+
+
 
               <template is='dom-if' if="[[questionObj.moreInformationLinks]]">
                 <h2>More information At:</h2>
@@ -244,7 +258,7 @@
 
       const WRONG = 'wrong',
         RIGHT = 'right',
-        NUMBER_OF_QUESTIONS = parseInt(prompt('Please, insert the number(10 - 110) of questions?', '40')) || 40;
+        NUMBER_OF_QUESTIONS = parseInt(prompt('Please, insert the number(1 - 110) of questions?', '40')) || 40;
       let xDown = null,
         yDown = null;
       Polymer({
@@ -262,7 +276,10 @@
             type: Array,
             notify: true
           },
-          progress: Boolean,
+          progress: {
+            type:Boolean,
+            value: true
+          },
           currentQuestion: Object,
           currentQuestionIndex: Number,
           totalQuestions: Number,
@@ -271,11 +288,8 @@
           isSubmited: Boolean
         },
 
-        ready: function () {
-          this.progress = true;
-        },
-
         arrows: function (e) {
+          e.stopPropagation();
           switch (e.which) {
             case 37: // left
               this.back();
@@ -288,71 +302,20 @@
           }
         },
 
+        onRadioKeyDown: function(e) {
+          if ([37, 39].indexOf(e.which) !== -1) {
+            e.stopPropagation();
+            return false;
+          }
+        },
+
         handleResponse: function (e) {
-          const _this = this;
           this._handleTimer.bind(this)();
-
-          document.addEventListener('touchstart', this._handleTouchStart.bind(this), false);
-          document.addEventListener('touchmove', this._handleTouchMove.bind(this), false);
+          this._initializeEvent.bind(this)();
           this.isSubmited = false;
-          document.body.addEventListener('keyup', this.arrows.bind(this));
           this.currentQuestionIndex = 0;
-          this.questions = e.detail.response;
-          /*.map(q => {
-
-                      if (q.isRadioButton) {
-                        q.isTrueFalseQuestion = true;
-                        q.answers = [{
-                          answer: 'True'
-                        }, {
-                          answer: 'False'
-                        }];
-                        q.userAnswer = "";
-                      } else {
-                        const sizeOfAnswer = _this._splitAnswers(q.answer).length;
-                        switch (sizeOfAnswer) {
-                          case 1:
-                            q.choose = "Choose one answer.";
-                            q.isRadioButton = true;
-                            break;
-                          case 2:
-                            q.choose = "Choose two answers.";
-                            break;
-                          case 3:
-                            q.choose = "Choose three answers.";
-                            break;
-                        }
-                      }
-
-                      return q;
-                    });
-                    this._downloadJson(this.questions);
-                    return;*/
-          this.questions = this.shuffle(this.questions);
-          this.questions = this.questions.slice(0, NUMBER_OF_QUESTIONS);
-          this.questions = this.questions.map(q => {
-            if (q.answers) {
-              q.answers = q.answers ? _this.shuffle(q.answers) : q.answers;
-              let indexOfAllAbove = -1;
-              for (let i = 0; i < q.answers.length; i++) {
-                if (q.answers[i].answer === 'All of the above') {
-                  indexOfAllAbove = i;
-                  break;
-                }
-              }
-              if (indexOfAllAbove >= 0 && indexOfAllAbove !== (q.answers.length - 1)) {
-                let lastA = q.answers[q.answers.length - 1];
-                q.answers[q.answers.length - 1] = q.answers[indexOfAllAbove];
-                q.answers[indexOfAllAbove] = lastA;
-              }
-
-              for (let i = 0; i < q.answers.length; i++) {
-                if (q.isTrueFalseQuestion) break;
-                q.answers[i].answer = _this._getLetter(i) + " " + q.answers[i].answer;
-              }
-            }
-            return q;
-          });
+          // suffle and slice questions
+          this.questions = this._prepareQuestions.bind(this)(e.detail.response);
           this.canBack = true;
           this.totalQuestions = this.questions.length;
           this.currentQuestion = this.questions[0];
@@ -387,14 +350,17 @@
           questionsAux = questionsAux.map(obj => {
             obj.ball = 'circle ' + _this._isRightQuestion.bind(_this)(obj);
             obj.isRight && counter++;
-            if (obj.answers) {
+            if (!obj.isTrueFalseQuestion) {
               let answer = obj.answer;
               for (let i = 0; i < obj.answers.length; i++) {
                 if (obj.answer.indexOf(obj.answers[i].ca) >= 0) {
-                  answer = answer.replace(obj.answers[i].ca, obj.answers[i].answer.slice(0, 2));
+                  answer = answer.replace(obj.answers[i].ca, ";" + obj.answers[i].answer.slice(0, 2));
                 }
               }
+              answer = answer.replace(';','').split(';').sort();
               obj.answer = answer;
+            } else {
+              obj.answer = [obj.answer];
             }
             return obj;
           });
@@ -404,7 +370,7 @@
           this.progress = false;
         },
 
-        shuffle: function (array) {
+        _shuffle: function (array) {
           var currentIndex = array.length,
             temporaryValue, randomIndex;
 
@@ -424,17 +390,32 @@
           return array;
         },
 
+        _prepareQuestions: function (questions) {
+          const _this = this;
+          questions = _this._shuffle(questions);
+          questions = questions.slice(0, NUMBER_OF_QUESTIONS);
+          return questions.map(_this._shuffleAnswers.bind(_this))
+        },
+
+        _initializeEvent: function () {
+          document.addEventListener('touchstart', this._handleTouchStart.bind(this), false);
+          document.addEventListener('touchmove', this._handleTouchMove.bind(this), false);
+          document.body.addEventListener('keyup', this.arrows.bind(this));
+        },
+
         _isRightQuestion: function (question) {
           if (!question.answers) return WRONG;
           if (question.isRadioButton) {
+              var userAnswer = question.answers.filter(a => a.checked);
+              if (userAnswer.length < 1) return WRONG;
+              userAnswer = userAnswer[0];
             if (question.isTrueFalseQuestion) {
-              question.isRight = (question.answer.startsWith('False') && question.userAnswer.toLowerCase() === 'false') ||
-                (question.answer.startsWith('True') && question.userAnswer.toLowerCase() === 'true');
+              question.isRight = (question.answer.startsWith('False') && userAnswer.ca === 'False') ||
+                (question.answer.startsWith('True') && userAnswer.ca === 'True');
 
               return question.isRight ? RIGHT : WRONG;
             } else {
-              question.userAnswer && console.log(question.answer.slice(0, 2), question.userAnswer.slice(0, 2));
-              question.isRight = (question.userAnswer && question.answer.slice(0, 2) === question.userAnswer.slice(0, 2));
+              question.isRight = (question.answer.slice(0, 2) === userAnswer.ca);
               return question.isRight ? RIGHT : WRONG;
             }
           } else {
@@ -471,6 +452,30 @@
             case 5:
               return 'F.';
           }
+        },
+
+        _shuffleAnswers: function (q) {
+          if (q.answers) {
+            q.answers = (q.answers && !q.isTrueFalseQuestion) ? this._shuffle(q.answers) : q.answers;
+            let indexOfAllAbove = -1;
+            for (let i = 0; i < q.answers.length; i++) {
+              if (q.answers[i].answer === 'All of the above') {
+                indexOfAllAbove = i;
+                break;
+              }
+            }
+            if (indexOfAllAbove >= 0 && indexOfAllAbove !== (q.answers.length - 1)) {
+              let lastA = q.answers[q.answers.length - 1];
+              q.answers[q.answers.length - 1] = q.answers[indexOfAllAbove];
+              q.answers[indexOfAllAbove] = lastA;
+            }
+
+            for (let i = 0; i < q.answers.length; i++) {
+              if (q.isTrueFalseQuestion) break;
+              q.answers[i].answer = this._getLetter(i) + " " + q.answers[i].answer;
+            }
+          }
+          return q;
         },
 
         _handleTimer: function () {
