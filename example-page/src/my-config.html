@@ -1,0 +1,70 @@
+<!--
+@license
+Copyright (c) 2016 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/paper-input/paper-input.html">
+<link rel="import" href="../bower_components/paper-button/paper-button.html">
+<link rel="import" href="../bower_components/iron-form/iron-form.html">
+<link rel="import" href="../bower_components/paper-toast/paper-toast.html">
+
+
+<link rel="import" href="shared-styles.html">
+
+<dom-module id="my-config">
+  <template>
+    <style include="shared-styles">
+       :host {
+        display: block;
+        padding: 10px;
+      }
+
+      paper-toast {
+        color: white;
+        z-index: 999999;
+        text-align: center;
+      }
+    </style>
+
+
+    <paper-toast id="submitted" class="fit-bottom" text="Config submited"></paper-toast>
+    <div class="card">
+      <h1>Config</h1>
+      <form id="config" is="iron-form">
+        <paper-input label="Number os questions" name="numberOfQuestions" type="number" min="5" max="200"></paper-input>
+        <paper-button on-click="submitConfig" raised>Submit</paper-button>
+      </form>
+
+    </div>
+  </template>
+
+  <script>
+    Polymer({
+      is: 'my-config',
+      ready: function () {
+        this.submitConfig.bind(this);
+        let form = this.$.config,
+          toast = this.$.submitted;
+        form.addEventListener('iron-form-presubmit', function () {
+          let config = form.serialize(),
+            keys = Object.keys(config);
+
+          for (var i = 0; i < keys.length; i++) {
+            localStorage.setItem(keys[i], config[keys[i]]);
+          }
+          form.reset();
+          toast.open();
+        });
+      },
+      submitConfig: function (e) {
+        this.$.config.submit();
+      }
+    });
+  </script>
+</dom-module>

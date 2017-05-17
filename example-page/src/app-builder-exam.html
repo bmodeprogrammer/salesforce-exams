@@ -3,7 +3,6 @@
 <link rel="import" href="../bower_components/paper-checkbox/paper-checkbox.html">
 <link rel="import" href="../bower_components/iron-icons/iron-icons.html">
 <link rel="import" href="../bower_components/paper-icon-button/paper-icon-button.html">
-<link rel="import" href="../bower_components/paper-input/paper-textarea.html">
 <link rel="import" href="../bower_components/paper-button/paper-button.html">
 <link rel="import" href="../bower_components/paper-radio-button/paper-radio-button.html">
 <link rel="import" href="../bower_components/paper-radio-group/paper-radio-group.html">
@@ -49,7 +48,7 @@
       .question {
         color: black;
         font-size: 20px;
-
+        display: block;
         margin: 0;
         white-space: pre-wrap;
         word-wrap: break-word;
@@ -85,31 +84,6 @@
         margin-top: 10px;
       }
 
-      app-header {
-        @apply --layout-fixed-top;
-        color: #fff;
-        --app-header-background-rear-layer: {
-          background-color: #ef6c00;
-        }
-        ;
-      }
-
-      paper-progress {
-        display: block;
-        width: 100%;
-        --paper-progress-active-color: rgba(255, 255, 255, 0.5);
-        --paper-progress-container-color: transparent;
-      }
-
-      app-toolbar {
-        background-color: #4285f4;
-        color: #fff;
-      }
-
-      .submitted {
-        padding-top: 64px;
-      }
-
       a {
         text-decoration: none;
         color: black;
@@ -137,13 +111,6 @@
     <iron-ajax auto url="[[url]]" handle-as="json" on-response="handleResponse"></iron-ajax>
 
     <div class="card submitted" hidden$="[[isSubmited]]">
-      <app-header fixed>
-        <app-toolbar>
-          <div main-title>Time: [[timer]]</div>
-          <paper-icon-button icon="refresh" onclick="location.reload();"></paper-icon-button>
-          <paper-progress value="10" indeterminate bottom-item hidden$="[[!progress]]"></paper-progress>
-        </app-toolbar>
-      </app-header>
       <div class="circle">[[currentQuestion.id]]</div>
       <h3>Question</h3>
       <span class="question">[[currentQuestion.question]]</span>
@@ -186,13 +153,6 @@
     </div>
 
     <div hidden$="[[!isSubmited]]">
-      <app-header fixed>
-        <app-toolbar>
-          <div main-title>Percentage: [[rightPercentage]] Time: [[timer]]</div>
-          <paper-icon-button icon="refresh" onclick="location.reload();"></paper-icon-button>
-          <paper-progress id="submited" value="10" indeterminate bottom-item hidden$="[[!progress]]"></paper-progress>
-        </app-toolbar>
-      </app-header>
       <div class="submitted">
 
         <template is='dom-repeat' items="{{questionsSubmited}}" as="questionObj">
@@ -257,8 +217,7 @@
       "use strict";
 
       const WRONG = 'wrong',
-        RIGHT = 'right',
-        NUMBER_OF_QUESTIONS = parseInt(prompt('Please, insert the number(1 - 110) of questions?', '40')) || 40;
+        RIGHT = 'right';
       let xDown = null,
         yDown = null;
       Polymer({
@@ -270,8 +229,6 @@
             type: Array,
             notify: true
           },
-          timer: String,
-          timerInterval: Number,
           rightPercentage: String,
           questionsSubmited: {
             type: Array,
@@ -287,6 +244,10 @@
           canNext: Boolean,
           canBack: Boolean,
           isSubmited: Boolean
+        },
+
+        ready: function() {
+          this.fire('loading-exam');
         },
 
         arrows: function (e) {
@@ -311,7 +272,7 @@
         },
 
         handleResponse: function (e) {
-          this._handleTimer.bind(this)();
+          this.fire('init-exam');
           this._initializeEvent.bind(this)();
           this.isSubmited = false;
           this.currentQuestionIndex = 0;
@@ -344,7 +305,7 @@
 
         submit: function () {
           this.progress = true;
-          clearInterval(this.timerInterval);
+          // clearInterval(this.timerInterval);
           let questionsAux = this.questions.slice(0);
           const _this = this;
           let counter = 0;
@@ -366,6 +327,7 @@
             return obj;
           });
           this.rightPercentage = ((counter / questionsAux.length) * 100).toFixed(2) + "%";
+          this.fire('submitted-exam', { rightPercentage: this.rightPercentage});
           this.questionsSubmited = questionsAux;
           this.isSubmited = true;
           this.progress = false;
@@ -394,7 +356,7 @@
         _prepareQuestions: function (questions) {
           const _this = this;
           questions = _this._shuffle(questions);
-          questions = questions.slice(0, NUMBER_OF_QUESTIONS);
+          questions = questions.slice(0, localStorage.getItem('numberOfQuestions') || 40);
           return questions.map(_this._shuffleAnswers.bind(_this))
         },
 
@@ -423,7 +385,7 @@
             let spplitedCorrectAnswer = this._splitAnswers(question.answer).map(a => a.slice(0, 2)),
               userAnwers = question.answers.filter(a => a.checked).map(a => a.ca);
 
-            if (spplitedCorrectAnswer.length !== userAnwers.length) {
+            if (spplitedCorrectAnswer.length !== userAnwers.length || userAnwers.length === 0) {
               question.isRight = false;
               return WRONG;
             }
@@ -457,7 +419,7 @@
 
         _shuffleAnswers: function (q) {
           if (q.answers) {
-            q.answers = (q.answers && !q.isTrueFalseQuestion) ? this._shuffle(q.answers) : q.answers;
+            q.answers = (q.answers && !q.isTrueFalseQuestion && !q.noShuffle) ? this._shuffle(q.answers) : q.answers;
             let indexOfAllAbove = -1;
             for (let i = 0; i < q.answers.length; i++) {
               if (q.answers[i].answer === 'All of the above') {
@@ -477,33 +439,6 @@
             }
           }
           return q;
-        },
-
-        _handleTimer: function () {
-          this.timer = '00:00:00';
-          let _this = this;
-          this.timerInterval = setInterval(() => {
-            let splitted = _this.timer.split(':');
-            let sec = parseInt(splitted[2]),
-              min = parseInt(splitted[1]),
-              hour = parseInt(splitted[0]);
-            if (sec === 60) {
-              sec = 0;
-              if (min === 60) {
-                min = 0;
-                hour++;
-              } else {
-                min++;
-              }
-            } else {
-              sec++;
-            }
-            sec = sec < 10 ? '0' + sec : sec + "";
-            min = min < 10 ? '0' + min : min + "";
-            hour = hour < 10 ? '0' + hour : hour + "";
-            _this.timer = hour + ":" + min + ":" + sec;
-          }, 1000);
-
         },
 
         _addOneValue: function (value) {
