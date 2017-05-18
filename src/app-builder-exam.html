@@ -3,13 +3,9 @@
 <link rel="import" href="../bower_components/paper-checkbox/paper-checkbox.html">
 <link rel="import" href="../bower_components/iron-icons/iron-icons.html">
 <link rel="import" href="../bower_components/paper-icon-button/paper-icon-button.html">
-<link rel="import" href="../bower_components/paper-input/paper-textarea.html">
 <link rel="import" href="../bower_components/paper-button/paper-button.html">
 <link rel="import" href="../bower_components/paper-radio-button/paper-radio-button.html">
 <link rel="import" href="../bower_components/paper-radio-group/paper-radio-group.html">
-<link rel="import" href="../bower_components/app-layout/app-toolbar/app-toolbar.html">
-<link rel="import" href="../bower_components/app-layout/app-header/app-header.html">
-<link rel="import" href="../bower_components/paper-progress/paper-progress.html">
 
 <dom-module id="app-builder-exam">
   <template>
@@ -44,12 +40,13 @@
       paper-checkbox {
         display: block;
         margin-top: 5px;
+        max-width: 100%;
       }
 
       .question {
         color: black;
         font-size: 20px;
-
+        display: block;
         margin: 0;
         white-space: pre-wrap;
         word-wrap: break-word;
@@ -85,31 +82,6 @@
         margin-top: 10px;
       }
 
-      app-header {
-        @apply --layout-fixed-top;
-        color: #fff;
-        --app-header-background-rear-layer: {
-          background-color: #ef6c00;
-        }
-        ;
-      }
-
-      paper-progress {
-        display: block;
-        width: 100%;
-        --paper-progress-active-color: rgba(255, 255, 255, 0.5);
-        --paper-progress-container-color: transparent;
-      }
-
-      app-toolbar {
-        background-color: #4285f4;
-        color: #fff;
-      }
-
-      .submitted {
-        padding-top: 64px;
-      }
-
       a {
         text-decoration: none;
         color: black;
@@ -117,6 +89,7 @@
 
       paper-radio-button {
         display: block;
+        max-width: 100%;
       }
 
       .choose {
@@ -132,21 +105,33 @@
       .ca .title {
         margin-top: 10px;
       }
+
+      .imgContainer {
+        overflow-x: auto;
+        max-width: 100%;
+      }
+
+      .p-answers {
+        max-width: 100%;
+        word-break: break-all;
+        color: black;
+        text-align: justify;
+      }
     </style>
 
     <iron-ajax auto url="[[url]]" handle-as="json" on-response="handleResponse"></iron-ajax>
 
     <div class="card submitted" hidden$="[[isSubmited]]">
-      <app-header fixed>
-        <app-toolbar>
-          <div main-title>Time: [[timer]]</div>
-          <paper-icon-button icon="refresh" onclick="location.reload();"></paper-icon-button>
-          <paper-progress value="10" indeterminate bottom-item hidden$="[[!progress]]"></paper-progress>
-        </app-toolbar>
-      </app-header>
       <div class="circle">[[currentQuestion.id]]</div>
       <h3>Question</h3>
       <span class="question">[[currentQuestion.question]]</span>
+
+      <template is="dom-if" if="[[currentQuestion.imageUrl]]">
+        <div class="imgContainer">
+          <img id="imageQuestion" src="images/[[currentQuestion.imageUrl]]" />
+        </div>
+      </template>
+
       <template is="dom-if" if="[[currentQuestion.choose]]">
         <br>
         <span class="question choose">[[currentQuestion.choose]]</span>
@@ -159,7 +144,7 @@
         <template is="dom-if" if="[[currentQuestion.isRadioButton]]">
           <paper-radio-group allow-empty-selection>
             <template is="dom-repeat" items="[[currentQuestion.answers]]" as="a">
-              <paper-radio-button name="[[a.ca]]" on-keydown="onRadioKeyDown" checked="{{a.checked}}">[[a.answer]]</paper-radio-button>
+              <paper-radio-button name="[[a.ca]]" on-keydown="onRadioKeyDown" checked="{{a.checked}}"><span class="p-answers">[[a.answer]]</span></paper-radio-button>
             </template>
           </paper-radio-group>
         </template>
@@ -167,7 +152,7 @@
         <template is="dom-if" if="[[!currentQuestion.isRadioButton]]">
           <template is="dom-repeat" items="[[currentQuestion.answers]]">
             <div style="text-align: justify; padding: 10px 10px 10px 0;">
-              <paper-checkbox name="[[item.answer]]" checked="{{item.checked}}">[[item.answer]]</paper-checkbox>
+              <paper-checkbox name="[[item.answer]]" checked="{{item.checked}}"><span class="p-answers">[[item.answer]]</span></paper-checkbox>
             </div>
           </template>
         </template>
@@ -186,13 +171,6 @@
     </div>
 
     <div hidden$="[[!isSubmited]]">
-      <app-header fixed>
-        <app-toolbar>
-          <div main-title>Percentage: [[rightPercentage]] Time: [[timer]]</div>
-          <paper-icon-button icon="refresh" onclick="location.reload();"></paper-icon-button>
-          <paper-progress id="submited" value="10" indeterminate bottom-item hidden$="[[!progress]]"></paper-progress>
-        </app-toolbar>
-      </app-header>
       <div class="submitted">
 
         <template is='dom-repeat' items="{{questionsSubmited}}" as="questionObj">
@@ -201,6 +179,11 @@
             <div class$="[[questionObj.ball]]">[[questionObj.id]]</div>
             <h3>Question</h3>
             <span class="question">[[questionObj.question]]</span>
+            <template is="dom-if" if="[[questionObj.imageUrl]]">
+              <div class="imgContainer">
+                <img src="images/[[questionObj.imageUrl]]" />
+              </div>
+            </template>
             <template is="dom-if" if="[[currentQuestion.choose]]">
               <span class="question choose">[[questionObj.choose]]</span>
             </template>
@@ -257,8 +240,7 @@
       "use strict";
 
       const WRONG = 'wrong',
-        RIGHT = 'right',
-        NUMBER_OF_QUESTIONS = parseInt(prompt('Please, insert the number(1 - 110) of questions?', '40')) || 40;
+        RIGHT = 'right';
       let xDown = null,
         yDown = null;
       Polymer({
@@ -270,8 +252,6 @@
             type: Array,
             notify: true
           },
-          timer: String,
-          timerInterval: Number,
           rightPercentage: String,
           questionsSubmited: {
             type: Array,
@@ -289,7 +269,16 @@
           isSubmited: Boolean
         },
 
+        ready: function() {
+          this.fire('loading-exam');
+        },
+
+        detached: function() {
+          this._removeEvents();
+        },
+
         arrows: function (e) {
+          console.log("cenas");
           e.stopPropagation();
           switch (e.which) {
             case 37: // left
@@ -311,8 +300,7 @@
         },
 
         handleResponse: function (e) {
-          this._handleTimer.bind(this)();
-          this._initializeEvent.bind(this)();
+          this.fire('init-exam');
           this.isSubmited = false;
           this.currentQuestionIndex = 0;
           // suffle and slice questions
@@ -320,8 +308,15 @@
           this.canBack = true;
           this.totalQuestions = this.questions.length;
           this.currentQuestion = this.questions[0];
+          this._imageTouch.bind(this)();          
           this.canNext = this.questions.length < 1;
           this.progress = false;
+          this._initializeEvent = this._initializeEvent.bind(this);
+          this._removeEvents = this._removeEvents.bind(this);
+          this._handleTouchStart = this._handleTouchStart.bind(this);
+          this._handleTouchMove = this._handleTouchMove.bind(this);
+          this.arrows = this.arrows.bind(this);
+          this._initializeEvent();          
         },
 
         next: function () {
@@ -330,6 +325,7 @@
             this.currentQuestion = this.questions[this.currentQuestionIndex];
             this.canNext = (this.currentQuestionIndex + 1) === this.questions.length;
             this.canBack = this.currentQuestionIndex < 1;
+            this._imageTouch.bind(this)();
           }
         },
 
@@ -343,8 +339,8 @@
         },
 
         submit: function () {
+          this._removeEvents();
           this.progress = true;
-          clearInterval(this.timerInterval);
           let questionsAux = this.questions.slice(0);
           const _this = this;
           let counter = 0;
@@ -366,9 +362,17 @@
             return obj;
           });
           this.rightPercentage = ((counter / questionsAux.length) * 100).toFixed(2) + "%";
+          this.fire('submitted-exam', { rightPercentage: this.rightPercentage});
           this.questionsSubmited = questionsAux;
           this.isSubmited = true;
           this.progress = false;
+        },
+
+        _imageTouch: function() {
+          this.currentQuestion.imageUrl && this.async(function(){
+              this.$$('#imageQuestion').addEventListener('touchstart', e => e.stopPropagation());
+              this.$$('#imageQuestion').addEventListener('touchmove', e => e.stopPropagation());
+            });
         },
 
         _shuffle: function (array) {
@@ -394,14 +398,22 @@
         _prepareQuestions: function (questions) {
           const _this = this;
           questions = _this._shuffle(questions);
-          questions = questions.slice(0, NUMBER_OF_QUESTIONS);
+          questions = questions.slice(0, localStorage.getItem('numberOfQuestions') || 40);
           return questions.map(_this._shuffleAnswers.bind(_this))
         },
 
         _initializeEvent: function () {
-          document.addEventListener('touchstart', this._handleTouchStart.bind(this), false);
-          document.addEventListener('touchmove', this._handleTouchMove.bind(this), false);
-          document.body.addEventListener('keyup', this.arrows.bind(this));
+          xDown = null;
+          yDown = null;
+          document.body.addEventListener('touchstart', this._handleTouchStart, true);
+          document.body.addEventListener('touchmove', this._handleTouchMove, true);
+          document.body.addEventListener('keyup', this.arrows, true);
+        },
+
+        _removeEvents: function() {
+          document.body.removeEventListener('touchstart', this._handleTouchStart, true);
+          document.body.removeEventListener('touchmove', this._handleTouchMove, true);
+          document.body.removeEventListener('keyup', this.arrows, true);
         },
 
         _isRightQuestion: function (question) {
@@ -423,12 +435,12 @@
             let spplitedCorrectAnswer = this._splitAnswers(question.answer).map(a => a.slice(0, 2)),
               userAnwers = question.answers.filter(a => a.checked).map(a => a.ca);
 
-            if (spplitedCorrectAnswer.length !== userAnwers.length) {
+            if (spplitedCorrectAnswer.length !== userAnwers.length || userAnwers.length === 0) {
               question.isRight = false;
               return WRONG;
             }
 
-            for (let i = 0; i < spplitedCorrectAnswer.length; i++)
+            for (let i = 0; i < spplitedCorrectAnswer.length; i++) 
               if (userAnwers.indexOf(spplitedCorrectAnswer[i]) === -1) {
                 question.isRight = false;
                 return WRONG;
@@ -457,7 +469,7 @@
 
         _shuffleAnswers: function (q) {
           if (q.answers) {
-            q.answers = (q.answers && !q.isTrueFalseQuestion) ? this._shuffle(q.answers) : q.answers;
+            q.answers = (q.answers && !q.isTrueFalseQuestion && !q.noShuffle) ? this._shuffle(q.answers) : q.answers;
             let indexOfAllAbove = -1;
             for (let i = 0; i < q.answers.length; i++) {
               if (q.answers[i].answer === 'All of the above') {
@@ -477,33 +489,6 @@
             }
           }
           return q;
-        },
-
-        _handleTimer: function () {
-          this.timer = '00:00:00';
-          let _this = this;
-          this.timerInterval = setInterval(() => {
-            let splitted = _this.timer.split(':');
-            let sec = parseInt(splitted[2]),
-              min = parseInt(splitted[1]),
-              hour = parseInt(splitted[0]);
-            if (sec === 60) {
-              sec = 0;
-              if (min === 60) {
-                min = 0;
-                hour++;
-              } else {
-                min++;
-              }
-            } else {
-              sec++;
-            }
-            sec = sec < 10 ? '0' + sec : sec + "";
-            min = min < 10 ? '0' + min : min + "";
-            hour = hour < 10 ? '0' + hour : hour + "";
-            _this.timer = hour + ":" + min + ":" + sec;
-          }, 1000);
-
         },
 
         _addOneValue: function (value) {
