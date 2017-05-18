@@ -6,14 +6,16 @@
     "src/my-exams.html",
     "src/my-config.html",
     "src/my-view3.html",
-    "src/my-view404.html"
+    "src/my-view404.html",
+    "src/apps.html",
+    "src/app-builder-exam.html"
   ],
-  "sourceGlobs": [
+  "sources": [
     "src/**/*",
     "images/**/*",
     "bower.json"
   ],
-  "includeDependencies": [
+  "extraDependencies": [
     "manifest.json",
     "bower_components/webcomponentsjs/webcomponents-lite.min.js"
   ]

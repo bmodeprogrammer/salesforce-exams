@@ -6,9 +6,6 @@
 <link rel="import" href="../bower_components/paper-button/paper-button.html">
 <link rel="import" href="../bower_components/paper-radio-button/paper-radio-button.html">
 <link rel="import" href="../bower_components/paper-radio-group/paper-radio-group.html">
-<link rel="import" href="../bower_components/app-layout/app-toolbar/app-toolbar.html">
-<link rel="import" href="../bower_components/app-layout/app-header/app-header.html">
-<link rel="import" href="../bower_components/paper-progress/paper-progress.html">
 
 <dom-module id="app-builder-exam">
   <template>
@@ -43,6 +40,7 @@
       paper-checkbox {
         display: block;
         margin-top: 5px;
+        max-width: 100%;
       }
 
       .question {
@@ -91,6 +89,7 @@
 
       paper-radio-button {
         display: block;
+        max-width: 100%;
       }
 
       .choose {
@@ -106,6 +105,18 @@
       .ca .title {
         margin-top: 10px;
       }
+
+      .imgContainer {
+        overflow-x: auto;
+        max-width: 100%;
+      }
+
+      .p-answers {
+        max-width: 100%;
+        word-break: break-all;
+        color: black;
+        text-align: justify;
+      }
     </style>
 
     <iron-ajax auto url="[[url]]" handle-as="json" on-response="handleResponse"></iron-ajax>
@@ -114,6 +125,13 @@
       <div class="circle">[[currentQuestion.id]]</div>
       <h3>Question</h3>
       <span class="question">[[currentQuestion.question]]</span>
+
+      <template is="dom-if" if="[[currentQuestion.imageUrl]]">
+        <div class="imgContainer">
+          <img id="imageQuestion" src="images/[[currentQuestion.imageUrl]]" />
+        </div>
+      </template>
+
       <template is="dom-if" if="[[currentQuestion.choose]]">
         <br>
         <span class="question choose">[[currentQuestion.choose]]</span>
@@ -126,7 +144,7 @@
         <template is="dom-if" if="[[currentQuestion.isRadioButton]]">
           <paper-radio-group allow-empty-selection>
             <template is="dom-repeat" items="[[currentQuestion.answers]]" as="a">
-              <paper-radio-button name="[[a.ca]]" on-keydown="onRadioKeyDown" checked="{{a.checked}}">[[a.answer]]</paper-radio-button>
+              <paper-radio-button name="[[a.ca]]" on-keydown="onRadioKeyDown" checked="{{a.checked}}"><span class="p-answers">[[a.answer]]</span></paper-radio-button>
             </template>
           </paper-radio-group>
         </template>
@@ -134,7 +152,7 @@
         <template is="dom-if" if="[[!currentQuestion.isRadioButton]]">
           <template is="dom-repeat" items="[[currentQuestion.answers]]">
             <div style="text-align: justify; padding: 10px 10px 10px 0;">
-              <paper-checkbox name="[[item.answer]]" checked="{{item.checked}}">[[item.answer]]</paper-checkbox>
+              <paper-checkbox name="[[item.answer]]" checked="{{item.checked}}"><span class="p-answers">[[item.answer]]</span></paper-checkbox>
             </div>
           </template>
         </template>
@@ -161,6 +179,11 @@
             <div class$="[[questionObj.ball]]">[[questionObj.id]]</div>
             <h3>Question</h3>
             <span class="question">[[questionObj.question]]</span>
+            <template is="dom-if" if="[[questionObj.imageUrl]]">
+              <div class="imgContainer">
+                <img src="images/[[questionObj.imageUrl]]" />
+              </div>
+            </template>
             <template is="dom-if" if="[[currentQuestion.choose]]">
               <span class="question choose">[[questionObj.choose]]</span>
             </template>
@@ -250,7 +273,12 @@
           this.fire('loading-exam');
         },
 
+        detached: function() {
+          this._removeEvents();
+        },
+
         arrows: function (e) {
+          console.log("cenas");
           e.stopPropagation();
           switch (e.which) {
             case 37: // left
@@ -273,7 +301,6 @@
 
         handleResponse: function (e) {
           this.fire('init-exam');
-          this._initializeEvent.bind(this)();
           this.isSubmited = false;
           this.currentQuestionIndex = 0;
           // suffle and slice questions
@@ -281,8 +308,15 @@
           this.canBack = true;
           this.totalQuestions = this.questions.length;
           this.currentQuestion = this.questions[0];
+          this._imageTouch.bind(this)();          
           this.canNext = this.questions.length < 1;
           this.progress = false;
+          this._initializeEvent = this._initializeEvent.bind(this);
+          this._removeEvents = this._removeEvents.bind(this);
+          this._handleTouchStart = this._handleTouchStart.bind(this);
+          this._handleTouchMove = this._handleTouchMove.bind(this);
+          this.arrows = this.arrows.bind(this);
+          this._initializeEvent();          
         },
 
         next: function () {
@@ -291,6 +325,7 @@
             this.currentQuestion = this.questions[this.currentQuestionIndex];
             this.canNext = (this.currentQuestionIndex + 1) === this.questions.length;
             this.canBack = this.currentQuestionIndex < 1;
+            this._imageTouch.bind(this)();
           }
         },
 
@@ -304,8 +339,8 @@
         },
 
         submit: function () {
+          this._removeEvents();
           this.progress = true;
-          // clearInterval(this.timerInterval);
           let questionsAux = this.questions.slice(0);
           const _this = this;
           let counter = 0;
@@ -331,6 +366,13 @@
           this.questionsSubmited = questionsAux;
           this.isSubmited = true;
           this.progress = false;
+        },
+
+        _imageTouch: function() {
+          this.currentQuestion.imageUrl && this.async(function(){
+              this.$$('#imageQuestion').addEventListener('touchstart', e => e.stopPropagation());
+              this.$$('#imageQuestion').addEventListener('touchmove', e => e.stopPropagation());
+            });
         },
 
         _shuffle: function (array) {
@@ -361,9 +403,17 @@
         },
 
         _initializeEvent: function () {
-          document.addEventListener('touchstart', this._handleTouchStart.bind(this), false);
-          document.addEventListener('touchmove', this._handleTouchMove.bind(this), false);
-          document.body.addEventListener('keyup', this.arrows.bind(this));
+          xDown = null;
+          yDown = null;
+          document.body.addEventListener('touchstart', this._handleTouchStart, true);
+          document.body.addEventListener('touchmove', this._handleTouchMove, true);
+          document.body.addEventListener('keyup', this.arrows, true);
+        },
+
+        _removeEvents: function() {
+          document.body.removeEventListener('touchstart', this._handleTouchStart, true);
+          document.body.removeEventListener('touchmove', this._handleTouchMove, true);
+          document.body.removeEventListener('keyup', this.arrows, true);
         },
 
         _isRightQuestion: function (question) {
@@ -390,7 +440,7 @@
               return WRONG;
             }
 
-            for (let i = 0; i < spplitedCorrectAnswer.length; i++)
+            for (let i = 0; i < spplitedCorrectAnswer.length; i++) 
               if (userAnwers.indexOf(spplitedCorrectAnswer[i]) === -1) {
                 question.isRight = false;
                 return WRONG;

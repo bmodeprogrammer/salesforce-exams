@@ -45,7 +45,7 @@
     "choose": "Choose one answer.",
     "id": 2
 }, {
-    "question": "A developer uses a before insert trigger on the Lead object to fetch the Territory__c object, where the Territory__c.PostalCode__c matches the Lead.PostalCode. the code fails when the developer uses the Apex Data Loader to insert 10000 Lead records. The developer has the following code block: [IMAGEM]What is the line of code that is causing the code block to fail?",
+    "question": "A developer uses a before insert trigger on the Lead object to fetch the Territory__c object, where the Territory__c.PostalCode__c matches the Lead.PostalCode. the code fails when the developer uses the Apex Data Loader to insert 10000 Lead records. The developer has the following code block: What is the line of code that is causing the code block to fail?",
     "answers": [{
         "answer": "03: A SOQL query is located inside of the for loop code.",
         "checked": false,
@@ -110,7 +110,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "answer": "A. ,B. ",
+    "answer": "A. B. ",
     "choose": "Choose two answers.",
     "id": 5
 }, {
@@ -132,7 +132,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "answer": "A. ,B. ",
+    "answer": "A. B. ",
     "choose": "Choose two answers.",
     "id": 6
 }, {
@@ -154,7 +154,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "answer": "A. ,B. ",
+    "answer": "A. B. ",
     "choose": "Choose two answers.",
     "id": 7
 }, {
@@ -268,7 +268,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "answer": "A. ,D. ",
+    "answer": "A. D. ",
     "choose": "Choose two answers.",
     "id": 12
 }, {
@@ -313,7 +313,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "answer": "A. ,B. ",
+    "answer": "A. B. ",
     "choose": "Choose two answers.",
     "id": 14
 }, {
@@ -381,7 +381,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "answer": "A. ,C. ",
+    "answer": "A. C. ",
     "choose": "Choose two answers.",
     "id": 17
 }, {
@@ -407,7 +407,7 @@
         "checked": false,
         "ca": "E."
     }],
-    "answer": "A. ,B. ,E. ",
+    "answer": "A. B. E. ",
     "choose": "Choose three answers.",
     "id": 18
 }, {
@@ -498,7 +498,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "answer": "C.   ,D. ",
+    "answer": "C.   D. ",
     "choose": "Choose two answers.",
     "id": 22
 }, {
@@ -543,7 +543,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "answer": "B.  ,C. ",
+    "answer": "B.  C. ",
     "choose": "Choose two answers.",
     "id": 24
 }, {
@@ -588,7 +588,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "answer": "A. ,B. ",
+    "answer": "A. B. ",
     "choose": "Choose two answers.",
     "id": 26
 }, {
@@ -610,7 +610,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "answer": "A. ,B. ",
+    "answer": "A. B. ",
     "choose": "Choose two answers.",
     "id": 27
 }, {
@@ -701,7 +701,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "answer": "A. ,C. ",
+    "answer": "A. C. ",
     "choose": "Choose two answers.",
     "id": 31
 }, {
@@ -769,7 +769,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "answer": "C.   ,D. ",
+    "answer": "C.   D. ",
     "choose": "Choose two answers.",
     "id": 34
 }, {
@@ -791,7 +791,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "answer": "A. ,B. ",
+    "answer": "A. B. ",
     "choose": "Choose two answers.",
     "id": 35
 }, {
@@ -906,7 +906,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "answer": "A. ,C. ",
+    "answer": "A. C. ",
     "choose": "Choose two answers.",
     "id": 40
 }, {
@@ -974,7 +974,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "answer": "B.  ,C. ",
+    "answer": "B.  C. ",
     "choose": "Choose two answers.",
     "id": 43
 }, {
@@ -996,7 +996,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "answer": "B.  ,D. ",
+    "answer": "B.  D. ",
     "choose": "Choose two answers.",
     "id": 44
 }, {
@@ -1088,7 +1088,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "answer": "B.  ,D. ",
+    "answer": "B.  D. ",
     "choose": "Choose two answers.",
     "id": 48
 }, {
@@ -1135,7 +1135,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "answer": "A.  ,C. ",
+    "answer": "A.  C. ",
     "choose": "Choose two answers.",
     "id": 50
 }, {
@@ -1157,7 +1157,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "answer": "B.  ,C. ",
+    "answer": "B.  C. ",
     "choose": "Choose two answers.",
     "id": 51
 }, {
@@ -1226,7 +1226,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "answer": "A. ,D. ",
+    "answer": "A. D. ",
     "choose": "Choose two answers.",
     "id": 54
 }, {
@@ -1411,7 +1411,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "answer": "A. ,C. ",
+    "answer": "A. C. ",
     "choose": "Choose two answers.",
     "id": 62
 }, {
@@ -1433,7 +1433,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "answer": "C.   ,D. ",
+    "answer": "C.   D. ",
     "choose": "Choose two answers.",
     "id": 63
 }, {
@@ -1478,7 +1478,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "answer": "B.  ,D. ",
+    "answer": "B.  D. ",
     "choose": "Choose two answers.",
     "id": 65
 }, {
@@ -1510,11 +1510,28 @@
     "id": 66
 }, {
     "question": "What is an accurate constructor for a custom controller named \"MyController\"?",
-    "answers": [],
+    "answers": [{
+        "answer": "A",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "B",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "C",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "D",
+        "checked": false,
+        "ca": "D."
+    }],
     "answer": "A. ",
     "isRadioButton": true,
     "choose": "Choose one answer.",
     "imageUrl": "67.png",
+    "noShuffle": true,
     "id": 67
 }, {
     "question": "A company wants a recruiting app that models candidates and interviews; displays the total number of interviews each candidate record; and defines security on interview records that is independent from the security on candidate records.",
@@ -1535,7 +1552,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "answer": "C.   ,D. ",
+    "answer": "C.   D. ",
     "choose": "Choose two answers.",
     "id": 68
 }, {
@@ -1557,7 +1574,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "answer": "A. ,C. ",
+    "answer": "A. C. ",
     "choose": "Choose two answers.",
     "id": 69
 }, {
@@ -1608,7 +1625,7 @@
         "checked": false,
         "ca": "E."
     }],
-    "answer": "B.  ,C. ,D. ",
+    "answer": "B.  C. D. ",
     "choose": "Choose three answers.",
     "id": 71
 }, {
@@ -1630,7 +1647,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "answer": "C.   ,D. ",
+    "answer": "C.   D. ",
     "choose": "Choose two answers.",
     "id": 72
 }, {
@@ -1652,7 +1669,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "answer": "A. ,D. ",
+    "answer": "A. D. ",
     "choose": "Choose two answers.",
     "id": 73
 }, {
@@ -1699,7 +1716,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "answer": "A. ,C. ",
+    "answer": "A. C. ",
     "choose": "Choose two answers.",
     "id": 75
 }, {
@@ -1837,7 +1854,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "answer": "A. ,C. ",
+    "answer": "A. C. ",
     "choose": "Choose two answers.",
     "id": 81
 }, {
@@ -1928,11 +1945,11 @@
         "checked": false,
         "ca": "D."
     }],
-    "answer": "B.  ,C. ",
+    "answer": "B.  C. ",
     "choose": "Choose two answers.",
     "id": 85
 }, {
-    "question": "A developer has de following code, what message should be logged?[IMAGEM]",
+    "question": "A developer has de following code, what message should be logged?",
     "answers": [{
         "answer": "No message is logged",
         "checked": false,
@@ -1978,7 +1995,7 @@
         "checked": false,
         "ca": "E."
     }],
-    "answer": "A. ,B. ,C. ",
+    "answer": "A. B. C. ",
     "choose": "Choose three answers.",
     "id": 87
 }, {
@@ -2027,7 +2044,7 @@
         "checked": false,
         "ca": "E."
     }],
-    "answer": "A. ,B. ,C. ",
+    "answer": "A. B. C. ",
     "choose": "Choose three answers.",
     "id": 90
 }, {
@@ -2049,7 +2066,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "answer": "A. ,B. ",
+    "answer": "A. B. ",
     "choose": "Choose two answers.",
     "id": 91
 }, {
@@ -2144,7 +2161,7 @@
         "checked": false,
         "ca": "E."
     }],
-    "answer": "B.  ,C. ,E. ",
+    "answer": "B.  C. E. ",
     "choose": "Choose three answers.",
     "id": 95
 }, {
@@ -2212,7 +2229,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "answer": "B.  ,D. ",
+    "answer": "B.  D. ",
     "choose": "Choose two answers.",
     "id": 98
 }, {
@@ -2238,7 +2255,7 @@
         "checked": false,
         "ca": "E."
     }],
-    "answer": "B.  ,C. ,E. ",
+    "answer": "B.  C. E. ",
     "choose": "Choose three answers.",
     "id": 99
 }, {
@@ -2306,7 +2323,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "answer": "A. ,B. ",
+    "answer": "A. B. ",
     "choose": "Choose two answers.",
     "id": 102
 }, {
@@ -2374,7 +2391,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "answer": "A. ,C. ",
+    "answer": "A. C. ",
     "choose": "Choose two answers.",
     "id": 105
 }, {
@@ -2396,7 +2413,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "answer": "B.  ,C. ",
+    "answer": "B.  C. ",
     "choose": "Choose two answers.",
     "id": 106
 }, {
@@ -2487,7 +2504,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "answer": "A. ,C. ",
+    "answer": "A. C. ",
     "choose": "Choose two answers.",
     "id": 110
 }, {
@@ -2509,7 +2526,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "answer": "A. ,C. ",
+    "answer": "A. C. ",
     "choose": "Choose two answers.",
     "id": 111
 }, {
@@ -2623,7 +2640,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "answer": "B.  ,D. ",
+    "answer": "B.  D. ",
     "choose": "Choose two answers.",
     "id": 116
 }, {
@@ -2687,7 +2704,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "answer": "C.   ,D. ",
+    "answer": "C.   D. ",
     "choose": "Choose two answers.",
     "id": 119
 }, {

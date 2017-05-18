@@ -20,7 +20,10 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 <link rel="import" href="../bower_components/iron-pages/iron-pages.html">
 <link rel="import" href="../bower_components/iron-selector/iron-selector.html">
 <link rel="import" href="../bower_components/paper-icon-button/paper-icon-button.html">
-<link rel="import" href="my-icons.html">
+<link rel="import" href="../bower_components/paper-progress/paper-progress.html">
+<link rel="import" href="../bower_components/iron-icons/iron-icons.html">
+
+
 
 <dom-module id="my-app">
   <template>
@@ -79,9 +82,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <app-location route="{{route}}"></app-location>
     <app-route route="{{route}}" pattern="/:page" data="{{routeData}}" tail="{{subroute}}"></app-route>
 
-    <app-drawer-layout fullbleed>
+    <app-drawer-layout fullbleed force-narrow>
       <!-- Drawer content -->
-      <app-drawer id="drawer" slot="drawer">
+      <app-drawer id="drawer" slot="drawer" swipe-open>
         <app-toolbar>Menu
           <paper-progress value="10" indeterminate bottom-item hidden$="[[!progress]]"></paper-progress>
         </app-toolbar>
@@ -97,7 +100,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
         <app-header slot="header" condenses reveals effects="waterfall" fixed>
           <app-toolbar>
-            <paper-icon-button icon="my-icons:menu" drawer-toggle></paper-icon-button>
+            <paper-icon-button icon="menu" drawer-toggle></paper-icon-button>
             <div main-title>
               [[title]]
 
@@ -106,7 +109,10 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
               </template>
 
             </div>
-            <paper-icon-button icon="refresh" onclick="location.reload();"></paper-icon-button>
+            <template is="dom-if" if="[[hasTimer]]">
+              <paper-icon-button icon="refresh" on-click="reload"></paper-icon-button>
+            </template>
+
             <paper-progress value="10" indeterminate bottom-item hidden$="[[!progress]]"></paper-progress>
           </app-toolbar>
         </app-header>
@@ -140,18 +146,17 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       },
 
       ready: function () {
+        this.reload.bind(this);
         const exam = this.$.exams,
           _this = this;
         exam.addEventListener('loading-exam', () => _this.progress = true);
         exam.addEventListener('init-exam', () => {
-          console.log("cenas");
           _this._handleTimer.bind(_this)();
           _this.progress = false;
           _this.hasTimer = true;
         });
         exam.addEventListener('submitted-exam', (e) => {
           clearInterval(_this.timerInterval);
-          console.log(_this.title);
           _this.title = _this._isMobile() ? e.detail.rightPercentage : _this.title + ' - ' + e.detail.rightPercentage;
         });
       },
@@ -188,6 +193,12 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         this.title = this._getTile(page);
         var resolvedPageUrl = this.resolveUrl('my-' + page + '.html');
         this.importHref(resolvedPageUrl, null, this._showPage404, true);
+      },
+
+      reload: function () {
+        clearInterval(this.timerInterval);
+        this.title = this._getTile(this.page);
+        this.$.exams.reset = true;
       },
 
       _getTile: function (page) {

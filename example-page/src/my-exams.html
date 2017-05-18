@@ -13,6 +13,18 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
 <dom-module id="my-exams">
   <template>
+    <style>
+      #examContainer {
+        max-width: 80%;
+        margin: 0 auto;
+      }
+
+      @media screen and (max-width: 1000px) {
+        #examContainer {
+          max-width: 100%;
+        }
+      }
+    </style>
     <div id="examContainer">
 
     </div>
