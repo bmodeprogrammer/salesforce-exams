@@ -110,6 +110,10 @@
         "checked": false,
         "ca": "D."
     }],
+    "moreInformationLinks": [{
+        "label": "Which Automation Tool Do I Use?",
+        "link": "https://developer.salesforce.com/docs/atlas.en-us.salesforce_vpm_guide.meta/salesforce_vpm_guide/process_which_tool.htm"
+    }],
     "answer": "A. B. ",
     "choose": "Choose two answers.",
     "id": 5
@@ -431,6 +435,10 @@
     }],
     "answer": "D. ",
     "isRadioButton": true,
+    "moreInformationLinks": [{
+        "label": "What is anonymous block",
+        "link": "https://developer.salesforce.com/forums/?id=906F00000008nIlIAI"
+    }],
     "choose": "Choose one answer.",
     "id": 19
 }, {
@@ -898,7 +906,7 @@
         "checked": false,
         "ca": "B."
     }, {
-        "answer": "Use SOQL to query Case records in the org to get all the ReocrdType values available for Case.",
+        "answer": "Use SOQL to query Case records in the org to get all the ReocordType values available for Case.",
         "checked": false,
         "ca": "C."
     }, {
@@ -906,7 +914,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "answer": "A. C. ",
+    "answer": "A. B. ",
     "choose": "Choose two answers.",
     "id": 40
 }, {
@@ -1023,7 +1031,7 @@
     "choose": "Choose one answer.",
     "id": 45
 }, {
-    "question": "A developer in a Salesforce org with 100 Accounts executes the following code using the Developer Console",
+    "question": "A developer in a Salesforce org with 100 Accounts executes the following code using the Developer Console. How many accounts will have the org after running this code? ",
     "answers": [{
         "answer": "101",
         "checked": false,
@@ -1482,7 +1490,7 @@
     "choose": "Choose two answers.",
     "id": 65
 }, {
-    "question": "Which declarative method helps ensure quality data? answers",
+    "question": "Which declarative method helps ensure quality data?",
     "answers": [{
         "answer": "Exception handling",
         "checked": false,
@@ -1504,8 +1512,7 @@
         "checked": false,
         "ca": "E."
     }],
-    "answer": "C. D. E.",
-    "isRadioButton": true,
+    "answer": "C. D. E. ",
     "choose": "Choose three answers.",
     "id": 66
 }, {
@@ -1675,19 +1682,19 @@
 }, {
     "question": "What is the value of x after the code segment executes?",
     "answers": [{
-        "answer": "A",
+        "answer": "B",
         "checked": false,
         "ca": "A."
     }, {
-        "answer": "B",
+        "answer": "C",
         "checked": false,
         "ca": "B."
     }, {
-        "answer": "C",
+        "answer": "D",
         "checked": false,
         "ca": "C."
     }, {
-        "answer": "D",
+        "answer": "A",
         "checked": false,
         "ca": "D."
     }],
@@ -1695,7 +1702,6 @@
     "isRadioButton": true,
     "choose": "Choose one answer.",
     "imageUrl": "74.png",
-    "noShuffle": true,
     "id": 74
 }, {
     "question": "When can a developer use a custom Visualforce page in a Force.com application?",
@@ -1996,6 +2002,13 @@
         "ca": "E."
     }],
     "answer": "A. B. C. ",
+    "moreInformationLinks": [{
+        "label": "Change Sets",
+        "link": "https://help.salesforce.com/articleView?id=changesets.htm&type=0"
+    }, {
+        "label": "Deployment Connections for Change Sets",
+        "link": "https://help.salesforce.com/articleView?id=changesets_about_connection.htm&type=0&language=en_US"
+    }],
     "choose": "Choose three answers.",
     "id": 87
 }, {
@@ -2137,6 +2150,7 @@
     "answer": "D. ",
     "isRadioButton": true,
     "choose": "Choose one answer.",
+    "imageUrl": "94.png",
     "id": 94
 }, {
     "question": "Where can custom roll-up summary fields be created using Standard Object relationships?",
@@ -2229,7 +2243,11 @@
         "checked": false,
         "ca": "D."
     }],
-    "answer": "B.  D. ",
+    "answer": "C.  D. ",
+    "moreInformationLinks": [{
+        "label": "Lightning Book - Page 168",
+        "link": "https://resources.docs.salesforce.com/sfdc/pdf/lightning.pdf"
+    }],
     "choose": "Choose two answers.",
     "id": 98
 }, {
@@ -2301,6 +2319,10 @@
         "ca": "D."
     }],
     "answer": "C.   ",
+    "moreInformationLinks": [{
+        "label": "Stack Exchange - Answer",
+        "link": "https://salesforce.stackexchange.com/questions/103559/how-multiple-values-from-a-multi-select-picklist-represented-in-apex"
+    }],
     "isRadioButton": true,
     "choose": "Choose one answer.",
     "id": 101
@@ -2436,6 +2458,10 @@
         "ca": "D."
     }],
     "answer": "C.   ",
+    "moreInformationLinks": [{
+        "label": "Create Price Book Entries in Apex Tests",
+        "link": "https://releasenotes.docs.salesforce.com/en-us/summer14/release-notes/rn_apex_price_books_in_tests.htm"
+    }],
     "isRadioButton": true,
     "choose": "Choose one answer.",
     "id": 107
@@ -2667,7 +2693,7 @@
     "choose": "Choose one answer.",
     "id": 117
 }, {
-    "question": "Where can a developer create managed package",
+    "question": "Where can a developer create managed package?",
     "answers": [{
         "answer": "Developer Edition",
         "checked": false,

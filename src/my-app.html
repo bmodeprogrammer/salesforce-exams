@@ -111,6 +111,15 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             </div>
             <template is="dom-if" if="[[hasTimer]]">
               <paper-icon-button icon="refresh" on-click="reload"></paper-icon-button>
+              <template is="dom-if" if="[[isSubmitted]]">
+                <template is="dom-if" if="[[_isMobile()]]">
+                  <paper-icon-button icon="send" on-click="submit"></paper-icon-button>
+                </template>
+                <template is="dom-if" if="[[!_isMobile()]]">
+                  <paper-button on-click="submit">Submit</paper-button>
+                </template>
+              </template>
+
             </template>
 
             <paper-progress value="10" indeterminate bottom-item hidden$="[[!progress]]"></paper-progress>
@@ -142,7 +151,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         progress: Boolean,
         timer: String,
         timerInterval: Number,
-        hasTimer: Boolean
+        hasTimer: Boolean,
+        isSubmitted: Boolean
       },
 
       ready: function () {
@@ -154,16 +164,22 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           _this._handleTimer.bind(_this)();
           _this.progress = false;
           _this.hasTimer = true;
+          _this.isSubmitted = true;
         });
         exam.addEventListener('submitted-exam', (e) => {
           clearInterval(_this.timerInterval);
           _this.title = _this._isMobile() ? e.detail.rightPercentage : _this.title + ' - ' + e.detail.rightPercentage;
+          _this.isSubmitted = false;
         });
       },
 
       observers: [
         '_routePageChanged(routeData.page)',
       ],
+
+      submit: function () {
+        this.$.exams.currentExam.submitExam();
+      },
 
       _isMobile: function () {
         var check = false;

@@ -39,6 +39,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           type: String,
           value: 'src/appbuilder.json'
         },
+        currentExam: Object,
         reset: {
           type: Boolean,
           value: false,
@@ -52,6 +53,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           const _this = this;
           var exam = document.createElement('app-builder-exam');
           exam.url = this.url;
+          this.currentExam = exam;
           this.$.examContainer.appendChild(exam);
           this.reset = false;
         }

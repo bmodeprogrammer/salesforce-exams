@@ -1,0 +1,2993 @@
+[{
+    "question": "What does the user see when accessing the custom page?",
+    "answers": [{
+        "answer": "A. getMyString, , Method2,getMyString",
+        "checked": true,
+        "ca": "D."
+    }, {
+        "answer": "B. , , Method2, getMyString",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "C. , , Method2,",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "D. getMyString, , ,",
+        "checked": false,
+        "ca": "A."
+    }],
+    "answer": ["A. "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "imageUrl": "37.PNG",
+    "id": 37,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "Which resource can be included in a lightning Component bundle?",
+    "answers": [{
+        "answer": "A. Adobe Flash",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "B. Apex class",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "C. Documentation",
+        "checked": true,
+        "ca": "D."
+    }, {
+        "answer": "D. Helper",
+        "checked": true,
+        "ca": "C."
+    }],
+    "answer": ["C. ", "D.   "],
+    "choose": "Choose two answers.",
+    "id": 34,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "Why would a developer use Test.startTest() and Test.stopTest()?",
+    "answers": [{
+        "answer": "A. To start and stop anonymous block execution when executing anonymous Apex code.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "B. To create an additional set of governor limits during the execution of a single test class.",
+        "checked": true,
+        "ca": "C."
+    }, {
+        "answer": "C. To avoid Apex code coverage requirements for the code between these lines.",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "D. To indicate test code so that I does not impact Apex line count governor limits.",
+        "checked": false,
+        "ca": "B."
+    }],
+    "answer": ["B.   "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 109,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "Why would a developer USE Test.startTest() and Test.StopTest()?",
+    "answers": [{
+        "answer": "A. To start and stop anonymous block execution when executing anonymous Apex code.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "B. To avoid Apex code coverage requirements for the code between these lines.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "C. To indicate test code so that it does not impact Apex line count governor limits.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "D. To create an additional set of governor limits during the execution of a single test class",
+        "checked": true,
+        "ca": "D."
+    }],
+    "answer": ["D. "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 1,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "A developer has a block of code that omits any statements that indicate whether the code block should execute with or without sharing. What will automatically obey the organization-wide defaults and settings for the user who executes the code in the Salesforce organization?",
+    "answers": [{
+        "answer": "A. HTTP Callouts",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "B. Apex Triggers",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "C. Anonymous Blocks",
+        "checked": true,
+        "ca": "D."
+    }, {
+        "answer": "D. Apex Controllers",
+        "checked": false,
+        "ca": "C."
+    }],
+    "answer": ["C. "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 19,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "A developer in a Salesforce org with 100 Accounts executes the following code using the Developer Console",
+    "answers": [{
+        "answer": "A. 102",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "B. 252",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "C. 101",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "D. 100",
+        "checked": true,
+        "ca": "B."
+    }],
+    "answer": ["D.  "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "imageUrl": "46.png",
+    "id": 46,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "A developer wrote a workflow email alert on case creation so that an email is sent to the case owner manager when a case is created. When will the email be sent?",
+    "answers": [{
+        "answer": "A. After Committing to database",
+        "checked": true,
+        "ca": "B."
+    }, {
+        "answer": "B. Before Committing to database.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "C. After trigger execution",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "D. Before Trigger execution",
+        "checked": false,
+        "ca": "A."
+    }],
+    "answer": ["A.  "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 60,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "What is a valid statement about Apex classes and interfaces?",
+    "answers": [{
+        "answer": "A. The default modifier for an interface is private",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "B. A class can have multiple levels of inner classes.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "C. The default modifier for a class is private",
+        "checked": true,
+        "ca": "C."
+    }, {
+        "answer": "D. Exception classes must end with the word exception",
+        "checked": true,
+        "ca": "A."
+    }],
+    "answer": ["C. ", "D. "],
+    "choose": "Choose two answers.",
+    "id": 111,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "What is a valid source and destination pair that can send or receive change sets?",
+    "answers": [{
+        "answer": "A. Developer edition to production",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "B. Sandbox to production",
+        "checked": true,
+        "ca": "A."
+    }, {
+        "answer": "C. Developer edition to sandbox",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "D. Sandbox to sandbox",
+        "checked": true,
+        "ca": "D."
+    }],
+    "answer": ["B. ", "D. "],
+    "choose": "Choose two answers.",
+    "id": 54,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "Which component is available to deploy using Metadata API?",
+    "answers": [{
+        "answer": "A. Account Layout",
+        "checked": true,
+        "ca": "B."
+    }, {
+        "answer": "B. Case Feed Layout",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "C. Case Layout",
+        "checked": true,
+        "ca": "A."
+    }, {
+        "answer": "D. Console Layout",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": ["A. ", "C. "],
+    "choose": "Choose two answers.",
+    "id": 7,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "A developer needs to know if all tests currently pass in a Salesforce environment. Which feature can the developer use?",
+    "answers": [{
+        "answer": "A. Workbench Metadata Retrieval",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "B. Salesforce UI Apex Test Execution",
+        "checked": true,
+        "ca": "C."
+    }, {
+        "answer": "C. ANT Migration Tool",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "D. Developer Console",
+        "checked": true,
+        "ca": "A."
+    }],
+    "answer": ["B. ", "D. "],
+    "choose": "Choose two answers.",
+    "id": 105,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "Which standard field needs to be populated when a developer inserts new Contact records programmatically?",
+    "answers": [{
+        "answer": "A. AccountId",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "B. FirstName",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "C. Name",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "D. LastName",
+        "checked": true,
+        "ca": "C."
+    }],
+    "answer": ["D.   "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 28,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "A candidate may apply to multiple jobs at the company Universal Containers by submitting a single application per job posting. Once an application is submitted for a job posting, that application cannot be modified to be resubmitted to a different job posting. What can the administrator do to associate an application with each job posting in the schema for the organization?",
+    "answers": [{
+        "answer": "A. Create a lookup relationship on both objects to a junction object called job Posting Applications.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "B. Create a lookup relationship in the Applications custom object to the Job Postings custom object.",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "C. Create a master-detail relationship in the Job Postings custom object to the Applications custom object.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "D. Create a master-detail relationship in the Application custom object to the Job Postings custom object.",
+        "checked": true,
+        "ca": "C."
+    }],
+    "answer": ["D.   "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 16,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "When loading data into an organization, what can a developer do to match records to update existing records?",
+    "answers": [{
+        "answer": "A. Match the Id field to a column in the imported file.",
+        "checked": true,
+        "ca": "B."
+    }, {
+        "answer": "B. Match an auto-generated Number Field to a column in the imported file.",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "C. Match an external Id Text field to a column in the imported file.",
+        "checked": true,
+        "ca": "A."
+    }, {
+        "answer": "D. Match the Name field to a column in the imported file.",
+        "checked": false,
+        "ca": "C."
+    }],
+    "answer": ["A. ", "C. "],
+    "choose": "Choose two answers.",
+    "id": 14,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "A Developer has the following trigger that fires after insert and creates child Case whenever a new case is created. What happens after the code block executes?",
+    "answers": [{
+        "answer": "A. A child case is created for each parent case in trigger.new",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "B. The trigger fails if the Subject field on the parent is blank",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "C. The trigger enters an infinite loop and eventually fails",
+        "checked": true,
+        "ca": "C."
+    }, {
+        "answer": "D. Multiple child cases are created for each parent case in trigger.new.",
+        "checked": false,
+        "ca": "A."
+    }],
+    "answer": ["C.   "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "imageUrl": "52.png",
+    "id": 52,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "Where can a developer call external javascript",
+    "answers": [{
+        "answer": "A. <link>",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "B. <apex:includeScript>",
+        "checked": true,
+        "ca": "C."
+    }, {
+        "answer": "C. <apex:define>",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "D. <script>",
+        "checked": true,
+        "ca": "D."
+    }],
+    "answer": ["B.   ", "D. "],
+    "choose": "Choose two answers.",
+    "id": 119,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "A developer created an Apex trigger using the Developer Console and now wants to debug code. How can the developer accomplish this in the Developer Console?",
+    "answers": [{
+        "answer": "A. Open the Progress tab in the Developer Console.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "B. Select the Override Log Triggers checkbox for the trigger.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "C. Open the Logs tab in the Developer Console.",
+        "checked": true,
+        "ca": "D."
+    }, {
+        "answer": "D. Add the user name in the Log Inspector.",
+        "checked": false,
+        "ca": "B."
+    }],
+    "answer": ["C. "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 20,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "Which action can a developer perform in a before update trigger?",
+    "answers": [{
+        "answer": "A. Change field values using the Trigger.new context variable.",
+        "checked": true,
+        "ca": "C."
+    }, {
+        "answer": "B. Update the original object using an update DML operation.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "C. Display a custom error message in the application interface.",
+        "checked": true,
+        "ca": "D."
+    }, {
+        "answer": "D. Delete the original object using a delete DML operation.",
+        "checked": false,
+        "ca": "B."
+    }],
+    "answer": ["A.   ", "C. "],
+    "choose": "Choose two answers.",
+    "id": 72,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "Which statement would a developer use when creating test data for products and pricebooks",
+    "answers": [{
+        "answer": "A. Pricebook pb = new Pricebook();",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "B. Id pricebookId = Test.getStandardPricebookId();",
+        "checked": true,
+        "ca": "C."
+    }, {
+        "answer": "C. IsTest(SeeAllData=false)",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "D. List objList = Test.loadData(Account.sObjectType, 'myResource');",
+        "checked": false,
+        "ca": "A."
+    }],
+    "answer": ["B.   "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 107,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "How would a developer use Schema Builder to delete a custom field from the Account object that was required for prototyping but is no longer needed?",
+    "answers": [{
+        "answer": "A. Remove all the references in the code and then the field will be removed from Schema Builder",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "B. Remove all references from the code and then delete the custom field from Schema builder.",
+        "checked": true,
+        "ca": "B."
+    }, {
+        "answer": "C. Mark the field for deletion in Schema builder and then delete it from the declarative UI.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "D. Delete the field from Schema Builder and then all references in the code will be removed",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": ["B.  "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 89,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "A company wants a recruiting app that models candidates and interviews; displays the total number of interviews each candidate record; and defines security on interview records that is independent from the security on candidate records.",
+    "answers": [{
+        "answer": "A. Create a master- detail relationship between the Candidate and Interview objects.",
+        "checked": true,
+        "ca": "B."
+    }, {
+        "answer": "B. Create a trigger on the Interview object that updates a field on the Candidate object.",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "C. Create a roll-up summary field on the candidate object that counts Interview records.",
+        "checked": true,
+        "ca": "A."
+    }, {
+        "answer": "D. Create a lookup relationship between the Candidate and Interview objects",
+        "checked": false,
+        "ca": "C."
+    }],
+    "answer": ["B. ", "D.   "],
+    "choose": "Choose two answers.",
+    "id": 68,
+    "isRight": false,
+    "ball": "circle wrong"
+}, {
+    "question": "When the number of records in a recordset is unknown, which control statement should a developer use to implement  a set of code that executes for every record in the recordset, without performing a .size() or .length() method call?",
+    "answers": [{
+        "answer": "A. For(variable:list_or_set){...}",
+        "checked": true,
+        "ca": "C."
+    }, {
+        "answer": "B. Do{...}While(Condiiton)",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "C. While(Condition){}",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "D. For(init_stmt;exit_condition;increment_stmt){...}",
+        "checked": false,
+        "ca": "A."
+    }],
+    "answer": ["A.   "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 56,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "The sales management team hires a new intern. The intern is not allowed to view Opportunities, but needs to see the most recent closed date of all child Opportunities when viewing an Account record. What would a developer do to meet this requirement?",
+    "answers": [{
+        "answer": "A. Create a roll-up summary field on the Account object that performs a MAX on the Opportunity close date field.",
+        "checked": true,
+        "ca": "C."
+    }, {
+        "answer": "B. Create a formula field on the Account object that performs a MAX on the Opportunity Close Date field.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "C. Create a trigger on the Account object that queries the close Date of the most recent Opportunities",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "D. Create a workflow rule on the Opportunity object that updates a field on the parent Account.",
+        "checked": false,
+        "ca": "A."
+    }],
+    "answer": ["A.   "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 78,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "An sObject named Application__c has a lookup relationship to another sObject named Position__c. Both Application__c and Position__c have a picklist field named Status__c. When the Status__c field on Position__c is updated, the Status__c field on Application__c needs to be populated automatically with the same value, and execute a workflow rule on Application__c. How can a developer accomplish this?",
+    "answers": [{
+        "answer": "A. By changing Application__c.Status__c into a roll-up summary field.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "B. By configuring a cross-object field update with a workflow.",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "C. By using an Apex trigger with a DML operation.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "D. By changing Application__c.Status__c into a formula field.",
+        "checked": true,
+        "ca": "B."
+    }],
+    "answer": ["D.  "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 41,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "What is a characteristic of the Lightning Component framework?",
+    "answers": [{
+        "answer": "A. It has an event-driven architecture.",
+        "checked": true,
+        "ca": "A."
+    }, {
+        "answer": "B. It includes responsive components.",
+        "checked": true,
+        "ca": "C."
+    }, {
+        "answer": "C. It uses XML as its data format",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "D. It works with existing Visualforce pages.",
+        "checked": false,
+        "ca": "B."
+    }],
+    "answer": ["A. ", "B. "],
+    "choose": "Choose two answers.",
+    "id": 17,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "What is a capability of the Force.com IDE?",
+    "answers": [{
+        "answer": "A. Run Apex tests",
+        "checked": true,
+        "ca": "B."
+    }, {
+        "answer": "B. Roll back deployments",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "C. Download debug logs.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "D. Edit metadata components",
+        "checked": true,
+        "ca": "D."
+    }],
+    "answer": ["A.  ", "D. "],
+    "choose": "Choose two answers.",
+    "id": 48,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "A developer has a single custom controller class that works with a Visualforce Wizard to support creating and editing multiple sObjects. The wizard accepts data from user inputs across multiple Visualforce pages and from a parameter on the initial URL. Which statement is unnecessary inside the unit test for the custom controller?",
+    "answers": [{
+        "answer": "A. Public ExtendedController(ApexPages.StandardController cntrl) { }",
+        "checked": true,
+        "ca": "A."
+    }, {
+        "answer": "B. ApexPages.currentPage().getParameters().put(’input’,’TestValue’);",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "C. Test.setCurrentPage(pageRef);",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "D. String nextPage = controller.save().getUrl();",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": ["A. "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 39,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "What is an accurate statement about with sharing keyword?",
+    "answers": [{
+        "answer": "A. Both inner and outer classes can be declared as with sharing",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "B. Inner classes do not inherit the sharing setting from the container class.",
+        "checked": true,
+        "ca": "A."
+    }, {
+        "answer": "C. Either inner or outer classes can be declared as with sharing, but not both",
+        "checked": true,
+        "ca": "C."
+    }, {
+        "answer": "D. Inner classes inherit the sharing setting from the container class",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": ["A. ", "B. "],
+    "choose": "Choose two answers.",
+    "id": 26,
+    "isRight": false,
+    "ball": "circle wrong"
+}, {
+    "question": "What is the value of x after the code segment executes?",
+    "answers": [{
+        "answer": "A. C",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "B. A",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "C. B",
+        "checked": true,
+        "ca": "A."
+    }, {
+        "answer": "D. D",
+        "checked": false,
+        "ca": "C."
+    }],
+    "answer": ["C. "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "imageUrl": "74.png",
+    "id": 74,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "Which code segment can be used to control when the dowork() method is called?",
+    "answers": [{
+        "answer": "A. A",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "B. B",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "C. C",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "D. D",
+        "checked": true,
+        "ca": "D."
+    }],
+    "answer": ["D. "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "imageUrl": "49.png",
+    "noShuffle": true,
+    "id": 49,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "In the lightning Component framework, which resource can be used to fire events?",
+    "answers": [{
+        "answer": "A. JavaScript controller actions.",
+        "checked": true,
+        "ca": "D."
+    }, {
+        "answer": "B. Visualforce controller actions.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "C. Third-party JavaScript code.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "D. Third-party web service code.",
+        "checked": true,
+        "ca": "B."
+    }],
+    "answer": ["A. ", "D.  "],
+    "choose": "Choose two answers.",
+    "id": 98,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "A developer creates a new Visualforce page and Apex extension, and writes test classes that exercise 95% coverage of the new Apex extension. Change set deployment to production fails with the test coverage warning: \"Average test coverage across all Apex classes and triggers is 74%, at least 75% test coverage is required\". What can the developer do to successfully deploy the new Visualforce page and extension?",
+    "answers": [{
+        "answer": "A. Add test methods to existing test classes from previous deployments.",
+        "checked": true,
+        "ca": "C."
+    }, {
+        "answer": "B. Create test classes to exercise the Visualforce page markup.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "C. Select \"Fast Deployment\" to bypass running all the tests.",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "D. Select \"Disable Parallel Apex Testing\" to run all the tests.",
+        "checked": false,
+        "ca": "B."
+    }],
+    "answer": ["A.   "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 30,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "In a single record, a user selects multiple values from a multi-select picklist. How are the selected values represented in Apex?",
+    "answers": [{
+        "answer": "A. As a String with each value separated by a semicolon.",
+        "checked": true,
+        "ca": "C."
+    }, {
+        "answer": "B. As a String with each value separated by comma.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "C. As a List<String> with each value as an element in the list.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "D. As a Set<String> with each value as an element in the set.",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": ["A.   "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 101,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "What is a correct patter to follow when programming in Apex on a multi-tenant platform?",
+    "answers": [{
+        "answer": "A. Apex code is crated in a separate environment from schema to reduce deployment errors.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "B. Queries select the fewest fields and records possible to avoid exceeding governor limits.",
+        "checked": true,
+        "ca": "C."
+    }, {
+        "answer": "C. DML is performed on one record at a time to avoid possible data concurrency issues.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "D. Apex classes use the \"with sharing\" keyword to prevent access from other server tenants.",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": ["B.   "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 23,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "On a Visualforce page with a custom controller, how should a developer retrieve a record by using an ID parameter that is passed on the URL?",
+    "answers": [{
+        "answer": "A. Use the constructor method for the controller",
+        "checked": true,
+        "ca": "A."
+    }, {
+        "answer": "B. Use the <apex:detail> tag in the visualforce page",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "C. Use the $Action.View method in the Visualforce page",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "D. Create a new PageReference object with the Id",
+        "checked": false,
+        "ca": "C."
+    }],
+    "answer": ["A. "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 59,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "How can a developer determine, from the DescribeSObjectResult, if the current user will be able to create records on an object in Apex?",
+    "answers": [{
+        "answer": "A. By using the canCreate() method.",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "B. By using the isInsertable() method.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "C. By using the isCreatable() method.",
+        "checked": true,
+        "ca": "B."
+    }, {
+        "answer": "D. By using the has Access() method.",
+        "checked": false,
+        "ca": "A."
+    }],
+    "answer": ["C.  "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 108,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "What is a capability of cross-object formula fields?",
+    "answers": [{
+        "answer": "A. Formula fields can reference fields from master-detail or lookup parent relationships.",
+        "checked": true,
+        "ca": "A."
+    }, {
+        "answer": "B. Formula fields can reference fields from objects that are up to 10 relationships away.",
+        "checked": true,
+        "ca": "E."
+    }, {
+        "answer": "C. Formula fields can be used in three roll-up summaries per object.",
+        "checked": true,
+        "ca": "C."
+    }, {
+        "answer": "D. Formula fields can expose data the user does not have access to in a record.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "E. Formula fields can reference fields in a collection of records from a child relationship.",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": ["A. ", "B. ", "D. "],
+    "choose": "Choose three answers.",
+    "id": 18,
+    "isRight": false,
+    "ball": "circle wrong"
+}, {
+    "question": "When loading data into an organization, what can a developer do to match records to update existing records?",
+    "answers": [{
+        "answer": "A. Match the Id field to a column in the imported file.",
+        "checked": true,
+        "ca": "B."
+    }, {
+        "answer": "B. Match an auto-generated Number field to a column in the imported file.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "C. Match the Name field to a column in the imported file.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "D. Match an external Id Text field to a column in the imported file.",
+        "checked": true,
+        "ca": "D."
+    }],
+    "answer": ["A.  ", "D. "],
+    "choose": "Choose two answers.",
+    "id": 116,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "A developer has a block of code that omits any statements that indicate whether the code block should execute or without sharing. What will automatically obey the organization-wide defaults and sharing settings for the user who executes the code in the Salesforce organization?",
+    "answers": [{
+        "answer": "A. Apex Triggers",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "B. HTTP Callouts",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "C. Anonymous Blocks",
+        "checked": true,
+        "ca": "A."
+    }, {
+        "answer": "D. Apex Controllers",
+        "checked": false,
+        "ca": "B."
+    }],
+    "answer": ["C. "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 100,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "A Visualforce page has a standard controller for an object that has a lookup relationship to a parent object. How can a developer display data from the parent record on the page?",
+    "answers": [{
+        "answer": "A. By using merge field syntax to retrieve data from the parent record.",
+        "checked": true,
+        "ca": "B."
+    }, {
+        "answer": "B. By adding a second standard controller to the page for the parent record.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "C. By using SOQL on the Visualforce page to query for data from the parent record.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "D. By using a roll-up formula field on the child record to include data from the parent record.",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": ["A.  "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 82,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "How can a developer refer to, or instantiate, a PageReference in Apex?",
+    "answers": [{
+        "answer": "A. By using the ApexPages.Page() method with a Visualforce page name.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "B. By using a PageReference with a partial or full URL.",
+        "checked": true,
+        "ca": "A."
+    }, {
+        "answer": "C. By using the Page object and a Visualforce page name.",
+        "checked": true,
+        "ca": "B."
+    }, {
+        "answer": "D. By using the PageReference.Page() method with a partial or full URL.",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": ["", "C. B. "],
+    "choose": "Choose two answers.",
+    "id": 27,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "A reviewer is required to enter a reason in the comments field only when a candidate is recommended to be hired. Which action can a developer take to enforce this requirement?",
+    "answers": [{
+        "answer": "A. Create a validation rule.",
+        "checked": true,
+        "ca": "C."
+    }, {
+        "answer": "B. Create a required Visualforce component.",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "C. Create a required comments field.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "D. Create a formula field.",
+        "checked": false,
+        "ca": "B."
+    }],
+    "answer": ["A.   "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 77,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "What is the result when a Visualforce page calls an Apex controller, which calls another Apex class, which then results hitting a governor limit?",
+    "answers": [{
+        "answer": "A. All changes are saved in the first Apex class",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "B. All changes before a savepoint are saved",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "C. Any changes up to error are saved",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "D. Any changes up to the error are rolled back",
+        "checked": true,
+        "ca": "B."
+    }],
+    "answer": ["D.  "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 57,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "A developer uses a before insert trigger on the Lead object to fetch the Territory__c object, where the Territory__c.PostalCode__c matches the Lead.PostalCode. the code fails when the developer uses the Apex Data Loader to insert 10000 Lead records. The developer has the following code block: What is the line of code that is causing the code block to fail?",
+    "answers": [{
+        "answer": "A. 03: A SOQL query is located inside of the for loop code.",
+        "checked": true,
+        "ca": "A."
+    }, {
+        "answer": "B. 02: A NullPointer exception is thrown if PostalCode is null.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "C. 05: The Lead in a before insert trigger cannot be updated",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "D. 01: Trigger.new is not a valid in a before insert Trigger.",
+        "checked": false,
+        "ca": "B."
+    }],
+    "answer": ["A. "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "imageUrl": "3.jpg",
+    "id": 3,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "A developer writes a before insert trigger. How can the developer access the incoming records in the trigger body?",
+    "answers": [{
+        "answer": "A. By accessing the Trigger.new context variable",
+        "checked": true,
+        "ca": "A."
+    }, {
+        "answer": "B. By accessing the Trigger.newMap context variable",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "C. By accessing the Trigger.newRecords context variable",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "D. By accessing the Trigger.newList context variable",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": ["A. "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 45,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "Which declarative method helps ensure quality data? answers",
+    "answers": [{
+        "answer": "A. Validation rules",
+        "checked": true,
+        "ca": "C."
+    }, {
+        "answer": "B. Lookup filters",
+        "checked": true,
+        "ca": "D."
+    }, {
+        "answer": "C. Workflow alerts",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "D. Exception handling",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "E. Page layouts",
+        "checked": true,
+        "ca": "E."
+    }],
+    "answer": ["A. ", "B. ", "E."],
+    "choose": "Choose three answers.",
+    "id": 66,
+    "isRight": false,
+    "ball": "circle wrong"
+}, {
+    "question": "An org has different Apex Classes that provide Account-related  functionality. After a new validation rule is added to the Account object, many of the test methods fail. What can be done to resolve the failures and reduce the number of code changes needed for future validation rules?",
+    "answers": [{
+        "answer": "A. Create a method that creates valid Account records, and call this method from within test methods.",
+        "checked": true,
+        "ca": "A."
+    }, {
+        "answer": "B. Create a method that performs a callout for a valid Account record, and call this method from within test methods.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "C. Create a method that queries for valid Account records, and call this method from within test methods.",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "D. Create a method that loads a valid Account records from a Static Resource, and call this method within test methods.",
+        "checked": true,
+        "ca": "B."
+    }],
+    "answer": ["A. ", "D. "],
+    "choose": "Choose two answers.",
+    "id": 6,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "A developer creates a Workflow Rule declaratively that updates a field on an object. An Apex update trigger exists for the object.",
+    "answers": [{
+        "answer": "A. No changes are made to the data.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "B. The Apex Trigger is fired more than once",
+        "checked": true,
+        "ca": "D."
+    }, {
+        "answer": "C. The workflow Rule is fired more than once.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "D. Both the Apex Trigger and Workflow Rule are fired only once",
+        "checked": false,
+        "ca": "B."
+    }],
+    "answer": ["B. "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 11,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "What is the proper process for an Apex unit Test?",
+    "answers": [{
+        "answer": "A. Query for test data using SeeAllData=true. Call the method being tested. Verify that the results are correct",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "B. Create data for testing. Execute runAllTests(). Verify that the results are correct.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "C. Query for test data using SeeAllData=true. Execute runAllTests(). Verify that the results are correct",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "D. Create data for testing. Call the method being tested. Verify that the results are correct.",
+        "checked": true,
+        "ca": "C."
+    }],
+    "answer": ["D.   "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 64,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "Which code block returns the ListView of an Account object using the following debug statement? System.debug(controller.getListViewOptions());",
+    "answers": [{
+        "answer": "A. A",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "B. B",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "C. C",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "D. D",
+        "checked": true,
+        "ca": "D."
+    }],
+    "answer": ["D. "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "noShuffle": true,
+    "imageUrl": "70.png",
+    "id": 70,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "A developer has the following query. What does the query return if there is no Contact with the last name \"Smith\"?\nContact c = [SELECT id, firstname, lastname, email FROM Contact WHERE lastname = 'Smith']",
+    "answers": [{
+        "answer": "A. A Contact initialized to null.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "B. An error that no rows are found.",
+        "checked": true,
+        "ca": "D."
+    }, {
+        "answer": "C. An empty list of Contacts.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "D. A Contact with empty values.",
+        "checked": false,
+        "ca": "A."
+    }],
+    "answer": ["B. "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 96,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "A developer writes SOQL query to find child records for a specific parent. How many levels can be returned in a single query?",
+    "answers": [{
+        "answer": "A. 1",
+        "checked": true,
+        "ca": "C."
+    }, {
+        "answer": "B. 5",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "C. 7",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "D. 3",
+        "checked": false,
+        "ca": "A."
+    }],
+    "answer": ["A.   "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 104,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "A developer needs to create records for the object Property__c. The developer creates the following code block. Which line of code would the developer insert at line 03 to ensure that at least some records are created, even if a few records have errors and fail to be created.",
+    "answers": [{
+        "answer": "A. Database.insert(propertiesToCreate);",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "B. Database.insert(propertiesToCreate,false);",
+        "checked": true,
+        "ca": "D."
+    }, {
+        "answer": "C. Database.insert(propertiesToCreate, System.AllowPartial);",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "D. Insert propertiesToCreate;",
+        "checked": false,
+        "ca": "C."
+    }],
+    "answer": ["B. "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "imageUrl": "79.png",
+    "id": 79,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "A custom exception named \"RecordNotFoundException\" is defined by the following code block: public class RecordNotFoundException extends Exception { }. Which statement can a developer use to throw the custom exception?",
+    "answers": [{
+        "answer": "A. Throw new recordNotFoundException(\"Problem occurred\")",
+        "checked": true,
+        "ca": "A."
+    }, {
+        "answer": "B. Throw RecordNotFoundException();",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "C. Throw new RecordNotFoundException();",
+        "checked": true,
+        "ca": "B."
+    }, {
+        "answer": "D. Throw recordNotFoundException(\"Problem occurred\")",
+        "checked": false,
+        "ca": "C."
+    }],
+    "answer": ["A. ", "C. "],
+    "choose": "Choose two answers.",
+    "id": 35,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "What is a capability of formula fields?",
+    "answers": [{
+        "answer": "A. Generate a link using the HYPERLINK function to a specific record in a legacy system.",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "B. Return and display a field value from another object using the VLOOKUP function.",
+        "checked": true,
+        "ca": "B."
+    }, {
+        "answer": "C. Determine which of three different images to display using the IF function.",
+        "checked": true,
+        "ca": "C."
+    }, {
+        "answer": "D. Display the previous value for a field using PRIORVALUE function.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "E. Determine if a datetime field has passed using the NOW function.",
+        "checked": true,
+        "ca": "E."
+    }],
+    "answer": ["B.  ", "C. ", "E. "],
+    "choose": "Choose three answers.",
+    "id": 99,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "What is a good practice for a developer to follow when writing a trigger?",
+    "answers": [{
+        "answer": "A. Using the Map data structure to hold query results by ID",
+        "checked": true,
+        "ca": "A."
+    }, {
+        "answer": "B. Using synchronous callouts to call external systems.",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "C. Using @future methods to perform DML operations.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "D. Using the set data structure to ensure distinct records.",
+        "checked": true,
+        "ca": "C."
+    }],
+    "answer": ["A. ", "D. "],
+    "choose": "Choose two answers.",
+    "id": 69,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "Which type of information is provided by the Checkpoints tab in the Developer Console?",
+    "answers": [{
+        "answer": "A. Exception",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "B. Namespace",
+        "checked": true,
+        "ca": "C."
+    }, {
+        "answer": "C. Debug Statement",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "D. Time",
+        "checked": true,
+        "ca": "D."
+    }],
+    "answer": ["B.   ", "D. "],
+    "choose": "Choose two answers.",
+    "id": 63,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "What is an accurate statement about variable scope?",
+    "answers": [{
+        "answer": "A. Sub-Block cannot reuse a parent block's variable name.",
+        "checked": true,
+        "ca": "A."
+    }, {
+        "answer": "B. A static variable can restrict the scope to the current block if its value is null.",
+        "checked": false,
+        "ca": "E."
+    }, {
+        "answer": "C. Parallel blocks can use the same variable name.",
+        "checked": true,
+        "ca": "C."
+    }, {
+        "answer": "D. A variable can be defined at any point in a block.",
+        "checked": true,
+        "ca": "B."
+    }, {
+        "answer": "E. Sub-blocks can reuse a parent block's variable name if its value is null.",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": ["A. ", "C. ", "D. "],
+    "choose": "Choose three answers.",
+    "id": 90,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "What is a valid Apex statement?",
+    "answers": [{
+        "answer": "A. Integer w,x,y = 123, z=’abc’;",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "B. Private static constant Double rate = 7.75;",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "C. Account[] accList = new List<Account>{new Account()};",
+        "checked": true,
+        "ca": "B."
+    }, {
+        "answer": "D. Map conMap = [Select name from Contact];",
+        "checked": false,
+        "ca": "A."
+    }],
+    "answer": ["C.  "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 38,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "A developer needs to create a Visualforce page that will override the standard Account edit button. The page will be used to validate the account's address using a SOQL query. The page will also allow the user to make edits to the address. Where would the developer write the Account address verification logic?",
+    "answers": [{
+        "answer": "A. In a Standard Controller",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "B. In a controller Extension",
+        "checked": true,
+        "ca": "A."
+    }, {
+        "answer": "C. In a Custom Controller",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "D. In a Standard Extension",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": ["B. "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 83,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "Which statement about the lookup relationship between a Custom Object and a Standard object is correct?",
+    "answers": [{
+        "answer": "A. The lookup relationship on the custom object can prevent the deletion of the Standard Object.",
+        "checked": true,
+        "ca": "A."
+    }, {
+        "answer": "B. The custom Object inherits security from the referenced Standard Object.",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "C. The lookup relationship cannot be marked as required on the page layout for the custom object.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "D. The custom object will be deleted when the referenced Standard object is deleted.",
+        "checked": false,
+        "ca": "C."
+    }],
+    "answer": ["A. "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 76,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "A developer runs the following anonymous code block. What is the result?",
+    "answers": [{
+        "answer": "A. 2,150",
+        "checked": true,
+        "ca": "D."
+    }, {
+        "answer": "B. 150,11",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "C. 11,150",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "D. 150,2",
+        "checked": false,
+        "ca": "B."
+    }],
+    "answer": ["A. "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 94,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "A developer needs to automatically populate the reportsTo field in a Contact record based on the values of the related Account and Department fields in the Contact record. Which type of trigger would the developer create?",
+    "answers": [{
+        "answer": "A. Before update",
+        "checked": true,
+        "ca": "A."
+    }, {
+        "answer": "B. Before insert",
+        "checked": true,
+        "ca": "C."
+    }, {
+        "answer": "C. After update",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "D. After insert",
+        "checked": false,
+        "ca": "B."
+    }],
+    "answer": ["A. ", "B. "],
+    "choose": "Choose two answers.",
+    "id": 31,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "Which requirement needs to be implemented by using standard workflow instead of Process Builder?",
+    "answers": [{
+        "answer": "A. Create activities at multiple intervals.",
+        "checked": true,
+        "ca": "A."
+    }, {
+        "answer": "B. Submit a contract for approval.",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "C. Copy an account address to its contacts.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "D. Send a outbound message without Apex code.",
+        "checked": true,
+        "ca": "B."
+    }],
+    "answer": ["A. ", "D. "],
+    "choose": "Choose two answers.",
+    "id": 5,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "A developer wants to display all of the available record types for a Case object. The developer also wants to display the picklist values for the Case.Status field. The Case object and the Case.Status field are on a custom Visualforce page. Which action can the developer perform to get the record types and picklist values in the controller?.",
+    "answers": [{
+        "answer": "A. Use SOQL to query Case records in the org to get all values for the Status picklist field.",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "B. Use SOQL to query Case records in the org to get all the ReocrdType values available for Case.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "C. Use schema.RecordTypeInfo returned by Case.SObjectType.getDescribe().getRecordTypeInfos().",
+        "checked": true,
+        "ca": "B."
+    }, {
+        "answer": "D. Use Schema.PicklistEntry returned by Case.Status.getDescribe().getPicklistValues().",
+        "checked": true,
+        "ca": "A."
+    }],
+    "answer": ["B. ", "D. "],
+    "choose": "Choose two answers.",
+    "id": 40,
+    "isRight": false,
+    "ball": "circle wrong"
+}, {
+    "question": "Which type of code represents the Controller in MVC architecture on the Force.com platform?",
+    "answers": [{
+        "answer": "A. Standardcontroller system methods that are referenced by Visualforce",
+        "checked": true,
+        "ca": "B."
+    }, {
+        "answer": "B. A static resource that contains CSS and images.",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "C. JavaScript is used to make a menu item display itself",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "D. Custom Apex and JavaScript code that is used to manipulate data.",
+        "checked": true,
+        "ca": "C."
+    }],
+    "answer": ["A.  ", "D. "],
+    "choose": "Choose two answers.",
+    "id": 43,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "A developer has de following code, what message should be logged?",
+    "answers": [{
+        "answer": "A. Generic Exception",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "B. List Exception",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "C. NullPointer Exception",
+        "checked": true,
+        "ca": "D."
+    }, {
+        "answer": "D. No message is logged",
+        "checked": false,
+        "ca": "A."
+    }],
+    "answer": ["C. "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "imageUrl": "86.png",
+    "id": 86,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "A company that uses a custom object to track candidates would like to send candidate information automatically to a third-party human resources system when a candidate is hired. What can a developer do to accomplish this task?",
+    "answers": [{
+        "answer": "A. Create an auto response rule to the candidate.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "B. Create an escalation rule to the hiring manager.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "C. Create a workflow rule with an outbound message action.",
+        "checked": true,
+        "ca": "D."
+    }, {
+        "answer": "D. Create a Process Builder with an outbound message action.",
+        "checked": false,
+        "ca": "C."
+    }],
+    "answer": ["C. "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 25,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "A developer has the following code block:\nTo calculate the ProductTax, which code segment would a developer insert at the XXXXXXXXXXX to make the value in the class variable SalesTax accessible within the trigger?",
+    "answers": [{
+        "answer": "A. OpportunityLineItemTrigger.SalesTax",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "B. Paytax.SalesTax",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "C. Salestax",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "D. PaymentTax.SalesTax",
+        "checked": true,
+        "ca": "C."
+    }],
+    "answer": ["D.   "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "imageUrl": "58.png",
+    "id": 58,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "Which statement should a developer avoid using inside procedural loops?",
+    "answers": [{
+        "answer": "A. List<Contact> contacts = [select id,salutation,firstname from Contact where AccountId = :a.Id];",
+        "checked": true,
+        "ca": "C."
+    }, {
+        "answer": "B. If(o.accountid == a.Id)",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "C. Update contactList;",
+        "checked": true,
+        "ca": "B."
+    }, {
+        "answer": "D. System.debug('Amount of CPU time (in ms) used so far:' + Limits.getCpuTime());",
+        "checked": false,
+        "ca": "A."
+    }],
+    "answer": ["A. ", "C.  "],
+    "choose": "Choose two answers.",
+    "id": 106,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "When can a developer use a custom Visualforce page in a Force.com application?",
+    "answers": [{
+        "answer": "A. To modify the page layout settings for a custom object.",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "B. To deploy components between two organizations.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "C. To generate a PDF document with application data.",
+        "checked": true,
+        "ca": "C."
+    }, {
+        "answer": "D. To create components for dashboards and layouts.",
+        "checked": true,
+        "ca": "A."
+    }],
+    "answer": ["C. ", "D. "],
+    "choose": "Choose two answers.",
+    "id": 75,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "What is true of a partial sandbox that is not true of a full sandbox?",
+    "answers": [{
+        "answer": "A. Limited to 5GB of data",
+        "checked": true,
+        "ca": "D."
+    }, {
+        "answer": "B. Use of change sets",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "C. Only includes necessary metadata",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "D. More frequent refreshes",
+        "checked": true,
+        "ca": "A."
+    }],
+    "answer": ["A. ", "D. "],
+    "choose": "Choose two answers.",
+    "id": 12,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "In an organization that has enabled multiple currencies, a developer needs to aggregate the sum of the Estimated_Value__c currency field from the CampaignMember object is using a roll-up summary field called Total_estimated_Value__c on Campaign. How is the currency of the Total_Estimated_Value__c roll-up summary field determined?",
+    "answers": [{
+        "answer": "A. The values in CampaignMember.Estimated_Value__c are converted into the currency of the Campaign record, and the sum is displayed using the currency on the Campaign record.",
+        "checked": true,
+        "ca": "A."
+    }, {
+        "answer": "B. The values in CampaignMember.Estimated_Value__c are converted into the currency on the majority of the CampaignMember records and the sum is displayed using that currency.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "C. The values in CampaignMember.Estimated_Value__c are converted into the currency of the current user and the sum is displayed using the currency on the Campaign record.",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "D. The values in CampaignMember.Estimated_Value__c are summed up and the resulting Total_Estimated_Value__c field is displayed as a numeric field on the Campaign record.",
+        "checked": false,
+        "ca": "C."
+    }],
+    "answer": ["A. "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 15,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "Which statement about change set deployments is accurate?",
+    "answers": [{
+        "answer": "A. They can be used to transfer Contact records",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "B. They can be used to deploy custom settings data",
+        "checked": false,
+        "ca": "E."
+    }, {
+        "answer": "C. They use an all or none deployment model",
+        "checked": true,
+        "ca": "C."
+    }, {
+        "answer": "D. They can be used only between related organizations",
+        "checked": true,
+        "ca": "A."
+    }, {
+        "answer": "E. They require a deployment connection",
+        "checked": true,
+        "ca": "B."
+    }],
+    "answer": ["C. ", "D. ", "E. "],
+    "moreInformationLinks": [{
+        "label": "Change Sets",
+        "link": "https://help.salesforce.com/articleView?id=changesets.htm&type=0"
+    }, {
+        "label": "Deployment Connections for Change Sets",
+        "link": "https://help.salesforce.com/articleView?id=changesets_about_connection.htm&type=0&language=en_US"
+    }],
+    "choose": "Choose three answers.",
+    "id": 87,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "Which scenario is invalid for execution by unit tests?",
+    "answers": [{
+        "answer": "A. Loading the standard Pricebook ID using a system method",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "B. Executing methods as different users.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "C. Executing method for negative test scenarios.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "D. Loading test data in place of user input for Flows",
+        "checked": true,
+        "ca": "C."
+    }],
+    "answer": ["D.   "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 93,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "When creating unit tests in Apex, which statement is accurate?",
+    "answers": [{
+        "answer": "A. Triggers do not require any unit tests in order to deploy them from sandbox to production.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "B. Unit tests with multiple methods result in all methods failing every time one method fails.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "C. System Assert statements that do not increase code coverage contribute important feedback in unit tests.",
+        "checked": true,
+        "ca": "D."
+    }, {
+        "answer": "D. Increased test coverage requires large test classes with many lines of code in one method",
+        "checked": false,
+        "ca": "B."
+    }],
+    "answer": ["C. "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 36,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "Where can custom roll-up summary fields be created using Standard Object relationships?",
+    "answers": [{
+        "answer": "A. On Quote using Order records.",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "B. On Account using Case records.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "C. On Opportunity using Opportunity Product records.",
+        "checked": true,
+        "ca": "C."
+    }, {
+        "answer": "D. On Account using Opportunity records.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "E. On Campaign using Campaign Member records.",
+        "checked": true,
+        "ca": "E."
+    }],
+    "answer": ["C. ", "D.  ", "E. "],
+    "choose": "Choose three answers.",
+    "id": 95,
+    "isRight": false,
+    "ball": "circle wrong"
+}, {
+    "question": "In the code below, what type does Boolean inherit from (Boolean b = true;)",
+    "answers": [{
+        "answer": "A. String",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "B. Class",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "C. Enum",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "D. Object",
+        "checked": true,
+        "ca": "B."
+    }],
+    "answer": ["D.  "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 8,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "On which object can an administrator create roll-up summary field?",
+    "answers": [{
+        "answer": "A. Any object that is on the parent side of a lookup relationship.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "B. Any object that is on the child side of a master-detail relationship.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "C. Any object that is on the master side of a master-detail relationship.",
+        "checked": true,
+        "ca": "A."
+    }, {
+        "answer": "D. Any object that is on the child side of a lookup relationship.",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": ["C. "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 80,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "A developer needs to provide a Visualforce page that lets users enter Product-specific details during a Sales cycle. How can  this be accomplished?",
+    "answers": [{
+        "answer": "A. Download an Unmanaged Pachage from the AppExchange that provides a custom Visualforce page to modify.",
+        "checked": true,
+        "ca": "A."
+    }, {
+        "answer": "B. Download a Managed Package from the AppExchange that provides a custom Visualforce page to modify",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "C. Copy the standard page and then make a new Visualforce page for Product data entry.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "D. Create a new Visualforce page and an Apex controller to provide Product data entry.",
+        "checked": true,
+        "ca": "C."
+    }],
+    "answer": ["A. ", "D. "],
+    "choose": "Choose two answers.",
+    "id": 110,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "When the value of a field in an Account record is updated, which method will update the value of a custom field related opportunities?",
+    "answers": [{
+        "answer": "A. An Apex trigger on the Account object",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "B. A Process Builder on the Account object",
+        "checked": true,
+        "ca": "B."
+    }, {
+        "answer": "C. A Workflow Rule on the Account object",
+        "checked": true,
+        "ca": "D."
+    }, {
+        "answer": "D. A cross-object formula field on the Account object",
+        "checked": false,
+        "ca": "C."
+    }],
+    "answer": ["A. ", "B. "],
+    "choose": "Choose two answers.",
+    "id": 91,
+    "isRight": false,
+    "ball": "circle wrong"
+}, {
+    "question": "What is an accurate constructor for a custom controller named \"MyController\"?",
+    "answers": [{
+        "answer": "A. A",
+        "checked": true,
+        "ca": "A."
+    }, {
+        "answer": "B. B",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "C. C",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "D. D",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": ["A. "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "imageUrl": "67.png",
+    "noShuffle": true,
+    "id": 67,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "What is a capability of the Force.com IDE?",
+    "answers": [{
+        "answer": "A. Edit metadata components.",
+        "checked": true,
+        "ca": "A."
+    }, {
+        "answer": "B. Roll back deployments.",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "C. Run Apex tests.",
+        "checked": true,
+        "ca": "B."
+    }, {
+        "answer": "D. Download debug logs.",
+        "checked": false,
+        "ca": "C."
+    }],
+    "answer": ["A. ", "C. "],
+    "choose": "Choose two answers.",
+    "id": 102,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "A developer created an Apex trigger using the Developer Console and now wants to debug code. How can the developer accomplish this in the Developer Console?",
+    "answers": [{
+        "answer": "A. Add the user name in the Log Inspector.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "B. Open the Progress tab in the Developer Console.",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "C. Open the Logs tab in the Developer Console.",
+        "checked": true,
+        "ca": "A."
+    }, {
+        "answer": "D. Select the Override Log Triggers checkbox for the trigger.",
+        "checked": false,
+        "ca": "B."
+    }],
+    "answer": ["C. "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 117,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "A hierarchy custom Setting stores a specific URL for each profile in Salesforce. Which statement can a developer use to retrieve the correct URL for the current user's profile and display this on Visualforce page?",
+    "answers": [{
+        "answer": "A. {!$Setup.Url_Settings__c[Profile.ID].URL__c}",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "B. {!$Setup.Url_Settings__c.URL__c}",
+        "checked": true,
+        "ca": "B."
+    }, {
+        "answer": "C. {!$Setup.Url_Settings__c[$Profile.Id].URL__c}",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "D. {!$Setup.Url_Settings__c.Instance[Profile.Id].URL__c}",
+        "checked": false,
+        "ca": "A."
+    }],
+    "answer": ["B.  "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 103,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "The review__c object has a lookup relationship up to the Job_Application__c object. The Job_Application__c object has a master-detail relationship up to the Position__c object. The relationship field names are based on the auto-populated defaults. What is the recommended way to display field data from the related Review__c records on a Visualforce page for a single Position__c record?",
+    "answers": [{
+        "answer": "A. Utilize the Standard Controller for Position__c and cross-object Formula Fields on the Job_Applcation__c object to display Review__c data.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "B. Utilize the Standard Controller for Position__c and cross-object Formula Fields on the Review__c object to display Review__c data.",
+        "checked": true,
+        "ca": "D."
+    }, {
+        "answer": "C. Utilize the Standard Controller for Position__c and a Controller Extension to query for Review__c data.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "D. Utilize the Standard Controller for Position__c and expression syntax in the Page to display related Review__c data through the Job_Application__c object.",
+        "checked": false,
+        "ca": "C."
+    }],
+    "answer": ["B. "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 47,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "What is a valid statement about APEX classes and interfaces?",
+    "answers": [{
+        "answer": "A. The default modifier for an interface is private",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "B. Exception classes must end with the word exception",
+        "checked": true,
+        "ca": "B."
+    }, {
+        "answer": "C. A class can have multiple levels of inner classes",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "D. The default modifier for a class is private",
+        "checked": true,
+        "ca": "A."
+    }],
+    "answer": ["B.  ", "C. "],
+    "choose": "Choose two answers.",
+    "id": 51,
+    "isRight": false,
+    "ball": "circle wrong"
+}, {
+    "question": "What would a developer do to update a picklist field on related Opportunity records when a modification to the associated Account record is detected?",
+    "answers": [{
+        "answer": "A. Create a Visualforce page.",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "B. Create a workflow rule with a field update",
+        "checked": true,
+        "ca": "B."
+    }, {
+        "answer": "C. Create a Lightning Component",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "D. Create a process with Process builder",
+        "checked": false,
+        "ca": "A."
+    }],
+    "answer": ["D. "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 4,
+    "isRight": false,
+    "ball": "circle wrong"
+}, {
+    "question": "What is the advantage of Salesforce Lighning",
+    "answers": [{
+        "answer": "A. Pre defined components to give Sandard Look and Feel",
+        "checked": true,
+        "ca": "A."
+    }, {
+        "answer": "B. Uses service side for better handling",
+        "checked": false,
+        "ca": "B."
+    }],
+    "answer": ["A. "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 120,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "A developer creates an Apex class that includes private methods. What can the developer do to ensure that the private methods can be accessed by the test class?",
+    "answers": [{
+        "answer": "A. Add the TestVisible attribute to the Apex class.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "B. Add the SeeAllData attribute to the test methods.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "C. Add the TestVisible attribute to the Apex methods.",
+        "checked": true,
+        "ca": "D."
+    }, {
+        "answer": "D. Add the SeallData attribuite to the test class.",
+        "checked": false,
+        "ca": "C."
+    }],
+    "answer": ["C. "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 92,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "Which data structure is returned to a developer when performing a SOSL search?",
+    "answers": [{
+        "answer": "A. A map of sObject types to a list of sObjects",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "B. A list of lists of sObjects.",
+        "checked": true,
+        "ca": "A."
+    }, {
+        "answer": "C. A list of subjects",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "D. A map of sObjects types to a list of lists of sObjects",
+        "checked": false,
+        "ca": "C."
+    }],
+    "answer": ["B. "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 21,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "When would a developer use a custom controller instead of a controller extension?",
+    "answers": [{
+        "answer": "A. When a Visualforce page needs to add new actions to a standard controller.",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "B. When a Visualforce page needs to replace the functionality of a standard controller",
+        "checked": true,
+        "ca": "A."
+    }, {
+        "answer": "C. When a Visualforce page should not enforce permissions or field-level security.",
+        "checked": true,
+        "ca": "C."
+    }, {
+        "answer": "D. When a Visualforce page does not reference a single primary object",
+        "checked": false,
+        "ca": "B."
+    }],
+    "answer": ["B.  ", "C. "],
+    "choose": "Choose two answers.",
+    "id": 50,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "Which user can edit a record after is has been locked for approval?",
+    "answers": [{
+        "answer": "A. Any user with a higher role in the hierarchy",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "B. A user who is assigned as the current approver",
+        "checked": true,
+        "ca": "C."
+    }, {
+        "answer": "C. Any user who approved the record previously",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "D. An administrator",
+        "checked": true,
+        "ca": "A."
+    }],
+    "answer": ["B. ", "D. "],
+    "choose": "Choose two answers.",
+    "id": 62,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "What is a capability of a StandardSetController?",
+    "answers": [{
+        "answer": "A. It allows pages to perform mass updates of records.",
+        "checked": true,
+        "ca": "B."
+    }, {
+        "answer": "B. It allows pages to perform pagination with large record sets.",
+        "checked": true,
+        "ca": "C."
+    }, {
+        "answer": "C. It enforces field-level security when reading large record sets.",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "D. It extends the functionality of a standard or custom controller.",
+        "checked": false,
+        "ca": "A."
+    }],
+    "answer": ["A.  ", "B. "],
+    "choose": "Choose two answers.",
+    "id": 85,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "A developer needs to create records for the object Property__c. The developer creates the following cod block:Which line of code would the developer insert at line 03 to ensure that at least some records are created, even if a few records have errors and fail to be created?",
+    "answers": [{
+        "answer": "A. Database.insert(propertiesToCreate,false);",
+        "checked": true,
+        "ca": "C."
+    }, {
+        "answer": "B. Database.insert(propertiesToCreate,System.ALLOW_PARTIAL);",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "C. Database.insert(propertiesToCreate);",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "D. Insert propertiesToCreate;",
+        "checked": false,
+        "ca": "B."
+    }],
+    "answer": ["A.   "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "imageUrl": "55.png",
+    "id": 55,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "A developer wants to create a custom object to track Customer Invoices. How should Invoices and Accounts be related to ensure that all Invoices are visible to everyone with access to an Account?",
+    "answers": [{
+        "answer": "A. The Invoice should have a Lookup relationship to the account",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "B. The account should have a Lookup relationship to the Invoice",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "C. The Invoice should have a Master-detail relationship to the account",
+        "checked": true,
+        "ca": "B."
+    }, {
+        "answer": "D. The account should have a Master-Detail relationship to the Invoice",
+        "checked": false,
+        "ca": "C."
+    }],
+    "answer": ["C.  "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 53,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "A developer is creating an application to track engines and their parts. An individual part can be used in different types of engines. What data model should be used to track the data and to prevent orphan records?",
+    "answers": [{
+        "answer": "A. Create a junction object to relate many engines to many parts through a master-detail relationship.",
+        "checked": true,
+        "ca": "A."
+    }, {
+        "answer": "B. Create a lookup relationship to represent how each part relates to the parent engine object.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "C. Create a junction object to relate many engines to many parts through a lookup relationship.",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "D. Create a master-detail relationship to represent the one-to-many model of engines to parts.",
+        "checked": false,
+        "ca": "B."
+    }],
+    "answer": ["A. "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 32,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "A company has a custom object named Warehouse. Each Warehouse record has a distinct record owner, and is related to a parent Account in Salesforce. Which kind of relationship would a developer use to relate the Account to the Warehouse?",
+    "answers": [{
+        "answer": "A. Parent-Child",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "B. One-to-Many",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "C. Master-Detail",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "D. Lookup",
+        "checked": true,
+        "ca": "B."
+    }],
+    "answer": ["D.  "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 10,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "A company has a custom object named Warehouse. Each Warehouse has a distinct record owner, and is related to a parent Account in Salesforce. Which kind of relationship would a developer use to relate the Account to the Warehouse?",
+    "answers": [{
+        "answer": "A. Master- Detail",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "B. Parent-Child",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "C. Lookup",
+        "checked": true,
+        "ca": "A."
+    }, {
+        "answer": "D. One-to-Many",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": ["C. "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 112,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "To which primitive data type in Apex is a currency field automatically assigned?",
+    "answers": [{
+        "answer": "A. Decimal",
+        "checked": true,
+        "ca": "B."
+    }, {
+        "answer": "B. Currency",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "C. Integer",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "D. Double",
+        "checked": false,
+        "ca": "C."
+    }],
+    "answer": ["A.  "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 33,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "What is an important consideration when developing in a multi-tenant environment?",
+    "answers": [{
+        "answer": "A. Polyglot persistence provides support for a global, multilingual user base in multiple orgs on multiple instances.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "B. Governor limits prevent tenants from impacting performance in multiple orgs on the same instance.",
+        "checked": true,
+        "ca": "B."
+    }, {
+        "answer": "C. Org-wide data security determines whether other tenants can see data in multiple on the same instance",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "D. Unique domain names take the place of namespaces for code developed for multiple orgs on multiple instances.",
+        "checked": false,
+        "ca": "C."
+    }],
+    "answer": ["B.  "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 97,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "Where can debug log filter settings be set?",
+    "answers": [{
+        "answer": "A. The log Filters tab on a class or trigger detail page.",
+        "checked": true,
+        "ca": "D."
+    }, {
+        "answer": "B. The filters link by the monitored user's name within the web UI.",
+        "checked": true,
+        "ca": "A."
+    }, {
+        "answer": "C. On the monitored user's name.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "D. The Show More link on the debug log's record.",
+        "checked": false,
+        "ca": "B."
+    }],
+    "answer": ["A. ", "B. "],
+    "choose": "Choose two answers.",
+    "id": 73,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "What is a correct pattern to follow when programming in Apex on a multi-tenant platform?",
+    "answers": [{
+        "answer": "A. Apex code is created in a separate environment from schema to reduce deployment errors",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "B. Queries select the fewest fields and records possible to avoid exceeding governor limits.",
+        "checked": true,
+        "ca": "B."
+    }, {
+        "answer": "C. DML is performed on one record at a time to avoid possible data concurrency issues.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "D. Apex classes use the \"with sharing\" keyword to prevent access from other server tenants.",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": ["B.  "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 115,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "A developer creates an Apex helper class to handle complex trigger logic. How can the helper class warn users when the trigger exceeds DML governor limits?",
+    "answers": [{
+        "answer": "A. By using Limits.getDMLRows() and the then displaying the error message before the number of DML statements is exceeded",
+        "checked": true,
+        "ca": "D."
+    }, {
+        "answer": "B. By using ApexMessage.Message() to display an error message after the number of DML statements is exceeded",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "C. By using Pagereference.setRedirect() to redirect the user to a custom Visualforce page before the number of DML statements is exceeded",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "D. By using Messaging.SendEmail() to continue the transaction and send an alert to the user after the number of DML statements is exceeded",
+        "checked": false,
+        "ca": "B."
+    }],
+    "answer": ["A. "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 61,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "What must the Controller for a Visualforce page utilize to override the standard Opportunity view button?",
+    "answers": [{
+        "answer": "A. The StandardSetController to support related lists for pagination",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "B. A constructor that initializes a private Opportunity variable.",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "C. The Opportunity StandardController for pre-built functionality",
+        "checked": true,
+        "ca": "B."
+    }, {
+        "answer": "D. A callback constructor to reference the StandardController",
+        "checked": false,
+        "ca": "C."
+    }],
+    "answer": ["C.  "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 2,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "What should a developer working in a sandbox use to exercise a new test class before the developer deploys that test class to production?",
+    "answers": [{
+        "answer": "A. The Run Tests page in Salesforce Setup.",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "B. The REST API and ApexTestRun method",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "C. The Test menu in the Developer Console.",
+        "checked": true,
+        "ca": "C."
+    }, {
+        "answer": "D. The Apex Test Execution page in Salesforce Setup",
+        "checked": true,
+        "ca": "B."
+    }],
+    "answer": ["C. ", "D.  "],
+    "choose": "Choose two answers.",
+    "id": 24,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "What is a valid source and destination pair that can send or receive change sets?",
+    "answers": [{
+        "answer": "A. Developer edition do sandbox",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "B. Developer edition to production",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "C. Sandbox to production",
+        "checked": true,
+        "ca": "A."
+    }, {
+        "answer": "D. Sandbox to sandbox",
+        "checked": true,
+        "ca": "C."
+    }],
+    "answer": ["", "D. C. "],
+    "choose": "Choose two answers.",
+    "id": 81,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "Preferred way to load test data into Salesforce",
+    "answers": [{
+        "answer": "A. Static Resources",
+        "checked": true,
+        "ca": "C."
+    }, {
+        "answer": "B. Documents",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "C. HttpCalloutMocks",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "D. WebServiceTests",
+        "checked": false,
+        "ca": "B."
+    }],
+    "answer": ["A.   "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 121,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "What is the minimum log level needed to see user-generated debug statements?",
+    "answers": [{
+        "answer": "A. DEBUG",
+        "checked": true,
+        "ca": "A."
+    }, {
+        "answer": "B. FINE",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "C. INFO",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "D. WARN",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": ["A. "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 29,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "In which order does Salesforce execute events upon saving a record?",
+    "answers": [{
+        "answer": "A. Before Triggers; Validation Rules; After Triggers; Workflow Rules; Assignment Rules; Commit",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "B. Validation Rules; Before Triggers; After Triggers; Assignment rules; workflow Rules; Commit",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "C. Before Triggers; Validation Rules; After Triggers; Assignment Rules; Workflow Rules; Commit",
+        "checked": true,
+        "ca": "A."
+    }, {
+        "answer": "D. Validation Rules; Before Triggers; After Triggers; Workflow Rules; Assignment Rules; Commit",
+        "checked": false,
+        "ca": "B."
+    }],
+    "answer": ["C. "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 13,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "What is the preferred way to reference web content - such as images, stylesheets, JavaScript, and other libraries - that is used in Visualforce pages?",
+    "answers": [{
+        "answer": "A. By uploading the content as a Static Resource.",
+        "checked": true,
+        "ca": "D."
+    }, {
+        "answer": "B. By uploading the content in the Documents tab.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "C. By accessing the content from Chatter Files.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "D. By accessing the content from a third-party CDN",
+        "checked": false,
+        "ca": "C."
+    }],
+    "answer": ["A. "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 9,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "Where can a developer create managed package",
+    "answers": [{
+        "answer": "A. Developer Sandbox",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "B. Enterprise Unlimited",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "C. Developer Edition",
+        "checked": true,
+        "ca": "A."
+    }],
+    "answer": ["C. "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 118,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "Which data type or collection of data types can SOQL statements populate or evaluate to?",
+    "answers": [{
+        "answer": "A. A list of sObjects",
+        "checked": true,
+        "ca": "C."
+    }, {
+        "answer": "B. An Integer",
+        "checked": true,
+        "ca": "B."
+    }, {
+        "answer": "C. A string",
+        "checked": false,
+        "ca": "E."
+    }, {
+        "answer": "D. A Boolean",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "E. A single sObject",
+        "checked": true,
+        "ca": "D."
+    }],
+    "answer": ["A. ", "B.  ", "E. "],
+    "choose": "Choose three answers.",
+    "id": 71,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "A developer wants to list all of the Tasks for each Account on the Account detail page. When a task is created for a contact, what does the developer need to do to display the Task on the related Account record?",
+    "answers": [{
+        "answer": "A. Create an Account formula field that displays the Task information.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "B. Nothing. The Task is automatically displayed on the Account page.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "C. Nothing. The task cannot be related to an Account and a Contact.",
+        "checked": true,
+        "ca": "D."
+    }, {
+        "answer": "D. Create a workflow rule to relate the task to the Contact's Account.",
+        "checked": false,
+        "ca": "C."
+    }],
+    "answer": ["B.  "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 84,
+    "isRight": false,
+    "ball": "circle wrong"
+}, {
+    "question": "The sales management team requires that the Lead Source field of the Lead record be populated when a lead is converted. What would a developer use to unsure that a user populates the Lead Source field prior to converting a Lead?",
+    "answers": [{
+        "answer": "A. Validation rule",
+        "checked": true,
+        "ca": "B."
+    }, {
+        "answer": "B. Workflow rule",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "C. Formula field",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "D. Process builder",
+        "checked": false,
+        "ca": "A."
+    }],
+    "answer": ["A.  "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 114,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "A developer wrote a workflow email alert on case creation so that an email is sent to the case owner manager when a case is created. When will the email be sent?",
+    "answers": [{
+        "answer": "A. Before Committing to database.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "B. After trigger execution",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "C. Before Trigger execution",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "D. After Committing to database",
+        "checked": true,
+        "ca": "B."
+    }],
+    "answer": ["D.  "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 42,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "A candidate may apply to multiple jobs at the company Universal Containers by submitting a single application per job posting. Once an application is submitted for a job posting, that application cannot be modified to be resubmitted to a different job positing. What can the administrator do to associate an application with each job posting in the schema for the organization?",
+    "answers": [{
+        "answer": "A. Create a master-detail relationship in the Application custom object to the Job Postings custom object.",
+        "checked": true,
+        "ca": "A."
+    }, {
+        "answer": "B. Create a lookup relationship on both objects to a junction object called Job Posting Applications",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "C. Create a lookup relationship in the Applications custom object to the Job Postings custom object.",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "D. Create a master-detail relationship in the Job Postings custom object to the Applications custom object.",
+        "checked": false,
+        "ca": "C."
+    }],
+    "answer": ["A. "],
+    "isRadioButton": true,
+    "choose": "Choose one answer.",
+    "id": 113,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "A developer needs to provide a Visualforce page that lets users enter Product-specific details during a Sales cycle. How can this be accomplished?",
+    "answers": [{
+        "answer": "A. Copy the standard page and then make a new Visualforce page for Product data entry.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "B. Create a new Visualforce page and an Apex controller to provide Product data entry.",
+        "checked": true,
+        "ca": "B."
+    }, {
+        "answer": "C. Download a Managed Package from the AppExchange that provides a custom Visualforce page to modify",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "D. Download an Unmanaged Package from the AppExchange that provides a custom Visualforce page to modify",
+        "checked": true,
+        "ca": "D."
+    }],
+    "answer": ["B.  ", "D. "],
+    "choose": "Choose two answers.",
+    "id": 65,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "A developer needs to provide a Visualforce page that lets users enter Product-specific details during a Sales cycle. How can this be accomplished?",
+    "answers": [{
+        "answer": "A. Download a Managed Package from the AppExchange that provides a custom Visualforce page to modify",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "B. Copy the standard page and then make a new Visualforce page for Product data entry.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "C. Download an Unmanaged Package from the AppExchange that provides a custom Visualforce page to modify",
+        "checked": true,
+        "ca": "D."
+    }, {
+        "answer": "D. Create a new Visualforce page and an Apex controller to provide Product data entry.",
+        "checked": true,
+        "ca": "B."
+    }],
+    "answer": ["C. ", "D.  "],
+    "choose": "Choose two answers.",
+    "id": 44,
+    "isRight": true,
+    "ball": "circle right"
+}, {
+    "question": "How can a developer avoid exceeding governor limits when using an Apex Trigger?",
+    "answers": [{
+        "answer": "A. By using Maps to hold data from query results.",
+        "checked": true,
+        "ca": "C."
+    }, {
+        "answer": "B. By performing DML transactions on lists of sObjects.",
+        "checked": true,
+        "ca": "D."
+    }, {
+        "answer": "C. By using the Database class to handle DML transactions.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "D. By using a helper class that can be invoked from multiple triggers.",
+        "checked": false,
+        "ca": "A."
+    }],
+    "answer": ["A.   ", "B. "],
+    "choose": "Choose two answers.",
+    "id": 22,
+    "isRight": true,
+    "ball": "circle right"
+}]

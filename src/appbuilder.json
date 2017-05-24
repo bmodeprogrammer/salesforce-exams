@@ -1647,14 +1647,14 @@
     "isRadioButton": true
 }, {
     "question": "Use the data import wizard when:",
-    "answer": "A.You need to load less than 50,000 records.\nB.The objects you need to import are supported by the wizard.\nD. You don't need the import process to be automated.",
+    "answer": "A. You need to load less than 50,000 records.\nB. The objects you need to import are supported by the wizard.\nD. You don't need the import process to be automated.",
     "id": 74,
     "answers": [{
-        "answer": "ou need to load less than 50,000 records.",
+        "answer": "You need to load less than 50,000 records.",
         "checked": false,
         "ca": "A."
     }, {
-        "answer": "he objects you need to import are supported by the wizard.",
+        "answer": "The objects you need to import are supported by the wizard.",
         "checked": false,
         "ca": "B."
     }, {
