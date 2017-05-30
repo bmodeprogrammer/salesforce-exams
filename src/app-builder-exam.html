@@ -134,15 +134,11 @@
       <span class="question">[[currentQuestion.question]]</span>
 
 
-      <template is="dom-if" if="[[currentQuestion.imageUrl]]">
-        <div class="imgContainer">
-          <img id="imageQuestion" src="images/[[currentQuestion.imageUrl]]" />
-        </div>
-      </template>
+      <div class="imgContainer" hidden$="[[!currentQuestion.imageUrl]]">
+        <img id="imageQuestion" src="images/[[currentQuestion.imageUrl]]" />
+      </div>
 
-      <template is="dom-if" if="[[currentQuestion.choose]]">
-        <span class="question choose">[[currentQuestion.choose]]</span>
-      </template>
+      <span class="question choose" hidden$="[[!currentQuestion.choose]]">[[currentQuestion.choose]]</span>
 
       <div class="answer">
 
@@ -188,22 +184,15 @@
 
             <div class$="[[questionObj.ball]]">[[questionObj.id]]</div>
 
-            <template is="dom-if" if="[[questionObj.isFlaged]]">
-
-              <div style="float:right;">
-                <paper-icon-button icon="flag" style="width: 50px; height: 50px; color: red;"></paper-icon-button>
-              </div>
-            </template>
+            <div style="float:right;" hidden$="[[!questionObj.isFlaged]]">
+              <paper-icon-button icon="flag" style="width: 50px; height: 50px; color: red;"></paper-icon-button>
+            </div>
 
             <span class="question">[[questionObj.question]]</span>
-            <template is="dom-if" if="[[questionObj.imageUrl]]">
-              <div class="imgContainer">
-                <img src="images/[[questionObj.imageUrl]]" />
-              </div>
-            </template>
-            <template is="dom-if" if="[[currentQuestion.choose]]">
-              <span class="question choose">[[questionObj.choose]]</span>
-            </template>
+            <div class="imgContainer" hidden$="[[!questionObj.imageUrl]]">
+              <img src="images/[[questionObj.imageUrl]]" />
+            </div>
+            <span class="question choose" hidden$="[[!currentQuestion.choose]]">[[questionObj.choose]]</span>
 
             <div class="answer">
 
@@ -266,7 +255,7 @@
 
         properties: {
           url: String,
-          questions:  Array,
+          questions: Array,
           rightPercentage: String,
           questionsSubmited: Array,
           filteredQuestionsSubmited: Array,

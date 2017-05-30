@@ -156,7 +156,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       },
 
       ready: function () {
-        this.reload.bind(this);
+        this.reload = this.reload.bind(this);
         const exam = this.$.exams,
           _this = this;
         exam.addEventListener('loading-exam', () => _this.progress = true);
