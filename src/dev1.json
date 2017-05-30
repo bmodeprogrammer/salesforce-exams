@@ -1355,29 +1355,6 @@
     "choose": "Choose one answer.",
     "id": 59
 }, {
-    "question": "A developer wrote a workflow email alert on case creation so that an email is sent to the case owner manager when a case is created. When will the email be sent?",
-    "answers": [{
-        "answer": "Before Trigger execution",
-        "checked": false,
-        "ca": "A."
-    }, {
-        "answer": "After Committing to database",
-        "checked": false,
-        "ca": "B."
-    }, {
-        "answer": "Before Committing to database.",
-        "checked": false,
-        "ca": "C."
-    }, {
-        "answer": "After trigger execution",
-        "checked": false,
-        "ca": "D."
-    }],
-    "answer": "B.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
-    "id": 60
-}, {
     "question": "A developer creates an Apex helper class to handle complex trigger logic. How can the helper class warn users when the trigger exceeds DML governor limits?",
     "answers": [{
         "answer": "By using ApexMessage.Message() to display an error message after the number of DML statements is exceeded",
@@ -1467,28 +1444,6 @@
     "isRadioButton": true,
     "choose": "Choose one answer.",
     "id": 64
-}, {
-    "question": "A developer needs to provide a Visualforce page that lets users enter Product-specific details during a Sales cycle. How can this be accomplished?",
-    "answers": [{
-        "answer": "Download a Managed Package from the AppExchange that provides a custom Visualforce page to modify",
-        "checked": false,
-        "ca": "A."
-    }, {
-        "answer": "Create a new Visualforce page and an Apex controller to provide Product data entry.",
-        "checked": false,
-        "ca": "B."
-    }, {
-        "answer": "Copy the standard page and then make a new Visualforce page for Product data entry.",
-        "checked": false,
-        "ca": "C."
-    }, {
-        "answer": "Download an Unmanaged Package from the AppExchange that provides a custom Visualforce page to modify",
-        "checked": false,
-        "ca": "D."
-    }],
-    "answer": "B.  D. ",
-    "choose": "Choose two answers.",
-    "id": 65
 }, {
     "question": "Which declarative method helps ensure quality data?",
     "answers": [{
@@ -1841,28 +1796,6 @@
     "isRadioButton": true,
     "choose": "Choose one answer.",
     "id": 80
-}, {
-    "question": "What is a valid source and destination pair that can send or receive change sets?",
-    "answers": [{
-        "answer": "Sandbox to production",
-        "checked": false,
-        "ca": "A."
-    }, {
-        "answer": "Developer edition do sandbox",
-        "checked": false,
-        "ca": "B."
-    }, {
-        "answer": "Sandbox to sandbox",
-        "checked": false,
-        "ca": "C."
-    }, {
-        "answer": "Developer edition to production",
-        "checked": false,
-        "ca": "D."
-    }],
-    "answer": "A. C. ",
-    "choose": "Choose two answers.",
-    "id": 81
 }, {
     "question": "A Visualforce page has a standard controller for an object that has a lookup relationship to a parent object. How can a developer display data from the parent record on the page?",
     "answers": [{
@@ -2327,28 +2260,6 @@
     "choose": "Choose one answer.",
     "id": 101
 }, {
-    "question": "What is a capability of the Force.com IDE?",
-    "answers": [{
-        "answer": "Edit metadata components.",
-        "checked": false,
-        "ca": "A."
-    }, {
-        "answer": "Run Apex tests.",
-        "checked": false,
-        "ca": "B."
-    }, {
-        "answer": "Download debug logs.",
-        "checked": false,
-        "ca": "C."
-    }, {
-        "answer": "Roll back deployments.",
-        "checked": false,
-        "ca": "D."
-    }],
-    "answer": "A. B. ",
-    "choose": "Choose two answers.",
-    "id": 102
-}, {
     "question": "A hierarchy custom Setting stores a specific URL for each profile in Salesforce. Which statement can a developer use to retrieve the correct URL for the current user's profile and display this on Visualforce page?",
     "answers": [{
         "answer": "{!$Setup.Url_Settings__c.Instance[Profile.Id].URL__c}",
@@ -2647,51 +2558,6 @@
     "isRadioButton": true,
     "choose": "Choose one answer.",
     "id": 115
-}, {
-    "question": "When loading data into an organization, what can a developer do to match records to update existing records?",
-    "answers": [{
-        "answer": "Match an auto-generated Number field to a column in the imported file.",
-        "checked": false,
-        "ca": "A."
-    }, {
-        "answer": "Match the Id field to a column in the imported file.",
-        "checked": false,
-        "ca": "B."
-    }, {
-        "answer": "Match the Name field to a column in the imported file.",
-        "checked": false,
-        "ca": "C."
-    }, {
-        "answer": "Match an external Id Text field to a column in the imported file.",
-        "checked": false,
-        "ca": "D."
-    }],
-    "answer": "B.  D. ",
-    "choose": "Choose two answers.",
-    "id": 116
-}, {
-    "question": "A developer created an Apex trigger using the Developer Console and now wants to debug code. How can the developer accomplish this in the Developer Console?",
-    "answers": [{
-        "answer": "Open the Logs tab in the Developer Console.",
-        "checked": false,
-        "ca": "A."
-    }, {
-        "answer": "Select the Override Log Triggers checkbox for the trigger.",
-        "checked": false,
-        "ca": "B."
-    }, {
-        "answer": "Add the user name in the Log Inspector.",
-        "checked": false,
-        "ca": "C."
-    }, {
-        "answer": "Open the Progress tab in the Developer Console.",
-        "checked": false,
-        "ca": "D."
-    }],
-    "answer": "A. ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
-    "id": 117
 }, {
     "question": "Where can a developer create managed package?",
     "answers": [{

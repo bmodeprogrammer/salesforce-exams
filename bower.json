@@ -20,7 +20,8 @@
     "paper-material": "^2.0.0",
     "paper-input": "^2.0.0",
     "iron-form": "^1.1.4",
-    "paper-toast": "^2.0.0"
+    "paper-toast": "^2.0.0",
+    "firebase": "^4.0.0"
   },
   "devDependencies": {
     "web-component-tester": "^4.0.0"
