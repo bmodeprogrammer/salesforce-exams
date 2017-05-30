@@ -199,7 +199,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
       _pageChanged: function (page) {
         if (page === 'exams') {
-          this.$.exams.url = 'src/' + window.location.href.split('=')[1] + '.json';
+          this.$.exams.url = window.location.href.split('=')[1];
           this.$.exams.reset = true;
         } else {
           this.timerInterval && clearInterval(this.timerInterval);

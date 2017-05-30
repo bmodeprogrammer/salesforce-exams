@@ -1,5 +1,4 @@
 <link rel="import" href="../bower_components/polymer/polymer.html">
-<link rel="import" href="../bower_components/iron-ajax/iron-ajax.html">
 <link rel="import" href="../bower_components/paper-checkbox/paper-checkbox.html">
 <link rel="import" href="../bower_components/iron-icons/iron-icons.html">
 <link rel="import" href="../bower_components/paper-icon-button/paper-icon-button.html">
@@ -124,7 +123,6 @@
       }
     </style>
 
-    <iron-ajax auto url="[[url]]" handle-as="json" on-response="handleResponse"></iron-ajax>
 
     <div class="card submitted" hidden$="[[isSubmited]]">
       <div class="circle">[[currentQuestion.id]]</div>
@@ -282,6 +280,19 @@
           this.submitExam = this.submit;
         },
 
+        attached: function() {
+          const questionStr = 'questions' + this.url,
+            qs = localStorage.getItem(questionStr);
+          if (qs) {
+            this.handleResponse(JSON.parse(qs));
+          } else {
+          firebase.database().ref('/questions/' + this.url).once('value').then(snapshot => {
+            this.handleResponse(snapshot.val());
+            localStorage.setItem(questionStr,JSON.stringify(snapshot.val()));
+          });
+          }
+        },
+
         detached: function() {
           this._removeEvents();
         },
@@ -307,17 +318,17 @@
           }
         },
 
-        handleResponse: function (e) {
+        handleResponse: function (snapshot) {
           let questionsAux = JSON.parse(localStorage.getItem('last-exam')),
             origin = questionsAux.slice(0);
           if (questionsAux) {
-            questionsAux = e.detail.response.filter(q => questionsAux.filter(qa => qa.id === q.id).length === 0);
+            questionsAux = snapshot.filter(q => questionsAux.filter(qa => qa.id === q.id).length === 0);
             if (questionsAux.length < (localStorage.getItem('numberOfQuestions') || 40)) {
-              questionsAux = e.detail.response;
+              questionsAux = snapshot;
             }
             localStorage.setItem('last-exam', JSON.stringify(origin.concat(questionsAux)));
           } else {
-            questionsAux = e.detail.response;
+            questionsAux = snapshot;
             localStorage.setItem('last-exam', JSON.stringify(questionsAux));
           }
           this.fire('init-exam');
