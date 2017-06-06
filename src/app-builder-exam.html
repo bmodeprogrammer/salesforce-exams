@@ -308,27 +308,35 @@
         },
 
         handleResponse: function (e) {
-          let questionsAux = JSON.parse(localStorage.getItem('last-exam')),
-            origin = questionsAux.slice(0);
+          let questionsAux = JSON.parse(localStorage.getItem('last-exam')), origin;
           if (questionsAux) {
-            questionsAux = e.detail.response.filter(q => questionsAux.filter(qa => qa.id === q.id).length === 0);
-            if (questionsAux.length < (localStorage.getItem('numberOfQuestions') || 40)) {
-              questionsAux = e.detail.response;
+            origin = e.detail.response.filter(q => questionsAux.filter(qa => qa.id === q.id).length === 0);
+            if (origin.length < (localStorage.getItem('numberOfQuestions') || 40)) {
+              origin = e.detail.response;
             }
-            localStorage.setItem('last-exam', JSON.stringify(origin.concat(questionsAux)));
           } else {
-            questionsAux = e.detail.response;
-            localStorage.setItem('last-exam', JSON.stringify(questionsAux));
+            origin = e.detail.response;
           }
           this.fire('init-exam');
           this.isSubmited = false;
           this.currentQuestionIndex = 0;
-          // suffle and slice questions
-          this.questions = this._prepareQuestions.bind(this)(questionsAux);
+          // suffle and slice questionspolymer
+          this.questions = this._prepareQuestions.bind(this)(origin);
+          if (questionsAux) {
+            localStorage.setItem('last-exam', JSON.stringify(origin.concat(this.questions)));
+          } else {
+            localStorage.setItem('last-exam', JSON.stringify(this.questions));
+          }
           this.canBack = true;
           this.totalQuestions = this.questions.length;
           this.currentQuestion = this.questions[0];
-          this._imageTouch.bind(this)();          
+          try {
+            this._imageTouch.bind(this)();          
+          } catch(e) {
+            console.log(this.questions);
+            console.log(this.currentQuestion);
+            console.error(e.message);
+          }
           this.canNext = this.questions.length < 1;
           this.progress = false;
           this._initializeEvent = this._initializeEvent.bind(this);
