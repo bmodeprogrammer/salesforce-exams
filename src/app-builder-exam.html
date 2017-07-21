@@ -308,7 +308,7 @@
         },
 
         handleResponse: function (e) {
-          let questionsAux = JSON.parse(localStorage.getItem('last-exam')), origin;
+          let questionsAux = JSON.parse(localStorage.getItem(this.url)), origin;
           if (questionsAux) {
             origin = e.detail.response.filter(q => questionsAux.filter(qa => qa.id === q.id).length === 0);
             if (origin.length < (localStorage.getItem('numberOfQuestions') || 40)) {
@@ -317,26 +317,21 @@
           } else {
             origin = e.detail.response;
           }
+          
           this.fire('init-exam');
           this.isSubmited = false;
           this.currentQuestionIndex = 0;
           // suffle and slice questionspolymer
           this.questions = this._prepareQuestions.bind(this)(origin);
           if (questionsAux) {
-            localStorage.setItem('last-exam', JSON.stringify(origin.concat(this.questions)));
+            localStorage.setItem(this.url, JSON.stringify(origin.concat(this.questions)));
           } else {
-            localStorage.setItem('last-exam', JSON.stringify(this.questions));
+            localStorage.setItem(this.url, JSON.stringify(this.questions));
           }
           this.canBack = true;
           this.totalQuestions = this.questions.length;
           this.currentQuestion = this.questions[0];
-          try {
-            this._imageTouch.bind(this)();          
-          } catch(e) {
-            console.log(this.questions);
-            console.log(this.currentQuestion);
-            console.error(e.message);
-          }
+          this._imageTouch.bind(this)();
           this.canNext = this.questions.length < 1;
           this.progress = false;
           this._initializeEvent = this._initializeEvent.bind(this);

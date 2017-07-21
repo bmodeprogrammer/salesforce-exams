@@ -1,0 +1,2852 @@
+[{
+    "question": "A local restaurant chain wants to send an email to customers seven days prior to their birthday. The restaurant has one of non-technical marketer who has limited experience with the Marketing Cloud. The owner wants the birthday email 60 campaign to start tomorrow. Which tool can the non-technical marketer use most easily to segment and send the birthday email?",
+    "answers": [{
+        "answer": "Playbooks ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Query Activity ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Automation Studio ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "User-initiated email ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 1
+}, {
+    "question": "What is a triggered automation?",
+    "answers": [{
+        "answer": "An automation that is triggered based on a schedule that has been defined. ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "An automation that triggers an email to be sent based on a User Initiated Email definition. ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "An automation that is initiated when a file is dropped into a designated Enhanced FTP folder. ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "An automation that is initiated when a designated value in a data extension is changed. ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 2
+}, {
+    "question": "When building content for an email, what would a marketer consider in the Call to Action?",
+    "answers": [{
+        "answer": "A call to action should be direct and action-oriented. ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Text buttons receive more clicks than graphics. ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "A call to action below the fold performs best. ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "A call to action can be text or an image-based button. ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. D.  ",
+    "isRadioButton": false,
+    "choose": "Choose two answers",
+    "id": 3
+}, {
+    "question": "Northern Trail Outfitters wants the From Name on the monthly newsletter to come from a specific User who is set up in the Marketing Cloud. Which feature would be used to setup this From Name selection?",
+    "answers": [{
+        "answer": "CAN-SPAM classification ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Delivery Profile ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Sender Profile ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Content information ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 4
+}, {
+    "question": "A client leverages transactional messages to send ad-hoc order confirmations. Which type of message is most suitable in this situation?",
+    "answers": [{
+        "answer": "Triggered Email ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Guided Send ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Test Send ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "User-Initiated Email ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 5
+}, {
+    "question": "What happens when subscribers click the default \"One-Click Unsubscribe\"in an email sent to a \"Public\"List?",
+    "answers": [{
+        "answer": "They can resubscribe from the Subscription Center. ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "They will be unsubscribed from the List used for the send. ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "They will be unsubscribed from all available lists. ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "They will be removed from the data extension. ",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "They can choose to be unsubscribed from all lists in the Subscription Center. ",
+        "checked": false,
+        "ca": "E."
+    }],
+    "answer": "A. B. E.  ",
+    "isRadioButton": false,
+    "choose": "Choose three answers",
+    "id": 6
+}, {
+    "question": "A marketer at Northern Trail Outfitters sends a promotional offer every week to a data extension that contains all new 60 subscribers from the previous week. What would the marketer create to automate the send and save time?",
+    "answers": [{
+        "answer": "A recurring Send Schedule via Guided Send. ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "A Transactional Send Classification. ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "A Simple Send Email. ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "A User-Initiated Email. ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 7
+}, {
+    "question": "What is a Master Unsubscribe?",
+    "answers": [{
+        "answer": "When a subscriber unsubscribes from a Publication list via an email unsubscribe link. ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "When a subscriber unsubscribes from all emails sent from the Salesforce Marketing Cloud. ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "When a subscriber unsubscribes from all emails sent from an account. ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "When a subscriber unsubscribes from a list in the Subscription Center. ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 8
+}, {
+    "question": "Northern Trail Outfitters wants to identify subscribers with something other than an email address. What value can be used to accommodate this?",
+    "answers": [{
+        "answer": "System Preferences ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Subscriber Attributes ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Primary Key ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Subscriber Key ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "D.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 9
+}, {
+    "question": "A national landscape company wants to send targeted emails to customers to remind them of their upcoming lawn of treatment. Depending on the service, clients will receive either one or two emails. The data for the campaign is in two separate data extensions. Customer Number is a Primary Key field in both data extensions. Which tool can be used to segment the data?",
+    "answers": [{
+        "answer": "Data Extract Activity ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Send Definition ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Drag & Drop Segmentation ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Query Activity ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. D.  ",
+    "isRadioButton": false,
+    "choose": "Choose two answers",
+    "id": 10
+}, {
+    "question": "What is the timeline for which an unsubscribe request must be honored and processed as outlined by the CAN-SPAM Act?",
+    "answers": [{
+        "answer": "10 business days ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "30 calendar days ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "24 hours ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "5 business days ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 11
+}, {
+    "question": "A marketer needs to share report results with a manager. When using Reports in the Marketing Cloud, which option can be used to deliver the report to the manager?",
+    "answers": [{
+        "answer": "Email the report. ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Save the report as a Snapshot. ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Include a link to the report in an email. ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Save the report to an FTP folder. ",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "Print the report from Reports. ",
+        "checked": false,
+        "ca": "E."
+    }],
+    "answer": "A. C. D.  ",
+    "isRadioButton": false,
+    "choose": "Choose three answers",
+    "id": 12
+}, {
+    "question": "When using a mobile-optimized template, what causes the mobile layout to display?",
+    "answers": [{
+        "answer": "A subscriber attribute that dictates a mobile layout preference. ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "The screen size of the device that is used to view the email. ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "The email client detection tracking pixel. ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "The specific device that is used to view the email. ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 13
+}, {
+    "question": "Which segmentation activity can be used to refresh data on a recurring schedule via an Automation?",
+    "answers": [{
+        "answer": "SQL Query Activity ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Data Extract Activity ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Segment Activity ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Filter Activity ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. D.  ",
+    "isRadioButton": false,
+    "choose": "Choose two answers",
+    "id": 14
+}, {
+    "question": "A marketing associate wants to use the Validate button to ensure an email is CAN-SPAM compliant. What information does the associate need to provide in order for the email to pass validation?",
+    "answers": [{
+        "answer": "Physical Mailing Address ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Profile Centre URL ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Company Website URL ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Terms and Conditions Policy ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. B.  ",
+    "isRadioButton": false,
+    "choose": "Choose two answers",
+    "id": 15
+}, {
+    "question": "Which actions are taken when a subscriber selects the \"one-click unsubscribe\"link at the footer of an email sent from a list?",
+    "answers": [{
+        "answer": "The subscriber is automatically redirected to the subscription center to unsubscribe from publications. ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "The subscriber is automatically unsubscribed from All Subscribers at the enterprise level. ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "The subscriber is automatically unsubscribed from All Subscribers from the business unit from which the send originated. ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "The subscriber is automatically unsubscribed from the list from which the send originated. ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "D.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 16
+}, {
+    "question": "A marketer wants to ensure that emails follow the basic brand guidelines. Which feature helps ensure emails have the correct layout and logos?",
+    "answers": [{
+        "answer": "Portfolio ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Data Extensions ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Preference Management ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Email Templates ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "D.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 17
+}, {
+    "question": "Which action will the Validate tool complete when initiated?",
+    "answers": [{
+        "answer": "Identify phrases like \"click here\"or \"Free!\"that could be marked as spam. ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Ensure subscriber status at the time of send is Subscribed or Bounced. ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Ensure subscribers have not unsubscribed or are undeliverable. ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Confirm that each content area specified in the dynamic content rules exists. ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "D.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 18
+}, {
+    "question": "Northern Trail Outfitters wants to make sure that a First Name and Last Name are always included when importing subscribers to a data extension. How can a marketer ensure that subscribers are imported with data in both of these fields?",
+    "answers": [{
+        "answer": "Check the Nullable property for the First Name and Last Name columns. ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Make the First Name and Last Name columns Primary Keys. ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Ensure the Nullable property is unchecked for the First Name and Last Name columns. ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Set up a default value for the column. ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 19
+}, {
+    "question": "A marketer sends an email to a sendable data extension. The data extension has a send relationship that matches Customer_ID on the data extension to Subscriber Key in All Subscribers. What is a true statement regarding the email send behavior?",
+    "answers": [{
+        "answer": "The email will be sent to the Subscriber Key in All Subscribers. ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "The email will be sent to the email address stored in All Subscribers. ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "The email will be sent to the email address stored on the Data Extension. ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "The email will be sent to the field marked as the Primary Key. ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 20
+}, {
+    "question": "A marketer wants to use personalization strings to create individualized content for an upcoming send. What would the marketer need to know to understand how to use personalization strings?",
+    "answers": [{
+        "answer": "Personalization strings can appear in the subject line or body of the email. ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "When using subscriber data, the attribute or field should have a default value. ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Personalization strings are case sensitive. ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Personalization strings are noted by two sets of double percent symbols. ",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "Personalization strings are limited to profile attributes. ",
+        "checked": false,
+        "ca": "E."
+    }],
+    "answer": "A. B. D.  ",
+    "isRadioButton": false,
+    "choose": "Choose three answers",
+    "id": 21
+}, {
+    "question": "What is a personalization string?",
+    "answers": [{
+        "answer": "A content area that will display based on a subscriber attribute. ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "An automated way of scraping a website for content to populate inside of an email. ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "A snippet of text that inserts subscriber attributes into an email. ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "The snippet of text at the top of the email that is visible before an email has been opened. ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 22
+}, {
+    "question": ") Which file type delimiter is available in the Import Wizard?",
+    "answers": [{
+        "answer": "Other ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Pipe ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Tab ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Fixed Length ",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "Comma ",
+        "checked": false,
+        "ca": "E."
+    }],
+    "answer": "A. C. E.  ",
+    "isRadioButton": false,
+    "choose": "Choose three answers",
+    "id": 23
+}, {
+    "question": "As part of a weekly email automation, a client needs to segment data in a Data Extension. Which activity is designed to address this scenario?",
+    "answers": [{
+        "answer": "Import Activity ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Group Refresh ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "File Transfer Activity ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Query Activity ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "D.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 24
+}, {
+    "question": "Which feature would a marketer use to build a Send Classification?",
+    "answers": [{
+        "answer": "Sender Profile ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Custom Profile Center ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Reply Mail Profile ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Delivery Profile ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. D.  ",
+    "isRadioButton": false,
+    "choose": "Choose two answers",
+    "id": 25
+}, {
+    "question": "Northern Trail Outfitters (NTO) finds 57% of its subscribers read emails on smartphones. Because of this, NTO wants to of enhance its email viewing experience by thinking 'mobile first.' NTO has the resources to write the HTML and CSS code needed to create responsively designed emails. Which option would add the code that was created outside of the Salesforce Marketing Cloud to the email?",
+    "answers": [{
+        "answer": "HTML Paste ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Web Paste ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Template Based ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Text Only ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 26
+}, {
+    "question": " A marketer uses Email Approvals. In which send process must an email have an \"Approved\"status prior to send?",
+    "answers": [{
+        "answer": "A/B Tests ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Send Previews ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Test Sends ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Scheduled Sends ",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "Triggered Sends ",
+        "checked": false,
+        "ca": "E."
+    }],
+    "answer": "A. D. E.  ",
+    "isRadioButton": false,
+    "choose": "Choose three answers",
+    "id": 27
+}, {
+    "question": "What is a best practice regarding the on boarding of new subscribers?",
+    "answers": [{
+        "answer": "The number of emails in a welcome series depends on the brand and the information new subscribers need to Know ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "The first welcome email should be sent within four to seven days of signing up. ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "The email content should be based on acquisition source and customer history. ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "The first welcome email does not need to include an unsubscribe link. ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. C.  ",
+    "isRadioButton": false,
+    "choose": "Choose two answers",
+    "id": 28
+}, {
+    "question": "A marketer wants website visitors to have the option to subscribe to specific publications and make updates to their profile. Which tool would the marketer use in this scenario?",
+    "answers": [{
+        "answer": "Data Filter ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Web Collect ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Subscriber Group ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Send Log ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 29
+}, {
+    "question": " Where can a marketer see the performance summary of a recent email send?",
+    "answers": [{
+        "answer": "Overview tab within Tracking ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Job Links tab within Tracking ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Send Performance tab ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Summary tab ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 30
+}, {
+    "question": " Why should a Marketer ensure that field lengths are accurate when creating a data extension?",
+    "answers": [{
+        "answer": "To ensure data integrity. ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "To determine the correct data type. ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "To save the data extension. ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "To optimize import process speed. ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. D.  ",
+    "isRadioButton": false,
+    "choose": "Choose two answers",
+    "id": 31
+}, {
+    "question": "Northern Trail Outfitters needs to ensure that \"Valued Customer\"appears if no data exists in that field for a subscriber of when using a personalization string to display the First_Name field in a data extension. How can the Marketer most easily achieve this during creation of the data extension?",
+    "answers": [{
+        "answer": "Fill in the source data with \"Valued Customer\"for each blank First_Name field. ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Mark First_Name as the Primary Key. ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Ensure the Nullable box is not checked for the First_Name field. ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Make \"Valued Customer\"the Default Value for the First_Name field. ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "D.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 32
+}, {
+    "question": "Northern Trail Outfitters wants to maintain enterprise-wide opt-outs for two segments of its subscribers: Education Events and Sales. Which feature would the company use?",
+    "answers": [{
+        "answer": "Shared Publication Lists ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Shared Emails ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Shared Portfolio Items ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Shared Data Extensions ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 33
+}, {
+    "question": "Which feature can segment on behavioural data?",
+    "answers": [{
+        "answer": "Data Extension ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Data Filter ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Import Activity ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Tracking ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 34
+}, {
+    "question": " What is a true statement about Subscriber Key?",
+    "answers": [{
+        "answer": "Subscriber Key allows an email address to appear multiple times in a list or All Subscribers when populated with a value other than an email address. ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Subscriber Key and Primary Key are interchangeable terms. ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Subscriber Key is mapped to a field in a sendable data extension when defining a Send Relationship. ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Subscriber Key determines what update types will be available when importing data. ",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "Subscriber Key is a unique identifier for a subscriber, and can be populated with an email address or another unique value. ",
+        "checked": false,
+        "ca": "E."
+    }],
+    "answer": "A. C. E.  ",
+    "isRadioButton": false,
+    "choose": "Choose three answers",
+    "id": 35
+}, {
+    "question": "Which type of data can a subscriber easily update via the default Profile Centre?",
+    "answers": [{
+        "answer": "Data Extension Fields ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "List Attributes ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Email Address ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Order History ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B. C.  ",
+    "isRadioButton": false,
+    "choose": "Choose two answers",
+    "id": 36
+}, {
+    "question": "Which combination of audiences can be selected in the recipient section for a specific Send?",
+    "answers": [{
+        "answer": "Lists and Data Extensions ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Lists and Audiences ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Contacts or Audiences ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Lists or Data Extensions ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "D.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 37
+}, {
+    "question": " Northern Trail Outfitters (NTO) specializes in delivering snack boxes to its members. NTO offers a 90-day trial on the snack of boxes. NTO would like to send out a series of emails to educate and remind members to purchase the snack box subscription before the 90-day trial ends. Which tool is recommended for this scenario?",
+    "answers": [{
+        "answer": "Playbooks ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Triggered Emails ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Guided Send ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Automation Studio ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "D.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 38
+}, {
+    "question": "A marketing associate at Northern Trail Outfitters must create an email campaign for the company's new winter offerings. Which method could the associate use to create the email message?",
+    "answers": [{
+        "answer": "User-initiated email message ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Email templates ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "HTML Paste ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Email Send Wizard ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B. C.  ",
+    "isRadioButton": false,
+    "choose": "Choose two answers",
+    "id": 39
+}, {
+    "question": " A marketer would like to install the Salesforce Marketing Cloud Connector. Where can an installation guide be found?  (2 ans)",
+    "answers": [{
+        "answer": "Code.exacttarget.com ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "help.exacttarget.com ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Help and Training Portal ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "AppExchange ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B. D.  ",
+    "isRadioButton": false,
+    "choose": "Choose two answers",
+    "id": 40
+}, {
+    "question": " A marketing team needs to narrow down a customer population of several million subscribers based on e Commerce order details, and rapidly explore the data to find appropriate segments. How can segmentation with this scenario be accomplished?",
+    "answers": [{
+        "answer": "Audience Builder ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Drag and Drop Segmentation ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Profile attributes ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Data Extract Activity ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 41
+}, {
+    "question": "Northern Trail Outfitters wants to grow its email subscriber list. Which best practice can the company use to increase the number of subscribers?",
+    "answers": [{
+        "answer": "Send emails to a purchased list with a request to opt-in. ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Capture email addresses through the use of browser cookies. ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Offer email opt-in when customers create an account. ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Use incentives such as a discount or free shipping to encourage opt-in. ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. D.  ",
+    "isRadioButton": false,
+    "choose": "Choose two answers",
+    "id": 42
+}, {
+    "question": "Which type of content can an email content box contain?",
+    "answers": [{
+        "answer": "Static ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "A/B Testing ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Smart Capture ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Freelance ",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "Dynamic ",
+        "checked": false,
+        "ca": "E."
+    }],
+    "answer": "A. B. E.  ",
+    "isRadioButton": false,
+    "choose": "Choose three answers",
+    "id": 43
+}, {
+    "question": "A marketer wants to overwrite the data in a data extension on a daily basis using Automation Studio. What can the marketer do to accomplish this task?",
+    "answers": [{
+        "answer": "Create an import using the Import Wizard in Automation Studio. ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Create an Import Activity and execute it manually. ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Create an import using the Import Wizard in the Email Application. ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Create an Import Activity to use in a workflow in Automation Studio. ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "D.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 44
+}, {
+    "question": "A marketer is importing a file using the Import Wizard and wants to ensure that only new records are added during the import process. How can the marketer achieve this?",
+    "answers": [{
+        "answer": "Select the update type Overwrite. ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Select the update type Add Only. ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Ensure that the data extension contains a Primary Key. ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Select the update type Add and Update. ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B. C.  ",
+    "isRadioButton": false,
+    "choose": "Choose two answers",
+    "id": 45
+}, {
+    "question": "Which statement regarding editing an email template is true?",
+    "answers": [{
+        "answer": "A template does not automatically affect emails created from that template. ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Updating an email to reflect changes made in its template can be done in the email properties. ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Changes to a template are automatically inherited in emails built from that template. ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Changes to a template cannot be made once it is saved in the application. ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. B.  ",
+    "isRadioButton": false,
+    "choose": "Choose two answers",
+    "id": 46
+}, {
+    "question": "Which metric is the measure of emails rejected by a server due to permanent conditions such as \"user unknown\"or \"domain not found\"?",
+    "answers": [{
+        "answer": "Unsubscribed ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Hard Bounce ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Validation Error ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Soft Bounce ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 47
+}, {
+    "question": "Which method of storing subscriber information allows a marketer to easily create different subscriptions that subscribers can opt into from the default Subscription Center?",
+    "answers": [{
+        "answer": "Active Audiences ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Lists ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Lists and Data Extensions ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Data Extensions ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 48
+}, {
+    "question": "A marketer wants to run an Account Send Summary report. Which option can be configured when running this report?",
+    "answers": [{
+        "answer": "Report results delivery location. ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Error handling parameters. ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Date range parameters. ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Error report log location. ",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "Report results file format. ",
+        "checked": false,
+        "ca": "E."
+    }],
+    "answer": "A. C. E.  ",
+    "isRadioButton": false,
+    "choose": "Choose three answers",
+    "id": 49
+}, {
+    "question": "How are the test audiences for an A/B test selected?",
+    "answers": [{
+        "answer": "The system randomly places target subscribers into the selected audiences. ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "The system automatically uses 15% of the population for each audience. ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "The test administrator selects a percentage or a fixed number of target subscribers from the total for each audience. ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "The test administrator chooses which subscribers to place in each audience. ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. C.  ",
+    "isRadioButton": false,
+    "choose": "Choose two answers",
+    "id": 50
+}, {
+    "question": "A marketer is designing an email and wants to add extra messaging before the body of the email that will be displayed when an email client previews the message. What would the marketer use?",
+    "answers": [{
+        "answer": "Landing Page ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Subject Line ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Preheader ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Promotional Text ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 51
+}, {
+    "question": " A marketer at Northern Trail Outfitters is teaching new associates the essentials of designing emails for the company's subscribers. What is a key component of optimized email design?",
+    "answers": [{
+        "answer": "Include an unsubscribe button. ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Include personalization and dynamic content. ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Ensure the email renders well in mobile apps. ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Build email templates with HTML Paste. ",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "Segment the email's target audience. ",
+        "checked": false,
+        "ca": "E."
+    }],
+    "answer": "B. C. D.  ",
+    "isRadioButton": false,
+    "choose": "Choose three answers",
+    "id": 52
+}, {
+    "question": "A marketer needs to create an attribute named Gender that has a drop-down menu with appropriate values in the Profile Center. How can this be accomplished?",
+    "answers": [{
+        "answer": "Select the attribute as Required. ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Create restricted values. ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Set a custom maximum length of six. ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Select the data type as Text. ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. B.  ",
+    "isRadioButton": false,
+    "choose": "Choose two answers",
+    "id": 53
+}, {
+    "question": ". Which segment can be manually refreshed under Actions?",
+    "answers": [{
+        "answer": "Filtered Data Extension ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Filtered Group ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Standard Data Extension populated by a Query ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Random Group ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. B.  ",
+    "isRadioButton": false,
+    "choose": "Choose two answers",
+    "id": 54
+}, {
+    "question": " Which tactic will improve deliverability for a new sender?",
+    "answers": [{
+        "answer": "Send email to ISPs that have been notified of the new sender. ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Send email during the holiday season when new senders are less likely to be detected. ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Send email to a minimum of 35,000 subscribers per ISP per day. ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Send email to the most active and engaged customers. ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "D.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 55
+}, {
+    "question": "Which feature can a marketer use to individualize content in an email?",
+    "answers": [{
+        "answer": "Specialized content ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Dynamic content ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Audience Segmentation ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Personalization string ",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "Predictive content ",
+        "checked": false,
+        "ca": "E."
+    }],
+    "answer": "B. C. D.  ",
+    "isRadioButton": false,
+    "choose": "Choose three answers",
+    "id": 56
+}, {
+    "question": "What is a capability of a data relationship?",
+    "answers": [{
+        "answer": "Join data extensions together to filter or segment the fields from data extensions. ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Join a list and a data extension to filter the combined data. ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Join data extensions together to create one combined data extension. ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Join three or more data extensions together to create a filtered data extension. ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 57
+}, {
+    "question": "How can AMPscript customize email messages?",
+    "answers": [{
+        "answer": "Automate the flow of creating email messages. ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Provide advanced content personalization. ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Insert responsive content-based on the user's viewing device. ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Automate the template creation process. ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 58
+}, {
+    "question": "The Marketing team would like to remind customers they can receive 10% off all purchases they make during the week of their birthday as a way to increase customer engagement. Which tool would the Marketing team use to send an email notification to customers based on a subscriber-specific date?",
+    "answers": [{
+        "answer": "Data relationships ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Data Extract activity ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Playbooks ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "AMPscript ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 59
+}, {
+    "question": "A marketer needs to ensure that customers on a list want to be email subscribers. Additionally, the marketer wants of to minimize the number of invalid email addresses on the list, and add a level of security when using Web Collect functionality. What is the optimal way to accomplish this task?",
+    "answers": [{
+        "answer": "Add new subscribers to an automated engagement campaign, and then send a series of welcome emails based on their opens and clicks. ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Configure Web Collect to return an error message for any email address that does not conform to standard conventions. ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Send a welcome email to subscribers within 24 hours that includes a link to the website, a link to the terms and conditions page, and a customer service number. ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Create a double opt-in campaign that requires subscribers to confirm their email address by clicking a link in an email they receive after subscribing via Web Collect. ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "D.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 60
+}, {
+    "question": "Which is a fundamental component of coding responsive emails?",
+    "answers": [{
+        "answer": "Span Tags ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "SQL Queries ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Anchor Tags ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "CSS3 @media Queries ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "D.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 1
+}, {
+    "question": "A bank wants to send a series of emails to customers who open a new savings account.  The first email is sent immediately after the account is opened to confirm the action. The second email is sent one day after the account is opened. The third email is sent five days after the account is opened only if the customer has not made a new deposit. The final email is sent ten days after the account has been opened and the customer still has not made a deposit, or eight days after the customer opened the account and made a deposit, but has not opened any emails.The data is stored in two data extensions.The bank has two versions of each email: English and Spanish.The bank wants to automate sending the emails.Which process could the bank use?",
+    "answers": [{
+        "answer": ":Create a data relationship and a Measure, use Drag and Drop Segmentation to create data filters, and use Filter activities ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Use Query Activities ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Use Drag and Drop Segmentation to create data filters ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Use Drag and Drop Segmentation to create data filters, and then use Filter activities ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. D.  ",
+    "isRadioButton": false,
+    "choose": "Choose two answers",
+    "id": 2
+}, {
+    "question": "How can AMPscript customize email messages?",
+    "answers": [{
+        "answer": "Provide advanced content personalization ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Insert responsive content based on the user's viewing device. ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Automate the flow of creating email messages. ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Automate the template creation process. ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 3
+}, {
+    "question": "Northern Train Outfitters wants to display different content areas based on the subscriber data. What can be used to accomplish this?",
+    "answers": [{
+        "answer": "Profile Mapping ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "AMPscript ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Dynamic Content ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Personalization Strings ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. D.  ",
+    "isRadioButton": false,
+    "choose": "Choose two answers",
+    "id": 4
+}, {
+    "question": "A marketing manager is reporting on the degree of customer engagement with the company's email. Which metric can be used?",
+    "answers": [{
+        "answer": "Click Through Rates ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "List Growth Rates ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Influenced Revenue ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Bounce Rate ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 5
+}, {
+    "question": "A marketer at Northern Trail Outfitters is teaching new associates the essentials of designing emails for the company's subscribers. What is a key component of optimized email design?",
+    "answers": [{
+        "answer": "Included personalization and dynamic content ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Segment the email's target audience ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Ensure the email renders well in mobile apps ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Include an unsubscribe button ",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "Build email templates with HTML Paste ",
+        "checked": false,
+        "ca": "E."
+    }],
+    "answer": "A. C. E.  ",
+    "isRadioButton": false,
+    "choose": "Choose three answers",
+    "id": 6
+}, {
+    "question": "An email marketer is writing the next send's subject line. \n What can the marketer do to make the subject line more effective?",
+    "answers": [{
+        "answer": "A/B test the effectiveness of different subjects ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Include information relevant to the message in the subject line ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Include \"RE:, \"FWD:\"\"etc.\"to get reader's attention ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Keep the subject text between 50 to 100 characters long ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. D.  ",
+    "isRadioButton": false,
+    "choose": "Choose two answers",
+    "id": 7
+}, {
+    "question": "What is a capability of a data relationship?",
+    "answers": [{
+        "answer": "Join a list and a data extension to filter the combined data ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Join three or more data extensions together to create a filtered data extension ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Join data extensions to filter or segment the fields from data extensions ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Join data extensions together to create one combined data extension ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 8
+}, {
+    "question": "orthern Train Outfitters sends email order confirmations to customers who have made online purchases. These emails must follow the \"Transactional\"CAN-SPAM classification requirements. Which feature would a marketer use to classify a send under this CAN-SPAM classification?",
+    "answers": [{
+        "answer": "Send Classification ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Send Definition ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Delivery Profile ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Sender Profile ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 9
+}, {
+    "question": "A marketer is building a highly personalized email. The marketer wants to merge some data into a single data extension to greatly simplify the send logic, maintain the personalization, and exclude an undesired population. Which tool addresses this scenario?",
+    "answers": [{
+        "answer": "Data filters ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "File triggers ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Profile management ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Query activities ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "D.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 10
+}, {
+    "question": "A marketer is designing email for mobile devices. Which design best practice would the marketer use?",
+    "answers": [{
+        "answer": "Stack the content in a single column ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Design a top-down hierarchy with the most important content at the top ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Keep copy simple and direct ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Use image-based text for infographics ",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "Cut content to make the message fit above the fold ",
+        "checked": false,
+        "ca": "E."
+    }],
+    "answer": "A. B. C.  ",
+    "isRadioButton": false,
+    "choose": "Choose three answers",
+    "id": 11
+}, {
+    "question": "When creating a custom email with the HTML Paste Editor, which feature can be inserted into the HTML code by using the Insert Tools?",
+    "answers": [{
+        "answer": "Email Open Tracking ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Link tooltips ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Stored Content Boxes ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Physical Mailing address ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. D.  ",
+    "isRadioButton": false,
+    "choose": "Choose two answers",
+    "id": 12
+}, {
+    "question": "Using measures, what data can a marketer use to segment an audience?",
+    "answers": [{
+        "answer": "Open Data ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "First Name Attributes ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Geographical Data ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Gender Data ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 13
+}, {
+    "question": "A marketing team is creating a new data extension. The data extension schema is very similar to a data extension that already exists. How would the team create the new data extension?",
+    "answers": [{
+        "answer": "Create from template ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Create a filtered data extension ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Create new ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Create from existing ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "D.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 14
+}, {
+    "question": "A marketing associate at Northern Trail Outfitters must design an email campaign for the company's new winter offerings. \n Which email design best practice would the associate implement in this campaign?",
+    "answers": [{
+        "answer": "Limit the email text to 250 words ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Personalize the email content ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Segment the audience for the email ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Use an infographic email template ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 15
+}, {
+    "question": "A marketer at Northern Trail Outfitters wants to add a subscriber to a data extension and follow up with a thank-you email by using Smart Capture. Which action does the marketer need to take in the processing tab when creating the Smart Capture form?",
+    "answers": [{
+        "answer": "Refresh the data filter ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Add to Data Extension ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Send the email via Triggered Send ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Add a new subscriber to a list ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B. C.  ",
+    "isRadioButton": false,
+    "choose": "Choose two answers",
+    "id": 16
+}, {
+    "question": "Which strategy will improve email deliverability?",
+    "answers": [{
+        "answer": "Ensure the spam complaint rate is between 1% and 3% ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Purchase lists from companies that guarantee users have opted in ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Authenticate email to distinguish it from spammers ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Purge old or inactive email addresses ",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "Encourage subscribers to add the company's sending domain to their address books ",
+        "checked": false,
+        "ca": "E."
+    }],
+    "answer": "C. D. E.  ",
+    "isRadioButton": false,
+    "choose": "Choose three answers",
+    "id": 17
+}, {
+    "question": "Which send process can use Sender Profiles?",
+    "answers": [{
+        "answer": "User-Initiated Sends ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Guided Sends ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Test Sends ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Triggered Sends ",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "Simple Automated Sends ",
+        "checked": false,
+        "ca": "E."
+    }],
+    "answer": "B. D. E.  ",
+    "isRadioButton": false,
+    "choose": "Choose three answers",
+    "id": 18
+}, {
+    "question": "What is a true statement about the Master Unsubscribe?",
+    "answers": [{
+        "answer": "Subscribers can be manually unsubscribed in Subscriber Properties ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Subscribers can log in to the Salesforce Marketing Cloud to unsubscribe ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Subscribers can be Master unsubscribed via an import to All Subscribers ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Subscribers can Master unsubscribe themselves via the Subscription Center ",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "Subscribers can contact the Salesforce Marketing Cloud to unsubscribe ",
+        "checked": false,
+        "ca": "E."
+    }],
+    "answer": "A. C. D.  ",
+    "isRadioButton": false,
+    "choose": "Choose three answers",
+    "id": 19
+}, {
+    "question": "A new data extension named \"Orders\"contains order data. One row is recorded for each customer's order. Customers can place multiple orders. The data extension Orders relates to other data extensions.\n The data extension Orders contains the following fields: \n OrderNumber: a unique alphanumeric order number \n customerID: a numeric customer identification number \n OrderDate: the system date and time for the order  \n Instructions: an optional alphanumeric string that contains customer delivery notes \n Which statement accurately reflects the configuration of the Orders Data Extension?",
+    "answers": [{
+        "answer": "The OrderNumber field will be a Number data type field ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "All fields in the data extension are nullable ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "customerID will be used as the Primary Key ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "OrderNumber will be used as the Primary Key ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "D.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 20
+}, {
+    "question": "A marketer wants to create an email that will look great on both a desktop computer and a mobile device. However the marketer is not familiar with writing code for responsive design and does not have available resources to design the email. Which template can the marketer choose when creating an email?",
+    "answers": [{
+        "answer": "Responsive Web template ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Media template ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Mobile-optimized template ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Standard template ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 21
+}, {
+    "question": "A marketer is using an import activity on a nightly basis to import subscriber data into a data extension. What is a true statement about the import activity?",
+    "answers": [{
+        "answer": "An import activity can be used in an automation created in Automation Studio ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "The import activity is under Subscribers in the Email Application ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "The file for an import activity must be placed in a folder on a FTP site ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "The file for an import activity can be on a desktop computer ",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "An import activity can be executed manually ",
+        "checked": false,
+        "ca": "E."
+    }],
+    "answer": "A. C. E.  ",
+    "isRadioButton": false,
+    "choose": "Choose three answers",
+    "id": 22
+}, {
+    "question": "A marketing associate at Northern Trail Outfitters must create an email campaign for the company's new winter offerings. \n Which method could the associate use to create the email message?",
+    "answers": [{
+        "answer": "Email Send Wizard ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "User-initiated email message ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Email templates ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "HTML Paste ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. D.  ",
+    "isRadioButton": false,
+    "choose": "Choose two answers",
+    "id": 23
+}, {
+    "question": "Which variable can be tested using the A/B testing tool?",
+    "answers": [{
+        "answer": "IP Address ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "From Name ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "ISP ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Pre-header ",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "Email content ",
+        "checked": false,
+        "ca": "E."
+    }],
+    "answer": "B. D. E.  ",
+    "isRadioButton": false,
+    "choose": "Choose three answers",
+    "id": 24
+}, {
+    "question": "The marketing team would like to send an email to an audience on a weekly basis. The team receives multiple files each week that need to be imported and joined to build the target audience for the email. Which tool is recommended to execute this process?",
+    "answers": [{
+        "answer": "Playbooks ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Filter Activity ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Automation Studio ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Data Extract Activity ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 25
+}, {
+    "question": "How is Primary Key used?",
+    "answers": [{
+        "answer": "Primary Key is used when defining a Send Relationship ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Primary Key is the unique value to identify a subscriber ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Primary Key identifies a row or a field in a data extension as unique ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Primary Key prevents data from being overwritten in a data extension ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 26
+}, {
+    "question": "What can be used to join two data extensions to segment via Drag and Drop Segmentation?",
+    "answers": [{
+        "answer": "Subscriber Key ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Subscriber ID ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Data Relationship ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Send Relationship ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 27
+}, {
+    "question": "An account has a Subscriber Key enabled, and will be providing a unique key for each subscriber from an external system. A marketer wants to create a data extension for sending email campaigns. What steps would the marketer take when creating the data extension?",
+    "answers": [{
+        "answer": "Check the \"Is Sendable\"option ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Set the column representing the Subscriber Key as a Primary Key ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Set the Email address column as a Primary Key ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Relate the Email address to the Suscriber Key ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. D.  ",
+    "isRadioButton": false,
+    "choose": "Choose two answers",
+    "id": 28
+}, {
+    "question": "Which method of storing subscriber information allows a marketer to easily create different subscriptions that subscribers can opt into from the default Subscription Center?",
+    "answers": [{
+        "answer": "Lists ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Lists and Data Extensions ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Data Extensions ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Active Audiences ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 29
+}, {
+    "question": "Which feature can be included in a content box? ",
+    "answers": [{
+        "answer": "Facebook Like ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Social Forward ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Content Detective ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Forward to a Friend ",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "Microsites ",
+        "checked": false,
+        "ca": "E."
+    }],
+    "answer": "B. D. E.  ",
+    "isRadioButton": false,
+    "choose": "Choose three answers",
+    "id": 30
+}, {
+    "question": "What occurs in an Enterprise 2.0 account when a subscriber clicks the default \"One-Click Unsubscribe\"link in an email? ",
+    "answers": [{
+        "answer": "The subscriber is deleted completely from the sending account ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "The subscriber is removed from the List used for the Send ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "The subscriber is added to the enterprise global unsubscribe list ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "The subscriber is unsubscribed from the publication list applied to the send ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. D.  ",
+    "isRadioButton": false,
+    "choose": "Choose two answers",
+    "id": 31
+}, {
+    "question": "Which segment can be manually refreshed under Actions?",
+    "answers": [{
+        "answer": "Filtered Data Extension ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Filtered Group ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Standard Data Extension populated by a Query ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Random Group ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. B.  ",
+    "isRadioButton": false,
+    "choose": "Choose two answers",
+    "id": 32
+}, {
+    "question": "Northern Train Outfitters has a Master Customer List in a shared data extension. The company wants to make the list available to some, but not all, of the business units. Which feature can be used to restrict users from a business unit from accessing the Master Customer list?",
+    "answers": [{
+        "answer": "Business Unit Access Permissions ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Date/ Time Range fro Access ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Shared Data ExtensionD: User Roles and Permissions ",
+        "checked": false,
+        "ca": "C."
+    }],
+    "answer": "A.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 33
+}, {
+    "question": "If all subscribers reside within a single master data extension, what is the optimal way to manage unsubscribes by communication type?A: Create a profile attribute or data extension field for each communication type, and use a boolean value to capture subscriber status",
+    "answers": [{
+        "answer": "Create suppression lists for each communication type, and associate the suppression list with the email in the user-initiated send definitionC: Create separate lists or data extensions for each communication type, and create a filter to segment subscribers into the applicable lists or data extensions ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Create publications lists for each communication type, and associate the publication list with the email send in the user-initiated send definition ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "D.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 34
+}, {
+    "question": "A marketer sends an email to a sendable data extension. The data extension has a send relationship that matches Customer_ID on the data extension to subscriber Key in All Subscribers. What is a true statement regarding the email send behavior?",
+    "answers": [{
+        "answer": "The email will be sent to the Subscriber Key in All Subscribers ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "The email will be sent to the email address stored on the Data Extension ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "The email will be sent to the field marked as the Primary Key ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "The email will be sent to the email address stored in All Subscribers ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "D.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 35
+}, {
+    "question": "A customer would like to automate a weekly email campaign using Automation Studio. Which send method would the customer use to configure the email?",
+    "answers": [{
+        "answer": "Guided Send ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Send Preview ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "User-Initiated ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Test Send ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 36
+}, {
+    "question": "Which tactic will improve deliverability for a new sender?",
+    "answers": [{
+        "answer": "Send email to a minimum of 35,000 subscribers per ISP per day ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Send email to ISPs that have been notified of the new sender ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Send email to the most active and engaged customers ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Send email during the holiday season when new senders are less likely to be detected ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 37
+}, {
+    "question": "What is required on an email message by the United States CAN-SPAM Act?",
+    "answers": [{
+        "answer": "Physical Mailing Address ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "A way to Unsubscribe ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "A link to the sender's website ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Any Mailing Address ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. B.  ",
+    "isRadioButton": false,
+    "choose": "Choose two answers",
+    "id": 38
+}, {
+    "question": "A marketer is using a list-based sending, and wants to segment subscribers who have a value of \"EMEA\"in the Region Attribute. Which tool will produce the audience?",
+    "answers": [{
+        "answer": "Guided Send ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Audience Builder  ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Drag and Drop Segmentation ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Query Activity ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 39
+}, {
+    "question": "Which recipient option is available with Simple Send?",
+    "answers": [{
+        "answer": "Group ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Data Extension ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "List ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Audience ",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "Data Filter ",
+        "checked": false,
+        "ca": "E."
+    }],
+    "answer": "A. C.  ",
+    "isRadioButton": false,
+    "choose": "Choose two answers",
+    "id": 40
+}, {
+    "question": "The marketing team would like to remind customers they can receive 10% off all purchases they make during the week of their birthday as a way to increase customer engagement. Which tool would the Marketing team use to send an email notification to customers based on a subscriber specific date?",
+    "answers": [{
+        "answer": "Playbooks ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Data Extract Activity ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Data relationships ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "AMPscript ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 41
+}, {
+    "question": "What information and data about the performance of an individual send can be exported from the tracking details?",
+    "answers": [{
+        "answer": "Performance data on the Overview Tab ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Images showing how the email rendered on different devices ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Number of clicks from mobile devices ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Subscribers who click on a specific link ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. D.  ",
+    "isRadioButton": false,
+    "choose": "Choose two answers",
+    "id": 42
+}, {
+    "question": "Which segmentation activity can be used to refresh data on a recurring schedule via an Automation?",
+    "answers": [{
+        "answer": "SQL Query Activity ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Data Extract Activity ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Filter Activity ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Segment Activity ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. C.  ",
+    "isRadioButton": false,
+    "choose": "Choose two answers",
+    "id": 43
+}, {
+    "question": "What is an Automation Studio activity?",
+    "answers": [{
+        "answer": "A/B Test Send Activity ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Transfer File Activity ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Wait Activity ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Triggered Send ",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "Send Email ",
+        "checked": false,
+        "ca": "E."
+    }],
+    "answer": "B. C. E.  ",
+    "isRadioButton": false,
+    "choose": "Choose three answers",
+    "id": 44
+}, {
+    "question": "Which method of storing subscriber information allows a marketer to easily create different subscriptions that subscribers can opt into from the default Subscription Center?",
+    "answers": [{
+        "answer": "Lists and Data Extensions ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Active Audiences ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "ListsD: Data Extensions ",
+        "checked": false,
+        "ca": "C."
+    }],
+    "answer": "C.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 45
+}, {
+    "question": "What is a function of the Content Detective tool?",
+    "answers": [{
+        "answer": "It helps track customer traffic generated by content areas within an email ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "It helps identify spam triggers in email content and subject lines ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "It helps display content in a content box ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "It helps guarantee placement of emails into the inbox ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 46
+}, {
+    "question": "Where can a marketer go to learn more information about using APIs?",
+    "answers": [{
+        "answer": "help.exacttarget.com ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "code.exacttarget.com ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Help and Training Portal ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "The Administration tab ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. B.  ",
+    "isRadioButton": false,
+    "choose": "Choose two answers",
+    "id": 47
+}, {
+    "question": "What must be configured in a Marketing Cloud account to use the import wizard?",
+    "answers": [{
+        "answer": "Encrypted FTP ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Data Loader ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Enhanced FTP ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "File Transfer ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 48
+}, {
+    "question": "What is a purpose of marking an attribute as hidden?",
+    "answers": [{
+        "answer": "The attribute is not available to store data ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "The attribute is not available to subscribers on the Profile Center ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "The attribute is not available to other users in the account ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "The attribute is not available for CAN-SPAM compliance ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 49
+}, {
+    "question": "A marketer wants to grow the company's email subscriber list via social channels and its mobile app. Which best practice can the marketer use to grow the subscriber list?",
+    "answers": [{
+        "answer": "Provide and opt-in checkbox on the mobile app registration form ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Promote content on social channels that requests an email address ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Search Facebook fans' profiles for mail addresses ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Send unsolicited requests on Twitter to sign up for email ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. B.  ",
+    "isRadioButton": false,
+    "choose": "Choose two answers",
+    "id": 50
+}, {
+    "question": "A marketing associate wants to use the Validate button to ensure an email is CAN-SPAM compliant. What information does the associate need to provide in order for the email to pass validation?",
+    "answers": [{
+        "answer": "Profile Center URL ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Company Website URL ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Physical Mailing Address ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Terms and Conditions Policy ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. C.  ",
+    "isRadioButton": false,
+    "choose": "Choose two answers",
+    "id": 51
+}, {
+    "question": "A marketer creates a new sendable data extension, and defines the Customer_ID field as the field in the Send Relationship that relates to Subscribers on Subscriber Key. What will the send status in All Subscribers be associated with?",
+    "answers": [{
+        "answer": "The Customer_ID field in the Data Extension ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "The Subscriber ID in a System Data View Table ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "The Email_Address field in the Data Extension ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "The Email Address Profile Attribute ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 52
+}, {
+    "question": "The marketing team would like to refresh a filtered data extension on a recurring basis, by using a data filter named \"Pref1-Tech\"How can this process be automated?",
+    "answers": [{
+        "answer": "Create a Filter Activity that selects the Pref1-Tech Data Filter, and then add the Filter Activity to an Automation ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Set a refresh schedule on a new filtered data extension, and select the Pref1-Tech data filter ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Create a filtered Data Extension Activity that selects the Pref1-Tech Data Filter, and then add the Filtered Data Extension Activity to an Automation ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Add the Pref1-Tech Data Filter to an Automation ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 53
+}, {
+    "question": "Which data model should be used to create a Group?",
+    "answers": [{
+        "answer": "Data Filters ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Data Extensions ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Lists ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Active Audiences ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 54
+}, {
+    "question": "What can a marketer do to enhance a Welcome Series campaign?",
+    "answers": [{
+        "answer": "Share the email program's value proposition ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Send three emails on the first day after sign-up ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Personalize email content ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Require that the subscriber refer a friend ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. C.  ",
+    "isRadioButton": false,
+    "choose": "Choose two answers",
+    "id": 55
+}, {
+    "question": "Which method of storing subscriber information allows a company to do extensive external audience segmentation including additional 1:1 subscriber data the company wants for a send, and to import the data quickly?",
+    "answers": [{
+        "answer": "Lists ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Data Extensions ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Lists and Data Extensions ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Active Audiences ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 56
+}, {
+    "question": "A marketer wants to ensure that customers on a list want to be email subscribers. Additionally, the marketer wants to minimize the number of invalid email addresses on the list, and add a level of security when using Web Collect functionality. What is the optimal way to accomplish this task?",
+    "answers": [{
+        "answer": "Create a double opt-in campaign that requires subscribers to confirm their email address by clicking a link in an email they receive after subscribing via Web Collect ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Configure Web Collect to return an error message for any email address that does not conform to standard conventions ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Send a welcome email to subscribers within 24 hours that includes a link to the website, a link to the terms and conditions page, and a customer service number ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Add new subscribers to an automated engagement campaign, and then send a series of welcome emails based on their opens and clicks ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A.  ",
+    "isRadioButton": true,
+    "choose": "Choose one answer",
+    "id": 57
+}, {
+    "question": "Which feature can a marketer use to individualize content in an email?",
+    "answers": [{
+        "answer": "Predictive content ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Dynamic content ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Personalization string ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Specialized content ",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "Audience Segmentation ",
+        "checked": false,
+        "ca": "E."
+    }],
+    "answer": "B. C. E.  ",
+    "isRadioButton": false,
+    "choose": "Choose three answers",
+    "id": 58
+}, {
+    "question": "How are the test audiences for an A/B test selected?",
+    "answers": [{
+        "answer": "The test administrator chooses which subscribers to place in each audience ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "The system automatically uses 15% of the population for each audience ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "The system randomly places target subscribers into the selected audiences ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "The test administrator selects a percentage or a fixed number of target subscribers from the total for each audience ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. D.  ",
+    "isRadioButton": false,
+    "choose": "Choose two answers",
+    "id": 59
+}, {
+    "question": "Which statement regarding editing an email template is true?",
+    "answers": [{
+        "answer": "Changes to a template are automatically inherited in email built from that template ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Updating an email to reflect changes made in its template can be done in the email properties ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Changes to a template cannot be made once it is saved in the application ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "A template does not automatically affect emails created from that template ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B. D.  ",
+    "isRadioButton": false,
+    "choose": "Choose two answers",
+    "id": 60
+}, {
+    "question": "A marketer needs to create an attribute named Gender that has a drop-down menu with appropriate values in the Profile Center. How can this be accomplished?",
+    "answers": [{
+        "answer": "Select the data type as Text ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Set a custom maximum length of six ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Create restricted values ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Select the attribute as required ",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. D.  ",
+    "isRadioButton": false,
+    "choose": "Choose two answers",
+    "id": 61
+}]

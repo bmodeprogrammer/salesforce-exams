@@ -1,0 +1,4732 @@
+[{
+    "question": "What are some uses of www.trust.salesforce.com in business continuity planning? ",
+    "answers": [{
+        "answer": " To provide online security threat information",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " To provide live and historical data on system performance",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " To provide information planning planned maintenance",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " To provide live upport for system and data backup",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": " To provide best practices for continuity plans\"",
+        "checked": false,
+        "ca": "E."
+    }],
+    "answer": "A. B. C. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 0
+}, {
+    "question": "Universal Health Service is setting up Knowledge in its contact center for agents so they can research articles while taking calls. The company needs to migrate the existing knowledge base of documents and images into Salesforce.Which step will be required fort he implementation?",
+    "answers": [{
+        "answer": "Create multiple CSV files, one for each article type",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Create HTML files referencing image to be uploaded",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Match each new article to an existing article type",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Create a single CSV file, inclluding all article types",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "Load all articles with the Apex data loader tool\"",
+        "checked": false,
+        "ca": "E."
+    }],
+    "answer": "A. B. C. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 1
+}, {
+    "question": "Universal Containers needs to ensure it is staffing enough agents to answer calls at times of peak volume. In addition, the company needs to report on the metric listed below.\naverage handle time (AHT)\naverage handle time (AHT)\nadherence to service level agreements (SLAs)\nWhich data source would Universal Containers need in order to gather this information?",
+    "answers": [{
+        "answer": "Automatic Call Distributor (ACD)",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Entitlements",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Workflow Management (WFM)",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Chat log history",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Interactive Voice Response (IVR)\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. B. C. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 2
+}, {
+    "question": "Universal Containers plans to deploy the new Service Cloud console to its support team. Which steps should be considered in deployment? (There are three correct answers.) ",
+    "answers": [{
+        "answer": " Customize highlight panels for all objects. ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Set up interaction logs and assign them to user profiles. ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Assign users the Service Cloud User feature license. ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Set up users and assign them to a queue. ",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": " Customize case list views.\"",
+        "checked": false,
+        "ca": "E."
+    }],
+    "answer": "A. B. C. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 3
+}, {
+    "question": "A consultant needs to import 2,000 source articles for a Salesforce Knowledge implementation. The source articles are in HTML and contain several images. All of the articles are FAQs.Before importing the articles into Knowledge, which step should a consultant perform? ",
+    "answers": [{
+        "answer": " Create the data categories and set up the data category values.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Set up a zip file that contains the CSV, HTML, and image files.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Create the custom fields and layouts for the FAQ article type",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Set up the article actions and assign publishers to each actionE. Set the publication status of the article tame to draft status\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. B. C. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 4
+}, {
+    "question": "Universal Containers wants to implement Knowledge to assist agents with the resolution of cases.What should a consultant recommend to meet this requirement? ",
+    "answers": [{
+        "answer": " Create an email template to send articles as PDF attachments",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Enable suggested articles on new cases",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Enable article submission during case close",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Enable article customization for open cases",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": " Enable agents to create their own personal articles\"",
+        "checked": false,
+        "ca": "E."
+    }],
+    "answer": "A. B. C. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 5
+}, {
+    "question": "Univeral Containers is designing a contact center that will store 20 million cases. Of those, 5 million will need to be accessed for reporting and search. Which approach will ensure best system performance? : ",
+    "answers": [{
+        "answer": " Custom indexes ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Tiered data strategy ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Record types ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Divisions ",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": " Custom search\"",
+        "checked": false,
+        "ca": "E."
+    }],
+    "answer": "A. b. d. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 6
+}, {
+    "question": "Universal Telco sells and supports a line of smart phones. The company offers support via phone, email to case, web to case, and a customer portal. The call center manager is incented to drive support through customer self service.Which report should be included on the manager's dashboard?",
+    "answers": [{
+        "answer": " Number of Portal Logins per Day",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Knowledge Article Usage",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Average Call Handle Time",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Cases by Support Channels",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": " Escalated Calls\"",
+        "checked": false,
+        "ca": "E."
+    }],
+    "answer": "A. B. D. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 7
+}, {
+    "question": "Universal Containers support manager wants to share product?specific information with their customer CommunitiesWhat should a consultant recommend to meet this requirement?",
+    "answers": [{
+        "answer": " Assign Article types to the Community",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Enable Public Solutions",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Enable Article deliveries",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Publish Articles to external channels",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": " Configure Content Library permission\"",
+        "checked": false,
+        "ca": "E."
+    }],
+    "answer": "A. B. D. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 8
+}, {
+    "question": "Universal Containers is using the Service Cloud Console for managing cases. They would like to add the Salesforce SoftPhone to enable click to dial capability.What needs to be configured for the SoftPhone to work in Salesforce? ",
+    "answers": [{
+        "answer": " Assign the correct Salesforce users to the Call Center",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Install an adapter from AppExchange to work with third party CTI systems",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Use Apex to create an adapter to work with third party CTI systems",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Create a SoftPhone layout and assign to user profiles",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": " Assign the Salesforce CTI license to Salesforce users\"",
+        "checked": false,
+        "ca": "E."
+    }],
+    "answer": "A. B. D. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 9
+}, {
+    "question": "What is a characteristic of Visual Workflow? .",
+    "answers": [{
+        "answer": " Elements can be used to update fields in the database",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Apex code must be used to pass data to legacy systems",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Apex code must be used to update fields in the database",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Only one version of a flow can be activated at a time",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": " Elements can be used to pass data to legacy systems\"",
+        "checked": false,
+        "ca": "E."
+    }],
+    "answer": "A. B. D. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 10
+}, {
+    "question": "UC is configuring the Service Cloud console to provide a unified desktop for agents. Which solution would require custom application development? .",
+    "answers": [{
+        "answer": " Displaying real time visual indicators when lists and records are changed",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Displaying a technical diagram of a registered product related to the case",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Creating a button to send an email response and re-queue the case",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Displaying basic data from a legacy enterprise resource planning system\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. B. D. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 11
+}, {
+    "question": "A consultant needs to import 2,000 source articles for a Salesforce Knowledge implementation. The source articles are in HTML and contain several images. All of the articles are FAQs.Before importing the articles into Knowledge, which step should a consultant perform? ",
+    "answers": [{
+        "answer": " Create the data categories and set up the data category values.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Set up a zip file that contains the CSV, HTML, and image files.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Create the custom fields for the slide type",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Set up the article actions and assign publishers to each action",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": " Set the publication status of the article tame to draft status\"",
+        "checked": false,
+        "ca": "E."
+    }],
+    "answer": "A. B. D. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 12
+}, {
+    "question": "Which of the following utilize the Automated Case User\"\" : ",
+    "answers": [{
+        "answer": "  When a case is automatically assigned using assignment rules this user is listed in the case history ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "  When an email notification is triggered via workflow this user is listed in the case history ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "  When a case is escalated this user is listed in the case history ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "  When a case is created via Web To Case this user is listed in the case history ",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "  When a case is created via Email To Case this user is assigned as the case owner\"\"\"",
+        "checked": false,
+        "ca": "E."
+    }],
+    "answer": "A. C. D. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 13
+}, {
+    "question": "From any queue list view, users can take ownership of one or more cases if: : ",
+    "answers": [{
+        "answer": "  They are members of that Queue ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "  They have a Contact Manager Profile ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "  If the OWD for sharing cases is Public Read/Write/Transfer ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "  They are higher in the Role Hierarchy than a Queue Member ",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "  All of the above\"",
+        "checked": false,
+        "ca": "E."
+    }],
+    "answer": "A. C. D. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 14
+}, {
+    "question": "Which statement is true regarding the salesforce CTI adapter?",
+    "answers": [{
+        "answer": "It acts as an intermediary between telephony systems, the salesforce Call Center application, and Salesforce user interface",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "It is a server based software program that controls the appearence and behavior of a Salesforce SoftPhone",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "It is based on the Salesforce CTI Toolkit and consists of source code, libraries, and filed",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Prebuilt CTI adapters for different telephony systems are available on the Force.com AppExchange",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "It does NOT require a software install for each call center user on a Windows based PC.\"",
+        "checked": false,
+        "ca": "E."
+    }],
+    "answer": "A. C. D. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 15
+}, {
+    "question": "A report shows average time spent by agents to resolve cases. Nine of twelve agents spend approximately the same time to resolve cases. However, Agent A has a much shorter average time to resolve cases and Agents B and C have a much longer average time to resolve cases. How can the supervisor use this data to drive greater consistency in average time spent by agents across the team? ",
+    "answers": [{
+        "answer": "oose 3 answers: ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Document and share the practices of Agent A with the team via knowledge articles ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Lower the target for entire team to that of Agent A ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Review case history and activities for Agents B and C ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Build a dashboard to display individual performance by agent versus the team goal ",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": " Update case assignment rules to route more cases to Agent A\"",
+        "checked": false,
+        "ca": "E."
+    }],
+    "answer": "A. C. D. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 16
+}, {
+    "question": "UC wants to implement a Knowledge management process with the following requirements: It must contain four different kinds of content: customer FAQs, product specifications, contact center procedures, and product manuals. It must provide the ability to filter Knowledge search results by a single product, multiple products, or all 56 products. Any product-related content created by contact center agents must be approved by the contact center manager and the Knowledge manager before being published. Product content should only be visible internally to contact center agents who handle the product. How should a consultant recommend that Knowledge be configured? .",
+    "answers": [{
+        "answer": " Configure workflow rules for each data category",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Configure article types for each kind of content",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Define approval processes for each article type",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Define approval processes for each product\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. B. E. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 17
+}, {
+    "question": "Which task should be included in a business continuity plan for a contact center? (There are three correct answers.) ",
+    "answers": [{
+        "answer": " Route cases to agents in an alternate center. ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Disable the Interactive Voice Response (IVR) system. ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Deliver training on case handling for contingent staff. ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Update the case status field values. ",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": " Monitor service level agreements (SLAs) and notify customers.\"",
+        "checked": false,
+        "ca": "E."
+    }],
+    "answer": "A. C. E. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 18
+}, {
+    "question": "Universal Containers needs to integrate Knowledge into the case management lifecycle.Which integration point is possible between cases and Knowledge?",
+    "answers": [{
+        "answer": "Email articles in PDF format",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Add a comment to an article",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Search Knowledge using case information",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Convert a case attachment to an article",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "Create articles when closing a case\"",
+        "checked": false,
+        "ca": "E."
+    }],
+    "answer": "A. C. E. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 19
+}, {
+    "question": "Universal Containers has activated Email to Case functionality to allow customers to correspond with support agents via email.Which options are available with Email to Case? ",
+    "answers": [{
+        "answer": " Only one inbound email address can be used for Email to Case",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Follow up emails and attachments related to a case are attached to the case",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Assignment, escalation, and workflow rules are processed on inbound emails",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Follow up emails related to a case will update the case comments",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": ". Supports emails larger than 25 MB\"",
+        "checked": false,
+        "ca": "E."
+    }],
+    "answer": "B. C. E. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 20
+}, {
+    "question": "A universal container wants to measure the efficiency of its contact center.Which metric should the contact center manager analyze?.",
+    "answers": [{
+        "answer": " Number of closed cases with articles attached.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Average number of days to close cases.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Number of open cases per day.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Number of new customers added.",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": " Number of cases escalated.\"",
+        "checked": false,
+        "ca": "E."
+    }],
+    "answer": "B. C. E. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 21
+}, {
+    "question": "What process is a use case for Visual workflow?  (SEM CERTEZA na resposta dada)",
+    "answers": [{
+        "answer": " Field validation during case creation",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Cross-sell promotions for representatives",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Assignment of email to a case queue based on subject",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Decision-based troubleshooting for representatives",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": " Caller verification and creation of a new case\"",
+        "checked": false,
+        "ca": "E."
+    }],
+    "answer": "A. D. E. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 22
+}, {
+    "question": "Universal Containers is using the Salesforce Console for Service for managing cases. They would like to add the Salesforce to enable click-to-dial capability.What needs to be configured for the SoftPhone to work in Salesforce? .",
+    "answers": [{
+        "answer": " Assign the Salesforce CTI license to Salesforce users.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Install an adapter from AppExchange to work with third-party CTI systems.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Use Apex to create an adapter to work with third-party CTI systems.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Create a SoftPhone layout and assign to user profiles.",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": " Assign the correct Salesforce users to the Call Center.\"",
+        "checked": false,
+        "ca": "E."
+    }],
+    "answer": "B. D. E. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 23
+}, {
+    "question": "Universal Containers needs to set up a customer community to provide customers with a self service option for support.Which capability can Universal Containers provide its customers via the customer communities? ",
+    "answers": [{
+        "answer": " Allows customers to submit ideas and answers",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Allows customers to customize their user interface",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Allows customers to search documents in Contact",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Allows customers to follow Chatter feeds",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": " Allows customers to search a knowledge base\"",
+        "checked": false,
+        "ca": "E."
+    }],
+    "answer": "A. D. E. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 24
+}, {
+    "question": "Universal Containers requires that a case is logged for every incoming support call. Each case could require an associated Return Materials Authorization (RMA) and/or Field Service Request (FSR). The original case CANNOT be closed until all RMAs and FSRs are closed. Universal Containers is considering whether RMAs and FSRs should be stored on a child case or on a related custom object.What should Universal Containers consider when designing the solution?",
+    "answers": [{
+        "answer": "Average incoming case volume",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Relationship to the primary contact",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Case closure rules on the original case",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "RMA and FSR escalation requirements",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "Visibility and access to the RMA and FSR records\"",
+        "checked": false,
+        "ca": "E."
+    }],
+    "answer": "C. D. E. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 25
+}, {
+    "question": "Universal Electric initiates cases based on electronic transmissions from power units. The case management process is as follows: A work order is submitted to a field service team to perform a technical review. After the technical review, an agent needs to contact the customer to review the activities. Cases can only be closed after the customer review has been completed. UE needs to determine whether the work orders and customer contacts should be stored as child cases or on a related custom object. What should the consultant consider to meet these requirements? .",
+    "answers": [{
+        "answer": " Work order and customer contact escalation requirements",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Account team relationship to the primary contact",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Total number of account and contact records in the database",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Visibility and access to the work order records\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. D. E. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 26
+}, {
+    "question": "Universal Containers needs to produce a dashboard in Salesforce that shows the average cost per call.Which data needs to be available in Salesforce in order to create the report?",
+    "answers": [{
+        "answer": "Agent hours worked and agent wage rate",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Talk time and wrap time",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Average seconds to answers and talk time",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Case status and case age\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. B. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 27
+}, {
+    "question": "Universal Containers has a telemarketing call center with agents who CALL cold prospects and follow up on prospects that have been routed to them.Which metric should Universal Containers consider when designing the call center?o ",
+    "answers": [{
+        "answer": " Average number of attempts to contact",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Number of outbound calls per day",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Number of cases closed by agent",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Average case age by agent\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. B. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 28
+}, {
+    "question": "Universal Containers is developing a business continuity plan for their contact centers.What should the company consider?",
+    "answers": [{
+        "answer": " Recovery point objective",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Criteria for plan activation",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Site consolidation",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Opens access to systems\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. B. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 29
+}, {
+    "question": "A contact center manager is looking for ways to reduce overall cost per case.What Salesforce metrics should the contact center manager evaluate? ",
+    "answers": [{
+        "answer": " Average number of activities per case",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Average number of articles attached to a case",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Total number of cases by origin",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Average customer satisfaction score by case\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. B. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 30
+}, {
+    "question": "Universal Containers CFO is looking for ways to reduce contact center costs.Which customer service metric should the CFO monitor to reach the budget goals? ",
+    "answers": [{
+        "answer": " First call resolution",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Average handle time",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Upsell percentage",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Customer retention\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. b. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 31
+}, {
+    "question": "What key metric should a contact center manager use to evaluate the effectiveness of a new Service Cloud implementation? ",
+    "answers": [{
+        "answer": " First contact resolution rate",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Number of total cases handled",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Total number of solutions created by agent",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Average number of knowledge articles published\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. B. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 32
+}, {
+    "question": "Universal Containers is experiencing system timeouts when running case reports. What should a consultant recommend to improve the performance of the reports? .",
+    "answers": [{
+        "answer": " Remove formula fields from filter criteria.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Remove unnecessary columns from the reports.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Remove date boundaries from filter criteria.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Remove dashboards based on long?running reports.\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. B. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 33
+}, {
+    "question": "What is a business continuity challenge in a cloud based contact center that operates 24/7?",
+    "answers": [{
+        "answer": "Highly available telecom solution",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Periodic maintenance windows",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Server hardware infrastructure rebuilds",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "System software restore after an outage\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. B. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 34
+}, {
+    "question": "Universal Containers' contact center manager needs to measure the following metrics:  Agent productivity  Customer satisfaction",
+    "answers": [{
+        "answer": "ich report should a consultant recommend? ",
+        "checked": false,
+        "ca": "W."
+    }, {
+        "answer": " Average handle time",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " First contact resolution",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Average speed to answer",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Escalation rate\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. B. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 35
+}, {
+    "question": "Which capabilities of the console can the company use to help improve its contact center performance? ",
+    "answers": [{
+        "answer": " Allows Chatter Messenger to be used between agents",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Displays records and their related items as tabs on one screen",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Is available for users in the partner portaL",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Indicates when records and lists are changed by others\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. B. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 36
+}, {
+    "question": "Customers can contact Universal Appliances to report problems with their appliances within 30 days of delivery. Support agents need quick view only access to an external database the stores over 100,000 known product bugs logged by the product engineers.Which solution should a consultant design to meet this requirement? ",
+    "answers": [{
+        "answer": " Display product bug data in Salesforce via a Visualforce page",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Use Web Services API to integrate the external database with Salesforce",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Create a custom product bug object and import data into Salesforce",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Use Bulk API to load the product bug data into Salesforce\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. B. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 37
+}, {
+    "question": "Universal Containers is evaluating the speed and productivity enhancements that could be obtained by implementing the new Service Cloud console.Which benefit should the company expect when implementing the Service Cloud console? ",
+    "answers": [{
+        "answer": "View records and related items as tabs on one screen",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Screen pops open new object in tabs to reduce interruptions",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Customized mini page layouts for the console view",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Customized view for the console in the customer portal\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. B. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 38
+}, {
+    "question": "What key metric should a contact center manager use to evaluate the effectiveness of a new Service Cloud implementation? ",
+    "answers": [{
+        "answer": " First contact resolution rate",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Number of total cases handled",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Total number of solutions created by agent",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Average number of knowledge articles published\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. B. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 39
+}, {
+    "question": "What can universal containers do to reduce costs and immediately improve contact center agent productivity ",
+    "answers": [{
+        "answer": " Streamline the agent interface.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Enable templates for written responses.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Offer supports through Facebook and twitter. ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Implement team productivity dashboards.\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. B. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 40
+}, {
+    "question": "What are the steps you would take before you do an article migration ",
+    "answers": [{
+        "answer": " Create fields and article types",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Create the zip file with html, rich text field",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Create data categories (don't know what happened to answer D)\"",
+        "checked": false,
+        "ca": "C."
+    }],
+    "answer": "A. B. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 41
+}, {
+    "question": "The Universal Containers contact center offers support via email, the Internet, and a Community. The contact center manager wants to demonstrate the success of recent self-service initiatives to executive management. What report should the contact center manager present to executive management?",
+    "answers": [{
+        "answer": " Average call handle time by team",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Number of cases created using portal",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Number of cases closed by a self-service user",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Number of IVR inquiries without agent involvement\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B. C. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 42
+}, {
+    "question": "Universal Containers is using the Service Cloud in its contact center. The contact center manager wants to deploy Chatter Answers.What should a consultant recommend to integrate Chatter Answers into its Service Cloud implementation? .",
+    "answers": [{
+        "answer": " Use the close and resolve button to close a case and mark the question resolved.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Allow administrators and trusted community members to escalate questions to cases. ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Create draft Knowledge articles from replies using the promote to article button. ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Display up to three category groups to help organize questions for easy browsing.\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B. C. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 43
+}, {
+    "question": "In the telesales contact center, Universal Containers has three step an five step order process, contingent on the type of product sold.Which approach should be used to optimize the order process? ",
+    "answers": [{
+        "answer": "Use Visualforce to create a wizard for each process",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Organize the fields on the page layout to match each process",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Use Visual Workflow to streamline the process",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Create a custom object for each step in the process\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B. C. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 44
+}, {
+    "question": "Universal Containers is setting up a field service dispatch contact center.Which functionality should be considered when designing the contact center? ",
+    "answers": [{
+        "answer": " Chatter groups for customer",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Mobile access to case information",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Visibility into service entitlements",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Predictive dialer for outbound calls\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B. C. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 45
+}, {
+    "question": "What metrics should a contact center manager consider to measure adoption of Salesforce Knowledge? ",
+    "answers": [{
+        "answer": " Number of cases escalated by agent",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Number of articles created by agent",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Number of articles attached to a case",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Number of solutions created by agent\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B. C. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 46
+}, {
+    "question": "Universal Containers is implementing a CTI solution for its inbound service and support contact center. Currently, the company handles only existing customers with support issues. The contact center manager has been tasked with improving sales for the premier support offering.What key metrics can be expected to improve following the CTI implementation? ",
+    "answers": [{
+        "answer": " Average days to close",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " First call resolution",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Average handle time",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Abandon rate\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B. C. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 47
+}, {
+    "question": "The project manager on a Service Cloud implementation is responsible for coordinating user acceptance testing (UAT) for a customer.Which tasks should be completed prior to UAT? ",
+    "answers": [{
+        "answer": " Verification of the production migration checklist",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Approval of test scripts from the business lead",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Verification that sample data has been loaded",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Fund customer approval on training materials\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B. C. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 48
+}, {
+    "question": "Universal Containers plans to migrate data into Salesforce from legacy system.Which step should be taken before performing the data migration?",
+    "answers": [{
+        "answer": "Enable data validation rules",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Perform data cleansing",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Develop data map",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Normalize database\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B. C. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 49
+}, {
+    "question": "The cost of service for Universal Containers' contact centers has steadily increased. What solution should a consultant recommend to help reduce the cost of service in the contact centers? .",
+    "answers": [{
+        "answer": " Enable Chatter for agent collaboration. ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Create auto-response templates for emails. ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Enable Knowledge in a Service Cloud portal. ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Enable Ideas in a Service Cloud portal.\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B. C. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 50
+}, {
+    "question": "Which statements are true regarding a prebuilt Salesforce computer telephony integration (CTI) adapter for different telephony systems? ",
+    "answers": [{
+        "answer": " It is a server based software program that controls the behavior of a Salesforce SoftPhone",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " It is an intermediary between a telephony system and a Salesforce CRM call center user",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " It utilizes the SoftPhone capability from within the Salesforce application",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " It allows voicemails to be captured and stored as attachments on cases\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B. C. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 51
+}, {
+    "question": "Universal Containers needs to allow customers to log into its corporate website, view solutions from a Salesforce knowledge base, and log cases.Which product would meet all of these requirements?",
+    "answers": [{
+        "answer": "Self service portal",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Customer portal",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Web to Case",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Force.com Sites\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. C. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 52
+}, {
+    "question": "Which step should a consultant take to import articles into Salesforce Knowledge? ",
+    "answers": [{
+        "answer": " Map articles with HTML sections to rich text area fields",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Use change sets to import data categories",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Create a separate .csv for each article type",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Use the data loader to import unstructured articles\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. C. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 53
+}, {
+    "question": "A team of publishers has created and published articles in Salesforce Knowledge. The manager of the help desk wants to verify that the articles are useful to agents. Which reports can the help desk manager use to determine the quality of the articles? ",
+    "answers": [{
+        "answer": " Report on the articles attached in cases.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Report on articles followed in Chatter.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Report on agent ratings on articles",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Report on agent feedback on articles\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. C. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 54
+}, {
+    "question": "Universal Containers wants to create a process to verify that customers are eligible for support before a case is creates. A consultant recommends using entitlement management to meet this requirement.Which benefit would be realized by using the entitlement management feature?.",
+    "answers": [{
+        "answer": " Ability to determine if a customer has escalated a case in the past",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Ability to specify unique service levels for each customer",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Ability to prompt callers for the service contract number within IVR menu",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Ability to enforce service levels with the time?dependent processes\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B. C. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 55
+}, {
+    "question": "The Universal Containers contact center offers support via email, the Internet, and a customer portal. The contact center manager wants to demonstrate the success of recent self service initiatives to executive management?Which report should the contact center manager present to executive management? ",
+    "answers": [{
+        "answer": " Number of cases created using portal",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Number of IVR inquiries without agent involvement",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Number of cases closed by a self service user",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Average call handle time by team\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. C. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 56
+}, {
+    "question": "UC has two customer service contact centers and each focuses on a specific product line. Each contact center has a varying call volume, contributing to a high operational cost for the company. UC wants to optimize the cost without compromising customer satisfaction. What can a consultant recommend to accomplish these objectives? .",
+    "answers": [{
+        "answer": " Implement a customer self-service portal",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Enable agents to transfer calls to other agents",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Cross-train agents on both product lines",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Prioritize customer calls based on their SLA\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. C. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 57
+}, {
+    "question": "A contact center manager wants to measure improvements to operations after the implementation of a new workforce management system. Which metric can be used to assess the success of the new workforce management system? .",
+    "answers": [{
+        "answer": " Number of calls offered",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Agent utilization",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Schedule adherence",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Quality monitoring score\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B. C. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 58
+}, {
+    "question": "UC is implementing the Service Cloud console. Which capability of the Service Cloud console can the company use to improve its contact center performance? .",
+    "answers": [{
+        "answer": " Allows Chatter Messenger to be used between agents",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Displays records and their related items as tabs on one screen",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Indicates when records and lists are changed by others",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Is available for users in the partner portal\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B. C. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 59
+}, {
+    "question": "The support manager wants information on the knowledge base searches conducted by customers and call center agents. Which metric would be most useful to identify knowledge article effectiveness? .",
+    "answers": [{
+        "answer": " Knowledge search query with no results",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Number of knowledge articles in each category",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Knowledge articles with the lowest rating",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Knowledge articles created by call center agents\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. C. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 60
+}, {
+    "question": "A team of publishers has created and published articles in Salesforce Knowledge. The manager of the help desk wants to verify that the articles are useful to agents.Which reports can the help desk manager use to determine the quality of the articles? ",
+    "answers": [{
+        "answer": " Report on the articles attached in cases.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Report on articles followed in Chatter.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Report on agent ratings on articles",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Report on agent feedback on articles\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. C. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 61
+}, {
+    "question": "Universal Containers customer support management wants to provide proactive communications are likely to provide low customer satisfaction (CSAT) scores. What customer related metric should the customer support management analyze? ",
+    "answers": [{
+        "answer": " Time spent by account year-to-date",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " New cases opened by account channel",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Escalated cases by amount month-to-date",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " High-priority cases opened by account month-to-date\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. D. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 62
+}, {
+    "question": "What solution should a consultant recommend while designing a plan to decrease a company's cost per call? ",
+    "answers": [{
+        "answer": " Increase the Call to Order ratio",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Use integrated voice response",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Bypass entitlement verification",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Use suggested Knowledge articles\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B. D. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 63
+}, {
+    "question": "The cost of service for Universal Containers contact centers has steadily increased.What solution should a consultant recommend to help reduce the cost of service? ",
+    "answers": [{
+        "answer": " Enable Ideas in a customer portal",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Enable Chatter for agent collaboration",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Create auto response templates for incoming emails",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Enable Live Agent to handle incoming service inquiries\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B. D. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 64
+}, {
+    "question": "Universal Containers is implementing an entitlement process in its contact center to gain better visibility into how well the company is delivering on customer service level agreements (SLAs).How can milestones be used to accomplish this goal? ",
+    "answers": [{
+        "answer": " To represent metrics such as first response and resolution time on cases.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " To monitor the case escalation rule queue to confirm service levels are met",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " To identify the customer contact associated with a particular stage of a service contract",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " To display whether a case response complies with a customer service level agreement\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. D. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 65
+}, {
+    "question": "Universal Containers has discovered that the average time an agent takes to resolve a case has increased.What should a consultant recommend to help reverse this trend? ",
+    "answers": [{
+        "answer": " Track social sentiment across social media outlets",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Hire more agents for the contact centers",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Configure entitlements and milestones to enforce SLAs.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Improve the training provided to existing agents\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. D. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 66
+}, {
+    "question": "A contact center manager needs to restrict who can create an FAQ Article Type within Knowledge.What should a consultant recommend to accomplish this requirement? .",
+    "answers": [{
+        "answer": " Set the organization?wide default to private and create sharing rules for the FAQ article type. ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Enable the Manage Articles permission for the publisher profile and assign it to users.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Hide the Article Management tab for users who should have read-only access to articles.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Create a publisher profile that includes create access on the FAQ article type.\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B. D. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 67
+}, {
+    "question": "Which document should be created to support the initial planning phase of an implementation project? ",
+    "answers": [{
+        "answer": " Requirements traceability matrix",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Solution design document",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Project milestones",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Project kickoff presentation\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. D. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 68
+}, {
+    "question": "Universal Containers implemented Salesforce Knowledge two months ago. Now, the Help Desk manager wants to know if the agents are properly leveraging the new knowledge base.What metric cap the manager use to measure the adoption of Knowledge? ",
+    "answers": [{
+        "answer": " Create a report that displays the number of article searched during the past two months.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Create a report that displays the number of articles associated to data categories during the past two months.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Create a report that displays the number of cases with articles attached during the past two months.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Create a report that displays the number of new articles created during the past two months.\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. d. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 69
+}, {
+    "question": "Which Statement ist true regarding Salesforce Chatter Answers. ",
+    "answers": [{
+        "answer": "Answers can be exposed to partner portal users",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "External users can subscribe to Answers",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Escalate a question to a case",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Knowledge articles can be created from Answers\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. D. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 70
+}, {
+    "question": "Universal Containers will be launching a telesales contact center.What should be considered in the design? ",
+    "answers": [{
+        "answer": " Integration with Field service teams and apps",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " strategies to maximize call deflection",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Performance for high volume of interactions",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Integration with Lead Generation team and apps\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. D. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 71
+}, {
+    "question": "Universal Containers is ready to launch a customer portal to its targeted customers. The company's executives want to use appropriate metrics to efficiently measure user adoption.Which metrics should be measured? ",
+    "answers": [{
+        "answer": " Number of calls deflected using IVR",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Number of emails compared to portal cases",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Number of cases created in the portal",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Number of portal logins per day\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. D. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 72
+}, {
+    "question": "Universal Containers has deployed a customer portal with Knowledge and would like to measure customer portal adoption and the effectiveness of the portal.Which metric should be used to measure portal usage",
+    "answers": [{
+        "answer": "Number of article created per agent",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Total number of cases created since implementing portal",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Number of cases submitted via email",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Most popular articles based on views and rating\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B. D. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 73
+}, {
+    "question": "An outsourced contact center is losing part time agents to a nearby contact center that promotes flexible scheduling. Which method can be used to improve agent retention? : ",
+    "answers": [{
+        "answer": " Mix telephony interactions with email and chat ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Extend benefits to part time agents ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Provide additional training on tools and process ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Allow shift trading between agents\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B. D. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 74
+}, {
+    "question": "Universal Containers requires that users have the ability to view specific cases, as determined by the product type field on the case. An email should be sent to the users when a case to which they have access is created or closed.What should a consultant recommend to meet these requirements? ",
+    "answers": [{
+        "answer": " Escalation rules ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Auto-response rules ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Workflow rules ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Case teams\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. D. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 75
+}, {
+    "question": "The Universal Containers customer support organization has implemented Knowledge Centered Support (KCS) in the call center. However, the call center management thinks that agents are not contributing new knowledge articles as often as they should.What should the company do to address this situation?",
+    "answers": [{
+        "answer": " Require agents to check a box on the case when submitting a new suggested article",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Measure and reward agents based on the number of new articles approved for publication",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Create a dashboard that includes articles submitted by agents and approved for publication",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Measure and reward agents based on the number of new articles submitted for approval\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. D. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 76
+}, {
+    "question": "The Universal Containers support center management team would like to leverage Salesforce functionality to improve collaboration on cases.What should a consultant recommend to meet this requirement? ",
+    "answers": [{
+        "answer": " Create escalation rules to re assign cases after SLAs have expired.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Enable the Service Cloud Console and Knowledge sidebar for agents.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Create case teams and introduce swarming to resolve cases.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Enable and use Chatter feed tracking on the case object.\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. D. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 77
+}, {
+    "question": "What is a benefit of a quality monitoring system?",
+    "answers": [{
+        "answer": "Lower the average speed of answer (ASA)",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Teach new agents how to handle difficult situations",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Enforce a consistent standard of service for customer interaction",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Capture inappropiate word usage and generate reports\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. D. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 78
+}, {
+    "question": "Which metric influences customer satisfaction?",
+    "answers": [{
+        "answer": "After call work",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Cost per call",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "First call resolution",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Call quality\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. D. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 79
+}, {
+    "question": "Universal Containers has determined that case list views are slow to load because of the large number of cases in system.Which action will improve the performance of the list views?.",
+    "answers": [{
+        "answer": " Remove filter criteria from the views",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Restrict visibility of the views",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Reduce the number of fields displayed",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Filter the views by case owner\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. d. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 80
+}, {
+    "question": "A contact center manager wants to measure the impact of a new customer care program.What can be used to measure an increase in customer satisfaction??",
+    "answers": [{
+        "answer": " Service-level agreement",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " First call resolution",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Average handle time",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Customer satisfaction survey\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B. D. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 81
+}, {
+    "question": "Universal Containers is designing a contact center focused on customer billing inquires. The contact center includes the variables listed below.",
+    "answers": [{
+        "answer": "2 million accounts in Salesforce",
+        "checked": false,
+        "ca": "-."
+    }, {
+        "answer": "20 million invoices in an external application",
+        "checked": false,
+        "ca": "-."
+    }, {
+        "answer": "600 support agents",
+        "checked": false,
+        "ca": "-."
+    }, {
+        "answer": "300,000 transactions processed daily across agents  ",
+        "checked": false,
+        "ca": "-."
+    }, {
+        "answer": "en agents view an account in Salesforce, they need to view the invoices associated with an account and view the detail of the invoices. However, agents do not need to update or report on invoice information. Which solution would meet these requirements? : ",
+        "checked": false,
+        "ca": "W."
+    }, {
+        "answer": " Create a bi directional integration using the Salesforce API ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Build a real time integration to import invoices into a Salesforce custom object ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Launch the customer billing application in Salesforce as a Web tab ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Design a Visualforce page to display invoice data in Salesforce based on a real time call\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. d. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 82
+}, {
+    "question": "If you delete a case, which two also get deleted? ",
+    "answers": [{
+        "answer": "  Account B.  Solution C.  Event D.  Attachments\"",
+        "checked": false,
+        "ca": "A."
+    }],
+    "answer": "C. D. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 83
+}, {
+    "question": "Universal Containers has millions of customers in Salesforce, but only a very small percentage have opened support cases in the past. Recently, Universal Containers has implemented a Service Cloud portal and plans to allow customers to be authenticated users to increase self service rates.Which method should be used to enable the customers on the portal? ",
+    "answers": [{
+        "answer": " Have agents manually create users when portal access is requested by customers.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Identify active customers and send them registration instructions via email.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Create active customers as portal users and send them email notifications",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Have agents provide customers with portal registration instructions when working a case\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. D. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 84
+}, {
+    "question": "Universal Containers wants to reduce incoming support phone call volume.What action can be taken to meet this requirement? .",
+    "answers": [{
+        "answer": " Enable service contracts and entitlements.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Implement Salesforce Console for Service to support agents.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Leverage Live Agent for web?based chat.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Implement Salesforce Knowledge on a portal.\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. D. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 85
+}, {
+    "question": "Support agents need to verify that customers are eligible to receive customer before they can update the case. What object is used to verify that a customer is entitled to receive support? ",
+    "answers": [{
+        "answer": " Case history",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Products",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Service contracts",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Contacts\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. D. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 86
+}, {
+    "question": "A customer is planning a Service Cloud implementation. The customer's current database has the following number of records:",
+    "answers": [{
+        "answer": "10 million cases",
+        "checked": false,
+        "ca": " ."
+    }, {
+        "answer": "1 million accounts",
+        "checked": false,
+        "ca": " ."
+    }, {
+        "answer": "3 million contacts. ",
+        "checked": false,
+        "ca": " ."
+    }, {
+        "answer": "en planning to migrate this data into Salesforce, what implications should be considered? ",
+        "checked": false,
+        "ca": "W."
+    }, {
+        "answer": " The Salesforce org may be slow during the data import",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Related lists on the case object may be slow to populate",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Salesforce reporting speed may be affected",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Result may be slow when searching for records\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. D. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 87
+}, {
+    "question": "What are benefits of deploying Knowledge in a high volume Service Cloud portal? ",
+    "answers": [{
+        "answer": " Replaces the need for an email channel",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Eliminates tracking of customer entitlements",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Uncovers gaps in the knowledge base",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Reduces incoming call volume\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. D. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 88
+}, {
+    "question": "What is a common deflection technique to reduce the number of interactions for a contact center? .",
+    "answers": [{
+        "answer": " Recommend articles during a call for a support agent",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Suggest articles for a web-to-case question",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Suggest articles for an email-to-case question",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Recommend articles prior to a Live Agent session\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B. D. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 89
+}, {
+    "question": "A contact center manager is looking for ways to reduce overall cost per case. What Salesforce metric should the contact center manager evaluate? .",
+    "answers": [{
+        "answer": " Average customer satisfaction score by case",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Average number of activities per case",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Average number of articles attached to a case",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Total number of cases by origin\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B. D. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 90
+}, {
+    "question": "UC wants to create a process to verify that customers are eligible for support before a case is created. A consultant recommends using entitlement management to meet this requirement. Which benefit would be realized by using the entitlement management feature? .",
+    "answers": [{
+        "answer": " Ability to specify unique service levels for each customer",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Ability to prompt callers for the service contract number with IVR menus",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Ability to determine if a customer has escalated a case in the past",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Ability to enforce service levels with time-dependent processes\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. D. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 91
+}, {
+    "question": "What metric should a contact center manager consider to measure adoption of Salesforce Knowledge? .",
+    "answers": [{
+        "answer": " Number of cases escalated by agent",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Number of articles created by agent",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Number of solutions created by agent",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Number of articles attached to a case\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B. D. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 92
+}, {
+    "question": "UC wants to assign support agents to handle only specific interaction channels based on one of the following channel groupings: Phone, Phone and Email, Social Media (Facebook and Twitter). What should a consultant recommend to accomplish this? .",
+    "answers": [{
+        "answer": " Create a Service Cloud console to support all channel groupings",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Create an agent profile for each channel grouping",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Create a unique case page layout for each channel grouping",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Create an agent role for each channel grouping\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. D. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 93
+}, {
+    "question": "Universal Containers is implementing a CTI solution for its inbound service and support contact center. Currently, the company handles only existing customers with support issues. The contact center manager has been tasked with improving sales for the premier support offering.What key metrics can be expected to improve following the CTI implementation? ",
+    "answers": [{
+        "answer": " Average days to close",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " First call resolution",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Average handle time",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Abandon rate\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B. D. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 94
+}, {
+    "question": "Universal Containers must provide contact center agents with access to a customer's payment history if the call has a billing problem. The following considerations need to be taken into account:",
+    "answers": [{
+        "answer": "Billing problems account for less than 5% of calls.",
+        "checked": false,
+        "ca": " ."
+    }, {
+        "answer": "Billing data is stored in an external system containing over 20 million records.",
+        "checked": false,
+        "ca": " ."
+    }, {
+        "answer": "Agents do not want to maintain separate login sessions for Salesforce and the billing system.",
+        "checked": false,
+        "ca": " ."
+    }, {
+        "answer": "What solution should a consultant recommend? (choose two)",
+        "checked": false,
+        "ca": " ."
+    }, {
+        "answer": " Import payment data into Salesforce and add to the contact page layout as a related list.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Create a custom tab with type URL that displays a search page from the billing system.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Create a custom web service to handle invoice inserts and updates from the billing system.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Create a visual force page that retrieves payment information via a web service call-out.\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B. D. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 95
+}, {
+    "question": "A contact center manager needs to migrate existing help guides and procedure manuals into salesforce knowledge.What steps should the consultant do prior to importing the documents into salesforce knowledge? ",
+    "answers": [{
+        "answer": " Create the article types and fields. ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Create the data category groups and hierarchy.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Create the profile based category visibility settings.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Compress the CSV, HTML, and image files for the article types\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. D. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 96
+}, {
+    "question": "The cost of the services for universal containers contact centers have steadily increased.What solution should a consultant recommended to help reduce the cost of service in the contact centers? Choose2",
+    "answers": [{
+        "answer": " Create auto -response templates for email. ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Enable chatter for agents' collaboration.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Enable ideas in a service cloud portal.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Enable knowledge in a service cloud portal.\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. D. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 97
+}, {
+    "question": "A case has not been closed even after 30 days, but those cases can be closed in 7 days. What should the consultant do to overcome this?  options",
+    "answers": [{
+        "answer": " Use auto response rule to send an email...",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Use escalation rule to send an email...",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Supervisors to investigate those cases...",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Identify those cases and assign to the closure team...\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. D. ",
+    "choose": "Choose three answers",
+    "isRadioButton": false,
+    "id": 98
+}, {
+    "question": "Universal Containers would like for articles to be suggested to agents based on information they are typing into the case. What solution should a consultant recommend?",
+    "answers": [{
+        "answer": " Enable the Knowledge sidebar related list on the case page layout.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Create a Service Cloud Console and enable the Knowledge sidebar on the case page layout.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Enable the Knowledge sidebar setting in the case support settings",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Create a Visualforce page called Knowledge sidebar on the case page layout\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 99
+}, {
+    "question": "For which purpose should a contact center use Visual Flow?",
+    "answers": [{
+        "answer": " To assign follow up tasks to an agent one week after a case is closed.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " To automatically assign cases to a specific queue based on the customer support level",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " To escalate to the support manager if it has been open for more than 72 hours",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " To automate business processes for agents who troubleshoot customer support issues via phone\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "D. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 100
+}, {
+    "question": "When a Self Service Portal User adds a Case Comment the following actions take place: ",
+    "answers": [{
+        "answer": "  An email is automatically sent to the case owner ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "  A Workflow rules is activated ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "  An Assignment Rule is Activated",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": ".  None of the above\"",
+        "checked": false,
+        "ca": " ."
+    }],
+    "answer": "A. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 101
+}, {
+    "question": "The manager of large credit card contact center needs to understand how many customer call daily to check their balance without speaking with an agent.Which system would be used to generate the report?",
+    "answers": [{
+        "answer": "Interactive Voice Response",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Automatic Call Distributor",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Privat Branch Exchange",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Time and Attendance\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 102
+}, {
+    "question": "Universal Containers needs to decrease the cost of support by allowing support engineers to capture case resolution information when a case is closed and make the details of the case available via search to internal users, partners, and the general public.How could this be achieved?",
+    "answers": [{
+        "answer": "Create Knowledge articles and publish the article to all channels",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Create Content documents and add them to a workspace accessed by all users",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Create solution and publish the solutions to the self serviceportal",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Create case attachments and upload attachments to a directory accessed by all users\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 103
+}, {
+    "question": "Customer Portal/Community Users can Run Reports if:",
+    "answers": [{
+        "answer": "  They have the Admin Privileges ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "  Their Profile includes the Run Reports Permission",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "  Have access to the Public Report Folder ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "  All of the above\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 104
+}, {
+    "question": "A contact center agent wants to leverage subject matter experts (SMEs) on Chatter to resolve a complex issue for a customer.What is the recommended solution to increase the involvement of SMEs and track the case to completion in Chatter?",
+    "answers": [{
+        "answer": " Follow the SMEs to receive automatic updates when they add case comments",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Bookmark all the comments related to the issue from SMEs",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Use hashtag (#) to track the customer case and SMEs comments",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " @mention the SMEs on the case Chatter feed and follow the case\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "D. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 105
+}, {
+    "question": "Which application will allow a client to enable Ideas on a public website?",
+    "answers": [{
+        "answer": "Partner portal",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Self service portal",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Sites",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Customer portal\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 106
+}, {
+    "question": "Universal Containers has implemented Service Cloud in their call center and would like to integrate it with their existing telephony system. All members of staff use a standard build for desktop computers and the IT department has indicated that they a produce a custom desktop build for the call center staff.Which solution should a consultant recommend?",
+    "answers": [{
+        "answer": " Move to a cloud-based telephony system. ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Implement an adapter using the Telephony API.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Implement an adapter built on Open CTI.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Build an adapter using the CU toolkit.\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 107
+}, {
+    "question": "Universal Containers purchased Knowledge and would like to implement it as soon as possible.What approach should a consultant recommend?",
+    "answers": [{
+        "answer": " Activate the Knowledge sidebar within the Salesforce Console for Service.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Activate the Knowledge sidebar on the case detail page.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Create a Knowledge Visualforce component on the case detail page.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Create a Knowledge Visualforce component within the Salesforce Console for Service.\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 109
+}, {
+    "question": "At Universal Containers, a support agent dedicated to one customer regularly handless complex integration-related cases. In these cases, the agent collaborates with Universal Containers? product development team and the client's system integrationWhat would the consultant recommend to expedite the handling of these cases?",
+    "answers": [{
+        "answer": " Build a repository of Knowledge articles related to integration and share it with the customer.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Enable Chatter case feed and add product development team members to the case team.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Create a related child case and assign the child case to the product development team.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Create a private Chatter group with customers and invite key individuals to join the group.\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "D. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 110
+}, {
+    "question": "A customer has recently implemented an on?premise telephony system that is common in the industry. This customer purchased Salesforce licenses and is planning to integrate these two systems.What option should a consultant recommend? ",
+    "answers": [{
+        "answer": " Implement an on?demand telephony solution provided by a vendor.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Use a computer telephony integration (CTI) adapter that supports its telephony system.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Create an API integration between Salesforce and the telephony system.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Build a custom computer telephony integration (CTI) adapter using the Toolkit.\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 111
+}, {
+    "question": "Community Notes",
+    "answers": [{
+        "answer": "Z High volume community users: ",
+        "checked": false,
+        "ca": "Z."
+    }, {
+        "answer": "Are contacts enabled to access a community. ",
+        "checked": false,
+        "ca": "?."
+    }, {
+        "answer": "Are assigned to the Customer Community, High Volume Customer Portal, or Authenticated Website license. ",
+        "checked": false,
+        "ca": "?."
+    }, {
+        "answer": "Only share the records they own with Salesforce users in sharing groups. Access to Records High volume community users can access records if any of the following conditions are met: ",
+        "checked": false,
+        "ca": "?."
+    }, {
+        "answer": "? They have ?Update? access on the account they belong to. ",
+        "checked": false,
+        "ca": " ."
+    }, {
+        "answer": "? They own the record. ",
+        "checked": false,
+        "ca": " ."
+    }, {
+        "answer": "? They can access a record?s parent, and the organization wide sharing setting for that record is Controlled by Parent. ",
+        "checked": false,
+        "ca": " ."
+    }, {
+        "answer": "The organization wide sharing setting for the object is Public Read Only or Public Read/Write. Administrators can create sharing sets to grant high volume community users additional access to records; see Granting High Volume Community Users Access to Records. Limitations ",
+        "checked": false,
+        "ca": "?."
+    }, {
+        "answer": "High volume community users can?t manually share records they own or have access to. ",
+        "checked": false,
+        "ca": "?."
+    }, {
+        "answer": "You can?t transfer cases from non high volume community users to high volume community users. ",
+        "checked": false,
+        "ca": "?."
+    }, {
+        "answer": "High volume community users can?t own accounts. ",
+        "checked": false,
+        "ca": "?."
+    }, {
+        "answer": "You can?t add case teams to cases owned by high volume community users. ",
+        "checked": false,
+        "ca": "?."
+    }, {
+        "answer": "You can?t include high volume community users in: ",
+        "checked": false,
+        "ca": "?."
+    }, {
+        "answer": "? Personal groups or public groups. ",
+        "checked": false,
+        "ca": " ."
+    }, {
+        "answer": "? Sharing rules. ",
+        "checked": false,
+        "ca": " ."
+    }, {
+        "answer": "? Account teams, opportunity teams, or case teams. ",
+        "checked": false,
+        "ca": " ."
+    }, {
+        "answer": "? Salesforce CRM Content libraries. ",
+        "checked": false,
+        "ca": " ."
+    }, {
+        "answer": "ese limitations also apply to records owned by high volume community users. ",
+        "checked": false,
+        "ca": "T."
+    }, {
+        "answer": "You can?t assign high volume community users to territories.\"",
+        "checked": false,
+        "ca": "?."
+    }],
+    "answer": ". ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 112
+}, {
+    "question": "A consultant is working on a Service Cloud implementation with a fixed budget and timeline. The analysis phase of the project has just been completed. Additional requirements were discovered that will result in the project exceeding timeline and budget constraints. What is the first step the consultant should take to address the issue? ",
+    "answers": [{
+        "answer": " Adjust the dates in the project plan to account for the additional requirements and communicate the new timeline. ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Add development resources to the project team to build out the additional requirements. ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Adjust the project scope to accommodate new requirements and continue with the original project schedule ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Document the requirements gap and communicate development options to the project team\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "D. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 113
+}, {
+    "question": "Universal Containers is concerned with system performance in its contact center because the number of contact records has exceeded 40 million.What platform functionality might be affected by the number of contact records?",
+    "answers": [{
+        "answer": " Contact related list load time",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Contact view page load time",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Contact report run time",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Contact list view edit time\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 114
+}, {
+    "question": "Which solution can be used to improve call deflection?",
+    "answers": [{
+        "answer": " Knowledge base",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Community forum",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Assignment rules",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Web chat",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": " Case routing\"",
+        "checked": false,
+        "ca": "E."
+    }],
+    "answer": "D. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 115
+}, {
+    "question": "Universal Containers has four internal divisions that use Salesforce Knowledge. Compliance requirements indicate each division should have access to its own articles when performing a search.What solution should a consultant recommend to meet this requirement?",
+    "answers": [{
+        "answer": " Create a sharing rule for each division to provide access based on criteria of the article",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Create a sharing rule for each division to provide access using the role hierarchy",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Create a single data category group for each division and provide access using the role hierarchy",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Create separate data category groups for each division and assign the category to a division profile\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 116
+}, {
+    "question": "Universal Containers wants to display a list of open cases, data form an external system, and knowledge articles in one view in Salesforce.What should a consultant recommend to meet this requirement?",
+    "answers": [{
+        "answer": " Configure the Salesforce Console for Service, add Visualforce components, and activate the Knowledge sidebar.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Configure the Salesforce Console for Service, integrate the external system, and enable Knowledge",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Configure the agent console and display the articles, case view, and external system custom object",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Create a custom Visualforce page to display case list view, external system, and knowledge articles\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 117
+}, {
+    "question": "Universal Containers is launching a full line of new products and Service Cloud should support the following requirements:",
+    "answers": [{
+        "answer": "Agents need to collaborate with other teams",
+        "checked": false,
+        "ca": " ."
+    }, {
+        "answer": "The product development team needs to be alerted on high priority cases for specific products",
+        "checked": false,
+        "ca": " ."
+    }, {
+        "answer": "ich solution will meet these requirements?",
+        "checked": false,
+        "ca": "W."
+    }, {
+        "answer": " Use escalation rules for notifications and case teams to monitor cases",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Use workflow rules for notifications and case teams to monitor cases",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Use escalation rules for notifications and account teams to monitor cases",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Use workflow rules for notifications and account teams to monitor cases\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 118
+}, {
+    "question": "Universal Banking needs to provide a public knowledge base on its website. The company has three product groups (Personal Banking, Mortgage, and CDs) and needs to display information and address common questions about each product area.How should Knowledge be configured?",
+    "answers": [{
+        "answer": "Create two article types to display information (Question/Answer, Product Info)",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Create three article types for each product area (Personal Banking, Mortgage, CD)",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Create three data categories for each product area (Personal Banking, Mortgage, CD)",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Create two data categories to display information (QUestion/ANswer, Product Info)\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 119
+}, {
+    "question": "Universal Containers has service level agreements (SLAs) with clients that require and agent to respond within one hour of receiving a case. The agreement also states that the case must be resolved in less than one day if the case status iss et to urgent.Which feature should be used to meet this requirement?",
+    "answers": [{
+        "answer": "Case assignment rules to route the case to an escalation queue",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Entitlements to define milestones to meet the SLAs",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Case comments to communicate updates to the client",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "A workflow email alert to send notification that a case was received\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 120
+}, {
+    "question": "Universal Containers is evaluating whether to implement On Demand Email to Case or Email to Case and needs to ensure the solution selected will meet its requirements. Which customer requirement would require the use of Email to Case?",
+    "answers": [{
+        "answer": " Accepts email attachments larger than 25 MB",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Accepts attachments from emails",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Handles more the 10,000 emails a day",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Requires the use of Transport Layout Security (TLS)\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 121
+}, {
+    "question": "Universal Containers needs to provide users with a case entry page that meets the requirements listed below.    ",
+    "answers": [{
+        "answer": "aunches from the account record    ",
+        "checked": false,
+        "ca": "-."
+    }, {
+        "answer": "rovides a list of associated contacts and assets    ",
+        "checked": false,
+        "ca": "-."
+    }, {
+        "answer": "llows a user to associate contacts ans asstes with a new case    ",
+        "checked": false,
+        "ca": "-."
+    }, {
+        "answer": "llow fort he creation of the new contact    ",
+        "checked": false,
+        "ca": "-."
+    }, {
+        "answer": "ich approach meets the requirements?    ",
+        "checked": false,
+        "ca": "W."
+    }, {
+        "answer": "Create an Apex page for selecting the associated records and entering the new case information    ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Create a Visualforce page for selecting the associated records and entering the new case information    ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Modify the case page layout to include attributes necessary for creating a new contact    ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Modify the case page layout and enable the quick create feature for contact creation\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 122
+}, {
+    "question": "Universal Containers is developing its strategy for social customer service. It would like to build a business case to fund an investment in social media and have a dedicated social media support team. The company's requirements include the ability:",
+    "answers": [{
+        "answer": "onitor Facebook fan page for new posts from customers",
+        "checked": false,
+        "ca": "-."
+    }, {
+        "answer": "Link new posts to an existing customer record",
+        "checked": false,
+        "ca": "-."
+    }, {
+        "answer": "Respond to posts from the existing Salesforce Console for Service",
+        "checked": false,
+        "ca": "-."
+    }, {
+        "answer": "at should Universal Containers do immediately to begin providing social customer service?",
+        "checked": false,
+        "ca": "W."
+    }, {
+        "answer": " Integrate Facebook to its existing Customer Community.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Create a Force.com app for Facebook monitoring.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Install Salesforce for Facebook and Twitter.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Enable Salesforce social profile on contacts.\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "D. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 123
+}, {
+    "question": "Support engineers need to see a complete chronological list of field edit to a case, associated emails, case comments, and field edit to related objects in a single view while working on a case.How should the requirement be met?",
+    "answers": [{
+        "answer": " Create a custom report",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Create a custom related list on the case",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Create a custom view on the Case tab",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Create a custom Visualforce page\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 124
+}, {
+    "question": "Which contact center type is most likely to implement Information Technology Infrastructure Library (ITIL) to align with industry best practices?",
+    "answers": [{
+        "answer": "Information Technology (IT) help desk",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Telesales center",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Human Resources (HR) help desk",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Telemarketing center\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 125
+}, {
+    "question": "Ensure the contracted service level requirements for its clients are being met.What should be configured?",
+    "answers": [{
+        "answer": " Entitlement processes, contract line items, milestones, entitlements",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Entitlement processes, contract line items and Entitlements",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Entitlement processes, contract line items, milestones, milestone actions",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Entitlement processes milestones milestone actions and entitlements\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 126
+}, {
+    "question": "Universal Containers assigns its contact center agents to certain interaction channels and would like to optimize the agents' desktop based on their assigned interaction channels.",
+    "answers": [{
+        "answer": " Create multiple agent console applications and configure the Iayout based on the user's requirements.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Create multiple Salesforce Console for Service applications and configure them based on me user's requirements. ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Create case page layouts for each interaction channel and assign them to different agent profiles.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Create a Salesforce Console for Service layout and allow the agents to drag and drop the components they need.\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 127
+}, {
+    "question": "Universal Containers needs to track the internal users who are involved with support cases. Certain status updates to the case should trigger an email notification to the users involved.Which solution design will best address this requirement?",
+    "answers": [{
+        "answer": "Use case teams to track users and a workflow rule with an email action for notification of status changes",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Use account teams to track users and a workflow rule with an email action for notification of status changes",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Use a custom object to track users and a workflow rule with an email action for notification of status changes",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Use case teams to track users and an Apex trigger for notification of status changes\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 128
+}, {
+    "question": "A new customer to Salesforce is considering implementing a customer portal. The customer has millions of users and plans to evaluate a high volume customer portal/Community.What is a key consideration when configuring a customer portal?",
+    "answers": [{
+        "answer": " Users cannot own records",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Users can download and view content",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Users are not associated with a role in the hierarchy",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Users can be part of a case team\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 129
+}, {
+    "question": "To manage the publishing lifecycle for articles in Salesforce Knowledge, the contact center director wants to provide article with various publishing capabilities. What configuration should be recommended to meet this objective?",
+    "answers": [{
+        "answer": " Assign article managers to public groups and specific article actions to each group.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Assign article managers to publication teams and specific article actions to each team.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Assign article managers to public groups and specific publication states to each group.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Assign article managers to publication teams and specific publication states to each team.\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 130
+}, {
+    "question": "Which Service Cloud tool requires the least agent involvement to resolve a customer issue?",
+    "answers": [{
+        "answer": " Salesforce for Twitter",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Live Agent",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Salesforce Knowledge",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Open CTI\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 131
+}, {
+    "question": "Auto Response rules work on which objects? ",
+    "answers": [{
+        "answer": "  Leads and Cases ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "  Leads and accounts ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "  Accounts and Opportunity ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "  Accounts and Cases\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 132
+}, {
+    "question": "Universal Containers has a three tiered contact center. Cases are routed to Tier 1 or Tier 2 based on severity, priority, complexity, or SLAs. Cases are assigned to Tier 3 only if they are escalated by Tier 1 and Tier 2.How can Universal Containers measure case escalation?",
+    "answers": [{
+        "answer": " Create an approval process to ensure only the appropriate cases get escalated.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Create a case report to show all cases across tiers filtered by an escalation flag.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Create a custom trigger to generate history when cases get escalated between tiers.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Create a case report to show the number of cases for each tier and sort them by case owner.\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 133
+}, {
+    "question": "Case escalation rules triggered on the last modification will be reset each time a user does which of the following actions? ",
+    "answers": [{
+        "answer": "  Reads the case ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "  Adds a related comment to the case ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "  Adds an activity or sends an email from the case record ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "  Edits the case ",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "  All of the above\"",
+        "checked": false,
+        "ca": "E."
+    }],
+    "answer": "D. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 135
+}, {
+    "question": "Universal Containers, a new Salesforce customer, needs its millions of consumers to have public access to Knowledge on its corporate website. The consumers also need the ability to login to create, update, and read historical cases.Which product and license type would meet all of these requirements?",
+    "answers": [{
+        "answer": " Force.com Sites with Knowledge and Email to Case",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Visualforce and Self Service Portal",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Force.com Sites with Knowledge and Web to Case",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Force.com Sites and High Volume Customer Portal\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "D. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 136
+}, {
+    "question": "Universal Banking has customer support operations in both Canada an the United States. Compliance regulations are listed below.    ",
+    "answers": [{
+        "answer": "ent users in Canada can only view articles pertaining to Canadian products    ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "ent users in the US can only view articles pertaining to US based products.    ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "",
+        "checked": false,
+        "ca": "."
+    }, {
+        "answer": "w should article visibility be configured to enforce the compliance rules?    ",
+        "checked": false,
+        "ca": "H."
+    }, {
+        "answer": "Create geography based roles to restrict access using data categories    ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Create geography based profiles to restrict access by mapping article types    ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Create geography based profiles to restrict access using data categories    ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Create geography based roles to restrict access by mapping article types\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 137
+}, {
+    "question": "Universal Containers requires that a case status be updated 48 hours after a solution to the case has been emailed to a customer.Which Salesforce feature would be used to meet this requirement?",
+    "answers": [{
+        "answer": "Assignment ruleS",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Validation rules",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Workflow rules",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Auto response rules\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 138
+}, {
+    "question": "Universal Containers analyzes key performance indicators (KPIs) and discovers that customer satisfaction is decreasing. The company attributes the decrease in customer satisfaction to alow first call resolution rate.What can be done to improve the first call resolution rate?",
+    "answers": [{
+        "answer": "Reduce the cost per call",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Align agent performance goals with KPIs",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Train support agents",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Hire additional support agents\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 139
+}, {
+    "question": "Universal Containers is implementing a solution to capture incoming emails as cases in Salesforce with the requirements listed bellow.    ",
+    "answers": [{
+        "answer": "er 5.000 emails are captured and created as cases.    ",
+        "checked": false,
+        "ca": "O."
+    }, {
+        "answer": "ail filtering capabilities can be customized.    ",
+        "checked": false,
+        "ca": "E."
+    }, {
+        "answer": "lution runs 24/7 so that emails are captured during maintenance windows    ",
+        "checked": false,
+        "ca": "S."
+    }, {
+        "answer": "software installation is not required",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "ich solution would meet the requirements?",
+        "checked": false,
+        "ca": "W."
+    }, {
+        "answer": "On Demand Email to case",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Email to Case",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Connect for Outlook",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Email relay\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 143
+}, {
+    "question": "Universal Containers has completed development and testing of its Service Cloud implementation and plans to migrate functionality from the sandbox environment to the production environment.Which tools should be used for migration functionality?",
+    "answers": [{
+        "answer": " Data loader, change sets, and Force.com Excel Connector",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Visual Workflow, data loader, and Force.com IDE",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Force.com migration tool, Force.com IDE, and change sets",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Mass transfer records, change sets, and Force.co migration tool\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 145
+}, {
+    "question": "Which of the following are options when transferring accounts with transfer tool (Multiple correct answers) ",
+    "answers": [{
+        "answer": "  Transfer open opportunities ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "  Transfer closed opportunities",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "  Transfer closed cases ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "  Transfer open cases ",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "  Keep Account Teams ",
+        "checked": false,
+        "ca": "E."
+    }, {
+        "answer": "  All Above\"",
+        "checked": false,
+        "ca": "F."
+    }],
+    "answer": "F. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 146
+}, {
+    "question": "Universal Containers staffs its contact centers to allow for up to 20% of the total case volume to be escalated. The contact center would like to measure case escalation rate to staff to ensure sufficient training for Tier 1 agents.What solution should a consultant recommend to meet this requirement?",
+    "answers": [{
+        "answer": " Create a dashboard report to display and compare escalated cases against non escalated cases.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Create a case report with a custom summary formula to calculate the percentage of escalated cases.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Create a formula field on the case record to calculate percentage of escalated cases.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Create a daily snapshot report of all cases and calculate percentage of escalated cases.\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 147
+}, {
+    "question": "Using Import Wizard you can import Asset records at a time ",
+    "answers": [{
+        "answer": "  1000 ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "  5000 ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "  50,000 ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "  100,000 ",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "  You cannot import Assets via Import Wizard\"",
+        "checked": false,
+        "ca": "E."
+    }],
+    "answer": "E. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 148
+}, {
+    "question": "Universal Containers needs to automate the process of gathering and measuring customer satisfaction (CSAT). The process should be initiated at the time of case closure.Which feature should be used to meet this requirement?",
+    "answers": [{
+        "answer": "Install an AppExchange product for case survey functionality",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Enable the Send Survey feature for cases",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Deploy the self service portal CSAT survey widget",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Create a case survey email template and auto notification rule\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 149
+}, {
+    "question": "Universal Containers would like to provide their contact center agents with a map image of their customers' location based on the Shipping Address of their Account Record.What should a consultant recommend as part of the solution?",
+    "answers": [{
+        "answer": " An outbound message to a middleware platform to provide map details",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " A mashup integration on the Account page to a third-party mapping service",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " A Web Service call?out that retrieves map details from the backend system",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " A custom tab of type URL that displays a map image of customer location\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 150
+}, {
+    "question": "Universal Containers is developing its strategy for supporting their customers on social media sites. The company?s requirements include the ability to:",
+    "answers": [{
+        "answer": "Monitor Facebook fan page for new posts and comments from customer",
+        "checked": false,
+        "ca": "-."
+    }, {
+        "answer": "Link new post and comments to an existing customer record",
+        "checked": false,
+        "ca": "-."
+    }, {
+        "answer": "Respond to posts from the existing Salesforce Console for Service",
+        "checked": false,
+        "ca": "-."
+    }, {
+        "answer": "Create and link social personas to contacts",
+        "checked": false,
+        "ca": "-."
+    }, {
+        "answer": "at should a consultant recommend to meet these requirements?",
+        "checked": false,
+        "ca": "W."
+    }, {
+        "answer": " Create a Force.com app for Facebook monitoring",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Enable Social Customer Service",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Integrate Facebook to its existing Customer Community",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Enable Salesforce social profile on contacts\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "D. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 152
+}, {
+    "question": "Using standard case management capabilities, what can be emailed to a customer as a PDF attachment?",
+    "answers": [{
+        "answer": " Articles appearing in the Knowledge sidebar",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Products and assets associated to the case ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Knowledge articles attached to the case",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Contract details related to the entitlement\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 153
+}, {
+    "question": "Universal Containers wants to track customer satisfaction (CSAT).Which solution will automate the process for support agents to survey customers when cases are closed.",
+    "answers": [{
+        "answer": " Enable the case survey object for the customer portal",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Utilize an AppExchange package to handle customer surveys",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Create a validation rule for case survey email templates",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Modify the user interface settings for the case survey sidebar\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 154
+}, {
+    "question": "Universal Containers support team requires its customers to submit their support inquiries via free form email (Outlook etc). Additional requirements are listed below:\n - Support attachments up to 35 MB per inquiry\n - Over 10,000 inquiries per day\n Which solution should a consultant recommend to meet these requirements?",
+    "answers": [{
+        "answer": " Email-to-Case",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Customer Chatter groups ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " On-Demand Email-to-Case ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Web-to-Case",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 155
+}, {
+    "question": "Universal Containers wants to shorten the average call time in its contact centers by prompting the customers to enter customer number and identify their order and product information when they call for support. After providing this information, the customer should then have the option to speak a support agent if they still need help.Which system will help Universal Containers meet this requirement?",
+    "answers": [{
+        "answer": " Computer Telephony Integration",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Interactive Voice Response",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Automatic Call Distribution",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Order Management System\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 157
+}, {
+    "question": "Universal Containers has a service level agreement (SLA) with customers that requires an agent to take ownership of and respond incoming cases within two hours of case creation.Which solution would help Universal Containers meet SLA?",
+    "answers": [{
+        "answer": " Use case auto-response rules to send an email to support managers with case creation. ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Assign cases to queues and use escalation rules to escalate cases that have NOT been accepted by an agent within one hour",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Create a rule to send an email to support managers when a case is created and assigned to a queue.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Create a rule to assign a task to all members of a queue if a case has NOT been accepted by an agent within one hour.\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 158
+}, {
+    "question": "A customer utilizes a high volume Service Cloud portal for its Web customer support and is interested in deploying a chat solution. What should be the first step in configuration and customization?",
+    "answers": [{
+        "answer": " Create user profiles or permission sets",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Enable Chatter Messenger for the organization",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Enable Live Agent for the organization",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Create an iframe to display the chat window\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 160
+}, {
+    "question": "Universal Containers is implementing the Salesforce Service Cloud in ist contact center and has requirements listed below.",
+    "answers": [{
+        "answer": ".000 agents are implemented globally    ",
+        "checked": false,
+        "ca": "-."
+    }, {
+        "answer": "4/7 operations    ",
+        "checked": false,
+        "ca": "-."
+    }, {
+        "answer": "pen case data will be migrated from a legacy system    ",
+        "checked": false,
+        "ca": "-."
+    }, {
+        "answer": "ew cases will be created in one system only",
+        "checked": false,
+        "ca": "-."
+    }, {
+        "answer": "ich deployment method should be recomended?",
+        "checked": false,
+        "ca": "-."
+    }, {
+        "answer": " Migrate case data and deploy to all users at office",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Migrate agents to Force.com Connect Offline during deployment",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Deploy in phases using countries as pilots",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Deploy based on the number of trainers available\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 161
+}, {
+    "question": "Which of following is granted by the Manage Cases Permission (Select the all that apply)? ",
+    "answers": [{
+        "answer": "  Set support business hours ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "  Edit the Support settings ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "  Set up Email to Case ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "  Mass Transfer Cases ",
+        "checked": false,
+        "ca": "D."
+    }, {
+        "answer": "  Create, Edit, and Delete custom fields on the Case Object ",
+        "checked": false,
+        "ca": "E."
+    }, {
+        "answer": " None of the above\"",
+        "checked": false,
+        "ca": "F."
+    }],
+    "answer": "F. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 162
+}, {
+    "question": "Universal Containers is initiating a program to improve customer satisfaction. As part of the program, customers must be surveyed after the case is closed to ensure the customer is satisfied and the issue has been resolved.",
+    "answers": [{
+        "answer": " Use workflow rules to send an email to the customer.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Use auto response rules to send an email to the customer.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Use assignment rules to assign the case to a case queue.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Use escalation rules to assign the case to a case queue.\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 163
+}, {
+    "question": "Universal Health supports medical kits that have been distributed to thousands of hospitals. Hospitals can request future credit by providing kit usage information by patient. The regional processing teams review these requests and award coupons for approved cases.What should a consultant recommend to manage this process using Service Cloud?",
+    "answers": [{
+        "answer": " Enable the self service portal to generate logins for the hospital staff by region.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Use Web to Lead to capture the credit requests and assign them to regional teams using workflow rules.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Design a custom object to track credit requests and route them regionally using assignment rules",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Use cases to track the credit requests and route than to regional teams using assignment rules\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "D. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 164
+}, {
+    "question": "When planning for the migration of an existing knowledge base into Salesforce Knowledge, what factors are considered which articles to migrate?",
+    "answers": [{
+        "answer": " Last modified date and frequent search terms",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Last modified date and number of recent article views",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Original creation date and total number of article views",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Original creation date and average rating of articles\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 166
+}, {
+    "question": "Universal Containers has a policy that requires all email traffic to remain within its firewall. Currently, the company has 200 support agents handling email from five different time zones on its legacy system.When implementing Salesforce, what solution should a consultant recommend for this service?",
+    "answers": [{
+        "answer": " On-Demand email-to-case",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Connect for Outlook",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Email-to-Case",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Web-to-Case\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 167
+}, {
+    "question": "Universal Containers has basic field service requirements and has not yet deployed the Service Cloud. The company would like to automatically create a field service dispatch record and assign it to a queue when specific case criteria are selected by an agent working the case.Which solution will create and route the field service dispatch record when the case is saved?",
+    "answers": [{
+        "answer": " Use a workflow rule with an action",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Use a validation rule",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Use a case assignment fule",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Use an Apex trigger\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 168
+}, {
+    "question": "Universal Containers is implementing Salesforce Knowledge at its contact center. The contact center has a dedicated support team for each product that it supports. Contact center agents should only be able to new articles for the product they support.What solution should a consultant recommend to meet this requirement?",
+    "answers": [{
+        "answer": " Assign team based roles to the associated product data category value",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Assign team based profiles to the associated product article type",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Assign team based profiles to the associated product data category value",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Assign team based roles to the associated product article type\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 169
+}, {
+    "question": "Universal Containers needs to measure how long it takes to resolve a case once a support agent has accepted the case from the queue.How would this requirement be met?",
+    "answers": [{
+        "answer": "Enable the case accepted time support setting to track the active time an agent spends on a case",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Create a formula field to calculate the total time spent in each status based on the case history",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Create a formula field to calculate the time between a custom Case Accepted Date/Time field and the standard Date/Time Case Closed field",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "Create a formula field to calculate the time between the standard Date/Time Case Created field and the Date/Time Case CLosed field.\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 170
+}, {
+    "question": "Universal Containers is in the process of setting up a business-to-business (B2B) portal. The company needs to give customers access to service level agreements (SLA) via the portal.",
+    "answers": [{
+        "answer": "ich solution is recommended to accomplish this requirement?",
+        "checked": false,
+        "ca": "W."
+    }, {
+        "answer": " Assets",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Cases",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Milestones",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Service Contracts\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "D. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 171
+}, {
+    "question": "What is the primary function of a private branch exchange (PBX)?",
+    "answers": [{
+        "answer": " To receive multiple calls at one time",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " To use speech recognition to direct calls",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " To report the caller's background information",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " To mate calls to different agents\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 172
+}, {
+    "question": "Which support channel requires the smallest amount of agent work time? ",
+    "answers": [{
+        "answer": " Web to case ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Email to case ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Web self service ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Chat\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 173
+}, {
+    "question": "Universal Containers is migrating from a legacy system to the Service Cloud. The company currently tracks enticements and agreements in its legacy system. The legacy system will be archived and unavailable after go-live. Agents will need easy access case information for the last one year.",
+    "answers": [{
+        "answer": " Migrate closed cases with milestones and entitlements.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Migrate open and closed cases with milestones and entitlements. ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Migrate open and closed cases without milestones and entitlements.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Migrate closed cases to a custom read?only object.\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 174
+}, {
+    "question": "A Contact center manager needs to track individual agent productivity on a monthly basis. The manager needs to create a dashboard to drive competition among the team by allowing all agents to view the dashboard to see how they are performing in comparison in comparison their peers.Which dashboard setting would meet this requirement?",
+    "answers": [{
+        "answer": "Standard view",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": "Logged in user",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "Running user",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": "My Team view\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 175
+}, {
+    "question": "Which system would a contact center integrate with, in order to provide field service agents with information needed to provide service at customer sites? ",
+    "answers": [{
+        "answer": " Telephony ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Order Fulfillment ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Enterprise Resource Planning (ERP) ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Marketing\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 176
+}, {
+    "question": "A customer calls the service desk at Universal Containers. The agent assigned to the call creates a case to capture the issue, but later realized the caller is not eligible for support.What solution should a consultant recommend to prevent the scenario from happening in the future?",
+    "answers": [{
+        "answer": " Add the entitlements related list to contact records",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Add the entitlement contacts related list to account records",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Add the assets related list to contact records",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Add the service contract related list to contact records\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 177
+}, {
+    "question": "UC's support team requires its customers to submit their support inquiries via free form email (Outlook, Gmail, Yahoo, etc.). Additional requirements are listed below:",
+    "answers": [{
+        "answer": "Support attachments up to 20MB per inquiry",
+        "checked": false,
+        "ca": " ."
+    }, {
+        "answer": "Over 10,000 inquiries per day",
+        "checked": false,
+        "ca": " ."
+    }, {
+        "answer": "ich solution should a consultant recommend to meet these requirements?",
+        "checked": false,
+        "ca": "W."
+    }, {
+        "answer": " Email-to-Case",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Web-to-Case",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " On-Demand Email-to-Case",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Customer Chatter groups\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 179
+}, {
+    "question": "UC wants to display a list of open cases, data from an external system, and Knowledge articles in one view in Salesforce. What should a consultant recommend to meet this requirement?",
+    "answers": [{
+        "answer": " Create a custom Visualforce page to display case list view, external system and Knowledge articles",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Configure the agent console and display the articles, case view, and external system custom object",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Configure the Service Cloud console, integrate the external system, and enable Knowledge",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Configure the Service Cloud console, add Visualforce components, and activate the Knowledge sidebar\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "D. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 180
+}, {
+    "question": "UC wants to provide its 20 million customers with a portal where they can: ",
+    "answers": [{
+        "answer": "ubmit inquires, Monitor the status of those inquiries, and View their contact information. ",
+        "checked": false,
+        "ca": "-."
+    }, {
+        "answer": " meet these requirements, which type of portal license would be most appropriate for the customers?",
+        "checked": false,
+        "ca": "T."
+    }, {
+        "answer": " Partner portal",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Service Cloud portal (Customer Community)",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Enterprise admin",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Sites\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 181
+}, {
+    "question": "UC is implementing Salesforce Knowledge and immediately wants to begin building a repository of frequently asked questions (FAQ) encountered by contact center agents. How can this be accomplished?",
+    "answers": [{
+        "answer": " Create an FAQ article type and enable the submit articles feature on the case close page layout",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Enable Ideas for the contact center agents and have them submit FAQ articles at the time a case is closed",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Define a data category called FAQ and assign category visibility to users in the contact center role",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Create an FAQ article type and configure the enable suggested articles option in support settings\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "D. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 182
+}, {
+    "question": "UC must provide contact center agents with access to a customer's payment history if the call concerns a billing problem. The following considerations need to be taken into account: Billing problems account for less than 5% of the calls. Billing data is stored in an external system containing over 20 million records. Agents do not want to maintain separate login sessions for Salesforce and the billing system. What solution should a consultant recommend?",
+    "answers": [{
+        "answer": " Create a custom web service to handle invoice inserts and updates from the billing system",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Create a custom tab of type URL that displays a search page from the billing system",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Import payment data into Salesforce and add to the contact page layout related list",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Create a Visualforce page that retrieves payment information via a Web Service call-out\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "D. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 183
+}, {
+    "question": "UC, a new Salesforce customer, needs its millions of consumers to have public access to knowledge on it corporate website. The consumers also need the ability to login to create, update and read historical cases. Which product and license type would meet all of these requirements?",
+    "answers": [{
+        "answer": " Force.com Sites with Knowledge and Email-to-Case",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Force.com Sites with Knowledge and Web-to-Case",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Force.com Sites and High-Volume Customer Portal",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Visualforce and Self-Service Portal\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 184
+}, {
+    "question": "Which method can be used to route social media inquiries with Salesforce using Salesforce for Twitter and Facebook?",
+    "answers": [{
+        "answer": " Enable social profile and add workflow rules to the contact object",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Use Twitter-to-Case and add workflow rules to the case object",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Enable social profile and add assignment rules to the case object",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Use the routing queues provided with Salesforce for Twitter and Facebook\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 185
+}, {
+    "question": "UC wants to use the Service Cloud console and Computer Telephony Integration (CTI) with its contact center infrastructure. The telephony vendor has verified that its current infrastructure supports integration with Salesforce. What must be taken into consideration to meet this requirement?",
+    "answers": [{
+        "answer": " The CTI adapter supports the Service Cloud console push notifications for field or record changes",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " The number of intended Service Cloud console apps will not exceed the CTI adapter limits",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " The CTI adapter must be developed using the CTI Toolkit version 3.0 or higher or Open CTI",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " The CTI adapter requires the Service Cloud console highlights panel for Softphone control\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 186
+}, {
+    "question": "The IT help desk at UC is divided into two tiers to handle escalations. The company would like to improve the collaboration among help desk agents and reduce the number of issue escalations. What solution should a consultant recommend?",
+    "answers": [{
+        "answer": " Enable Chatter on Knowledge articles",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Allow agents to add comments to each other's cases",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Use Chatter Answers for the help desk",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Create a Chatter group for the help desk\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "D. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 188
+}, {
+    "question": "UC's customer service technicians need to access the following information while at a customer site to complete the service call: Customer order history, Level of contracted support, List of replaceable parts. What system can Salesforce integrate with to retrieve this information and make it available to technicians in the field?",
+    "answers": [{
+        "answer": " A workforce management system",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " A third-party mobile application platform",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " A knowledge management system",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " An enterprise resource planning system\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "D. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 189
+}, {
+    "question": "UC is in the process of implementing Service Cloud. In which order should the data be migrated?",
+    "answers": [{
+        "answer": " Users, accounts, contacts, cases",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Accounts, contacts, cases, users",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Users, contacts, accounts, cases",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Accounts cases, users, contacts\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 190
+}, {
+    "question": "Universal Containers has basic field service requirements and has not yet deployed the Service Cloud. The company would like to automatically create a field service dispatch record and assign it to a queue when specific case criteria are selected by an agent working the case.Which solution will create and route the field service dispatch record when the case is saved?",
+    "answers": [{
+        "answer": " Use a workflow rule with an action",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Use a validation rule",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Use a case assignment rule",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Use an Apex trigger\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "D. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 191
+}, {
+    "question": "At universal containers, a support agent dedicated to one customer regularly handles complex integration related cases, the agent collaborates with universal containers product development team and the client's systems.What should the consultant recommend to expedite the handling of these cases?",
+    "answers": [{
+        "answer": " Enable chatter case feed and add product development team members to the case team.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Create a private chatter group with customers and invite key individuals to join the group. ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Build a repository of knowledge articles related to integration and share it with the customer.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Create a related child case and assign the child case to the product development team.A???\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 192
+}, {
+    "question": "Universal Containers is transitioning from a legacy service and support system to salesforce.What is a recommended way to migrate and cleanse the data?",
+    "answers": [{
+        "answer": " Upload the data into salesforce and then run the native de-dupe tool.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Cleanse the data outside of salesforce and then migrate the data. ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Use the salesforce import wizard to load and cleanse the data.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Use salesforce data loader to load and cleanse the data.\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 193
+}, {
+    "question": "Universal containers contact center is experiencing increased call volumes due to a growing product portfolio.What is the recommended strategy to allow the contact center to handle the increased customer inquiries more efficiently?",
+    "answers": [{
+        "answer": " Make contact center representatives accessible 24/7 to distribute the call volume.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Redirect users from the company site to social media forums about the products.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Hire contact center representatives that specialize in each of the product categories.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Make knowledge base articles and community answers accessible on its website.\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "D. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 194
+}, {
+    "question": "A contact center agent needs to respond privately to a Facebook post on the fan page. The post has been converted to a case using salesforce for twitter and Facebook.How can the agent respond privately to the customer?",
+    "answers": [{
+        "answer": " The agent must change the case status before replying.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " The agent can post privately on Facebook for salesforce. ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " The agent must invite the customer to another channel.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " The agent must use the \"\"Send private Message\"\" button on the casE\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "B. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 195
+}, {
+    "question": "Universal containers want to identify potential delays in the customer support process.Which metric should the contact center management analyze?",
+    "answers": [{
+        "answer": " Open cases by reason.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Cases created by type.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Average case stage duration. ",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Case volume by channel.\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 196
+}, {
+    "question": "For which purpose should a contact center use visual workflow?",
+    "answers": [{
+        "answer": " To escalate a case to the support manager if it has been open for more than 72 hours.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " To automatically assign cases to a specific queue based on the customer support level.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " To assign follow-up tasks to an agent one week after a case is closed.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " To automate business processes for agents who troubleshoot customer support issues via phone.\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "D. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 197
+}, {
+    "question": "What is the capability of case feed?",
+    "answers": [{
+        "answer": " Add custom visual force pages to the case feed page layout.",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Enable call control using the CTI case feed publisher.",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Embed case feed functionality within a visual force page.",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Switch from case feed to standard detail pages using a console component\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 198
+}, {
+    "question": "Universal containers support team requires its customers to submit their support inquiries via free form email (outlook, etc.), additional requirements are listed below: ",
+    "answers": [{
+        "answer": " Support attachments up to 35 mb per inquiry ",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Over 10,000 inquiries per day. ",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": "ich solution should a consultant recommend to meet these requirements?",
+        "checked": false,
+        "ca": "W."
+    }, {
+        "answer": " Email-to-case",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Customer chatter groups",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " On-demand email-to-case",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Web-to-case\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "A. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 199
+}, {
+    "question": "Universal containers has implemented salesforce knowledge and the service manager wants to encourage agents to knowledge base. Which metric should the service manager monitor?",
+    "answers": [{
+        "answer": " Number of customer ratings",
+        "checked": false,
+        "ca": "A."
+    }, {
+        "answer": " Number of approved articles",
+        "checked": false,
+        "ca": "B."
+    }, {
+        "answer": " Number of article votes",
+        "checked": false,
+        "ca": "C."
+    }, {
+        "answer": " Number of archived articles\"",
+        "checked": false,
+        "ca": "D."
+    }],
+    "answer": "C. ",
+    "choose": "Choose two answers",
+    "isRadioButton": false,
+    "id": 200
+}]
