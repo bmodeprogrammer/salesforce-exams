@@ -36,8 +36,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <paper-toast id="submitted" class="fit-bottom" text="Config submited"></paper-toast>
     <div class="card">
       <h1>Config</h1>
+      <h3>[[number]] questions per exam</h3>
       <form id="config" is="iron-form">
-        <paper-input label="Number os questions" name="numberOfQuestions" type="number" min="5" max="200"></paper-input>
+        <paper-input label="Number os questions" name="numberOfQuestions" type="number" min="5" max="500"></paper-input>
         <paper-button on-click="submitConfig" raised>Submit</paper-button>
       </form>
 
@@ -47,7 +48,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   <script>
     Polymer({
       is: 'my-config',
+      properties: {
+        number: Number
+      },
       ready: function () {
+        this.number = localStorage.getItem('numberOfQuestions') === "null" ? 40 : localStorage.getItem('numberOfQuestions')
         this.submitConfig.bind(this);
         let form = this.$.config,
           toast = this.$.submitted;
@@ -57,6 +62,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
           for (var i = 0; i < keys.length; i++) {
             localStorage.setItem(keys[i], config[keys[i]]);
+            this.number = config[keys[i]];
           }
           form.reset();
           toast.open();

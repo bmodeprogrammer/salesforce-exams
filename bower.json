@@ -1,7 +1,7 @@
 {
-  "name": "polymer-starter-kit",
+  "name": "Exam App",
   "authors": [
-    "The Polymer Authors"
+    "Elias Pinheiro"
   ],
   "license": "https://polymer.github.io/LICENSE.txt",
   "dependencies": {
@@ -21,7 +21,10 @@
     "paper-input": "^2.0.0",
     "iron-form": "^1.1.4",
     "paper-toast": "^2.0.0",
-    "firebase": "^4.0.0"
+    "iron-icons": "PolymerElements/iron-icons#^2.1.1",
+    "paper-checkbox": "PolymerElements/paper-checkbox#^2.0.4",
+    "paper-radio-button": "PolymerElements/paper-radio-button#^2.1.0",
+    "paper-radio-group": "PolymerElements/paper-radio-group#^2.2.0"
   },
   "devDependencies": {
     "web-component-tester": "^4.0.0"

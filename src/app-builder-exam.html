@@ -1,4 +1,6 @@
 <link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/paper-toast/paper-toast.html">
+<link rel="import" href="../bower_components/iron-ajax/iron-ajax.html">
 <link rel="import" href="../bower_components/paper-checkbox/paper-checkbox.html">
 <link rel="import" href="../bower_components/iron-icons/iron-icons.html">
 <link rel="import" href="../bower_components/paper-icon-button/paper-icon-button.html">
@@ -121,9 +123,18 @@
         color: black;
         text-align: justify;
       }
+
+      .yellow-button {
+        text-transform: none;
+        color: #eeff41;
+      }
     </style>
 
-
+    <iron-ajax auto url="[[url]]" handle-as="json" on-response="handleResponse"></iron-ajax>
+    <paper-toast id="toast" class="fit-bottom" >
+      <paper-button onclick="toast.toggle()" class="yellow-button">Close now!</paper-button>
+    </paper-toast>
+    
     <div class="card submitted" hidden$="[[isSubmited]]">
       <div class="circle">[[currentQuestion.id]]</div>
       <div style="float:right;">
@@ -280,19 +291,6 @@
           this.submitExam = this.submit;
         },
 
-        attached: function() {
-          const questionStr = 'questions' + this.url,
-            qs = localStorage.getItem(questionStr);
-          if (qs) {
-            this.handleResponse(JSON.parse(qs));
-          } else {
-          firebase.database().ref('/questions/' + this.url).once('value').then(snapshot => {
-            this.handleResponse(snapshot.val());
-            localStorage.setItem(questionStr,JSON.stringify(snapshot.val()));
-          });
-          }
-        },
-
         detached: function() {
           this._removeEvents();
         },
@@ -318,28 +316,47 @@
           }
         },
 
-        handleResponse: function (snapshot) {
-          let questionsAux = JSON.parse(localStorage.getItem('last-exam')),
-            origin = questionsAux.slice(0);
-          if (questionsAux) {
-            questionsAux = snapshot.filter(q => questionsAux.filter(qa => qa.id === q.id).length === 0);
-            if (questionsAux.length < (localStorage.getItem('numberOfQuestions') || 40)) {
-              questionsAux = snapshot;
+        handleResponse: function (e) {
+          let questionsAux = JSON.parse(localStorage.getItem(this.url)), origin;
+          const size = localStorage.getItem('numberOfQuestions') === "null" ? 40 : localStorage.getItem('numberOfQuestions'),
+            response = e.detail.response;
+          
+          if (questionsAux && questionsAux.length > 0) {
+            origin = response.filter(q => questionsAux.filter(qa => qa.id === q.id).length === 0);
+          var now = size + questionsAux.length;
+            
+            if (origin.length <= size) {
+              if(origin.length === 0) {
+                localStorage.setItem(this.url, null);
+                origin = response;
+                questionsAux = null;
+                this.$.toast.show({text: 'You are doing ' + size + ' of ' + response.length + ' questions', duration: 3000});
+              } else {
+                this.$.toast.show({text: 'After this test, you completely reviewed all the disponible questions!!', duration: 0});
+                origin = origin.concat(response.slice(0, size - origin.length));
+              }
+            } else {
+              this.$.toast.show({text: 'You are doing ' + now + ' of ' + response.length + ' questions', duration: 3000});                          
             }
-            localStorage.setItem('last-exam', JSON.stringify(origin.concat(questionsAux)));
           } else {
-            questionsAux = snapshot;
-            localStorage.setItem('last-exam', JSON.stringify(questionsAux));
+            origin = response;
+            this.$.toast.show({text: 'You are doing ' + size + ' of ' + response.length + ' questions', duration: 3000});            
           }
+          
           this.fire('init-exam');
           this.isSubmited = false;
           this.currentQuestionIndex = 0;
-          // suffle and slice questions
-          this.questions = this._prepareQuestions.bind(this)(questionsAux);
+          // suffle and slice questionspolymer
+          this.questions = this._prepareQuestions.bind(this)(origin);
+          if (questionsAux) {
+            localStorage.setItem(this.url, JSON.stringify(questionsAux.concat(this.questions)));
+          } else {
+            localStorage.setItem(this.url, JSON.stringify(this.questions));
+          }
           this.canBack = true;
           this.totalQuestions = this.questions.length;
           this.currentQuestion = this.questions[0];
-          this._imageTouch.bind(this)();          
+          this._imageTouch.bind(this)();
           this.canNext = this.questions.length < 1;
           this.progress = false;
           this._initializeEvent = this._initializeEvent.bind(this);
@@ -404,6 +421,7 @@
           let questionsAux = this.questions.slice(0);
           const _this = this;
           let counter = 0;
+          
           questionsAux = questionsAux.map(obj => {
             obj.ball = 'circle ' + _this._isRightQuestion.bind(_this)(obj);
             obj.isRight && counter++;
@@ -421,6 +439,8 @@
             }
             return obj;
           });
+          console.log("questionsAux after mapping", questionsAux);
+          
           this.rightPercentage = ((counter / questionsAux.length) * 100).toFixed(2) + "%";
           this.fire('submitted-exam', { rightPercentage: this.rightPercentage});
           this.questionsSubmited = questionsAux;

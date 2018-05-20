@@ -199,7 +199,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
       _pageChanged: function (page) {
         if (page === 'exams') {
-          this.$.exams.url = window.location.href.split('=')[1];
+          this.$.exams.url = 'src/' + window.location.href.split('=')[1] + '.json';
           this.$.exams.reset = true;
         } else {
           this.timerInterval && clearInterval(this.timerInterval);
@@ -226,6 +226,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
               return 'Developer 1 Exam';
             case 'cloud':
               return 'Salesforce Cloud Exam';
+            case 'email':
+              return 'Email Specialist'
           }
         } else {
           return 'Salesforce Apps';
@@ -245,9 +247,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           let sec = parseInt(splitted[2]),
             min = parseInt(splitted[1]),
             hour = parseInt(splitted[0]);
-          if (sec === 60) {
+          if (sec === 59) {
             sec = 0;
-            if (min === 60) {
+            if (min === 59) {
               min = 0;
               hour++;
             } else {
