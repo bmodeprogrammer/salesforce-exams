@@ -1,8 +1,8 @@
 # Exams generator
 
-You must instal NPM to run this project.
-This project is made with Polymer
-Steps to run the project 
+You must instal NPM to run this project.<br>
+This project is made with Polymer<br>
+Steps to run the project <br>
 ```
     npm install -g polymer-cli
     npm install -g bower
