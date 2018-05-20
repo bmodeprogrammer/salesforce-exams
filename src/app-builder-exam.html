@@ -132,7 +132,7 @@
 
     <iron-ajax auto url="[[url]]" handle-as="json" on-response="handleResponse"></iron-ajax>
     <paper-toast id="toast" class="fit-bottom" >
-      <paper-button onclick="toast.toggle()" class="yellow-button">Close now!</paper-button>
+      <paper-button on-click="closeToast" class="yellow-button">Close now!</paper-button>
     </paper-toast>
     
     <div class="card submitted" hidden$="[[isSubmited]]">
@@ -315,26 +315,27 @@
             return false;
           }
         },
-
+        closeToast: function(e) {
+          this.$.toast.toggle();
+        },
         handleResponse: function (e) {
           let questionsAux = JSON.parse(localStorage.getItem(this.url)), origin;
-          const size = localStorage.getItem('numberOfQuestions') === "null" ? 40 : localStorage.getItem('numberOfQuestions'),
+          const size = parseInt(localStorage.getItem('numberOfQuestions')  || 40),
             response = e.detail.response;
           
           if (questionsAux && questionsAux.length > 0) {
             origin = response.filter(q => questionsAux.filter(qa => qa.id === q.id).length === 0);
           var now = size + questionsAux.length;
-            
             if (origin.length <= size) {
               if(origin.length === 0) {
-                localStorage.setItem(this.url, null);
                 origin = response;
-                questionsAux = null;
                 this.$.toast.show({text: 'You are doing ' + size + ' of ' + response.length + ' questions', duration: 3000});
               } else {
                 this.$.toast.show({text: 'After this test, you completely reviewed all the disponible questions!!', duration: 0});
-                origin = origin.concat(response.slice(0, size - origin.length));
+                origin = origin.concat(response.filter(e => origin.filter(i => e.id === i.id).length === 0).slice(0, size - origin.length));
               }
+              localStorage.removeItem(this.url);
+              questionsAux = null;
             } else {
               this.$.toast.show({text: 'You are doing ' + now + ' of ' + response.length + ' questions', duration: 3000});                          
             }
@@ -439,7 +440,6 @@
             }
             return obj;
           });
-          console.log("questionsAux after mapping", questionsAux);
           
           this.rightPercentage = ((counter / questionsAux.length) * 100).toFixed(2) + "%";
           this.fire('submitted-exam', { rightPercentage: this.rightPercentage});

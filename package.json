@@ -10,6 +10,8 @@
     "lint": "eslint . --ext js,html --ignore-path .gitignore",
     "test": "npm run lint && polymer test",
     "deploy": "polymer build --bundle --js-compile --add-service-worker --sw-precache-config",
+    "deployD": "polymer build --bundle --js-compile --js-minify  --css-minify  --html-minify",
+    "deployE": "polymer build --bundle --js-minify",
     "deployB": "polymer build --preset \"es5-bundled\" --js-compile --js-minify  --css-minify  --html-minify  --bundle --add-service-worker --add-push-manifest --sw-precache-config",
     "deployC": "polymer build --preset \"es5-bundled\" --js-compile --js-minify  --css-minify  --html-minify  --bundle"
   }

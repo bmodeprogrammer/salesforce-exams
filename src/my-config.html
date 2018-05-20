@@ -37,6 +37,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <div class="card">
       <h1>Config</h1>
       <h3>[[number]] questions per exam</h3>
+      <p><paper-button on-click="reset" raised>Reset configurations</paper-button></p>
       <form id="config" is="iron-form">
         <paper-input label="Number os questions" name="numberOfQuestions" type="number" min="5" max="500"></paper-input>
         <paper-button on-click="submitConfig" raised>Submit</paper-button>
@@ -52,7 +53,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         number: Number
       },
       ready: function () {
-        this.number = localStorage.getItem('numberOfQuestions') === "null" ? 40 : localStorage.getItem('numberOfQuestions')
+        this.number = localStorage.getItem('numberOfQuestions') || 40;
         this.submitConfig.bind(this);
         let form = this.$.config,
           toast = this.$.submitted;
@@ -66,10 +67,14 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           }
           form.reset();
           toast.open();
-        });
+        }.bind(this));
       },
       submitConfig: function (e) {
         this.$.config.submit();
+      },
+      reset: function (e) {
+        localStorage.clear();
+        this.number = 40;
       }
     });
   </script>

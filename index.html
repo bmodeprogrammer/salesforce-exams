@@ -88,13 +88,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         onload();
       }
     })();
-
-    // Load pre-caching Service Worker
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', function () {
-        navigator.serviceWorker.register('service-worker.js');
-      });
-    }
   </script>
 
   <link rel="import" href="src/my-app.html">
@@ -111,18 +104,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 </head>
 
 <body>
-  <script src="bower_components/firebase/firebase.js"></script>
-  <script>
-    var config = {
-      apiKey: "AIzaSyD4Yayq1sysJ0dfRM_A7jaxxHf8ZyHUAlM",
-      authDomain: "salesforce-exams.firebaseapp.com",
-      databaseURL: "https://salesforce-exams.firebaseio.com",
-      projectId: "salesforce-exams",
-      storageBucket: "salesforce-exams.appspot.com",
-      messagingSenderId: "1035858761135"
-    };
-    firebase.initializeApp(config);
-  </script>
   <my-app></my-app>
   <script>
     // https://github.com/taylorhakes/promise-polyfill/blob/master/promise.min.js
