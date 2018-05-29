@@ -220,6 +220,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       _getTile: function (page) {
         if (page === 'exams') {
           switch (window.location.href.split('=')[1]) {
+            case 'admin':
+              return 'Administrator Exam';
             case 'appbuilder':
               return 'App Builder Exam';
             case 'dev1':

@@ -900,7 +900,7 @@
       { "ca": "E.", "checked": false, "answer": " Chatter Posts\r\n" },
       { "ca": "F.", "checked": false, "answer": " Products" }
     ],
-    "answer": "A. B. C. ",
+    "answer": "A. B. E. ",
     "moreInformationLinks": [
       {
         "label":
@@ -10210,6 +10210,144 @@
       }
     ],
     "answer": "A. B. D. ",
+    "choose": "Choose 3"
+  },
+  {
+    "id": 345,
+    "question": "What types of items can be included in the Salesforce App Navigation Menu?",
+    "answers": [
+      {
+        "ca": "A.",
+        "checked": false,
+        "answer": "Visualforce Page Tabs"
+      },
+      {
+        "ca": "B.",
+        "checked": false,
+        "answer": " Object List Views"
+      },
+      { "ca": "C.", "checked": false, "answer": "Dashboards" },
+      {
+        "ca": "D.",
+        "checked": false,
+        "answer": "Approval Requests"
+      },
+      {
+        "ca": "E.",
+        "checked": false,
+        "answer": "Quick Search Items"
+      }
+    ],
+    "answer": "A. C. D. ",
+    "choose": "Choose 3"
+  },
+  {
+    "id": 346,
+    "question": "Global Containers plans to start using Case Management in Salesforce. Which of the following capabilities is not a feature of Case Management?",
+    "answers": [
+      {
+        "ca": "A.",
+        "checked": false,
+        "answer": "Email-to-Case"
+      },
+      {
+        "ca": "B.",
+        "checked": false,
+        "answer": " Web-to-Case"
+      },
+      { "ca": "C.", "checked": false, "answer": "Escalation Rules" },
+      {
+        "ca": "D.",
+        "checked": false,
+        "answer": "Case Queues"
+      },
+      {
+        "ca": "E.",
+        "checked": false,
+        "answer": "Case Monitoring"
+      }
+    ],
+    "answer": "E. ",
+    "choose": "Choose 1",
+    "isRadioButton": true
+  },
+  {
+    "id": 347,
+    "question": "Global Sales Corp. wants to use Salesforce to track Expenses, and would like to ensure that no proxy Expenses are submitted for approval. They want to ensure that only the creator of an Expense record is able to submit it for approval. How can they achieve this use case?",
+    "answers": [
+      {
+        "ca": "A.",
+        "checked": false,
+        "answer": "Validation Rule on Owner Field"
+      },
+      {
+        "ca": "B.",
+        "checked": false,
+        "answer": " Custom Submit for Approval button"
+      },
+      { "ca": "C.", "checked": false, "answer": "Control Submit for Approval visibility on Page Layout" },
+      {
+        "ca": "D.",
+        "checked": false,
+        "answer": "Specify initial submitters while configuring the approval process"
+      }
+    ],
+    "answer": "D. ",
+    "choose": "Choose 1",
+    "isRadioButton": true
+  },
+  {
+    "id": 348,
+    "question": "The executive dashboard of Global Containers needs to show the number of leads that are over a year old but not yet converted. The company goal is to keep this number below 40 and never above 60. Which dashboard component would you recommend for this?",
+    "answers": [
+      {
+        "ca": "A.",
+        "checked": false,
+        "answer": "Gauge"
+      },
+      {
+        "ca": "B.",
+        "checked": false,
+        "answer": " Charts"
+      },
+      { "ca": "C.", "checked": false, "answer": "Metrics" },
+      {
+        "ca": "D.",
+        "checked": false,
+        "answer": "Tables"
+      }
+    ],
+    "answer": "A. ",
+    "choose": "Choose 1",
+    "isRadioButton": true
+  },
+  {
+    "id": 349,
+    "question": "What can be configured to be included on the related information page for a record in the Salesforce App?",
+    "answers": [
+      {
+        "ca": "A.",
+        "checked": false,
+        "answer": "Expanded Lookups"
+      },
+      {
+        "ca": "B.",
+        "checked": false,
+        "answer": " Chatter Feed"
+      },
+      { "ca": "C.", "checked": false, "answer": "Quick Actions" },
+      {
+        "ca": "D.",
+        "checked": false,
+        "answer": "Visualforce Pages"
+      },
+      {
+        "ca": "E.",
+        "checked": false,
+        "answer": "Related Lists"
+      }
+    ],
+    "answer": "A. D. E. ",
     "choose": "Choose 3"
   }
 ]
