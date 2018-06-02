@@ -18,8 +18,7 @@
         "ca": "D."
     }],
     "answer": "D. ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 0
 }, {
     "question": "What must the Controller for a Visualforce page utilize to override the standard Opportunity view button?",
@@ -41,8 +40,7 @@
         "ca": "D."
     }],
     "answer": "B.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 1
 }, {
     "question": "A developer uses a before insert trigger on the Lead object to fetch the Territory__c object, where the Territory__c.PostalCode__c matches the Lead.PostalCode. the code fails when the developer uses the Apex Data Loader to insert 10000 Lead records. The developer has the following code block: What is the line of code that is causing the code block to fail?",
@@ -64,8 +62,7 @@
         "ca": "D."
     }],
     "answer": "A. ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "imageUrl": "3.jpg",
     "id": 2
 }, {
@@ -88,8 +85,7 @@
         "ca": "D."
     }],
     "answer": "A. ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 3
 }, {
     "question": "Which requirement needs to be implemented by using standard workflow instead of Process Builder?",
@@ -181,8 +177,7 @@
         "ca": "D."
     }],
     "answer": "B.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 7
 }, {
     "question": "What is the preferred way to reference web content - such as images, stylesheets, JavaScript, and other libraries - that is used in Visualforce pages?",
@@ -204,8 +199,7 @@
         "ca": "D."
     }],
     "answer": "D. ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 8
 }, {
     "question": "A company has a custom object named Warehouse. Each Warehouse record has a distinct record owner, and is related to a parent Account in Salesforce. Which kind of relationship would a developer use to relate the Account to the Warehouse?",
@@ -227,8 +221,7 @@
         "ca": "D."
     }],
     "answer": "B.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 9
 }, {
     "question": "A developer creates a Workflow Rule declaratively that updates a field on an object. An Apex update trigger exists for the object.",
@@ -250,8 +243,7 @@
         "ca": "D."
     }],
     "answer": "D. ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 10
 }, {
     "question": "What is true of a partial sandbox that is not true of a full sandbox?",
@@ -295,8 +287,7 @@
         "ca": "D."
     }],
     "answer": "A. ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 12
 }, {
     "question": "When loading data into an organization, what can a developer do to match records to update existing records?",
@@ -340,8 +331,7 @@
         "ca": "D."
     }],
     "answer": "A. ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 14
 }, {
     "question": "A candidate may apply to multiple jobs at the company Universal Containers by submitting a single application per job posting. Once an application is submitted for a job posting, that application cannot be modified to be resubmitted to a different job posting. What can the administrator do to associate an application with each job posting in the schema for the organization?",
@@ -363,8 +353,7 @@
         "ca": "D."
     }],
     "answer": "C.   ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 15
 }, {
     "question": "What is a characteristic of the Lightning Component framework?",
@@ -434,8 +423,7 @@
         "ca": "D."
     }],
     "answer": "D. ",
-    "isRadioButton": true,
-    "moreInformationLinks": [{
+        "moreInformationLinks": [{
         "label": "What is anonymous block",
         "link": "https://developer.salesforce.com/forums/?id=906F00000008nIlIAI"
     }],
@@ -461,8 +449,7 @@
         "ca": "D."
     }],
     "answer": "D. ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 19
 }, {
     "question": "Which data structure is returned to a developer when performing a SOSL search?",
@@ -484,8 +471,7 @@
         "ca": "D."
     }],
     "answer": "A. ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 20
 }, {
     "question": "How can a developer avoid exceeding governor limits when using an Apex Trigger?",
@@ -529,8 +515,7 @@
         "ca": "D."
     }],
     "answer": "C.   ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 22
 }, {
     "question": "What should a developer working in a sandbox use to exercise a new test class before the developer deploys that test class to production?",
@@ -574,8 +559,7 @@
         "ca": "D."
     }],
     "answer": "D. ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 24
 }, {
     "question": "What is an accurate statement about with sharing keyword?",
@@ -641,8 +625,7 @@
         "ca": "D."
     }],
     "answer": "C.   ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 27
 }, {
     "question": "What is the minimum log level needed to see user-generated debug statements?",
@@ -664,8 +647,7 @@
         "ca": "D."
     }],
     "answer": "A. ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 28
 }, {
     "question": "A developer creates a new Visualforce page and Apex extension, and writes test classes that exercise 95% coverage of the new Apex extension. Change set deployment to production fails with the test coverage warning: \"Average test coverage across all Apex classes and triggers is 74%, at least 75% test coverage is required\". What can the developer do to successfully deploy the new Visualforce page and extension?",
@@ -687,8 +669,7 @@
         "ca": "D."
     }],
     "answer": "C.   ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 29
 }, {
     "question": "A developer needs to automatically populate the reportsTo field in a Contact record based on the values of the related Account and Department fields in the Contact record. Which type of trigger would the developer create?",
@@ -732,8 +713,7 @@
         "ca": "D."
     }],
     "answer": "A. ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 31
 }, {
     "question": "To which primitive data type in Apex is a currency field automatically assigned?",
@@ -755,8 +735,7 @@
         "ca": "D."
     }],
     "answer": "B.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 32
 }, {
     "question": "Which resource can be included in a lightning Component bundle?",
@@ -822,8 +801,7 @@
         "ca": "D."
     }],
     "answer": "D. ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 35
 }, {
     "question": "What does the user see when accessing the custom page?",
@@ -845,8 +823,7 @@
         "ca": "D."
     }],
     "answer": "D. ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "imageUrl": "37.PNG",
     "id": 36
 }, {
@@ -869,8 +846,7 @@
         "ca": "D."
     }],
     "answer": "B.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 37
 }, {
     "question": "A developer has a single custom controller class that works with a Visualforce Wizard to support creating and editing multiple sObjects. The wizard accepts data from user inputs across multiple Visualforce pages and from a parameter on the initial URL. Which statement is unnecessary inside the unit test for the custom controller?",
@@ -892,8 +868,7 @@
         "ca": "D."
     }],
     "answer": "A. ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 38
 }, {
     "question": "A developer wants to display all of the available record types for a Case object. The developer also wants to display the picklist values for the Case.Status field. The Case object and the Case.Status field are on a custom Visualforce page. Which action can the developer perform to get the record types and picklist values in the controller?.",
@@ -937,8 +912,7 @@
         "ca": "D."
     }],
     "answer": "B.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 40
 }, {
     "question": "A developer wrote a workflow email alert on case creation so that an email is sent to the case owner manager when a case is created. When will the email be sent?",
@@ -960,8 +934,7 @@
         "ca": "D."
     }],
     "answer": "B.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 41
 }, {
     "question": "Which type of code represents the Controller in MVC architecture on the Force.com platform?",
@@ -1027,8 +1000,7 @@
         "ca": "D."
     }],
     "answer": "A. ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 44
 }, {
     "question": "A developer in a Salesforce org with 100 Accounts executes the following code using the Developer Console. How many accounts will have the org after running this code? ",
@@ -1050,8 +1022,7 @@
         "ca": "D."
     }],
     "answer": "B.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "imageUrl": "46.png",
     "id": 45
 }, {
@@ -1074,8 +1045,7 @@
         "ca": "D."
     }],
     "answer": "B. ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 46
 }, {
     "question": "What is a capability of the Force.com IDE?",
@@ -1119,8 +1089,7 @@
         "ca": "D."
     }],
     "answer": "D. ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "imageUrl": "49.png",
     "noShuffle": true,
     "id": 48
@@ -1188,8 +1157,7 @@
         "ca": "D."
     }],
     "answer": "C.   ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "imageUrl": "52.png",
     "id": 51
 }, {
@@ -1212,8 +1180,7 @@
         "ca": "D."
     }],
     "answer": "B.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 52
 }, {
     "question": "What is a valid source and destination pair that can send or receive change sets?",
@@ -1257,8 +1224,7 @@
         "ca": "D."
     }],
     "answer": "C.   ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "imageUrl": "55.png",
     "id": 54
 }, {
@@ -1281,8 +1247,7 @@
         "ca": "D."
     }],
     "answer": "C.   ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 55
 }, {
     "question": "What is the result when a Visualforce page calls an Apex controller, which calls another Apex class, which then results hitting a governor limit?",
@@ -1304,8 +1269,7 @@
         "ca": "D."
     }],
     "answer": "B.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 56
 }, {
     "question": "A developer has the following code block:\nTo calculate the ProductTax, which code segment would a developer insert at the XXXXXXXXXXX to make the value in the class variable SalesTax accessible within the trigger?",
@@ -1327,8 +1291,7 @@
         "ca": "D."
     }],
     "answer": "C.   ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "imageUrl": "58.png",
     "id": 57
 }, {
@@ -1351,8 +1314,7 @@
         "ca": "D."
     }],
     "answer": "A. ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 58
 }, {
     "question": "A developer creates an Apex helper class to handle complex trigger logic. How can the helper class warn users when the trigger exceeds DML governor limits?",
@@ -1374,8 +1336,7 @@
         "ca": "D."
     }],
     "answer": "D. ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 59
 }, {
     "question": "Which user can edit a record after is has been locked for approval?",
@@ -1441,8 +1402,7 @@
         "ca": "D."
     }],
     "answer": "C.   ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 62
 }, {
     "question": "Which declarative method helps ensure quality data?",
@@ -1490,8 +1450,7 @@
         "ca": "D."
     }],
     "answer": "A. ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "imageUrl": "67.png",
     "noShuffle": true,
     "id": 64
@@ -1559,8 +1518,7 @@
         "ca": "D."
     }],
     "answer": "D. ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "noShuffle": true,
     "imageUrl": "70.png",
     "id": 67
@@ -1654,8 +1612,7 @@
         "ca": "D."
     }],
     "answer": "A. ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "imageUrl": "74.png",
     "id": 71
 }, {
@@ -1700,8 +1657,7 @@
         "ca": "D."
     }],
     "answer": "A. ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 73
 }, {
     "question": "A reviewer is required to enter a reason in the comments field only when a candidate is recommended to be hired. Which action can a developer take to enforce this requirement?",
@@ -1723,8 +1679,7 @@
         "ca": "D."
     }],
     "answer": "C.   ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 74
 }, {
     "question": "The sales management team hires a new intern. The intern is not allowed to view Opportunities, but needs to see the most recent closed date of all child Opportunities when viewing an Account record. What would a developer do to meet this requirement?",
@@ -1746,8 +1701,7 @@
         "ca": "D."
     }],
     "answer": "C.   ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 75
 }, {
     "question": "A developer needs to create records for the object Property__c. The developer creates the following code block. Which line of code would the developer insert at line 03 to ensure that at least some records are created, even if a few records have errors and fail to be created.",
@@ -1769,8 +1723,7 @@
         "ca": "D."
     }],
     "answer": "D. ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "imageUrl": "79.png",
     "id": 76
 }, {
@@ -1793,8 +1746,7 @@
         "ca": "D."
     }],
     "answer": "A. ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 77
 }, {
     "question": "A Visualforce page has a standard controller for an object that has a lookup relationship to a parent object. How can a developer display data from the parent record on the page?",
@@ -1816,8 +1768,7 @@
         "ca": "D."
     }],
     "answer": "B.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 78
 }, {
     "question": "A developer needs to create a Visualforce page that will override the standard Account edit button. The page will be used to validate the account's address using a SOQL query. The page will also allow the user to make edits to the address. Where would the developer write the Account address verification logic?",
@@ -1839,8 +1790,7 @@
         "ca": "D."
     }],
     "answer": "A. ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 79
 }, {
     "question": "A developer wants to list all of the Tasks for each Account on the Account detail page. When a task is created for a contact, what does the developer need to do to display the Task on the related Account record?",
@@ -1862,8 +1812,7 @@
         "ca": "D."
     }],
     "answer": "B.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 80
 }, {
     "question": "What is a capability of a StandardSetController?",
@@ -1907,8 +1856,7 @@
         "ca": "D."
     }],
     "answer": "D. ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "imageUrl": "86.png",
     "id": 82
 }, {
@@ -1964,8 +1912,7 @@
         "ca": "D."
     }],
     "answer": "B.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 84
 }, {
     "question": "What is an accurate statement about variable scope?",
@@ -2035,8 +1982,7 @@
         "ca": "D."
     }],
     "answer": "D. ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 87
 }, {
     "question": "Which scenario is invalid for execution by unit tests?",
@@ -2058,8 +2004,7 @@
         "ca": "D."
     }],
     "answer": "C.   ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 88
 }, {
     "question": "A developer runs the following anonymous code block. What is the result?",
@@ -2081,8 +2026,7 @@
         "ca": "D."
     }],
     "answer": "D. ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "imageUrl": "94.png",
     "id": 89
 }, {
@@ -2131,8 +2075,7 @@
         "ca": "D."
     }],
     "answer": "D. ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 91
 }, {
     "question": "What is an important consideration when developing in a multi-tenant environment?",
@@ -2154,8 +2097,7 @@
         "ca": "D."
     }],
     "answer": "B.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 92
 }, {
     "question": "In the lightning Component framework, which resource can be used to fire events?",
@@ -2233,8 +2175,7 @@
         "label": "Stack Exchange - Answer",
         "link": "https://salesforce.stackexchange.com/questions/103559/how-multiple-values-from-a-multi-select-picklist-represented-in-apex"
     }],
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 96
 }, {
     "question": "A hierarchy custom Setting stores a specific URL for each profile in Salesforce. Which statement can a developer use to retrieve the correct URL for the current user's profile and display this on Visualforce page?",
@@ -2256,8 +2197,7 @@
         "ca": "D."
     }],
     "answer": "B.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 97
 }, {
     "question": "A developer writes SOQL query to find child records for a specific parent. How many levels can be returned in a single query?",
@@ -2279,8 +2219,7 @@
         "ca": "D."
     }],
     "answer": "C.   ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 98
 }, {
     "question": "A developer needs to know if all tests currently pass in a Salesforce environment. Which feature can the developer use?",
@@ -2350,8 +2289,7 @@
         "label": "Create Price Book Entries in Apex Tests",
         "link": "https://releasenotes.docs.salesforce.com/en-us/summer14/release-notes/rn_apex_price_books_in_tests.htm"
     }],
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 101
 }, {
     "question": "How can a developer determine, from the DescribeSObjectResult, if the current user will be able to create records on an object in Apex?",
@@ -2373,8 +2311,7 @@
         "ca": "D."
     }],
     "answer": "B.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 102
 }, {
     "question": "Why would a developer use Test.startTest() and Test.stopTest()?",
@@ -2396,8 +2333,7 @@
         "ca": "D."
     }],
     "answer": "C.   ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 103
 }, {
     "question": "What is a valid statement about Apex classes and interfaces?",
@@ -2441,8 +2377,7 @@
         "ca": "D."
     }],
     "answer": "B.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 108
 }, {
     "question": "Where can a developer create managed package?",
@@ -2460,8 +2395,7 @@
         "ca": "C."
     }],
     "answer": "A. ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 110
 }, {
     "question": "Where can a developer call external javascript",
@@ -2497,8 +2431,7 @@
         "ca": "B."
     }],
     "answer": "A. ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 112
 }, {
     "question": "Preferred way to load test data into Salesforce",
@@ -2520,8 +2453,7 @@
         "ca": "D."
     }],
     "answer": "C.   ",
-    "isRadioButton": true,
-    "choose": "Choose one answer.",
+        "choose": "Choose one answer.",
     "id": 113
 }, {
     "answer": "A. B. ",
@@ -2566,8 +2498,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "isRadioButton": true,
-    "id": 127,
+        "id": 127,
     "choose": "Choose one answer",
     "isNew": true
 }, {
@@ -2613,8 +2544,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "isRadioButton": true,
-    "id": 133,
+        "id": 133,
     "choose": "Choose one answer",
     "isNew": true
 }, {
@@ -2660,8 +2590,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "isRadioButton": true,
-    "id": 152,
+        "id": 152,
     "choose": "Choose one answer",
     "isNew": true
 }, {
@@ -2711,8 +2640,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "isRadioButton": true,
-    "id": 154,
+        "id": 154,
     "choose": "Choose one answer",
     "moreInformationLinks": [{
         "label": "Custom Success Messages for Quick Actions",
@@ -2739,8 +2667,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "isRadioButton": true,
-    "id": 155,
+        "id": 155,
     "choose": "Choose one answer",
     "isNew": true
 }, {
@@ -2763,8 +2690,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "isRadioButton": true,
-    "id": 156,
+        "id": 156,
     "choose": "Choose one answer",
     "isNew": true
 }, {
@@ -2814,8 +2740,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "isRadioButton": true,
-    "id": 159,
+        "id": 159,
     "choose": "Choose one answer",
     "isNew": true
 }, {
@@ -2838,8 +2763,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "isRadioButton": true,
-    "id": 160,
+        "id": 160,
     "choose": "Choose one answer",
     "isNew": true
 }, {
@@ -2862,8 +2786,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "isRadioButton": true,
-    "id": 161,
+        "id": 161,
     "choose": "Choose one answer",
     "isNew": true
 }, {
@@ -2909,8 +2832,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "isRadioButton": true,
-    "id": 165,
+        "id": 165,
     "choose": "Choose one answer",
     "isNew": true
 }, {
@@ -2983,8 +2905,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "isRadioButton": true,
-    "id": 168,
+        "id": 168,
     "choose": "Choose one answer",
     "isNew": true
 }, {
@@ -3034,8 +2955,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "isRadioButton": true,
-    "id": 170,
+        "id": 170,
     "choose": "Choose one answer",
     "isNew": true
 }, {
@@ -3062,8 +2982,7 @@
         "checked": false,
         "ca": "E."
     }],
-    "isRadioButton": true,
-    "id": 171,
+        "id": 171,
     "choose": "Choose one answer",
     "isNew": true
 }, {
@@ -3086,8 +3005,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "isRadioButton": true,
-    "id": 172,
+        "id": 172,
     "choose": "Choose one answer",
     "isNew": true
 }, {
@@ -3110,8 +3028,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "isRadioButton": true,
-    "id": 173,
+        "id": 173,
     "choose": "Choose one answer",
     "isNew": true
 }, {
@@ -3134,8 +3051,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "isRadioButton": true,
-    "id": 174,
+        "id": 174,
     "choose": "Choose one answer",
     "isNew": true
 }, {
@@ -3158,8 +3074,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "isRadioButton": true,
-    "id": 175,
+        "id": 175,
     "choose": "Choose one answer",
     "isNew": true
 }, {
@@ -3286,8 +3201,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "isRadioButton": true,
-    "id": 180,
+        "id": 180,
     "choose": "Choose one answer",
     "imageUrl": "180.jpg",
     "isNew": true
@@ -3311,8 +3225,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "isRadioButton": true,
-    "id": 181,
+        "id": 181,
     "choose": "Choose one answer",
     "isNew": true
 }, {
@@ -3343,8 +3256,7 @@
         "checked": false,
         "ca": "F."
     }],
-    "isRadioButton": true,
-    "id": 182,
+        "id": 182,
     "choose": "Choose one answer",
     "isNew": true
 }, {
@@ -3363,8 +3275,7 @@
         "checked": false,
         "ca": "C."
     }],
-    "isRadioButton": true,
-    "id": 183,
+        "id": 183,
     "choose": "Choose one answer",
     "isNew": true
 }, {
@@ -3410,8 +3321,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "isRadioButton": true,
-    "id": 185,
+        "id": 185,
     "choose": "Choose one answer",
     "isNew": true
 }, {
@@ -3457,8 +3367,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "isRadioButton": true,
-    "id": 187,
+        "id": 187,
     "choose": "Choose one answer",
     "isNew": true
 }, {
@@ -3481,8 +3390,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "isRadioButton": true,
-    "id": 188,
+        "id": 188,
     "choose": "Choose one answer",
     "isNew": true
 }, {
@@ -3528,8 +3436,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "isRadioButton": true,
-    "id": 190,
+        "id": 190,
     "choose": "Choose one answer",
     "isNew": true
 }, {
@@ -3552,8 +3459,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "isRadioButton": true,
-    "id": 191,
+        "id": 191,
     "choose": "Choose one answer",
     "isNew": true
 }, {
@@ -3576,8 +3482,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "isRadioButton": true,
-    "id": 192,
+        "id": 192,
     "choose": "Choose one answer",
     "imageUrl": "192.jpg",
     "isNew": true
@@ -3601,8 +3506,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "isRadioButton": true,
-    "id": 193,
+        "id": 193,
     "choose": "Choose one answer",
     "isNew": true
 }, {
@@ -3625,8 +3529,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "isRadioButton": true,
-    "id": 194,
+        "id": 194,
     "choose": "Choose one answer",
     "isNew": true
 }, {
@@ -3649,8 +3552,7 @@
         "checked": false,
         "ca": "D."
     }],
-    "isRadioButton": true,
-    "id": 195,
+        "id": 195,
     "choose": "Choose one answer",
     "isNew": true
 }, {
@@ -3823,8 +3725,7 @@
         "checked": false,
         "ca": "C."
     }],
-    "isRadioButton": true,
-    "id": 202,
+        "id": 202,
     "choose": "Choose one answer",
     "isNew": true
 }]

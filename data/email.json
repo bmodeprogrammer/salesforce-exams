@@ -18,8 +18,7 @@
         "ca": "D."
     }],
     "answer": "A.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 1
 }, {
     "question": "What is a triggered automation?",
@@ -41,8 +40,7 @@
         "ca": "D."
     }],
     "answer": "C.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 2
 }, {
     "question": "When building content for an email, what would a marketer consider in the Call to Action?",
@@ -64,8 +62,7 @@
         "ca": "D."
     }],
     "answer": "A. D.  ",
-    "isRadioButton": false,
-    "choose": "Choose two answers",
+        "choose": "Choose two answers",
     "id": 3
 }, {
     "question": "Northern Trail Outfitters wants the From Name on the monthly newsletter to come from a specific User who is set up in the Marketing Cloud. Which feature would be used to setup this From Name selection?",
@@ -87,8 +84,7 @@
         "ca": "D."
     }],
     "answer": "C.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 4
 }, {
     "question": "A client leverages transactional messages to send ad-hoc order confirmations. Which type of message is most suitable in this situation?",
@@ -110,8 +106,7 @@
         "ca": "D."
     }],
     "answer": "A.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 5
 }, {
     "question": "What happens when subscribers click the default \"One-Click Unsubscribe\"in an email sent to a \"Public\"List?",
@@ -137,8 +132,7 @@
         "ca": "E."
     }],
     "answer": "A. B. E.  ",
-    "isRadioButton": false,
-    "choose": "Choose three answers",
+        "choose": "Choose three answers",
     "id": 6
 }, {
     "question": "A marketer at Northern Trail Outfitters sends a promotional offer every week to a data extension that contains all new 60 subscribers from the previous week. What would the marketer create to automate the send and save time?",
@@ -160,8 +154,7 @@
         "ca": "D."
     }],
     "answer": "A.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 7
 }, {
     "question": "What is a Master Unsubscribe?",
@@ -183,8 +176,7 @@
         "ca": "D."
     }],
     "answer": "C.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 8
 }, {
     "question": "Northern Trail Outfitters wants to identify subscribers with something other than an email address. What value can be used to accommodate this?",
@@ -206,8 +198,7 @@
         "ca": "D."
     }],
     "answer": "D.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 9
 }, {
     "question": "A national landscape company wants to send targeted emails to customers to remind them of their upcoming lawn of treatment. Depending on the service, clients will receive either one or two emails. The data for the campaign is in two separate data extensions. Customer Number is a Primary Key field in both data extensions. Which tool can be used to segment the data?",
@@ -229,8 +220,7 @@
         "ca": "D."
     }],
     "answer": "C. D.  ",
-    "isRadioButton": false,
-    "choose": "Choose two answers",
+        "choose": "Choose two answers",
     "id": 10
 }, {
     "question": "What is the timeline for which an unsubscribe request must be honored and processed as outlined by the CAN-SPAM Act?",
@@ -252,8 +242,7 @@
         "ca": "D."
     }],
     "answer": "A.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 11
 }, {
     "question": "A marketer needs to share report results with a manager. When using Reports in the Marketing Cloud, which option can be used to deliver the report to the manager?",
@@ -279,8 +268,7 @@
         "ca": "E."
     }],
     "answer": "A. C. D.  ",
-    "isRadioButton": false,
-    "choose": "Choose three answers",
+        "choose": "Choose three answers",
     "id": 12
 }, {
     "question": "When using a mobile-optimized template, what causes the mobile layout to display?",
@@ -302,8 +290,7 @@
         "ca": "D."
     }],
     "answer": "C.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 13
 }, {
     "question": "Which segmentation activity can be used to refresh data on a recurring schedule via an Automation?",
@@ -325,8 +312,7 @@
         "ca": "D."
     }],
     "answer": "A. D.  ",
-    "isRadioButton": false,
-    "choose": "Choose two answers",
+        "choose": "Choose two answers",
     "id": 14
 }, {
     "question": "A marketing associate wants to use the Validate button to ensure an email is CAN-SPAM compliant. What information does the associate need to provide in order for the email to pass validation?",
@@ -348,8 +334,7 @@
         "ca": "D."
     }],
     "answer": "A. B.  ",
-    "isRadioButton": false,
-    "choose": "Choose two answers",
+        "choose": "Choose two answers",
     "id": 15
 }, {
     "question": "Which actions are taken when a subscriber selects the \"one-click unsubscribe\"link at the footer of an email sent from a list?",
@@ -371,8 +356,7 @@
         "ca": "D."
     }],
     "answer": "D.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 16
 }, {
     "question": "A marketer wants to ensure that emails follow the basic brand guidelines. Which feature helps ensure emails have the correct layout and logos?",
@@ -394,8 +378,7 @@
         "ca": "D."
     }],
     "answer": "D.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 17
 }, {
     "question": "Which action will the Validate tool complete when initiated?",
@@ -417,8 +400,7 @@
         "ca": "D."
     }],
     "answer": "D.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 18
 }, {
     "question": "Northern Trail Outfitters wants to make sure that a First Name and Last Name are always included when importing subscribers to a data extension. How can a marketer ensure that subscribers are imported with data in both of these fields?",
@@ -440,8 +422,7 @@
         "ca": "D."
     }],
     "answer": "C.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 19
 }, {
     "question": "A marketer sends an email to a sendable data extension. The data extension has a send relationship that matches Customer_ID on the data extension to Subscriber Key in All Subscribers. What is a true statement regarding the email send behavior?",
@@ -463,8 +444,7 @@
         "ca": "D."
     }],
     "answer": "B.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 20
 }, {
     "question": "A marketer wants to use personalization strings to create individualized content for an upcoming send. What would the marketer need to know to understand how to use personalization strings?",
@@ -490,8 +470,7 @@
         "ca": "E."
     }],
     "answer": "A. B. D.  ",
-    "isRadioButton": false,
-    "choose": "Choose three answers",
+        "choose": "Choose three answers",
     "id": 21
 }, {
     "question": "What is a personalization string?",
@@ -513,8 +492,7 @@
         "ca": "D."
     }],
     "answer": "C.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 22
 }, {
     "question": ") Which file type delimiter is available in the Import Wizard?",
@@ -540,8 +518,7 @@
         "ca": "E."
     }],
     "answer": "A. C. E.  ",
-    "isRadioButton": false,
-    "choose": "Choose three answers",
+        "choose": "Choose three answers",
     "id": 23
 }, {
     "question": "As part of a weekly email automation, a client needs to segment data in a Data Extension. Which activity is designed to address this scenario?",
@@ -563,8 +540,7 @@
         "ca": "D."
     }],
     "answer": "D.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 24
 }, {
     "question": "Which feature would a marketer use to build a Send Classification?",
@@ -586,8 +562,7 @@
         "ca": "D."
     }],
     "answer": "A. D.  ",
-    "isRadioButton": false,
-    "choose": "Choose two answers",
+        "choose": "Choose two answers",
     "id": 25
 }, {
     "question": "Northern Trail Outfitters (NTO) finds 57% of its subscribers read emails on smartphones. Because of this, NTO wants to of enhance its email viewing experience by thinking 'mobile first.' NTO has the resources to write the HTML and CSS code needed to create responsively designed emails. Which option would add the code that was created outside of the Salesforce Marketing Cloud to the email?",
@@ -609,8 +584,7 @@
         "ca": "D."
     }],
     "answer": "A.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 26
 }, {
     "question": " A marketer uses Email Approvals. In which send process must an email have an \"Approved\"status prior to send?",
@@ -636,8 +610,7 @@
         "ca": "E."
     }],
     "answer": "A. D. E.  ",
-    "isRadioButton": false,
-    "choose": "Choose three answers",
+        "choose": "Choose three answers",
     "id": 27
 }, {
     "question": "What is a best practice regarding the on boarding of new subscribers?",
@@ -659,8 +632,7 @@
         "ca": "D."
     }],
     "answer": "A. C.  ",
-    "isRadioButton": false,
-    "choose": "Choose two answers",
+        "choose": "Choose two answers",
     "id": 28
 }, {
     "question": "A marketer wants website visitors to have the option to subscribe to specific publications and make updates to their profile. Which tool would the marketer use in this scenario?",
@@ -682,8 +654,7 @@
         "ca": "D."
     }],
     "answer": "B.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 29
 }, {
     "question": " Where can a marketer see the performance summary of a recent email send?",
@@ -705,8 +676,7 @@
         "ca": "D."
     }],
     "answer": "A.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 30
 }, {
     "question": " Why should a Marketer ensure that field lengths are accurate when creating a data extension?",
@@ -728,8 +698,7 @@
         "ca": "D."
     }],
     "answer": "A. D.  ",
-    "isRadioButton": false,
-    "choose": "Choose two answers",
+        "choose": "Choose two answers",
     "id": 31
 }, {
     "question": "Northern Trail Outfitters needs to ensure that \"Valued Customer\"appears if no data exists in that field for a subscriber of when using a personalization string to display the First_Name field in a data extension. How can the Marketer most easily achieve this during creation of the data extension?",
@@ -751,8 +720,7 @@
         "ca": "D."
     }],
     "answer": "D.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 32
 }, {
     "question": "Northern Trail Outfitters wants to maintain enterprise-wide opt-outs for two segments of its subscribers: Education Events and Sales. Which feature would the company use?",
@@ -774,8 +742,7 @@
         "ca": "D."
     }],
     "answer": "A.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 33
 }, {
     "question": "Which feature can segment on behavioural data?",
@@ -797,8 +764,7 @@
         "ca": "D."
     }],
     "answer": "B.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 34
 }, {
     "question": " What is a true statement about Subscriber Key?",
@@ -824,8 +790,7 @@
         "ca": "E."
     }],
     "answer": "A. C. E.  ",
-    "isRadioButton": false,
-    "choose": "Choose three answers",
+        "choose": "Choose three answers",
     "id": 35
 }, {
     "question": "Which type of data can a subscriber easily update via the default Profile Centre?",
@@ -847,8 +812,7 @@
         "ca": "D."
     }],
     "answer": "B. C.  ",
-    "isRadioButton": false,
-    "choose": "Choose two answers",
+        "choose": "Choose two answers",
     "id": 36
 }, {
     "question": "Which combination of audiences can be selected in the recipient section for a specific Send?",
@@ -870,8 +834,7 @@
         "ca": "D."
     }],
     "answer": "D.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 37
 }, {
     "question": " Northern Trail Outfitters (NTO) specializes in delivering snack boxes to its members. NTO offers a 90-day trial on the snack of boxes. NTO would like to send out a series of emails to educate and remind members to purchase the snack box subscription before the 90-day trial ends. Which tool is recommended for this scenario?",
@@ -893,8 +856,7 @@
         "ca": "D."
     }],
     "answer": "D.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 38
 }, {
     "question": "A marketing associate at Northern Trail Outfitters must create an email campaign for the company's new winter offerings. Which method could the associate use to create the email message?",
@@ -916,8 +878,7 @@
         "ca": "D."
     }],
     "answer": "B. C.  ",
-    "isRadioButton": false,
-    "choose": "Choose two answers",
+        "choose": "Choose two answers",
     "id": 39
 }, {
     "question": " A marketer would like to install the Salesforce Marketing Cloud Connector. Where can an installation guide be found?  (2 ans)",
@@ -939,8 +900,7 @@
         "ca": "D."
     }],
     "answer": "B. D.  ",
-    "isRadioButton": false,
-    "choose": "Choose two answers",
+        "choose": "Choose two answers",
     "id": 40
 }, {
     "question": " A marketing team needs to narrow down a customer population of several million subscribers based on e Commerce order details, and rapidly explore the data to find appropriate segments. How can segmentation with this scenario be accomplished?",
@@ -962,8 +922,7 @@
         "ca": "D."
     }],
     "answer": "A.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 41
 }, {
     "question": "Northern Trail Outfitters wants to grow its email subscriber list. Which best practice can the company use to increase the number of subscribers?",
@@ -985,8 +944,7 @@
         "ca": "D."
     }],
     "answer": "C. D.  ",
-    "isRadioButton": false,
-    "choose": "Choose two answers",
+        "choose": "Choose two answers",
     "id": 42
 }, {
     "question": "Which type of content can an email content box contain?",
@@ -1012,8 +970,7 @@
         "ca": "E."
     }],
     "answer": "A. B. E.  ",
-    "isRadioButton": false,
-    "choose": "Choose three answers",
+        "choose": "Choose three answers",
     "id": 43
 }, {
     "question": "A marketer wants to overwrite the data in a data extension on a daily basis using Automation Studio. What can the marketer do to accomplish this task?",
@@ -1035,8 +992,7 @@
         "ca": "D."
     }],
     "answer": "D.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 44
 }, {
     "question": "A marketer is importing a file using the Import Wizard and wants to ensure that only new records are added during the import process. How can the marketer achieve this?",
@@ -1058,8 +1014,7 @@
         "ca": "D."
     }],
     "answer": "B. C.  ",
-    "isRadioButton": false,
-    "choose": "Choose two answers",
+        "choose": "Choose two answers",
     "id": 45
 }, {
     "question": "Which statement regarding editing an email template is true?",
@@ -1081,8 +1036,7 @@
         "ca": "D."
     }],
     "answer": "A. B.  ",
-    "isRadioButton": false,
-    "choose": "Choose two answers",
+        "choose": "Choose two answers",
     "id": 46
 }, {
     "question": "Which metric is the measure of emails rejected by a server due to permanent conditions such as \"user unknown\"or \"domain not found\"?",
@@ -1104,8 +1058,7 @@
         "ca": "D."
     }],
     "answer": "B.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 47
 }, {
     "question": "Which method of storing subscriber information allows a marketer to easily create different subscriptions that subscribers can opt into from the default Subscription Center?",
@@ -1127,8 +1080,7 @@
         "ca": "D."
     }],
     "answer": "C.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 48
 }, {
     "question": "A marketer wants to run an Account Send Summary report. Which option can be configured when running this report?",
@@ -1154,8 +1106,7 @@
         "ca": "E."
     }],
     "answer": "A. C. E.  ",
-    "isRadioButton": false,
-    "choose": "Choose three answers",
+        "choose": "Choose three answers",
     "id": 49
 }, {
     "question": "How are the test audiences for an A/B test selected?",
@@ -1177,8 +1128,7 @@
         "ca": "D."
     }],
     "answer": "A. C.  ",
-    "isRadioButton": false,
-    "choose": "Choose two answers",
+        "choose": "Choose two answers",
     "id": 50
 }, {
     "question": "A marketer is designing an email and wants to add extra messaging before the body of the email that will be displayed when an email client previews the message. What would the marketer use?",
@@ -1200,8 +1150,7 @@
         "ca": "D."
     }],
     "answer": "C.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 51
 }, {
     "question": " A marketer at Northern Trail Outfitters is teaching new associates the essentials of designing emails for the company's subscribers. What is a key component of optimized email design?",
@@ -1227,8 +1176,7 @@
         "ca": "E."
     }],
     "answer": "B. C. D.  ",
-    "isRadioButton": false,
-    "choose": "Choose three answers",
+        "choose": "Choose three answers",
     "id": 52
 }, {
     "question": "A marketer needs to create an attribute named Gender that has a drop-down menu with appropriate values in the Profile Center. How can this be accomplished?",
@@ -1250,8 +1198,7 @@
         "ca": "D."
     }],
     "answer": "A. B.  ",
-    "isRadioButton": false,
-    "choose": "Choose two answers",
+        "choose": "Choose two answers",
     "id": 53
 }, {
     "question": ". Which segment can be manually refreshed under Actions?",
@@ -1273,8 +1220,7 @@
         "ca": "D."
     }],
     "answer": "A. B.  ",
-    "isRadioButton": false,
-    "choose": "Choose two answers",
+        "choose": "Choose two answers",
     "id": 54
 }, {
     "question": " Which tactic will improve deliverability for a new sender?",
@@ -1296,8 +1242,7 @@
         "ca": "D."
     }],
     "answer": "D.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 55
 }, {
     "question": "Which feature can a marketer use to individualize content in an email?",
@@ -1323,8 +1268,7 @@
         "ca": "E."
     }],
     "answer": "B. C. D.  ",
-    "isRadioButton": false,
-    "choose": "Choose three answers",
+        "choose": "Choose three answers",
     "id": 56
 }, {
     "question": "What is a capability of a data relationship?",
@@ -1346,8 +1290,7 @@
         "ca": "D."
     }],
     "answer": "A.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 57
 }, {
     "question": "How can AMPscript customize email messages?",
@@ -1369,8 +1312,7 @@
         "ca": "D."
     }],
     "answer": "B.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 58
 }, {
     "question": "The Marketing team would like to remind customers they can receive 10% off all purchases they make during the week of their birthday as a way to increase customer engagement. Which tool would the Marketing team use to send an email notification to customers based on a subscriber-specific date?",
@@ -1392,8 +1334,7 @@
         "ca": "D."
     }],
     "answer": "C.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 59
 }, {
     "question": "A marketer needs to ensure that customers on a list want to be email subscribers. Additionally, the marketer wants of to minimize the number of invalid email addresses on the list, and add a level of security when using Web Collect functionality. What is the optimal way to accomplish this task?",
@@ -1415,8 +1356,7 @@
         "ca": "D."
     }],
     "answer": "D.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 60
 }, {
     "question": "Which is a fundamental component of coding responsive emails?",
@@ -1438,8 +1378,7 @@
         "ca": "D."
     }],
     "answer": "D.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 1
 }, {
     "question": "A bank wants to send a series of emails to customers who open a new savings account.  The first email is sent immediately after the account is opened to confirm the action. The second email is sent one day after the account is opened. The third email is sent five days after the account is opened only if the customer has not made a new deposit. The final email is sent ten days after the account has been opened and the customer still has not made a deposit, or eight days after the customer opened the account and made a deposit, but has not opened any emails.The data is stored in two data extensions.The bank has two versions of each email: English and Spanish.The bank wants to automate sending the emails.Which process could the bank use?",
@@ -1461,8 +1400,7 @@
         "ca": "D."
     }],
     "answer": "A. D.  ",
-    "isRadioButton": false,
-    "choose": "Choose two answers",
+        "choose": "Choose two answers",
     "id": 2
 }, {
     "question": "How can AMPscript customize email messages?",
@@ -1484,8 +1422,7 @@
         "ca": "D."
     }],
     "answer": "A.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 3
 }, {
     "question": "Northern Train Outfitters wants to display different content areas based on the subscriber data. What can be used to accomplish this?",
@@ -1507,8 +1444,7 @@
         "ca": "D."
     }],
     "answer": "C. D.  ",
-    "isRadioButton": false,
-    "choose": "Choose two answers",
+        "choose": "Choose two answers",
     "id": 4
 }, {
     "question": "A marketing manager is reporting on the degree of customer engagement with the company's email. Which metric can be used?",
@@ -1530,8 +1466,7 @@
         "ca": "D."
     }],
     "answer": "A.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 5
 }, {
     "question": "A marketer at Northern Trail Outfitters is teaching new associates the essentials of designing emails for the company's subscribers. What is a key component of optimized email design?",
@@ -1557,8 +1492,7 @@
         "ca": "E."
     }],
     "answer": "A. C. E.  ",
-    "isRadioButton": false,
-    "choose": "Choose three answers",
+        "choose": "Choose three answers",
     "id": 6
 }, {
     "question": "An email marketer is writing the next send's subject line. \n What can the marketer do to make the subject line more effective?",
@@ -1580,8 +1514,7 @@
         "ca": "D."
     }],
     "answer": "A. D.  ",
-    "isRadioButton": false,
-    "choose": "Choose two answers",
+        "choose": "Choose two answers",
     "id": 7
 }, {
     "question": "What is a capability of a data relationship?",
@@ -1603,8 +1536,7 @@
         "ca": "D."
     }],
     "answer": "C.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 8
 }, {
     "question": "orthern Train Outfitters sends email order confirmations to customers who have made online purchases. These emails must follow the \"Transactional\"CAN-SPAM classification requirements. Which feature would a marketer use to classify a send under this CAN-SPAM classification?",
@@ -1626,8 +1558,7 @@
         "ca": "D."
     }],
     "answer": "A.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 9
 }, {
     "question": "A marketer is building a highly personalized email. The marketer wants to merge some data into a single data extension to greatly simplify the send logic, maintain the personalization, and exclude an undesired population. Which tool addresses this scenario?",
@@ -1649,8 +1580,7 @@
         "ca": "D."
     }],
     "answer": "D.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 10
 }, {
     "question": "A marketer is designing email for mobile devices. Which design best practice would the marketer use?",
@@ -1676,8 +1606,7 @@
         "ca": "E."
     }],
     "answer": "A. B. C.  ",
-    "isRadioButton": false,
-    "choose": "Choose three answers",
+        "choose": "Choose three answers",
     "id": 11
 }, {
     "question": "When creating a custom email with the HTML Paste Editor, which feature can be inserted into the HTML code by using the Insert Tools?",
@@ -1699,8 +1628,7 @@
         "ca": "D."
     }],
     "answer": "A. D.  ",
-    "isRadioButton": false,
-    "choose": "Choose two answers",
+        "choose": "Choose two answers",
     "id": 12
 }, {
     "question": "Using measures, what data can a marketer use to segment an audience?",
@@ -1722,8 +1650,7 @@
         "ca": "D."
     }],
     "answer": "A.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 13
 }, {
     "question": "A marketing team is creating a new data extension. The data extension schema is very similar to a data extension that already exists. How would the team create the new data extension?",
@@ -1745,8 +1672,7 @@
         "ca": "D."
     }],
     "answer": "D.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 14
 }, {
     "question": "A marketing associate at Northern Trail Outfitters must design an email campaign for the company's new winter offerings. \n Which email design best practice would the associate implement in this campaign?",
@@ -1768,8 +1694,7 @@
         "ca": "D."
     }],
     "answer": "B.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 15
 }, {
     "question": "A marketer at Northern Trail Outfitters wants to add a subscriber to a data extension and follow up with a thank-you email by using Smart Capture. Which action does the marketer need to take in the processing tab when creating the Smart Capture form?",
@@ -1791,8 +1716,7 @@
         "ca": "D."
     }],
     "answer": "B. C.  ",
-    "isRadioButton": false,
-    "choose": "Choose two answers",
+        "choose": "Choose two answers",
     "id": 16
 }, {
     "question": "Which strategy will improve email deliverability?",
@@ -1818,8 +1742,7 @@
         "ca": "E."
     }],
     "answer": "C. D. E.  ",
-    "isRadioButton": false,
-    "choose": "Choose three answers",
+        "choose": "Choose three answers",
     "id": 17
 }, {
     "question": "Which send process can use Sender Profiles?",
@@ -1845,8 +1768,7 @@
         "ca": "E."
     }],
     "answer": "B. D. E.  ",
-    "isRadioButton": false,
-    "choose": "Choose three answers",
+        "choose": "Choose three answers",
     "id": 18
 }, {
     "question": "What is a true statement about the Master Unsubscribe?",
@@ -1872,8 +1794,7 @@
         "ca": "E."
     }],
     "answer": "A. C. D.  ",
-    "isRadioButton": false,
-    "choose": "Choose three answers",
+        "choose": "Choose three answers",
     "id": 19
 }, {
     "question": "A new data extension named \"Orders\"contains order data. One row is recorded for each customer's order. Customers can place multiple orders. The data extension Orders relates to other data extensions.\n The data extension Orders contains the following fields: \n OrderNumber: a unique alphanumeric order number \n customerID: a numeric customer identification number \n OrderDate: the system date and time for the order  \n Instructions: an optional alphanumeric string that contains customer delivery notes \n Which statement accurately reflects the configuration of the Orders Data Extension?",
@@ -1895,8 +1816,7 @@
         "ca": "D."
     }],
     "answer": "D.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 20
 }, {
     "question": "A marketer wants to create an email that will look great on both a desktop computer and a mobile device. However the marketer is not familiar with writing code for responsive design and does not have available resources to design the email. Which template can the marketer choose when creating an email?",
@@ -1918,8 +1838,7 @@
         "ca": "D."
     }],
     "answer": "C.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 21
 }, {
     "question": "A marketer is using an import activity on a nightly basis to import subscriber data into a data extension. What is a true statement about the import activity?",
@@ -1945,8 +1864,7 @@
         "ca": "E."
     }],
     "answer": "A. C. E.  ",
-    "isRadioButton": false,
-    "choose": "Choose three answers",
+        "choose": "Choose three answers",
     "id": 22
 }, {
     "question": "A marketing associate at Northern Trail Outfitters must create an email campaign for the company's new winter offerings. \n Which method could the associate use to create the email message?",
@@ -1968,8 +1886,7 @@
         "ca": "D."
     }],
     "answer": "C. D.  ",
-    "isRadioButton": false,
-    "choose": "Choose two answers",
+        "choose": "Choose two answers",
     "id": 23
 }, {
     "question": "Which variable can be tested using the A/B testing tool?",
@@ -1995,8 +1912,7 @@
         "ca": "E."
     }],
     "answer": "B. D. E.  ",
-    "isRadioButton": false,
-    "choose": "Choose three answers",
+        "choose": "Choose three answers",
     "id": 24
 }, {
     "question": "The marketing team would like to send an email to an audience on a weekly basis. The team receives multiple files each week that need to be imported and joined to build the target audience for the email. Which tool is recommended to execute this process?",
@@ -2018,8 +1934,7 @@
         "ca": "D."
     }],
     "answer": "C.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 25
 }, {
     "question": "How is Primary Key used?",
@@ -2041,8 +1956,7 @@
         "ca": "D."
     }],
     "answer": "C.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 26
 }, {
     "question": "What can be used to join two data extensions to segment via Drag and Drop Segmentation?",
@@ -2064,8 +1978,7 @@
         "ca": "D."
     }],
     "answer": "C.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 27
 }, {
     "question": "An account has a Subscriber Key enabled, and will be providing a unique key for each subscriber from an external system. A marketer wants to create a data extension for sending email campaigns. What steps would the marketer take when creating the data extension?",
@@ -2087,8 +2000,7 @@
         "ca": "D."
     }],
     "answer": "A. D.  ",
-    "isRadioButton": false,
-    "choose": "Choose two answers",
+        "choose": "Choose two answers",
     "id": 28
 }, {
     "question": "Which method of storing subscriber information allows a marketer to easily create different subscriptions that subscribers can opt into from the default Subscription Center?",
@@ -2110,8 +2022,7 @@
         "ca": "D."
     }],
     "answer": "A.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 29
 }, {
     "question": "Which feature can be included in a content box? ",
@@ -2137,8 +2048,7 @@
         "ca": "E."
     }],
     "answer": "B. D. E.  ",
-    "isRadioButton": false,
-    "choose": "Choose three answers",
+        "choose": "Choose three answers",
     "id": 30
 }, {
     "question": "What occurs in an Enterprise 2.0 account when a subscriber clicks the default \"One-Click Unsubscribe\"link in an email? ",
@@ -2160,8 +2070,7 @@
         "ca": "D."
     }],
     "answer": "C. D.  ",
-    "isRadioButton": false,
-    "choose": "Choose two answers",
+        "choose": "Choose two answers",
     "id": 31
 }, {
     "question": "Which segment can be manually refreshed under Actions?",
@@ -2183,8 +2092,7 @@
         "ca": "D."
     }],
     "answer": "A. B.  ",
-    "isRadioButton": false,
-    "choose": "Choose two answers",
+        "choose": "Choose two answers",
     "id": 32
 }, {
     "question": "Northern Train Outfitters has a Master Customer List in a shared data extension. The company wants to make the list available to some, but not all, of the business units. Which feature can be used to restrict users from a business unit from accessing the Master Customer list?",
@@ -2202,8 +2110,7 @@
         "ca": "C."
     }],
     "answer": "A.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 33
 }, {
     "question": "If all subscribers reside within a single master data extension, what is the optimal way to manage unsubscribes by communication type?A: Create a profile attribute or data extension field for each communication type, and use a boolean value to capture subscriber status",
@@ -2217,8 +2124,7 @@
         "ca": "D."
     }],
     "answer": "D.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 34
 }, {
     "question": "A marketer sends an email to a sendable data extension. The data extension has a send relationship that matches Customer_ID on the data extension to subscriber Key in All Subscribers. What is a true statement regarding the email send behavior?",
@@ -2240,8 +2146,7 @@
         "ca": "D."
     }],
     "answer": "D.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 35
 }, {
     "question": "A customer would like to automate a weekly email campaign using Automation Studio. Which send method would the customer use to configure the email?",
@@ -2263,8 +2168,7 @@
         "ca": "D."
     }],
     "answer": "A.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 36
 }, {
     "question": "Which tactic will improve deliverability for a new sender?",
@@ -2286,8 +2190,7 @@
         "ca": "D."
     }],
     "answer": "C.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 37
 }, {
     "question": "What is required on an email message by the United States CAN-SPAM Act?",
@@ -2309,8 +2212,7 @@
         "ca": "D."
     }],
     "answer": "A. B.  ",
-    "isRadioButton": false,
-    "choose": "Choose two answers",
+        "choose": "Choose two answers",
     "id": 38
 }, {
     "question": "A marketer is using a list-based sending, and wants to segment subscribers who have a value of \"EMEA\"in the Region Attribute. Which tool will produce the audience?",
@@ -2332,8 +2234,7 @@
         "ca": "D."
     }],
     "answer": "C.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 39
 }, {
     "question": "Which recipient option is available with Simple Send?",
@@ -2359,8 +2260,7 @@
         "ca": "E."
     }],
     "answer": "A. C.  ",
-    "isRadioButton": false,
-    "choose": "Choose two answers",
+        "choose": "Choose two answers",
     "id": 40
 }, {
     "question": "The marketing team would like to remind customers they can receive 10% off all purchases they make during the week of their birthday as a way to increase customer engagement. Which tool would the Marketing team use to send an email notification to customers based on a subscriber specific date?",
@@ -2382,8 +2282,7 @@
         "ca": "D."
     }],
     "answer": "A.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 41
 }, {
     "question": "What information and data about the performance of an individual send can be exported from the tracking details?",
@@ -2405,8 +2304,7 @@
         "ca": "D."
     }],
     "answer": "C. D.  ",
-    "isRadioButton": false,
-    "choose": "Choose two answers",
+        "choose": "Choose two answers",
     "id": 42
 }, {
     "question": "Which segmentation activity can be used to refresh data on a recurring schedule via an Automation?",
@@ -2428,8 +2326,7 @@
         "ca": "D."
     }],
     "answer": "A. C.  ",
-    "isRadioButton": false,
-    "choose": "Choose two answers",
+        "choose": "Choose two answers",
     "id": 43
 }, {
     "question": "What is an Automation Studio activity?",
@@ -2455,8 +2352,7 @@
         "ca": "E."
     }],
     "answer": "B. C. E.  ",
-    "isRadioButton": false,
-    "choose": "Choose three answers",
+        "choose": "Choose three answers",
     "id": 44
 }, {
     "question": "Which method of storing subscriber information allows a marketer to easily create different subscriptions that subscribers can opt into from the default Subscription Center?",
@@ -2474,8 +2370,7 @@
         "ca": "C."
     }],
     "answer": "C.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 45
 }, {
     "question": "What is a function of the Content Detective tool?",
@@ -2497,8 +2392,7 @@
         "ca": "D."
     }],
     "answer": "B.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 46
 }, {
     "question": "Where can a marketer go to learn more information about using APIs?",
@@ -2520,8 +2414,7 @@
         "ca": "D."
     }],
     "answer": "A. B.  ",
-    "isRadioButton": false,
-    "choose": "Choose two answers",
+        "choose": "Choose two answers",
     "id": 47
 }, {
     "question": "What must be configured in a Marketing Cloud account to use the import wizard?",
@@ -2543,8 +2436,7 @@
         "ca": "D."
     }],
     "answer": "C.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 48
 }, {
     "question": "What is a purpose of marking an attribute as hidden?",
@@ -2566,8 +2458,7 @@
         "ca": "D."
     }],
     "answer": "B.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 49
 }, {
     "question": "A marketer wants to grow the company's email subscriber list via social channels and its mobile app. Which best practice can the marketer use to grow the subscriber list?",
@@ -2589,8 +2480,7 @@
         "ca": "D."
     }],
     "answer": "A. B.  ",
-    "isRadioButton": false,
-    "choose": "Choose two answers",
+        "choose": "Choose two answers",
     "id": 50
 }, {
     "question": "A marketing associate wants to use the Validate button to ensure an email is CAN-SPAM compliant. What information does the associate need to provide in order for the email to pass validation?",
@@ -2612,8 +2502,7 @@
         "ca": "D."
     }],
     "answer": "A. C.  ",
-    "isRadioButton": false,
-    "choose": "Choose two answers",
+        "choose": "Choose two answers",
     "id": 51
 }, {
     "question": "A marketer creates a new sendable data extension, and defines the Customer_ID field as the field in the Send Relationship that relates to Subscribers on Subscriber Key. What will the send status in All Subscribers be associated with?",
@@ -2635,8 +2524,7 @@
         "ca": "D."
     }],
     "answer": "A.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 52
 }, {
     "question": "The marketing team would like to refresh a filtered data extension on a recurring basis, by using a data filter named \"Pref1-Tech\"How can this process be automated?",
@@ -2658,8 +2546,7 @@
         "ca": "D."
     }],
     "answer": "A.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 53
 }, {
     "question": "Which data model should be used to create a Group?",
@@ -2681,8 +2568,7 @@
         "ca": "D."
     }],
     "answer": "C.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 54
 }, {
     "question": "What can a marketer do to enhance a Welcome Series campaign?",
@@ -2704,8 +2590,7 @@
         "ca": "D."
     }],
     "answer": "A. C.  ",
-    "isRadioButton": false,
-    "choose": "Choose two answers",
+        "choose": "Choose two answers",
     "id": 55
 }, {
     "question": "Which method of storing subscriber information allows a company to do extensive external audience segmentation including additional 1:1 subscriber data the company wants for a send, and to import the data quickly?",
@@ -2727,8 +2612,7 @@
         "ca": "D."
     }],
     "answer": "B.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 56
 }, {
     "question": "A marketer wants to ensure that customers on a list want to be email subscribers. Additionally, the marketer wants to minimize the number of invalid email addresses on the list, and add a level of security when using Web Collect functionality. What is the optimal way to accomplish this task?",
@@ -2750,8 +2634,7 @@
         "ca": "D."
     }],
     "answer": "A.  ",
-    "isRadioButton": true,
-    "choose": "Choose one answer",
+        "choose": "Choose one answer",
     "id": 57
 }, {
     "question": "Which feature can a marketer use to individualize content in an email?",
@@ -2777,8 +2660,7 @@
         "ca": "E."
     }],
     "answer": "B. C. E.  ",
-    "isRadioButton": false,
-    "choose": "Choose three answers",
+        "choose": "Choose three answers",
     "id": 58
 }, {
     "question": "How are the test audiences for an A/B test selected?",
@@ -2800,8 +2682,7 @@
         "ca": "D."
     }],
     "answer": "C. D.  ",
-    "isRadioButton": false,
-    "choose": "Choose two answers",
+        "choose": "Choose two answers",
     "id": 59
 }, {
     "question": "Which statement regarding editing an email template is true?",
@@ -2823,8 +2704,7 @@
         "ca": "D."
     }],
     "answer": "B. D.  ",
-    "isRadioButton": false,
-    "choose": "Choose two answers",
+        "choose": "Choose two answers",
     "id": 60
 }, {
     "question": "A marketer needs to create an attribute named Gender that has a drop-down menu with appropriate values in the Profile Center. How can this be accomplished?",
@@ -2846,7 +2726,6 @@
         "ca": "D."
     }],
     "answer": "C. D.  ",
-    "isRadioButton": false,
-    "choose": "Choose two answers",
+        "choose": "Choose two answers",
     "id": 61
 }]

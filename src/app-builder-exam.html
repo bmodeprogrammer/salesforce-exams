@@ -5,13 +5,11 @@
 <link rel="import" href="../bower_components/iron-icons/iron-icons.html">
 <link rel="import" href="../bower_components/paper-icon-button/paper-icon-button.html">
 <link rel="import" href="../bower_components/paper-button/paper-button.html">
-<link rel="import" href="../bower_components/paper-radio-button/paper-radio-button.html">
-<link rel="import" href="../bower_components/paper-radio-group/paper-radio-group.html">
 
 <dom-module id="app-builder-exam">
   <template>
     <style>
-       :host {
+      :host {
         display: block;
         padding: 10px;
         font-family: 'Roboto', 'Times New Roman', Times, serif;
@@ -92,13 +90,9 @@
         color: black;
       }
 
-      paper-radio-button {
-        display: block;
-        text-align: justify;
-      }
-
       .choose {
         font-size: 17px;
+        font-weight: bold;
       }
 
       .ca {
@@ -131,10 +125,10 @@
     </style>
 
     <iron-ajax auto url="[[url]]" handle-as="json" on-response="handleResponse"></iron-ajax>
-    <paper-toast id="toast" class="fit-bottom" >
+    <paper-toast id="toast" class="fit-bottom">
       <paper-button on-click="closeToast" class="yellow-button">Close now!</paper-button>
     </paper-toast>
-    
+
     <div class="card submitted" hidden$="[[isSubmited]]">
       <div class="circle">[[currentQuestion.id]]</div>
       <div style="float:right;">
@@ -151,20 +145,12 @@
 
       <div class="answer">
 
-        <template is="dom-if" if="[[currentQuestion.isRadioButton]]">
-          <paper-radio-group>
-            <template is="dom-repeat" items="[[currentQuestion.answers]]" as="a">
-              <paper-radio-button name="[[a.answer]]" on-keydown="onRadioKeyDown" checked="{{a.checked}}"><span class="p-answers">[[a.answer]]</span></paper-radio-button>
-            </template>
-          </paper-radio-group>
-        </template>
-
-        <template is="dom-if" if="[[!currentQuestion.isRadioButton]]">
-          <template is="dom-repeat" items="[[currentQuestion.answers]]">
-            <div style="text-align: justify; padding: 10px 10px 10px 0;">
-              <paper-checkbox checked="{{item.checked}}"><span class="p-answers">[[item.answer]]</span></paper-checkbox>
-            </div>
-          </template>
+        <template is="dom-repeat" items="[[currentQuestion.answers]]">
+          <div style="text-align: justify; padding: 10px 10px 10px 0;">
+            <paper-checkbox id="[[index]]answer" checked="{{item.checked}}">
+              <span class="p-answers">[[item.answer]]</span>
+            </paper-checkbox>
+          </div>
         </template>
 
 
@@ -205,32 +191,22 @@
 
             <div class="answer">
 
-              <template is="dom-if" if="[[questionObj.isRadioButton]]">
 
-                <paper-radio-group>
-                  <template is="dom-repeat" items="[[questionObj.answers]]" as="a">
-                    <paper-radio-button name="[[a.ca]]" checked="[[a.checked]]" disabled><span class="p-answers">[[a.answer]]</span></paper-radio-button>
-                  </template>
-                </paper-radio-group>
-
+              <template is="dom-repeat" items="[[questionObj.answers]]" as="a">
+                <div style="text-align: justify; padding: 10px 10px 10px 0;">
+                  <paper-checkbox checked="[[a.checked]]" disabled="true">
+                    <span class="p-answers">[[a.answer]]</span>
+                  </paper-checkbox>
+                </div>
               </template>
 
-              <template is="dom-if" if="[[!questionObj.isRadioButton]]">
-
-                <template is="dom-repeat" items="[[questionObj.answers]]" as="a">
-                  <div style="text-align: justify; padding: 10px 10px 10px 0;">
-                    <paper-checkbox checked="[[a.checked]]" disabled="true"><span class="p-answers">[[a.answer]]</span></paper-checkbox>
-                  </div>
-                </template>
-              </template>
               <span class="ca title">
                 Correct Answer
               </span>
               <template is="dom-repeat" items="[[questionObj.answer]]" as="ca">
-                <span class="ca">[[ca]]<span>
+                <span class="ca">[[ca]]
+                  <span>
               </template>
-
-
 
               <template is='dom-if' if="[[questionObj.moreInformationLinks]]">
                 <h2>More information At:</h2>
@@ -269,7 +245,7 @@
           questionsSubmited: Array,
           filteredQuestionsSubmited: Array,
           progress: {
-            type:Boolean,
+            type: Boolean,
             value: true
           },
           currentQuestion: Object,
@@ -286,12 +262,12 @@
           filter: Array
         },
 
-        ready: function() {
+        ready: function () {
           this.fire('loading-exam');
           this.submitExam = this.submit;
         },
 
-        detached: function() {
+        detached: function () {
           this._removeEvents();
         },
 
@@ -304,46 +280,70 @@
             case 39: // right
               this.next();
               break;
-            default:
-              return; // exit this handler for other keys
+            case 49: //number 1
+            case 50: //number 2
+            case 51: //number 3
+            case 52: //number 4
+            case 53: //number 5
+            case 54: //number 6
+            case 55: //number 7
+            case 97: //number 1
+            case 98: //number 2
+            case 99: //number 3
+            case 100: //number 4
+            case 101: //number 5
+            case 102: //number 6
+            case 103: //number 7
+              var number = e.which > 96 ? e.which - 97 : e.which - 49,
+                checkbox = document.getElementById(number + 'answer');
+              if (checkbox) {
+                checkbox.checked = !checkbox.checked;
+              }
+              break;
           }
         },
-
-        onRadioKeyDown: function(e) {
-          if ([37, 39].indexOf(e.which) !== -1) {
-            e.stopPropagation();
-            return false;
-          }
-        },
-        closeToast: function(e) {
+        closeToast: function (e) {
           this.$.toast.toggle();
         },
         handleResponse: function (e) {
-          let questionsAux = JSON.parse(localStorage.getItem(this.url)), origin;
-          const size = parseInt(localStorage.getItem('numberOfQuestions')  || 40),
+          let questionsAux = JSON.parse(localStorage.getItem(this.url)),
+            origin;
+          const size = parseInt(localStorage.getItem('numberOfQuestions') || 40),
             response = e.detail.response;
-          
+
           if (questionsAux && questionsAux.length > 0) {
             origin = response.filter(q => questionsAux.filter(qa => qa.id === q.id).length === 0);
-          var now = size + questionsAux.length;
+            var now = size + questionsAux.length;
             if (origin.length <= size) {
-              if(origin.length === 0) {
+              if (origin.length === 0) {
                 origin = response;
-                this.$.toast.show({text: 'You are doing ' + size + ' of ' + response.length + ' questions', duration: 3000});
+                this.$.toast.show({
+                  text: 'You are doing ' + size + ' of ' + response.length + ' questions',
+                  duration: 3000
+                });
               } else {
-                this.$.toast.show({text: 'After this test, you completely reviewed all the disponible questions!!', duration: 0});
+                this.$.toast.show({
+                  text: 'After this test, you completely reviewed all the disponible questions!!',
+                  duration: 0
+                });
                 origin = origin.concat(response.filter(e => origin.filter(i => e.id === i.id).length === 0).slice(0, size - origin.length));
               }
               localStorage.removeItem(this.url);
               questionsAux = null;
             } else {
-              this.$.toast.show({text: 'You are doing ' + now + ' of ' + response.length + ' questions', duration: 3000});                          
+              this.$.toast.show({
+                text: 'You are doing ' + now + ' of ' + response.length + ' questions',
+                duration: 3000
+              });
             }
           } else {
             origin = response;
-            this.$.toast.show({text: 'You are doing ' + size + ' of ' + response.length + ' questions', duration: 3000});            
+            this.$.toast.show({
+              text: 'You are doing ' + size + ' of ' + response.length + ' questions',
+              duration: 3000
+            });
           }
-          
+
           this.fire('init-exam');
           this.isSubmited = false;
           this.currentQuestionIndex = 0;
@@ -354,6 +354,10 @@
           } else {
             localStorage.setItem(this.url, JSON.stringify(this.questions));
           }
+          this.questions = this.questions.map(e => {
+            e.isFlaged = false;
+            return e;
+          });
           this.canBack = true;
           this.totalQuestions = this.questions.length;
           this.currentQuestion = this.questions[0];
@@ -365,32 +369,26 @@
           this._handleTouchStart = this._handleTouchStart.bind(this);
           this._handleTouchMove = this._handleTouchMove.bind(this);
           this.arrows = this.arrows.bind(this);
-          this.flagQuestion = this.flagQuestion.bind(this);
+          this.flagQuestion = this.flagQuestion.bind(this, this.$.flagButton.style);
           this.filterChanged = this.filterChanged.bind(this);
-          this._initializeEvent();    
+          this._initializeEvent();
         },
 
-        flagQuestion: function(e) {
-          let color = 'red';
-          if (this.currentQuestion.isFlaged) {
-            e.target.style.color = '#757575';
-            this.currentQuestion.isFlaged = false;
-          } else {
-            e.target.style.color = color;
-            this.currentQuestion.isFlaged = true;
-          }
+        flagQuestion: function (flagStyle) {
+          this.currentQuestion.isFlaged = !this.currentQuestion.isFlaged;
+          flagStyle.color = this.currentQuestion.isFlaged ? 'red' : '#757575';
         },
 
-        filterChanged: function(e) {
-          const filterName= e.target.name,
-            checked= e.target.checked,
+        filterChanged: function (e) {
+          const filterName = e.target.name,
+            checked = e.target.checked,
             _this = this;
           if (checked) {
             this.filter.push(filterName);
-            this.filteredQuestionsSubmited = this.questionsSubmited.filter(q => _this.filter.length > 1 ? (!q.isRight || q.isFlaged): (filterName === 'wrong' ? !q.isRight : q.isFlaged));
+            this.filteredQuestionsSubmited = this.questionsSubmited.filter(q => _this.filter.length > 1 ? (!q.isRight || q.isFlaged) : (filterName === 'wrong' ? !q.isRight : q.isFlaged));
           } else {
             this.filter.splice(this.filter.indexOf(filterName), 1);
-            this.filteredQuestionsSubmited = this.questionsSubmited.filter(q => _this.filter.length > 0 ? (filterName === 'flaged' ? !q.isRight : q.isFlaged): true);            
+            this.filteredQuestionsSubmited = this.questionsSubmited.filter(q => _this.filter.length > 0 ? (filterName === 'flaged' ? !q.isRight : q.isFlaged) : true);
           }
         },
 
@@ -400,7 +398,8 @@
             this.currentQuestion = this.questions[this.currentQuestionIndex];
             this.canNext = (this.currentQuestionIndex + 1) === this.questions.length;
             this.canBack = this.currentQuestionIndex < 1;
-            this.$.flagButton.style.color = this.currentQuestion.isFlaged ? 'red': '#757575';
+            console.log("next", this.currentQuestion.isFlaged);
+            this.$.flagButton.style.color = this.currentQuestion.isFlaged === true ? 'red' : '#757575';
             this._imageTouch.bind(this)();
           }
         },
@@ -411,7 +410,8 @@
             this.currentQuestion = this.questions[this.currentQuestionIndex];
             this.canBack = this.currentQuestionIndex < 1;
             this.canNext = (this.currentQuestionIndex + 1) === this.questions.length;
-            this.$.flagButton.style.color = this.currentQuestion.isFlaged ? 'red': '#757575';
+            console.log("back", this.currentQuestion.isFlaged);
+            this.$.flagButton.style.color = this.currentQuestion.isFlaged === true ? 'red' : '#757575';
           }
         },
 
@@ -422,7 +422,7 @@
           let questionsAux = this.questions.slice(0);
           const _this = this;
           let counter = 0;
-          
+
           questionsAux = questionsAux.map(obj => {
             obj.ball = 'circle ' + _this._isRightQuestion.bind(_this)(obj);
             obj.isRight && counter++;
@@ -433,27 +433,29 @@
                   answer = answer.replace(obj.answers[i].ca, ";" + obj.answers[i].answer.slice(0, 2));
                 }
               }
-              answer = answer.replace(';','').split(';').sort();
+              answer = answer.replace(';', '').split(';').sort();
               obj.answer = answer;
             } else {
               obj.answer = [obj.answer];
             }
             return obj;
           });
-          
+
           this.rightPercentage = ((counter / questionsAux.length) * 100).toFixed(2) + "%";
-          this.fire('submitted-exam', { rightPercentage: this.rightPercentage});
+          this.fire('submitted-exam', {
+            rightPercentage: this.rightPercentage
+          });
           this.questionsSubmited = questionsAux;
-          this.filteredQuestionsSubmited = this.questionsSubmited .slice(0);
+          this.filteredQuestionsSubmited = this.questionsSubmited.slice(0);
           this.isSubmited = true;
           this.progress = false;
         },
 
-        _imageTouch: function() {
-          this.currentQuestion.imageUrl && this.async(function(){
-              this.$$('#imageQuestion').addEventListener('touchstart', e => e.stopPropagation());
-              this.$$('#imageQuestion').addEventListener('touchmove', e => e.stopPropagation());
-            });
+        _imageTouch: function () {
+          this.currentQuestion.imageUrl && this.async(function () {
+            this.$$('#imageQuestion').addEventListener('touchstart', e => e.stopPropagation());
+            this.$$('#imageQuestion').addEventListener('touchmove', e => e.stopPropagation());
+          });
         },
 
         _shuffle: function (array) {
@@ -497,7 +499,7 @@
           document.body.addEventListener('keyup', this.arrows);
         },
 
-        _removeEvents: function() {
+        _removeEvents: function () {
           document.body.removeEventListener('touchstart', this._handleTouchStart);
           document.body.removeEventListener('touchmove', this._handleTouchMove);
           document.body.removeEventListener('keyup', this.arrows);
@@ -505,36 +507,21 @@
 
         _isRightQuestion: function (question) {
           if (!question.answers) return WRONG;
-          if (question.isRadioButton) {
-              var userAnswer = question.answers.filter(a => a.checked);
-              if (userAnswer.length < 1) return WRONG;
-              userAnswer = userAnswer[0];
-            if (question.isTrueFalseQuestion) {
-              question.isRight = (question.answer.startsWith('False') && userAnswer.ca === 'False') ||
-                (question.answer.startsWith('True') && userAnswer.ca === 'True');
+          let spplitedCorrectAnswer = this._splitAnswers(question.answer).map(a => a.slice(0, 2)),
+            userAnwers = question.answers.filter(a => a.checked).map(a => a.ca);
 
-              return question.isRight ? RIGHT : WRONG;
-            } else {
-              question.isRight = (question.answer.slice(0, 2) === userAnswer.ca);
-              return question.isRight ? RIGHT : WRONG;
-            }
-          } else {
-            let spplitedCorrectAnswer = this._splitAnswers(question.answer).map(a => a.slice(0, 2)),
-              userAnwers = question.answers.filter(a => a.checked).map(a => a.ca);
+          if (spplitedCorrectAnswer.length !== userAnwers.length || userAnwers.length === 0) {
+            question.isRight = false;
+            return WRONG;
+          }
 
-            if (spplitedCorrectAnswer.length !== userAnwers.length || userAnwers.length === 0) {
+          for (let i = 0; i < spplitedCorrectAnswer.length; i++)
+            if (userAnwers.indexOf(spplitedCorrectAnswer[i]) === -1) {
               question.isRight = false;
               return WRONG;
             }
-
-            for (let i = 0; i < spplitedCorrectAnswer.length; i++) 
-              if (userAnwers.indexOf(spplitedCorrectAnswer[i]) === -1) {
-                question.isRight = false;
-                return WRONG;
-              }
-            question.isRight = true;
-            return RIGHT;
-          }
+          question.isRight = true;
+          return RIGHT;
         },
 
         _getLetter: function (i) {
