@@ -307,6 +307,7 @@
         },
         handleResponse: function (e) {
           let questionsAux = JSON.parse(localStorage.getItem(this.url)),
+            wrongQuestions = JSON.parse(localStorage.getItem('wrongQuestions')),
             origin;
           const size = parseInt(localStorage.getItem('numberOfQuestions') || 40),
             response = e.detail.response;
@@ -318,7 +319,7 @@
               if (origin.length === 0) {
                 origin = response;
                 this.$.toast.show({
-                  text: 'You are doing ' + size + ' of ' + response.length + ' questions',
+                  text: 'You are doing ' + size + ' of ' + response.length + ' questions plus the last wrong questions',
                   duration: 3000
                 });
               } else {
@@ -339,7 +340,7 @@
           } else {
             origin = response;
             this.$.toast.show({
-              text: 'You are doing ' + size + ' of ' + response.length + ' questions',
+              text: 'You are doing ' + size + ' of ' + response.length + ' questions plus the last wrong questions',
               duration: 3000
             });
           }
@@ -349,6 +350,10 @@
           this.currentQuestionIndex = 0;
           // suffle and slice questionspolymer
           this.questions = this._prepareQuestions.bind(this)(origin);
+          if (wrongQuestions && wrongQuestions.length) {
+            localStorage.removeItem('wrongQuestions');
+            this.questions = this.questions.concat(wrongQuestions);
+          }
           if (questionsAux) {
             localStorage.setItem(this.url, JSON.stringify(questionsAux.concat(this.questions)));
           } else {
@@ -398,7 +403,6 @@
             this.currentQuestion = this.questions[this.currentQuestionIndex];
             this.canNext = (this.currentQuestionIndex + 1) === this.questions.length;
             this.canBack = this.currentQuestionIndex < 1;
-            console.log("next", this.currentQuestion.isFlaged);
             this.$.flagButton.style.color = this.currentQuestion.isFlaged === true ? 'red' : '#757575';
             this._imageTouch.bind(this)();
           }
@@ -410,7 +414,6 @@
             this.currentQuestion = this.questions[this.currentQuestionIndex];
             this.canBack = this.currentQuestionIndex < 1;
             this.canNext = (this.currentQuestionIndex + 1) === this.questions.length;
-            console.log("back", this.currentQuestion.isFlaged);
             this.$.flagButton.style.color = this.currentQuestion.isFlaged === true ? 'red' : '#757575';
           }
         },
@@ -445,6 +448,7 @@
           this.fire('submitted-exam', {
             rightPercentage: this.rightPercentage
           });
+          localStorage.setItem('wrongQuestions', JSON.stringify(questionsAux.filter(e => !e.isRight)));
           this.questionsSubmited = questionsAux;
           this.filteredQuestionsSubmited = this.questionsSubmited.slice(0);
           this.isSubmited = true;
