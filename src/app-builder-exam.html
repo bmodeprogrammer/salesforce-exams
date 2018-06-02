@@ -280,6 +280,9 @@
             case 39: // right
               this.next();
               break;
+            case 70:
+            case 102:
+              this.flagQuestion();
             case 49: //number 1
             case 50: //number 2
             case 51: //number 3
@@ -352,6 +355,7 @@
           this.questions = this._prepareQuestions.bind(this)(origin);
           if (wrongQuestions && wrongQuestions.length) {
             localStorage.removeItem('wrongQuestions');
+            wrongQuestions = response.filter(e => !!(~wrongQuestions.indexOf(e.id)) );            
             this.questions = this.questions.concat(wrongQuestions);
           }
           if (questionsAux) {
@@ -448,7 +452,9 @@
           this.fire('submitted-exam', {
             rightPercentage: this.rightPercentage
           });
-          localStorage.setItem('wrongQuestions', JSON.stringify(questionsAux.filter(e => !e.isRight)));
+          localStorage.setItem('wrongQuestions', JSON.stringify(
+            questionsAux.filter(e => !e.isRight).map(e => e.id)
+          ));
           this.questionsSubmited = questionsAux;
           this.filteredQuestionsSubmited = this.questionsSubmited.slice(0);
           this.isSubmited = true;

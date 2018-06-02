@@ -1948,28 +1948,6 @@
     "answer": "A. B. ",
     "choose": "choose 2"
 }, {
-    "id": 86,
-    "question": "What is a capability of Salesforce Knowledge?",
-    "answers": [{
-        "ca": "A.",
-        "checked": false,
-        "answer": "Knowledge allows an organization to share articles with partner portal users"
-    }, {
-        "ca": "B.",
-        "checked": false,
-        "answer": "Knowledge automatically creates a solution for each new article"
-    }, {
-        "ca": "C.",
-        "checked": false,
-        "answer": "Knowledge only allows a single article type across all data categories"
-    }, {
-        "ca": "D.",
-        "checked": false,
-        "answer": "Knowledge uses data categories and roles to make articles visible to specific users 1."
-    }],
-    "answer": "A. D. ",
-    "choose": "choose 2"
-}, {
     "id": 87,
     "question": "Which statement about sharing rules is true?",
     "answers": [{
@@ -2231,7 +2209,7 @@
     "id": 99,
     "answer": "D. ",
     "choose": "Choose 1",
-        "question": "Locale settings control which of the following? (Select 1)",
+        "question": "Locale settings control which of the following?",
     "answers": [{
         "ca": "A.",
         "checked": false,
@@ -2253,7 +2231,7 @@
     "id": 101,
     "answer": "C. ",
     "choose": "Choose 1",
-        "question": "Once enabled, which of the following features cannot be disabled? (Select 1)",
+        "question": "Once enabled, which of the following features cannot be disabled?",
     "answers": [{
         "ca": "A.",
         "checked": false,
@@ -2279,7 +2257,7 @@
     "id": 104,
     "answer": "D. ",
     "choose": "Choose 1",
-        "question": "Which step should a system administrator take to remove an active user from Salesforce? (Select 1)",
+        "question": "Which step should a system administrator take to remove an active user from Salesforce?",
     "answers": [{
         "ca": "A.",
         "checked": false,
@@ -2349,7 +2327,7 @@
     "id": 108,
     "answer": "B. ",
     "choose": "Choose 1",
-        "question": "You have a handful of users who don't have Salesforce licenses but need access to all Chatter groups. They don't need to access any other Salesforce information. What Chatter license should they have? (Select 1)",
+        "question": "You have a handful of users who don't have Salesforce licenses but need access to all Chatter groups. They don't need to access any other Salesforce information. What Chatter license should they have?",
     "answers": [{
         "ca": "A.",
         "checked": false,
@@ -2371,7 +2349,7 @@
     "id": 109,
     "answer": "A. ",
     "choose": "Choose 1",
-        "question": "If a Salesforce object is a table, then each row represents what? (Select 1)",
+        "question": "If a Salesforce object is a table, then each row represents what?",
     "answers": [{
         "ca": "A.",
         "checked": false,
@@ -2503,7 +2481,7 @@
     "id": 115,
     "answer": "E. ",
     "choose": "Choose 1",
-        "question": "2. Which of the following can be used to grant full access to a user? (Select 1)",
+        "question": "2. Which of the following can be used to grant full access to a user?",
     "answers": [{
         "ca": "A.",
         "checked": false,
@@ -2529,7 +2507,7 @@
     "id": 116,
     "answer": "D. ",
     "choose": "Choose 1",
-        "question": "What is the only feature that can be used to restrict record access? (Select 1)",
+        "question": "What is the only feature that can be used to restrict record access?",
     "answers": [{
         "ca": "A.",
         "checked": false,
@@ -2555,7 +2533,7 @@
     "id": 118,
     "answer": "D. ",
     "choose": "Choose 1",
-        "question": "Which of the following approaches to sharing is flexible but only allows for one record at a time to be shared? (Select 1)",
+        "question": "Which of the following approaches to sharing is flexible but only allows for one record at a time to be shared?",
     "answers": [{
         "ca": "A.",
         "checked": false,
@@ -2607,7 +2585,7 @@
     "id": 120,
     "answer": "B. ",
     "choose": "Choose 1",
-        "question": "Which of the following features can be used to assign different picklist values for different business processes? (Select 1)",
+        "question": "Which of the following features can be used to assign different picklist values for different business processes?",
     "answers": [{
         "ca": "A.",
         "checked": false,
@@ -2633,7 +2611,7 @@
     "id": 121,
     "answer": "A. ",
     "choose": "Choose 1",
-        "question": "AW Computing wants their sales reps to see the sum of the total opportunities on each account that they own. What feature can be used to display this information? (Select 1)",
+        "question": "AW Computing wants their sales reps to see the sum of the total opportunities on each account that they own. What feature can be used to display this information? ",
     "answers": [{
         "ca": "A.",
         "checked": false,
@@ -2685,7 +2663,7 @@
     "id": 123,
     "answer": "B. ",
     "choose": "Choose 1",
-        "question": "An admin needs to keep track of all the changes made to the stage, amount, and close date on opportunities. (Select 1)",
+        "question": "An admin needs to keep track of all the changes made to the stage, amount, and close date on opportunities.",
     "answers": [{
         "ca": "A.",
         "checked": false,
@@ -2711,7 +2689,7 @@
     "id": 124,
     "answer": "C. ",
     "choose": "Choose 1",
-        "question": "Which of the following data import tools can import up to 50,000 records at a time, and provides a simple interface to specify the configuration parameters, data sources, and the field mappings that map the field names in your import file with the field names in Salesforce? (Select 1)",
+        "question": "Which of the following data import tools can import up to 50,000 records at a time, and provides a simple interface to specify the configuration parameters, data sources, and the field mappings that map the field names in your import file with the field names in Salesforce?",
     "answers": [{
         "ca": "A.",
         "checked": false,
@@ -2733,7 +2711,7 @@
     "id": 125,
     "answer": "A. ",
     "choose": "Choose 1",
-        "question": "Which of the following data import tools can import up to five million records at a time, of any data type, either from files or a database connection, and can be operated either through the user interface or the command line. (Select 1)",
+        "question": "Which of the following data import tools can import up to five million records at a time, of any data type, either from files or a database connection, and can be operated either through the user interface or the command line.",
     "answers": [{
         "ca": "A.",
         "checked": false,
@@ -2755,7 +2733,7 @@
     "id": 126,
     "answer": "A. B. D. ",
     "choose": "Choose 3",
-        "question": "Regardless of the data import tool used, the number of records you can import depends which of the following? (Select 3).",
+        "question": "Regardless of the data import tool used, the number of records you can import depends which of the following?",
     "answers": [{
         "ca": "A.",
         "checked": false,
@@ -2777,7 +2755,7 @@
     "id": 127,
     "answer": "A. ",
     "choose": "Choose 1",
-        "question": "What type of data import tool would you use if you want to automate the data import process? (Select 1)",
+        "question": "What type of data import tool would you use if you want to automate the data import process?",
     "answers": [{
         "ca": "A.",
         "checked": false,
@@ -2821,7 +2799,7 @@
     "id": 130,
     "answer": "C. D. ",
     "choose": "Choose 2",
-        "question": "What permissions are needed to be able to delete or change a read-only folder? (Select 2)",
+        "question": "What permissions are needed to be able to delete or change a read-only folder?",
     "answers": [{
         "ca": "A.",
         "checked": false,
@@ -2843,7 +2821,7 @@
     "id": 134,
     "answer": "C. D. ",
     "choose": "Choose 2",
-        "question": "Universal Containers wants to ensure that users complete the standard Industry field when creating a new account record. To address this concern, the administrator set the Industry field as required. However, some users are still able to create a new account record without completing the Industry field. What should an administrator do to troubleshoot the issue?(Choose 2) ",
+        "question": "Universal Containers wants to ensure that users complete the standard Industry field when creating a new account record. To address this concern, the administrator set the Industry field as required. However, some users are still able to create a new account record without completing the Industry field. What should an administrator do to troubleshoot the issue?",
     "answers": [{
         "ca": "A.",
         "checked": false,
@@ -2865,7 +2843,7 @@
     "id": 135,
     "answer": "A. B. ",
     "choose": "Choose 2",
-        "question": "What type of record access can an Administrator grant through sharing rules?(Choose 2)",
+        "question": "What type of record access can an Administrator grant through sharing rules?",
     "answers": [{
         "ca": "A.",
         "checked": false,
@@ -2909,7 +2887,7 @@
     "id": 137,
     "answer": "C. D. ",
     "choose": "Choose 2",
-        "question": "What can a marketing user do using the Manage Members button on a campaign record? (Choose 2)",
+        "question": "What can a marketing user do using the Manage Members button on a campaign record?",
     "answers": [{
         "ca": "A.",
         "checked": false,
@@ -2927,29 +2905,7 @@
         "checked": false,
         "answer": "Import new leads and associate them with the campaign"
     }]
-}, {
-    "id": 138,
-    "answer": "C. D. ",
-    "choose": "Choose 2",
-        "question": "What level of access can be set when sharing a document folder with users?(Choose 2)",
-    "answers": [{
-        "ca": "A.",
-        "checked": false,
-        "answer": "Read/Write/Create"
-    }, {
-        "ca": "B.",
-        "checked": false,
-        "answer": "Read/Write/Create/Delete"
-    }, {
-        "ca": "C.",
-        "checked": false,
-        "answer": "Read-only"
-    }, {
-        "ca": "D.",
-        "checked": false,
-        "answer": "Read/Write"
-    }]
-}, {
+},  {
     "id": 139,
     "answer": "C. ",
     "choose": "Choose 1",
@@ -3067,7 +3023,7 @@
     "id": 144,
     "answer": "A. C. ",
     "choose": "Choose 2",
-        "question": "Which permission is required to convert a lead? (Choose 2)",
+        "question": "Which permission is required to convert a lead?",
     "answers": [{
         "ca": "A.",
         "checked": false,
@@ -3089,7 +3045,7 @@
     "id": 145,
     "answer": "B. D. ",
     "choose": "Choose 2",
-        "question": "When using sharing rules, what can records be shared with?(Choose 2)",
+        "question": "When using sharing rules, what can records be shared with?",
     "answers": [{
         "ca": "A.",
         "checked": false,
@@ -3155,7 +3111,7 @@
     "id": 148,
     "answer": "C. D. ",
     "choose": "Choose 2",
-        "question": "When should a system administrator consider using the Salesforce AppExchange? (Choose 2)",
+        "question": "When should a system administrator consider using the Salesforce AppExchange?",
     "answers": [{
         "ca": "A.",
         "checked": false,
@@ -3199,7 +3155,7 @@
     "id": 150,
     "answer": "A. C. ",
     "choose": "Choose 2",
-        "question": "Sales management at Universal Containers is requesting better visibility into specific types of sales deals. They need to be notified when opportunities worth a large amount are close to closing. They would also like to receive a list of opportunities that are still open past the close date. Which feature can a system administrator use to accomplish this? (Choose 2)",
+        "question": "Sales management at Universal Containers is requesting better visibility into specific types of sales deals. They need to be notified when opportunities worth a large amount are close to closing. They would also like to receive a list of opportunities that are still open past the close date. Which feature can a system administrator use to accomplish this?",
     "answers": [{
         "ca": "A.",
         "checked": false,
@@ -3221,7 +3177,7 @@
     "id": 151,
     "answer": "B. D. ",
     "choose": "Choose 2",
-        "question": "What should a system administrator consider when setting up Mobile Lite? (Choose 2)",
+        "question": "What should a system administrator consider when setting up Mobile Lite?",
     "answers": [{
         "ca": "A.",
         "checked": false,
@@ -3243,7 +3199,7 @@
     "id": 152,
     "answer": "A. D. ",
     "choose": "Choose 2",
-        "question": "Which type of chart can be used to display summary values from two different levels of grouping in a report?(Choose 2)",
+        "question": "Which type of chart can be used to display summary values from two different levels of grouping in a report?",
     "answers": [{
         "ca": "A.",
         "checked": false,
@@ -3309,7 +3265,7 @@
     "id": 155,
     "answer": "B. D. ",
     "choose": "Choose 2",
-        "question": "What user interface setting must be enabled for users to edit records in a list view?(Choose 2)",
+        "question": "What user interface setting must be enabled for users to edit records in a list view?",
     "answers": [{
         "ca": "A.",
         "checked": false,
@@ -3331,7 +3287,7 @@
     "id": 156,
     "answer": "A. D. E. ",
     "choose": "Choose 3",
-        "question": "Which task can a delegated administrator perform? (Choose 3)",
+        "question": "Which task can a delegated administrator perform?",
     "answers": [{
         "ca": "A.",
         "checked": false,
@@ -3357,7 +3313,7 @@
     "id": 157,
     "answer": "A. C. ",
     "choose": "Choose 2",
-        "question": "Which schedule type can be defined for a product? (Choose 2)",
+        "question": "Which schedule type can be defined for a product?",
     "answers": [{
         "ca": "A.",
         "checked": false,
@@ -3379,7 +3335,7 @@
     "id": 158,
     "answer": "A. B. ",
     "choose": "Choose 2",
-        "question": "How can a sales user relate an opportunity to a campaign? (Choose 2)",
+        "question": "How can a sales user relate an opportunity to a campaign?",
     "answers": [{
         "ca": "A.",
         "checked": false,
@@ -3445,7 +3401,7 @@
     "id": 161,
     "answer": "A. C. ",
     "choose": "Choose 2",
-        "question": "Which setting can a system administrator control in the Salesforce user interface? (Choose 2)",
+        "question": "Which setting can a system administrator control in the Salesforce user interface?",
     "answers": [{
         "ca": "A.",
         "checked": false,
@@ -3493,7 +3449,7 @@
     "id": 163,
     "answer": "B. D. ",
     "choose": "Choose 2",
-        "question": "Which record type can be updated when converting a lead? (Choose 2)",
+        "question": "Which record type can be updated when converting a lead?",
     "answers": [{
         "ca": "A.",
         "checked": false,
@@ -3515,7 +3471,7 @@
     "id": 164,
     "answer": "A. B. ",
     "choose": "Choose 2",
-        "question": "Which functionality is available when customizing tasks? (Choose 2)",
+        "question": "Which functionality is available when customizing tasks?",
     "answers": [{
         "ca": "A.",
         "checked": false,
@@ -3559,7 +3515,7 @@
     "id": 166,
     "answer": "A. D. ",
     "choose": "Choose 2",
-        "question": "Which statement about formula fields is true? (Choose 2)",
+        "question": "Which statement about formula fields is true?",
     "answers": [{
         "ca": "A.",
         "checked": false,
@@ -3581,7 +3537,7 @@
     "id": 167,
     "answer": "A. C. ",
     "choose": "Choose 2",
-        "question": "Which statement about public groups is true? (Choose 2)",
+        "question": "Which statement about public groups is true?",
     "answers": [{
         "ca": "A.",
         "checked": false,
@@ -3603,7 +3559,7 @@
     "id": 168,
     "answer": "B. D. ",
     "choose": "Choose 2",
-        "question": "Universal Technology sells software and consulting services. The software sales team uses a different set of sales stages than the consulting services team. How can a system administrator set up the process? (Choose 2)",
+        "question": "Universal Technology sells software and consulting services. The software sales team uses a different set of sales stages than the consulting services team. How can a system administrator set up the process?",
     "answers": [{
         "ca": "A.",
         "checked": false,
@@ -3625,7 +3581,7 @@
     "id": 169,
     "answer": "B. D. ",
     "choose": "Choose 2",
-        "question": "A system administrator at Universal containers incorrectly imported a set of records and needs to remove them from Salesforce. Which tool should the administrator use to complete the task? (Choose 2)",
+        "question": "A system administrator at Universal containers incorrectly imported a set of records and needs to remove them from Salesforce. Which tool should the administrator use to complete the task?",
     "answers": [{
         "ca": "A.",
         "checked": false,
@@ -3691,7 +3647,7 @@
     "id": 172,
     "answer": "A. C. ",
     "choose": "Choose 2",
-        "question": "Which statement about Mobile Lite is true? (Choose 2)",
+        "question": "Which statement about Mobile Lite is true?",
     "answers": [{
         "ca": "A.",
         "checked": false,
@@ -3757,7 +3713,7 @@
     "id": 175,
     "answer": "A. B. D. ",
     "choose": "Choose 3",
-        "question": "What does the report type determine when a new report is created? (Choose 3)",
+        "question": "What does the report type determine when a new report is created?",
     "answers": [{
         "ca": "A.",
         "checked": false,
@@ -3783,7 +3739,7 @@
     "id": 176,
     "answer": "A. D. ",
     "choose": "Choose 2",
-        "question": "Which is a capability of Chatter files? (Choose 2)",
+        "question": "Which is a capability of Chatter files?",
     "answers": [{
         "ca": "A.",
         "checked": false,
@@ -3871,7 +3827,7 @@
     "id": 180,
     "answer": "A. C. ",
     "choose": "Choose 2",
-        "question": "Which is available when creating list views? (Choose 2)",
+        "question": "Which is available when creating list views?",
     "answers": [{
         "ca": "A.",
         "checked": false,
@@ -4892,28 +4848,6 @@
         "answer": "Page layouts"
     }]
 }, {
-    "id": 226,
-    "answer": "D. ",
-    "choose": "Choose 1",
-        "question": "Which statement about multi‐day and all‐day events is TRUE",
-    "answers": [{
-        "ca": "A.",
-        "checked": false,
-        "answer": "All‐Day Events have a start and end time"
-    }, {
-        "ca": "B.",
-        "checked": false,
-        "answer": "Multi‐Day Event cannot be set as All‐Day Event"
-    }, {
-        "ca": "C.",
-        "checked": false,
-        "answer": "All‐Day Events have a check box for flagging as Multi‐Day Events"
-    }, {
-        "ca": "D.",
-        "checked": false,
-        "answer": "Multi‐Day Events have a start and end time"
-    }]
-}, {
     "id": 227,
     "answer": "A. ",
     "choose": "Choose 1",
@@ -5132,28 +5066,6 @@
         "ca": "D.",
         "checked": false,
         "answer": "Create on solution"
-    }]
-}, {
-    "id": 237,
-    "answer": "A. C. ",
-    "choose": "Choose 2",
-        "question": "Which function is available with standard fields?",
-    "answers": [{
-        "ca": "A.",
-        "checked": false,
-        "answer": "Adding context‐sensitive help"
-    }, {
-        "ca": "B.",
-        "checked": false,
-        "answer": "Deleting fields"
-    }, {
-        "ca": "C.",
-        "checked": false,
-        "answer": "Adding or removing non‐required fields from a page layout"
-    }, {
-        "ca": "D.",
-        "checked": false,
-        "answer": "Changing field labels"
     }]
 }, {
     "id": 238,
@@ -6308,28 +6220,6 @@
         "answer": "Campaign Members"
     }]
 }, {
-    "id": 305,
-    "answer": "A. ",
-    "choose": "Choose 1",
-        "question": "What will occur when a system administrator creates a dynamic dashboard?",
-    "answers": [{
-        "ca": "A.",
-        "checked": false,
-        "answer": "The data displayed varies based on the user viewing the dashboard"
-    },{
-        "ca": "B.",
-        "checked": false,
-        "answer": "The dashboard component resize based on the device used to view the"
-    },{
-        "ca": "C.",
-        "checked": false,
-        "answer": "The dashboard automatically sends an email when the underlying data."
-    },{
-        "ca": "D.",
-        "checked": false,
-        "answer": "The dashboard refreshes automatically whenever the underlying data"
-    }]
-}, {
     "id": 306,
     "answer": "C. D. ",
     "choose": "Choose 2",
@@ -6462,50 +6352,6 @@
         "answer": "Custom lead fields can be mapped to custom object field"
     }]
 }, {
-    "id": 312,
-    "answer": "B. ",
-    "choose": "Choose 1",
-        "question": "Universal Containers requires that its Salesforce account data, including attachments, be backed up weekly. Which tool should a system administrator use to accomplish this?",
-    "answers": [{
-        "ca": "A.",
-        "checked": false,
-        "answer": "Account report export"
-    }, {
-        "ca": "B.",
-        "checked": false,
-        "answer": "data export service"
-    }, {
-        "ca": "C.",
-        "checked": false,
-        "answer": "Account analytic snapshot"
-    }, {
-        "ca": "D.",
-        "checked": false,
-        "answer": "Data loader"
-    }]
-}, {
-    "id": 313,
-    "answer": "C. ",
-    "choose": "Choose 1",
-        "question": "A user profile has login hour restrictions set to Monday through Friday 8:00 AM to 5:00 Pm. It is Tuesday and the user has logged in at 4:30PM and it is now 5:01PM Which behaviour of the application should the user expect? ",
-    "answers": [{
-        "ca": "A.",
-        "checked": false,
-        "answer": "The user will be able to continue working and start new sessions."
-    }, {
-        "ca": "B.",
-        "checked": false,
-        "answer": "The user will be logged out and any unsaved work-in-progress will be saved"
-    }, {
-        "ca": "C.",
-        "checked": false,
-        "answer": "The user will be able to continue working, but will not be unable to start a new sessions."
-    }, {
-        "ca": "D.",
-        "checked": false,
-        "answer": "The user will be logged out and any unsaved work-in-progress will be lost"
-    }]
-}, {
     "id": 314,
     "answer": "A. ",
     "choose": "Choose 1",
@@ -6526,28 +6372,6 @@
         "ca": "D.",
         "checked": false,
         "answer": "The dashboard refreshes automatically whenever the underlying data"
-    }]
-}, {
-    "id": 315,
-    "answer": "B. D. ",
-    "choose": "Choose 2",
-        "question": "What can a marketing user do using the Manage Members button on a campaign record?",
-    "answers": [{
-        "ca": "A.",
-        "checked": false,
-        "answer": "Create a custom report including all campaign members"
-    },{
-        "ca": "B.",
-        "checked": false,
-        "answer": "Import new leads and associate them with the campaign"
-    },{
-        "ca": "C.",
-        "checked": false,
-        "answer": "Associate existing opportunities with the campaign"
-    },{
-        "ca": "D.",
-        "checked": false,
-        "answer": "Associate existing contacts with the campaign"
     }]
 }, {
     "id": 316,
@@ -6979,7 +6803,7 @@
     "id": 336,
     "answer": "A. D. ",
     "choose": "Choose 2",
-        "question": "How can a system administrator add users to a salesforce organization using Chatter Free?*Choose 2 answers*",
+        "question": "How can a system administrator add users to a salesforce organization using Chatter Free?",
     "answers": [{
         "ca": "A.",
         "checked": false,
@@ -7514,28 +7338,6 @@
         "ca": "D.",
         "checked": false,
         "answer": "Create a custom profile for users on the facilities team"
-    }]
-}, {
-    "id": 361,
-    "answer": "A. C. ",
-    "choose": "Choose 2",
-        "question": "Which statement is true regarding an approval process?",
-    "answers": [{
-        "ca": "A.",
-        "checked": false,
-        "answer": "an approval action defines the result of record approval or rejection"
-    }, {
-        "ca": "B.",
-        "checked": false,
-        "answer": "a delegated approver can reassign approval requests"
-    }, {
-        "ca": "C.",
-        "checked": false,
-        "answer": "the approval-history related list can be used to track the process"
-    }, {
-        "ca": "D.",
-        "checked": false,
-        "answer": "an assignment rule defines the approver for each process step"
     }]
 }, {
     "id": 362,
@@ -8105,7 +7907,7 @@
     }]
 }, {
     "id": 391,
-    "answer": "B. C. ",
+    "answer": "B. D. ",
     "choose": "Choose 2",
         "question": "Which statement about Community experts is true?",
     "answers": [{
